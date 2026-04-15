@@ -1,0 +1,16 @@
+NOTE: THIS IS A FILE TO HELP ME REMEMBER A LOT OF THE GIT STANDARDS SO THAT I CAN SHOW THEM TO EMPLOYERS
+
+1. WHEN IT COMES TO COMMIT CONVENTIONS
+
+type(scope): description
+- feat for new features
+- fix for bug fixes
+- docs for documentation
+- style for formatting only
+- refactor for code changes without feature/fix
+- test for tests
+- chore for maintenance
+- build for build system changes
+- ci for CI/CD changes
+
+2. WHEN IT COMES TO BRANCHES
