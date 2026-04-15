@@ -1,0 +1,99 @@
+[
+  {
+    "_id": "access-request-demo-1",
+    "type": "role_upgrade",
+    "status": "pending",
+    "submitted_at": "2026-04-10T13:10:00.000Z",
+    "reviewed_at": null,
+    "reviewed_by": null,
+    "submitted_by": {
+      "user_id": "demo-user-1",
+      "name": "Demo User",
+      "email": "demo@macrofinder.ca"
+    },
+    "data": {
+      "restaurant_name": "Pacific Protein Kitchen",
+      "role_claimed": "Owner",
+      "note": "Requesting franchise-level restaurant owner access for menu and nutrition updates."
+    }
+  },
+  {
+    "_id": "owner-restaurant-request-demo-1",
+    "type": "restaurant_creation",
+    "status": "pending",
+    "submitted_at": "2026-04-10T13:04:00.000Z",
+    "reviewed_at": null,
+    "reviewed_by": null,
+    "submitted_by": {
+      "user_id": "demo-owner-user-1",
+      "name": "Avery Singh",
+      "email": "owner@macrofinder.ca"
+    },
+    "data": {
+      "restaurant_name": "Pacific Protein Kitchen",
+      "owner_role": "Franchise Operations Lead",
+      "phone": "(403) 555-0176",
+      "website_url": "https://pacificprotein.ca",
+      "menu_url": "https://pacificprotein.ca/menu",
+      "menu_note": "Adding a franchise-level listing for a small protein-focused chain. Nutrition PDF is attached for admin parsing.",
+      "nutrition_pdf": "pacific-protein-nutrition.pdf",
+      "has_image": true,
+      "sample_items": [
+        {
+          "name": "Chicken Protein Bowl",
+          "category": "Bowls",
+          "price": "13.99",
+          "protein_g": 42,
+          "calories": 540
+        },
+        {
+          "name": "Turkey Egg Wrap",
+          "category": "Wraps",
+          "price": "10.49",
+          "protein_g": 31,
+          "calories": 430
+        }
+      ]
+    }
+  },
+  {
+    "_id": "owner-restaurant-change-subway-demo-1",
+    "type": "change_request",
+    "status": "pending",
+    "submitted_at": "2026-04-10T13:00:00.000Z",
+    "reviewed_at": null,
+    "reviewed_by": null,
+    "submitted_by": {
+      "user_id": "demo-owner-user-1",
+      "name": "Avery Singh",
+      "email": "owner@macrofinder.ca"
+    },
+    "data": {
+      "restaurant_name": "Subway",
+      "change_scope": "restaurant",
+      "change_field": "rest_description",
+      "item_name": null,
+      "description": "Franchise-level Subway menu with sandwiches, salads, and lighter quick-service options.",
+      "pdf_file": "subway_branding_2026.pdf"
+    }
+  },
+  {
+    "_id": "reported-issue-demo-1",
+    "type": "reported_issue",
+    "status": "open",
+    "submitted_at": "2026-04-10T13:18:00.000Z",
+    "reviewed_at": null,
+    "reviewed_by": null,
+    "submitted_by": {
+      "user_id": "demo-user-1",
+      "name": "Demo User",
+      "email": "demo@macrofinder.ca"
+    },
+    "data": {
+      "item_key": "Subway::Steak & Bacon",
+      "restaurant_name": "Subway",
+      "issue_type": "Wrong nutrition info",
+      "note": "The protein count looks too high compared with the nutrition sheet in-store."
+    }
+  }
+]

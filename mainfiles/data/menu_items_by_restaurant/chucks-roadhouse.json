@@ -1,0 +1,3887 @@
+[
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "1 Pc. Fish & Chips - add tartar sauce",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|1-pc-fish-and-chips-add-tartar-sauce|1-serv",
+    "category": "Chuck's Favourites",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 647,
+      "protein_g": 32,
+      "carbs_g": 71,
+      "fat_g": 32,
+      "sodium_mg": 1473,
+      "sugar_g": 3
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.264204+00:00",
+    "updated_at": "2026-04-10T08:42:29.264204+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "2 Pc. Fish & Chips - add tartar sauce",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|2-pc-fish-and-chips-add-tartar-sauce|1-serv",
+    "category": "Chuck's Favourites",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 933,
+      "protein_g": 58,
+      "carbs_g": 88.5,
+      "fat_g": 45,
+      "sodium_mg": 2118,
+      "sugar_g": 3.3
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.264231+00:00",
+    "updated_at": "2026-04-10T08:42:29.264231+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Add Blue Cheese",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|add-blue-cheese|2-fl-oz",
+    "category": "Starters",
+    "category_path": [],
+    "portion": "2 fl oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 280,
+      "protein_g": 4,
+      "carbs_g": 4,
+      "fat_g": 32,
+      "sodium_mg": 540,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.262252+00:00",
+    "updated_at": "2026-04-10T08:42:29.262252+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Add Buffalo Chicken",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|add-buffalo-chicken|1-serv",
+    "category": "Starters",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 335,
+      "protein_g": 20.5,
+      "carbs_g": 29,
+      "fat_g": 16,
+      "sodium_mg": 1205,
+      "sugar_g": 13.5
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.261865+00:00",
+    "updated_at": "2026-04-10T08:42:29.261865+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Add Onion Rings",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|add-onion-rings|8-oz",
+    "category": "Side Fixin's",
+    "category_path": [],
+    "portion": "8 oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 375,
+      "protein_g": 7.3,
+      "carbs_g": 70.5,
+      "fat_g": 8.3,
+      "sodium_mg": 1097,
+      "sugar_g": 7
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.263258+00:00",
+    "updated_at": "2026-04-10T08:42:29.263258+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "BBQ Sauce",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|bbq-sauce|2-fl-oz",
+    "category": "Starters",
+    "category_path": [],
+    "portion": "2 fl oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 100,
+      "protein_g": 0.6,
+      "carbs_g": 24,
+      "fat_g": 0,
+      "sodium_mg": 560,
+      "sugar_g": 20
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.261974+00:00",
+    "updated_at": "2026-04-10T08:42:29.261974+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "BBQ Wing Sauce",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|bbq-wing-sauce|2-fl-oz",
+    "category": "BBQ Chicken, Ribs & Combos",
+    "category_path": [],
+    "portion": "2 fl oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 130,
+      "protein_g": 0.6,
+      "carbs_g": 24,
+      "fat_g": 0,
+      "sodium_mg": 560,
+      "sugar_g": 20
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.264082+00:00",
+    "updated_at": "2026-04-10T08:42:29.264082+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Bacon Cheese - add side choice",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|bacon-cheese-add-side-choice|1-serv",
+    "category": "Burgers",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 836,
+      "protein_g": 44,
+      "carbs_g": 50.5,
+      "fat_g": 44.7,
+      "sodium_mg": 1392,
+      "sugar_g": 2
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.263381+00:00",
+    "updated_at": "2026-04-10T08:42:29.263381+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Bacon Wrapped Filet Mignon - 7 oz. (add side)",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|bacon-wrapped-filet-mignon-7-oz-add-side|7-oz",
+    "category": "Steaks & Prime Rib (select locations)",
+    "category_path": [],
+    "portion": "7 oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 443,
+      "protein_g": 54,
+      "carbs_g": 0.4,
+      "fat_g": 22.4,
+      "sodium_mg": 522,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.262842+00:00",
+    "updated_at": "2026-04-10T08:42:29.262842+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Baked Potato, plain - side 1",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|baked-potato-plain-side-1",
+    "category": "Steak & Lobster",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 210,
+      "protein_g": 4,
+      "carbs_g": 37,
+      "fat_g": 5.6,
+      "sodium_mg": 1140,
+      "sugar_g": 33
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.263144+00:00",
+    "updated_at": "2026-04-10T08:42:29.263144+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Boneless Chicken Wings - add sauce 10",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|boneless-chicken-wings-add-sauce-10",
+    "category": "Starters",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 878,
+      "protein_g": 38,
+      "carbs_g": 39,
+      "fat_g": 65,
+      "sodium_mg": 1960,
+      "sugar_g": 1
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.262105+00:00",
+    "updated_at": "2026-04-10T08:42:29.262105+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Boneless Chicken Wings - add sauce 20",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|boneless-chicken-wings-add-sauce-20",
+    "category": "Starters",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 1756,
+      "protein_g": 76,
+      "carbs_g": 78,
+      "fat_g": 130,
+      "sodium_mg": 3920,
+      "sugar_g": 2
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.262130+00:00",
+    "updated_at": "2026-04-10T08:42:29.262130+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Broccoli & Cheese",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|broccoli-and-cheese|6-fl-oz",
+    "category": "Salads & Soups",
+    "category_path": [],
+    "portion": "6 fl oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 120,
+      "protein_g": 5,
+      "carbs_g": 13,
+      "fat_g": 6,
+      "sodium_mg": 950,
+      "sugar_g": 3
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.262399+00:00",
+    "updated_at": "2026-04-10T08:42:29.262399+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Buckaroo",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|buckaroo|1-serv",
+    "category": "Desserts",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 993,
+      "protein_g": 11.6,
+      "carbs_g": 109,
+      "fat_g": 39,
+      "sodium_mg": 91,
+      "sugar_g": 41
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.265005+00:00",
+    "updated_at": "2026-04-10T08:42:29.265005+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Buffalo Chicken - add CRH sauce & side choice",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|buffalo-chicken-add-crh-sauce-and-side-choice|1-serv",
+    "category": "Sandwiches",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 673,
+      "protein_g": 36.5,
+      "carbs_g": 77,
+      "fat_g": 26.5,
+      "sodium_mg": 1463,
+      "sugar_g": 16
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.263620+00:00",
+    "updated_at": "2026-04-10T08:42:29.263620+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Buffalo Chicken Fingers - incl wing sauce",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|buffalo-chicken-fingers-incl-wing-sauce|2-pcs",
+    "category": "Chuck's Favourites",
+    "category_path": [],
+    "portion": "2 pcs",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 335,
+      "protein_g": 20.5,
+      "carbs_g": 49,
+      "fat_g": 16,
+      "sodium_mg": 1205,
+      "sugar_g": 13.5
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.264408+00:00",
+    "updated_at": "2026-04-10T08:42:29.264408+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Buffalo Chicken Fingers - incl wing sauce",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|buffalo-chicken-fingers-incl-wing-sauce|5-pc",
+    "category": "Chuck's Favourites",
+    "category_path": [],
+    "portion": "5 pc",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 795,
+      "protein_g": 51,
+      "carbs_g": 66.5,
+      "fat_g": 38,
+      "sodium_mg": 2825,
+      "sugar_g": 28.5
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.264381+00:00",
+    "updated_at": "2026-04-10T08:42:29.264381+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Buffalo Chicken Quesadilla",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|buffalo-chicken-quesadilla|1-serv",
+    "category": "Starters",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 1008,
+      "protein_g": 40,
+      "carbs_g": 92,
+      "fat_g": 56,
+      "sodium_mg": 2380,
+      "sugar_g": 24
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.261816+00:00",
+    "updated_at": "2026-04-10T08:42:29.261816+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Burger - add side 1",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|burger-add-side-1",
+    "category": "Kids' Menu",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 420,
+      "protein_g": 20,
+      "carbs_g": 49,
+      "fat_g": 17,
+      "sodium_mg": 740,
+      "sugar_g": 1
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.264433+00:00",
+    "updated_at": "2026-04-10T08:42:29.264433+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Butter",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|butter|1-oz",
+    "category": "Steak & Lobster",
+    "category_path": [],
+    "portion": "1 oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 210,
+      "protein_g": 0,
+      "carbs_g": 0,
+      "fat_g": 24,
+      "sodium_mg": 168,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.263075+00:00",
+    "updated_at": "2026-04-10T08:42:29.263075+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Butter Toffee Bread Pudding",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|butter-toffee-bread-pudding|1-serv",
+    "category": "Desserts",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 745,
+      "protein_g": 7,
+      "carbs_g": 103,
+      "fat_g": 33.5,
+      "sodium_mg": 475,
+      "sugar_g": 75
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.265030+00:00",
+    "updated_at": "2026-04-10T08:42:29.265030+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Butternut Squash",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|butternut-squash|6-fl-oz",
+    "category": "Salads & Soups",
+    "category_path": [],
+    "portion": "6 fl oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 120,
+      "protein_g": 2,
+      "carbs_g": 15,
+      "fat_g": 5.3,
+      "sodium_mg": 500,
+      "sugar_g": 6
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.262471+00:00",
+    "updated_at": "2026-04-10T08:42:29.262471+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "CRH Sauce",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|crh-sauce|4-fl-oz",
+    "category": "BBQ Chicken, Ribs & Combos",
+    "category_path": [],
+    "portion": "4 fl oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 140,
+      "protein_g": 0,
+      "carbs_g": 24,
+      "fat_g": 0.2,
+      "sodium_mg": 686,
+      "sugar_g": 19
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.264055+00:00",
+    "updated_at": "2026-04-10T08:42:29.264055+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Caesar - Chuck's Size",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|caesar-chuck-s-size|1-serv",
+    "category": "Salads & Soups",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 886,
+      "protein_g": 8,
+      "carbs_g": 27,
+      "fat_g": 86.5,
+      "sodium_mg": 1060,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.262351+00:00",
+    "updated_at": "2026-04-10T08:42:29.262351+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Caesar Salad - Regular",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|caesar-salad-regular|1-serv",
+    "category": "Salads & Soups",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 462,
+      "protein_g": 4.6,
+      "carbs_g": 13.5,
+      "fat_g": 44,
+      "sodium_mg": 568,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.262326+00:00",
+    "updated_at": "2026-04-10T08:42:29.262326+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Calamari with Thai sauce",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|calamari-with-thai-sauce|1-serv",
+    "category": "Starters",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 418,
+      "protein_g": 17,
+      "carbs_g": 55,
+      "fat_g": 14.3,
+      "sodium_mg": 1650,
+      "sugar_g": 28
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.262025+00:00",
+    "updated_at": "2026-04-10T08:42:29.262025+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Cheese Burger - add side choice",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|cheese-burger-add-side-choice|1-serv",
+    "category": "Burgers",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 810,
+      "protein_g": 41,
+      "carbs_g": 50.5,
+      "fat_g": 42.5,
+      "sodium_mg": 1118,
+      "sugar_g": 2
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.263356+00:00",
+    "updated_at": "2026-04-10T08:42:29.263356+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Cheeseburger - add side 1",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|cheeseburger-add-side-1",
+    "category": "Kids' Menu",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 480,
+      "protein_g": 4,
+      "carbs_g": 49,
+      "fat_g": 21.5,
+      "sodium_mg": 835,
+      "sugar_g": 23
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.264782+00:00",
+    "updated_at": "2026-04-10T08:42:29.264782+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Chicken & Rib Combo - add CRH sauce & side choice",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|chicken-and-rib-combo-add-crh-sauce-and-side-choice|1-serv",
+    "category": "BBQ Chicken, Ribs & Combos",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 801,
+      "protein_g": 53,
+      "carbs_g": 70.5,
+      "fat_g": 34,
+      "sodium_mg": 2816,
+      "sugar_g": 61.5
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.263855+00:00",
+    "updated_at": "2026-04-10T08:42:29.263855+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Chicken Fingers (add plum sauce and side choice) 5",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|chicken-fingers-add-plum-sauce-and-side-choice-5",
+    "category": "Chuck's Favourites",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 564,
+      "protein_g": 27,
+      "carbs_g": 20.4,
+      "fat_g": 42.5,
+      "sodium_mg": 952,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.264306+00:00",
+    "updated_at": "2026-04-10T08:42:29.264306+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Chicken Fingers - add side & plum sauce",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|chicken-fingers-add-side-and-plum-sauce|3pcs",
+    "category": "Kids' Menu",
+    "category_path": [],
+    "portion": "3pcs",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 194,
+      "protein_g": 13.3,
+      "carbs_g": 11,
+      "fat_g": 11.5,
+      "sodium_mg": 553,
+      "sugar_g": 2
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.264810+00:00",
+    "updated_at": "2026-04-10T08:42:29.264810+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Chicken Noodle",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|chicken-noodle|6-fl-oz",
+    "category": "Salads & Soups",
+    "category_path": [],
+    "portion": "6 fl oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 53,
+      "protein_g": 2,
+      "carbs_g": 9.3,
+      "fat_g": 0.7,
+      "sodium_mg": 320,
+      "sugar_g": 0.7
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.262448+00:00",
+    "updated_at": "2026-04-10T08:42:29.262448+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Chicken Parmigiana",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|chicken-parmigiana|1-serv",
+    "category": "Chuck's Favourites",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 791,
+      "protein_g": 34,
+      "carbs_g": 50.5,
+      "fat_g": 33,
+      "sodium_mg": 1527,
+      "sugar_g": 8
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.264279+00:00",
+    "updated_at": "2026-04-10T08:42:29.264279+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Chuck's BBQ Chicken - add CRH sauce & side choice",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|chuck-s-bbq-chicken-add-crh-sauce-and-side-choice|1-serv",
+    "category": "BBQ Chicken, Ribs & Combos",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 364,
+      "protein_g": 26,
+      "carbs_g": 48,
+      "fat_g": 8.5,
+      "sodium_mg": 1930,
+      "sugar_g": 40
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.263827+00:00",
+    "updated_at": "2026-04-10T08:42:29.263827+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Chuck's Burger - add side choice",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|chuck-s-burger-add-side-choice|1-serv",
+    "category": "Burgers",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 690,
+      "protein_g": 35,
+      "carbs_g": 50.5,
+      "fat_g": 33.5,
+      "sodium_mg": 927.5,
+      "sugar_g": 2
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.263330+00:00",
+    "updated_at": "2026-04-10T08:42:29.263330+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Chuck's Nachos",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|chuck-s-nachos|1-serv",
+    "category": "Starters",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 699,
+      "protein_g": 12,
+      "carbs_g": 142,
+      "fat_g": 26,
+      "sodium_mg": 1487,
+      "sugar_g": 17
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.261840+00:00",
+    "updated_at": "2026-04-10T08:42:29.261840+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Chuck's Sliders 3",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|chuck-s-sliders-3",
+    "category": "Starters",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 1498,
+      "protein_g": 74,
+      "carbs_g": 115,
+      "fat_g": 86,
+      "sodium_mg": 2585,
+      "sugar_g": 30
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.262277+00:00",
+    "updated_at": "2026-04-10T08:42:29.262277+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Corn",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|corn|4-oz",
+    "category": "Side Fixin's",
+    "category_path": [],
+    "portion": "4 oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 180,
+      "protein_g": 4,
+      "carbs_g": 28,
+      "fat_g": 8.6,
+      "sodium_mg": 83,
+      "sugar_g": 4.6
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.263280+00:00",
+    "updated_at": "2026-04-10T08:42:29.263280+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Corn - side",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|corn-side|4oz",
+    "category": "Steak & Lobster",
+    "category_path": [],
+    "portion": "4oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 180,
+      "protein_g": 4,
+      "carbs_g": 28,
+      "fat_g": 8.6,
+      "sodium_mg": 83,
+      "sugar_g": 4.6
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.263120+00:00",
+    "updated_at": "2026-04-10T08:42:29.263120+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Crackers",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|crackers|20g",
+    "category": "Salads & Soups",
+    "category_path": [],
+    "portion": "20g",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 90,
+      "protein_g": 2,
+      "carbs_g": 15,
+      "fat_g": 2,
+      "sodium_mg": 230,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.262675+00:00",
+    "updated_at": "2026-04-10T08:42:29.262675+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Cream of Mushroom",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|cream-of-mushroom|6-fl-oz",
+    "category": "Salads & Soups",
+    "category_path": [],
+    "portion": "6 fl oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 80,
+      "protein_g": 0.8,
+      "carbs_g": 5.6,
+      "fat_g": 5.6,
+      "sodium_mg": 648,
+      "sugar_g": 0.8
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.262424+00:00",
+    "updated_at": "2026-04-10T08:42:29.262424+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Filet Mignon & Lobster Tail (add side & butter)",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|filet-mignon-and-lobster-tail-add-side-and-butter|1-serv",
+    "category": "Steak & Lobster",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 646,
+      "protein_g": 78,
+      "carbs_g": 3,
+      "fat_g": 32,
+      "sodium_mg": 327,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.263051+00:00",
+    "updated_at": "2026-04-10T08:42:29.263051+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Fried Pickle Spears- no dressing incl. 7",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|fried-pickle-spears-no-dressing-incl-7",
+    "category": "Starters",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 270,
+      "protein_g": 4,
+      "carbs_g": 29,
+      "fat_g": 14.7,
+      "sodium_mg": 1237,
+      "sugar_g": 4
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.262000+00:00",
+    "updated_at": "2026-04-10T08:42:29.262000+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Fries",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|fries|16-oz",
+    "category": "Side Fixin's",
+    "category_path": [],
+    "portion": "16 oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 640,
+      "protein_g": 10.6,
+      "carbs_g": 107,
+      "fat_g": 30,
+      "sodium_mg": 1656,
+      "sugar_g": 5.4
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.263212+00:00",
+    "updated_at": "2026-04-10T08:42:29.263212+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Fries",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|fries|8-oz",
+    "category": "Chuck's Favourites",
+    "category_path": [],
+    "portion": "8 oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 370,
+      "protein_g": 5,
+      "carbs_g": 55,
+      "fat_g": 16.75,
+      "sodium_mg": 1242,
+      "sugar_g": 1.6
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.264352+00:00",
+    "updated_at": "2026-04-10T08:42:29.264352+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Fries - side",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|fries-side|8oz",
+    "category": "Kids' Menu",
+    "category_path": [],
+    "portion": "8oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 370,
+      "protein_g": 5.3,
+      "carbs_g": 53.7,
+      "fat_g": 15,
+      "sodium_mg": 828,
+      "sugar_g": 2.7
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.264931+00:00",
+    "updated_at": "2026-04-10T08:42:29.264931+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Full Rack Ribs - add CRH sauce & side choice",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|full-rack-ribs-add-crh-sauce-and-side-choice|1-serv",
+    "category": "BBQ Chicken, Ribs & Combos",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 1070,
+      "protein_g": 55,
+      "carbs_g": 93,
+      "fat_g": 51,
+      "sodium_mg": 2960,
+      "sugar_g": 82
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.263770+00:00",
+    "updated_at": "2026-04-10T08:42:29.263770+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Garlic Pan Bread",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|garlic-pan-bread|1-loaf",
+    "category": "Starters",
+    "category_path": [],
+    "portion": "1 loaf",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 2083,
+      "protein_g": 49,
+      "carbs_g": 286,
+      "fat_g": 77,
+      "sodium_mg": 3850,
+      "sugar_g": 7.6
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.261531+00:00",
+    "updated_at": "2026-04-10T08:42:29.261531+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Gravy",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|gravy|4-fl-oz",
+    "category": "Side Fixin's",
+    "category_path": [],
+    "portion": "4 fl oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 50,
+      "protein_g": 1.4,
+      "carbs_g": 7,
+      "fat_g": 1.4,
+      "sodium_mg": 790,
+      "sugar_g": 1.1
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.263235+00:00",
+    "updated_at": "2026-04-10T08:42:29.263235+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Grilled Cheese - add side 1",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|grilled-cheese-add-side-1",
+    "category": "Kids' Menu",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 376,
+      "protein_g": 15,
+      "carbs_g": 40,
+      "fat_g": 16.5,
+      "sodium_mg": 546,
+      "sugar_g": 2
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.264907+00:00",
+    "updated_at": "2026-04-10T08:42:29.264907+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Grilled Chicken Club - add CRH Sauce & side choice",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|grilled-chicken-club-add-crh-sauce-and-side-choice|1-serv",
+    "category": "Sandwiches",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 620,
+      "protein_g": 33,
+      "carbs_g": 51,
+      "fat_g": 32,
+      "sodium_mg": 1849,
+      "sugar_g": 5
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.263587+00:00",
+    "updated_at": "2026-04-10T08:42:29.263587+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Grilled Honey Sriracha Chicken Sizzler",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|grilled-honey-sriracha-chicken-sizzler|1-serv",
+    "category": "BBQ Chicken, Ribs & Combos",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 626,
+      "protein_g": 32,
+      "carbs_g": 56,
+      "fat_g": 8.5,
+      "sodium_mg": 1209,
+      "sugar_g": 11.5
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.264003+00:00",
+    "updated_at": "2026-04-10T08:42:29.264003+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Grilled Mesquite Chicken Sizzler",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|grilled-mesquite-chicken-sizzler|1-serv",
+    "category": "BBQ Chicken, Ribs & Combos",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 486,
+      "protein_g": 39,
+      "carbs_g": 57,
+      "fat_g": 8.5,
+      "sodium_mg": 2122,
+      "sugar_g": 38.5
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.263917+00:00",
+    "updated_at": "2026-04-10T08:42:29.263917+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Grilled Teriyaki Chicken Sizzler",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|grilled-teriyaki-chicken-sizzler|1-serv",
+    "category": "BBQ Chicken, Ribs & Combos",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 566,
+      "protein_g": 36,
+      "carbs_g": 40,
+      "fat_g": 8.5,
+      "sodium_mg": 4305,
+      "sugar_g": 25.5
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.263945+00:00",
+    "updated_at": "2026-04-10T08:42:29.263945+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Grilled Teriyaki Steak Sizzler",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|grilled-teriyaki-steak-sizzler|1-serv",
+    "category": "BBQ Chicken, Ribs & Combos",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 758,
+      "protein_g": 53,
+      "carbs_g": 40,
+      "fat_g": 35.5,
+      "sodium_mg": 3997,
+      "sugar_g": 25.5
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.263973+00:00",
+    "updated_at": "2026-04-10T08:42:29.263973+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Half Rack Ribs - add CRH sauce & side choice",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|half-rack-ribs-add-crh-sauce-and-side-choice|1-serv",
+    "category": "BBQ Chicken, Ribs & Combos",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 585,
+      "protein_g": 28,
+      "carbs_g": 58.5,
+      "fat_g": 25.5,
+      "sodium_mg": 1860,
+      "sugar_g": 51
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.263798+00:00",
+    "updated_at": "2026-04-10T08:42:29.263798+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Homestyle Minestrone",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|homestyle-minestrone|6-fl-oz",
+    "category": "Salads & Soups",
+    "category_path": [],
+    "portion": "6 fl oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 70,
+      "protein_g": 3,
+      "carbs_g": 13,
+      "fat_g": 0.5,
+      "sodium_mg": 650,
+      "sugar_g": 4
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.262543+00:00",
+    "updated_at": "2026-04-10T08:42:29.262543+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Honey Garlic Wing sauce",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|honey-garlic-wing-sauce|2-fl-oz",
+    "category": "BBQ Chicken, Ribs & Combos",
+    "category_path": [],
+    "portion": "2 fl oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 120,
+      "protein_g": 0.2,
+      "carbs_g": 28,
+      "fat_g": 0,
+      "sodium_mg": 200,
+      "sugar_g": 26
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.264154+00:00",
+    "updated_at": "2026-04-10T08:42:29.264154+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Horseradish",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|horseradish|2-fl-oz",
+    "category": "Steaks & Prime Rib (select locations)",
+    "category_path": [],
+    "portion": "2 fl oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 200,
+      "protein_g": 0,
+      "carbs_g": 8,
+      "fat_g": 18,
+      "sodium_mg": 460,
+      "sugar_g": 6
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.262987+00:00",
+    "updated_at": "2026-04-10T08:42:29.262987+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Hot Wing Sauce",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|hot-wing-sauce|2-fl-oz",
+    "category": "BBQ Chicken, Ribs & Combos",
+    "category_path": [],
+    "portion": "2 fl oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 10,
+      "protein_g": 0.6,
+      "carbs_g": 2,
+      "fat_g": 0,
+      "sodium_mg": 2000,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.264130+00:00",
+    "updated_at": "2026-04-10T08:42:29.264130+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Just Chicken Wings - add sauce",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|just-chicken-wings-add-sauce|1-lb",
+    "category": "Starters",
+    "category_path": [],
+    "portion": "1 lb",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 880,
+      "protein_g": 43.6,
+      "carbs_g": 48,
+      "fat_g": 57,
+      "sodium_mg": 2012,
+      "sugar_g": 14
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.262051+00:00",
+    "updated_at": "2026-04-10T08:42:29.262051+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Just Chicken Wings - add sauce",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|just-chicken-wings-add-sauce|2-lbs",
+    "category": "Starters",
+    "category_path": [],
+    "portion": "2 lbs",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 1760,
+      "protein_g": 87,
+      "carbs_g": 97,
+      "fat_g": 113,
+      "sodium_mg": 4024,
+      "sugar_g": 28
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.262078+00:00",
+    "updated_at": "2026-04-10T08:42:29.262078+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Klondike Crumble",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|klondike-crumble|1-serv",
+    "category": "Desserts",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 840,
+      "protein_g": 8.7,
+      "carbs_g": 123.5,
+      "fat_g": 37,
+      "sodium_mg": 444,
+      "sugar_g": 85.7
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.264955+00:00",
+    "updated_at": "2026-04-10T08:42:29.264955+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Loaded Baked Potato",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|loaded-baked-potato|6-fl-oz",
+    "category": "Salads & Soups",
+    "category_path": [],
+    "portion": "6 fl oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 193,
+      "protein_g": 4,
+      "carbs_g": 17.3,
+      "fat_g": 12,
+      "sodium_mg": 580,
+      "sugar_g": 1.3
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.262568+00:00",
+    "updated_at": "2026-04-10T08:42:29.262568+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Loaded Cheese Fries",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|loaded-cheese-fries|1-serv",
+    "category": "Starters",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 912,
+      "protein_g": 55,
+      "carbs_g": 42,
+      "fat_g": 68,
+      "sodium_mg": 2455,
+      "sugar_g": 18.25
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.261789+00:00",
+    "updated_at": "2026-04-10T08:42:29.261789+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Lobster Bisque",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|lobster-bisque|6-fl-oz",
+    "category": "Salads & Soups",
+    "category_path": [],
+    "portion": "6 fl oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 220,
+      "protein_g": 7.3,
+      "carbs_g": 15,
+      "fat_g": 15,
+      "sodium_mg": 980,
+      "sugar_g": 4.7
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.262601+00:00",
+    "updated_at": "2026-04-10T08:42:29.262601+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Medium Wing Sauce",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|medium-wing-sauce|2-fl-oz",
+    "category": "BBQ Chicken, Ribs & Combos",
+    "category_path": [],
+    "portion": "2 fl oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 90,
+      "protein_g": 0.6,
+      "carbs_g": 16,
+      "fat_g": 0,
+      "sodium_mg": 500,
+      "sugar_g": 14
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.264106+00:00",
+    "updated_at": "2026-04-10T08:42:29.264106+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Mozzarella Sticks- marinara sauce incl 6",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|mozzarella-sticks-marinara-sauce-incl-6",
+    "category": "Starters",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 578,
+      "protein_g": 20.5,
+      "carbs_g": 42.5,
+      "fat_g": 33,
+      "sodium_mg": 1378,
+      "sugar_g": 14
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.261612+00:00",
+    "updated_at": "2026-04-10T08:42:29.261612+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "New York Steak - 10 oz. (add side)",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|new-york-steak-10-oz-add-side|10-oz",
+    "category": "Steaks & Prime Rib (select locations)",
+    "category_path": [],
+    "portion": "10 oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 674,
+      "protein_g": 76,
+      "carbs_g": 0,
+      "fat_g": 37,
+      "sodium_mg": 309,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.262731+00:00",
+    "updated_at": "2026-04-10T08:42:29.262731+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Onion Rings, add Ranch and BBQ sauce",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|onion-rings-add-ranch-and-bbq-sauce|16-oz",
+    "category": "Starters",
+    "category_path": [],
+    "portion": "16 oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 750,
+      "protein_g": 14.6,
+      "carbs_g": 141,
+      "fat_g": 16.6,
+      "sodium_mg": 2194,
+      "sugar_g": 14
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.261926+00:00",
+    "updated_at": "2026-04-10T08:42:29.261926+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Pasta Butter Parmesan 1",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|pasta-butter-parmesan-1",
+    "category": "Kids' Menu",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 775,
+      "protein_g": 12.5,
+      "carbs_g": 64,
+      "fat_g": 52,
+      "sodium_mg": 89,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.264883+00:00",
+    "updated_at": "2026-04-10T08:42:29.264883+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Pasta Marinara 1",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|pasta-marinara-1",
+    "category": "Kids' Menu",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 443,
+      "protein_g": 14.5,
+      "carbs_g": 77,
+      "fat_g": 8,
+      "sodium_mg": 587,
+      "sugar_g": 8
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.264858+00:00",
+    "updated_at": "2026-04-10T08:42:29.264858+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Philly Beef Sandwich",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|philly-beef-sandwich|1-serv",
+    "category": "Sandwiches",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 701,
+      "protein_g": 42,
+      "carbs_g": 43,
+      "fat_g": 50,
+      "sodium_mg": 941,
+      "sugar_g": 4.2
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.263649+00:00",
+    "updated_at": "2026-04-10T08:42:29.263649+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Plum Sauce",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|plum-sauce|2-fl-oz",
+    "category": "Kids' Menu",
+    "category_path": [],
+    "portion": "2 fl oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 120,
+      "protein_g": 0.2,
+      "carbs_g": 32,
+      "fat_g": 0,
+      "sodium_mg": 200,
+      "sugar_g": 30
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.264834+00:00",
+    "updated_at": "2026-04-10T08:42:29.264834+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Porterhouse Steak - 20 oz. (add side)",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|porterhouse-steak-20-oz-add-side|20oz",
+    "category": "Steaks & Prime Rib (select locations)",
+    "category_path": [],
+    "portion": "20oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 1585,
+      "protein_g": 142,
+      "carbs_g": 0,
+      "fat_g": 112,
+      "sodium_mg": 545,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.262787+00:00",
+    "updated_at": "2026-04-10T08:42:29.262787+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Ranch",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|ranch|2-fl-oz",
+    "category": "Starters",
+    "category_path": [],
+    "portion": "2 fl oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 280,
+      "protein_g": 1.6,
+      "carbs_g": 4,
+      "fat_g": 32,
+      "sodium_mg": 320,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.261951+00:00",
+    "updated_at": "2026-04-10T08:42:29.261951+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Ranch Dressing",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|ranch-dressing|2-fl-oz",
+    "category": "Starters",
+    "category_path": [],
+    "portion": "2 fl oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 280,
+      "protein_g": 1.6,
+      "carbs_g": 4,
+      "fat_g": 32,
+      "sodium_mg": 320,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.261706+00:00",
+    "updated_at": "2026-04-10T08:42:29.261706+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Rib & Wing Combo - add CRH sauce, side choice & wing sauce",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|rib-and-wing-combo-add-crh-sauce-side-choice-and-wing-sauce|1-serv",
+    "category": "BBQ Chicken, Ribs & Combos",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 1680,
+      "protein_g": 78.6,
+      "carbs_g": 121.5,
+      "fat_g": 77.7,
+      "sodium_mg": 3706,
+      "sugar_g": 100.5
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.263887+00:00",
+    "updated_at": "2026-04-10T08:42:29.263887+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Rib-Eye Steak - 12 oz (add side)",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|rib-eye-steak-12-oz-add-side|12-oz",
+    "category": "Steaks & Prime Rib (select locations)",
+    "category_path": [],
+    "portion": "12 oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 904,
+      "protein_g": 102,
+      "carbs_g": 0,
+      "fat_g": 55,
+      "sodium_mg": 420,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.262760+00:00",
+    "updated_at": "2026-04-10T08:42:29.262760+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Sauteed Mushrooms",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|sauteed-mushrooms|7-oz",
+    "category": "Side Fixin's",
+    "category_path": [],
+    "portion": "7 oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 200,
+      "protein_g": 7,
+      "carbs_g": 8.5,
+      "fat_g": 16.4,
+      "sodium_mg": 437,
+      "sugar_g": 3.7
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.263304+00:00",
+    "updated_at": "2026-04-10T08:42:29.263304+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Shrimp Tempura",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|shrimp-tempura|7pcs",
+    "category": "Starters",
+    "category_path": [],
+    "portion": "7pcs",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 758,
+      "protein_g": 29,
+      "carbs_g": 88,
+      "fat_g": 39.5,
+      "sodium_mg": 1470,
+      "sugar_g": 19
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.261899+00:00",
+    "updated_at": "2026-04-10T08:42:29.261899+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Smokehouse Burger - add side choice",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|smokehouse-burger-add-side-choice|1-serv",
+    "category": "Burgers",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 1012,
+      "protein_g": 42,
+      "carbs_g": 109,
+      "fat_g": 46,
+      "sodium_mg": 1696,
+      "sugar_g": 54
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.263433+00:00",
+    "updated_at": "2026-04-10T08:42:29.263433+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Sour Cream",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|sour-cream|2-fl-oz",
+    "category": "Steak & Lobster",
+    "category_path": [],
+    "portion": "2 fl oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 90,
+      "protein_g": 2,
+      "carbs_g": 4,
+      "fat_g": 8,
+      "sodium_mg": 50,
+      "sugar_g": 2
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.263189+00:00",
+    "updated_at": "2026-04-10T08:42:29.263189+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Spicy Chicken",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|spicy-chicken|1-serv",
+    "category": "Sandwiches",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 633,
+      "protein_g": 35.6,
+      "carbs_g": 42,
+      "fat_g": 46,
+      "sodium_mg": 1820,
+      "sugar_g": 4.3
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.263674+00:00",
+    "updated_at": "2026-04-10T08:42:29.263674+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Spinach & Goat Cheese Dip",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|spinach-and-goat-cheese-dip|1-serv",
+    "category": "Starters",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 882,
+      "protein_g": 25,
+      "carbs_g": 21.5,
+      "fat_g": 76,
+      "sodium_mg": 1465,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.261762+00:00",
+    "updated_at": "2026-04-10T08:42:29.261762+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Steak Bites- CRH sauce incl",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|steak-bites-crh-sauce-incl|1-serv",
+    "category": "Starters",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 782,
+      "protein_g": 55,
+      "carbs_g": 13.6,
+      "fat_g": 54.5,
+      "sodium_mg": 710,
+      "sugar_g": 10
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.261646+00:00",
+    "updated_at": "2026-04-10T08:42:29.261646+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Strawberry Pecan Salad",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|strawberry-pecan-salad|1-serv",
+    "category": "Salads & Soups",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 245,
+      "protein_g": 5.6,
+      "carbs_g": 9,
+      "fat_g": 20,
+      "sodium_mg": 332,
+      "sugar_g": 6
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.262376+00:00",
+    "updated_at": "2026-04-10T08:42:29.262376+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Sub Caesar Salad",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|sub-caesar-salad|1serv",
+    "category": "Sandwiches",
+    "category_path": [],
+    "portion": "1serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 260,
+      "protein_g": 3.6,
+      "carbs_g": 7,
+      "fat_g": 23.6,
+      "sodium_mg": 317,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.263743+00:00",
+    "updated_at": "2026-04-10T08:42:29.263743+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Sweet Carolina Burger 1",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|sweet-carolina-burger-1",
+    "category": "Burgers",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 1030,
+      "protein_g": 44,
+      "carbs_g": 61,
+      "fat_g": 62,
+      "sodium_mg": 1733,
+      "sugar_g": 7.75
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.263486+00:00",
+    "updated_at": "2026-04-10T08:42:29.263486+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Sweet Heat Flatbread 1",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|sweet-heat-flatbread-1",
+    "category": "Starters",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 738,
+      "protein_g": 38,
+      "carbs_g": 60,
+      "fat_g": 43,
+      "sodium_mg": 3135,
+      "sugar_g": 12
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.262301+00:00",
+    "updated_at": "2026-04-10T08:42:29.262301+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Sweet Potato Fries/Garlic aioli",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|sweet-potato-fries-garlic-aioli|16-oz",
+    "category": "Starters",
+    "category_path": [],
+    "portion": "16 oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 1516,
+      "protein_g": 5.4,
+      "carbs_g": 136,
+      "fat_g": 102.6,
+      "sodium_mg": 1762,
+      "sugar_g": 17.4
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.261734+00:00",
+    "updated_at": "2026-04-10T08:42:29.261734+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "T Bone Steak- 14 oz (add side)",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|t-bone-steak-14-oz-add-side|14oz",
+    "category": "Steaks & Prime Rib (select locations)",
+    "category_path": [],
+    "portion": "14oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 1035,
+      "protein_g": 101,
+      "carbs_g": 0.4,
+      "fat_g": 64,
+      "sodium_mg": 442,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.262814+00:00",
+    "updated_at": "2026-04-10T08:42:29.262814+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Tartar sauce",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|tartar-sauce|2fl-oz",
+    "category": "Chuck's Favourites",
+    "category_path": [],
+    "portion": "2fl oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 270,
+      "protein_g": 0.5,
+      "carbs_g": 2.7,
+      "fat_g": 29,
+      "sodium_mg": 662,
+      "sugar_g": 2
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.264255+00:00",
+    "updated_at": "2026-04-10T08:42:29.264255+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "The Big Chuck - add side choice",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|the-big-chuck-add-side-choice|1-serv",
+    "category": "Burgers",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 1366,
+      "protein_g": 74,
+      "carbs_g": 67,
+      "fat_g": 81,
+      "sodium_mg": 2377,
+      "sugar_g": 12
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.263460+00:00",
+    "updated_at": "2026-04-10T08:42:29.263460+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "The Chopper NY cheesecake/ Reese peanut butter cups",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|the-chopper-ny-cheesecake-reese-peanut-butter-cups|1-serv",
+    "category": "Desserts",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 645,
+      "protein_g": 7.4,
+      "carbs_g": 77.5,
+      "fat_g": 34,
+      "sodium_mg": 357,
+      "sugar_g": 57
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.264982+00:00",
+    "updated_at": "2026-04-10T08:42:29.264982+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Tomato & Red Pepper Bisque with Gouda",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|tomato-and-red-pepper-bisque-with-gouda|6-fl-oz",
+    "category": "Salads & Soups",
+    "category_path": [],
+    "portion": "6 fl oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 350,
+      "protein_g": 7,
+      "carbs_g": 16,
+      "fat_g": 24,
+      "sodium_mg": 830,
+      "sugar_g": 12
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.262627+00:00",
+    "updated_at": "2026-04-10T08:42:29.262627+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Tomato Tortellini",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|tomato-tortellini|6-fl-oz",
+    "category": "Salads & Soups",
+    "category_path": [],
+    "portion": "6 fl oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 73,
+      "protein_g": 5.7,
+      "carbs_g": 14,
+      "fat_g": 0.7,
+      "sodium_mg": 520,
+      "sugar_g": 4.7
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.262519+00:00",
+    "updated_at": "2026-04-10T08:42:29.262519+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Top Sirloin Steak - 7 oz. & Lobster Tail (add side & Butter)",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|top-sirloin-steak-7-oz-and-lobster-tail-add-side-and-butter|1-serv",
+    "category": "Steak & Lobster",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 687,
+      "protein_g": 66,
+      "carbs_g": 3,
+      "fat_g": 45.5,
+      "sodium_mg": 605,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.263020+00:00",
+    "updated_at": "2026-04-10T08:42:29.263020+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Top Sirloin Steak - 7 oz. (add side)",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|top-sirloin-steak-7-oz-add-side|7-oz",
+    "category": "Steaks & Prime Rib (select locations)",
+    "category_path": [],
+    "portion": "7 oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 466,
+      "protein_g": 42,
+      "carbs_g": 0,
+      "fat_g": 32.5,
+      "sodium_mg": 269,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.262703+00:00",
+    "updated_at": "2026-04-10T08:42:29.262703+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Vegetable Beef Barley",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|vegetable-beef-barley|6-fl-oz",
+    "category": "Salads & Soups",
+    "category_path": [],
+    "portion": "6 fl oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 67,
+      "protein_g": 2,
+      "carbs_g": 12,
+      "fat_g": 0.7,
+      "sodium_mg": 320,
+      "sugar_g": 1.3
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.262495+00:00",
+    "updated_at": "2026-04-10T08:42:29.262495+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Veggie Burger - add side choice",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|veggie-burger-add-side-choice|1-serv",
+    "category": "Burgers",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 650,
+      "protein_g": 30.6,
+      "carbs_g": 78,
+      "fat_g": 26.7,
+      "sodium_mg": 1475,
+      "sugar_g": 16
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.263407+00:00",
+    "updated_at": "2026-04-10T08:42:29.263407+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Veggie Sizzler",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|veggie-sizzler|1-serv",
+    "category": "BBQ Chicken, Ribs & Combos",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 331,
+      "protein_g": 11,
+      "carbs_g": 46,
+      "fat_g": 7,
+      "sodium_mg": 1122,
+      "sugar_g": 29.5
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.264030+00:00",
+    "updated_at": "2026-04-10T08:42:29.264030+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Whipped Butter 1/",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|whipped-butter-1|2-oz",
+    "category": "Steak & Lobster",
+    "category_path": [],
+    "portion": "2 oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 70,
+      "protein_g": 0,
+      "carbs_g": 0,
+      "fat_g": 7.6,
+      "sodium_mg": 78,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.263167+00:00",
+    "updated_at": "2026-04-10T08:42:29.263167+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Wicked Thai with Chicken",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|wicked-thai-with-chicken|6-fl-oz",
+    "category": "Salads & Soups",
+    "category_path": [],
+    "portion": "6 fl oz",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 200,
+      "protein_g": 7,
+      "carbs_g": 11,
+      "fat_g": 15,
+      "sodium_mg": 620,
+      "sugar_g": 3
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.262652+00:00",
+    "updated_at": "2026-04-10T08:42:29.262652+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "chucks-roadhouse",
+    "restaurant_name": "Chuck's Roadhouse",
+    "item_name": "Wings, Rings & Fingers - add Ranch",
+    "summary": null,
+    "unique_key": "chucks-roadhouse|wings-rings-and-fingers-add-ranch|1-serv",
+    "category": "Starters",
+    "category_path": [],
+    "portion": "1 serv",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 1638,
+      "protein_g": 88.7,
+      "carbs_g": 307,
+      "fat_g": 101,
+      "sodium_mg": 4296,
+      "sugar_g": 158
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/chucks_roadhouse_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.261678+00:00",
+    "updated_at": "2026-04-10T08:42:29.261678+00:00"
+  }
+]

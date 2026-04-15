@@ -1,0 +1,101 @@
+=== PAGE 1 ===
+NOODLEBOX NUTRITION GUIDE
+BOXES
+Calories
+Carbs (g)
+Protien (g)
+Total Fats (g)
+Trans Fats (g)
+NUTS
+GLUTEN
+SHELLFISH
+DAIRY
+SESAME
+EGG
+GARLIC
+SOY
+Black Bean Box 310 34 7 19 0.3 x x x x x x
+Bombay Mac & Cheese Box 700 42 15 56 1.0 x x x x x
+Butter Chicken Box 980 46 44 46 1.0 x x x
+Cambodian Jungle Curry Box 750 48 14 64 0.0 x
+Crispy Shanghai Chicken Box 630 34 27 46 0.3 x x x x x x x x
+Drunken Noodle Box 498 82 16 27 0.0 x x x x
+Ginger Beef Box 560 47 19 35 0.0 x x x x x x
+Kung Pao Box 440 40 13 29 0.0 x x x x x x
+Pad Thai Box 550 74 12 27 0.0 x x x x
+Singapore Cashew Curry Box 640 25 10 61 0.0 x x x x x
+Spicy Peanut Box 1150 45 33 101 0.0 x x x x x
+Teriyaki Box 310 34 9 19 0.0 x x x x x x
+Thai Chow Mein Box 370 19 8 31 0.0 x x x x x x
+Yangzhou Fried Rice Box 682 48 46 42 0.0 x x x x x x
+Kids Chow Mein Box 160 8 2 14 0.0 x x x
+Kids Mac & Cheese Box 360 10 10 32 1.0 x x x
+EXTRAS
+Calories
+Carbs (g)
+Protien (g)
+Total Fats (g)
+Trans Fats (g)
+NUTS
+GLUTEN
+SHELLFISH
+DAIRY
+SESAME
+EGG
+GARLIC
+SOY
+Apple Pie Spring Roll (1) 70 17 1 0.2 0.0 x x x x x
+Banana Spring Roll (1) 80 16 1 1.0 0.0 x x x x x
+Bombay Cheese Balls (2) 232 40 1 9.5 0.4 x x x x x x x
+Burmese Naan (1) 220 30 4 10.0 0.5 x x x x x
+Coconut Prawns (2) 230 39 10 3.5 0.0 x x x x x
+Fried Egg (1) 90 1 7 7.0 0.0 x x x
+Nanaimo Bar Spring Roll (1) 90 28 1 0.4 0.0 x x x x x
+Tempura Chicken Bites (5) 230 39 10 3.5 0.0 x x x x x x x
+Vegetable Spring Roll (1) 130 16 4 5.0 0.0 x x x x x x
+
+=== PAGE 2 ===
+NOODLEBOX NUTRITION GUIDE
+NOODLES
+Calories
+Carbs (g)
+Protien (g)
+Total Fats (g)
+Trans Fats (g)
+NUTS
+GLUTEN
+SHELLFISH
+DAIRY
+SESAME
+EGG
+GARLIC
+SOY
+Cavatappi Noodle (180g) 380 74 14 2.2 0.0 x x
+Chow Mien (250g) 526 130 30 5.0 0.0 x x
+Hokkien (250g) 437 79 24 2.0 0.0 x x
+Jasmine Rice (180g) 260 56 5 0.0 0.0
+Ribbon (180g) 480 125 13 0.0 0.1 x x
+Rice Noodle (180g) 414 92 7 0.6 0.0
+Zucchini Noodle (225g) 10 9 3 1.0 0.0
+PROTEIN
+Calories
+Carbs (g)
+Protien (g)
+Total Fats (g)
+Trans Fats (g)
+NUTS
+GLUTEN
+SHELLFISH
+DAIRY
+SESAME
+EGG
+GARLIC
+SOY
+BBQ Char Siu Pork 90 16 4 1.0 0.0 x x
+Beef Sirloin 90 0 18 2.0 0.0
+Chicken Breast 80 1 18 1.0 0.0
+Crispy Beef 190 14 13 2.5 0.0 x x x
+Crispy Chicken 190 24 16 1.5 0.0 x x x x
+Crispy Tofu 130 11 14 1.0 0.0 x x x
+Organic Tofu 80 3 14 1.0 0.0 x
+Prawns 90 0 20 1.0 0.0 x

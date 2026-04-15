@@ -1,0 +1,58 @@
+{
+  "restaurants": {
+    "subway": {
+      "restaurant_name": "Subway",
+      "source_pdf": "Subway.pdf",
+      "parsed_items": 29,
+      "parser": "manual_subway_items"
+    },
+    "a-and-w": {
+      "restaurant_name": "A&W",
+      "source_pdf": "aw_nutrition.pdf",
+      "parsed_items": 129,
+      "parser": "parse_aw"
+    },
+    "chucks-roadhouse": {
+      "restaurant_name": "Chuck's Roadhouse",
+      "source_pdf": "chucks_roadhouse_nutrition.pdf",
+      "parsed_items": 105,
+      "parser": "parse_chucks"
+    },
+    "jugo-juice": {
+      "restaurant_name": "Jugo Juice",
+      "source_pdf": "jugo_juice_nutrition.pdf",
+      "parsed_items": 50,
+      "parser": "parse_jugo"
+    },
+    "moxies": {
+      "restaurant_name": "Moxies",
+      "source_pdf": "moxies_ca_nutrition.pdf",
+      "parsed_items": 42,
+      "parser": "parse_moxies"
+    },
+    "noodlebox": {
+      "restaurant_name": "Noodlebox",
+      "source_pdf": "noodlebox_nutrition.pdf",
+      "parsed_items": 40,
+      "parser": "parse_noodlebox"
+    },
+    "old-spaghetti-factory": {
+      "restaurant_name": "Old Spaghetti Factory",
+      "source_pdf": "old_spaghetti_factory_nutrition.pdf",
+      "parsed_items": 83,
+      "parser": "parse_old_spaghetti_factory"
+    },
+    "triple-os": {
+      "restaurant_name": "Triple O's",
+      "source_pdf": "triple_os_nutrition.pdf",
+      "parsed_items": 7,
+      "parser": "parse_triple_os"
+    }
+  },
+  "notes": [
+    "restaurant_id values are franchise-level, not location-level",
+    "price_cad is left null because the nutrition PDFs rarely include price",
+    "partial_data is true whenever one or more core fields are missing",
+    "Subway.pdf was image-only, so its entries were seeded manually from the visible table"
+  ]
+}

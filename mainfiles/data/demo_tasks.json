@@ -1,0 +1,41 @@
+[
+  {
+    "_id": "owner-task-subway-item-description",
+    "owner_id": "demo-owner-user-1",
+    "restaurant_name": "Subway",
+    "scope": "item",
+    "item_name": "Steak & Bacon",
+    "item_category": "Sandwiches",
+    "task_type": "request_description",
+    "description": "Add a customer-facing description and confirm the public category for Steak & Bacon before the next review.",
+    "admin_note": "Macros are already parsed. This task is only for customer-visible copy and category cleanup.",
+    "status": "pending",
+    "created_at": "2026-04-10T12:20:00.000Z"
+  },
+  {
+    "_id": "owner-task-subway-pdf-confirmation",
+    "owner_id": "demo-owner-user-1",
+    "restaurant_name": "Subway",
+    "scope": "restaurant",
+    "item_name": null,
+    "item_category": null,
+    "task_type": "request_pdf",
+    "description": "Upload the latest official Subway nutrition PDF so the restaurant record stays current.",
+    "admin_note": "If the existing PDF is still current, upload it again so the audit trail reflects the latest owner confirmation.",
+    "status": "pending",
+    "created_at": "2026-04-10T12:24:00.000Z"
+  },
+  {
+    "_id": "owner-task-subway-item-image",
+    "owner_id": "demo-owner-user-1",
+    "restaurant_name": "Subway",
+    "scope": "item",
+    "item_name": "Bourbon BBQ Steak & Cheddar",
+    "item_category": "Sandwiches",
+    "task_type": "request_image",
+    "description": "Upload a better item image for Bourbon BBQ Steak & Cheddar to replace the placeholder artwork.",
+    "admin_note": "A simple product shot is enough for now.",
+    "status": "pending",
+    "created_at": "2026-04-10T12:28:00.000Z"
+  }
+]

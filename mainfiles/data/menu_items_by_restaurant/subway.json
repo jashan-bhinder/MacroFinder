@@ -1,0 +1,1075 @@
+[
+  {
+    "item_id": null,
+    "restaurant_id": "subway",
+    "restaurant_name": "Subway",
+    "item_name": "Black Forest Ham",
+    "summary": null,
+    "unique_key": "subway|black-forest-ham|1-salad",
+    "category": "Salads",
+    "category_path": [],
+    "portion": "1 salad",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 140,
+      "protein_g": 11,
+      "carbs_g": 12,
+      "fat_g": 3,
+      "sodium_mg": 590,
+      "sugar_g": 1
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/Subway.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.078681+00:00",
+    "updated_at": "2026-04-10T08:42:29.078681+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "subway",
+    "restaurant_name": "Subway",
+    "item_name": "Black Forest Ham",
+    "summary": null,
+    "unique_key": "subway|black-forest-ham|6",
+    "category": "Sandwiches",
+    "category_path": [],
+    "portion": "6\"",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 290,
+      "protein_g": 7,
+      "carbs_g": 44,
+      "fat_g": 5,
+      "sodium_mg": 870,
+      "sugar_g": 4
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/Subway.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.078244+00:00",
+    "updated_at": "2026-04-10T08:42:29.078244+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "subway",
+    "restaurant_name": "Subway",
+    "item_name": "Bourbon BBQ Steak & Cheddar",
+    "summary": null,
+    "unique_key": "subway|bourbon-bbq-steak-and-cheddar|6",
+    "category": "Sandwiches",
+    "category_path": [],
+    "portion": "6\"",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 520,
+      "protein_g": 8,
+      "carbs_g": 55,
+      "fat_g": 18,
+      "sodium_mg": 1230,
+      "sugar_g": 6
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/Subway.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.078097+00:00",
+    "updated_at": "2026-04-10T08:42:29.078097+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "subway",
+    "restaurant_name": "Subway",
+    "item_name": "Bourbon Brisket",
+    "summary": null,
+    "unique_key": "subway|bourbon-brisket|6",
+    "category": "Sandwiches",
+    "category_path": [],
+    "portion": "6\"",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 690,
+      "protein_g": 31,
+      "carbs_g": 65,
+      "fat_g": 34,
+      "sodium_mg": 1600,
+      "sugar_g": 13
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/Subway.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.078042+00:00",
+    "updated_at": "2026-04-10T08:42:29.078042+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "subway",
+    "restaurant_name": "Subway",
+    "item_name": "Chicken Ranch",
+    "summary": null,
+    "unique_key": "subway|chicken-ranch|1-wrap",
+    "category": "Wraps",
+    "category_path": [],
+    "portion": "1 wrap",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 650,
+      "protein_g": 31,
+      "carbs_g": 44,
+      "fat_g": 31,
+      "sodium_mg": 1340,
+      "sugar_g": 7
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/Subway.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.078570+00:00",
+    "updated_at": "2026-04-10T08:42:29.078570+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "subway",
+    "restaurant_name": "Subway",
+    "item_name": "Chicken Ranch",
+    "summary": null,
+    "unique_key": "subway|chicken-ranch|6",
+    "category": "Sandwiches",
+    "category_path": [],
+    "portion": "6\"",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 560,
+      "protein_g": 20,
+      "carbs_g": 47,
+      "fat_g": 26,
+      "sodium_mg": 1140,
+      "sugar_g": 3
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/Subway.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.078131+00:00",
+    "updated_at": "2026-04-10T08:42:29.078131+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "subway",
+    "restaurant_name": "Subway",
+    "item_name": "Cold Cut Combo",
+    "summary": null,
+    "unique_key": "subway|cold-cut-combo|1-salad",
+    "category": "Salads",
+    "category_path": [],
+    "portion": "1 salad",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 240,
+      "protein_g": 15,
+      "carbs_g": 15,
+      "fat_g": 17,
+      "sodium_mg": 620,
+      "sugar_g": 5
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/Subway.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.078703+00:00",
+    "updated_at": "2026-04-10T08:42:29.078703+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "subway",
+    "restaurant_name": "Subway",
+    "item_name": "Cold Cut Combo",
+    "summary": null,
+    "unique_key": "subway|cold-cut-combo|6",
+    "category": "Sandwiches",
+    "category_path": [],
+    "portion": "6\"",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 400,
+      "protein_g": 16,
+      "carbs_g": 43,
+      "fat_g": 18,
+      "sodium_mg": 930,
+      "sugar_g": 7
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/Subway.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.078341+00:00",
+    "updated_at": "2026-04-10T08:42:29.078341+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "subway",
+    "restaurant_name": "Subway",
+    "item_name": "Grilled Chicken",
+    "summary": null,
+    "unique_key": "subway|grilled-chicken|1-wrap",
+    "category": "Wraps",
+    "category_path": [],
+    "portion": "1 wrap",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 450,
+      "protein_g": 21,
+      "carbs_g": 55,
+      "fat_g": 17,
+      "sodium_mg": 1030,
+      "sugar_g": 4
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/Subway.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.078592+00:00",
+    "updated_at": "2026-04-10T08:42:29.078592+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "subway",
+    "restaurant_name": "Subway",
+    "item_name": "Italian B.M.T.",
+    "summary": null,
+    "unique_key": "subway|italian-b-m-t|1-salad",
+    "category": "Salads",
+    "category_path": [],
+    "portion": "1 salad",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 240,
+      "protein_g": 15,
+      "carbs_g": 14,
+      "fat_g": 16,
+      "sodium_mg": 1080,
+      "sugar_g": 4
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/Subway.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.078725+00:00",
+    "updated_at": "2026-04-10T08:42:29.078725+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "subway",
+    "restaurant_name": "Subway",
+    "item_name": "Italian B.M.T.",
+    "summary": null,
+    "unique_key": "subway|italian-b-m-t|6",
+    "category": "Sandwiches",
+    "category_path": [],
+    "portion": "6\"",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 410,
+      "protein_g": 21,
+      "carbs_g": 45,
+      "fat_g": 17,
+      "sodium_mg": 1470,
+      "sugar_g": 5
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/Subway.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.078373+00:00",
+    "updated_at": "2026-04-10T08:42:29.078373+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "subway",
+    "restaurant_name": "Subway",
+    "item_name": "Meatball Marinara",
+    "summary": null,
+    "unique_key": "subway|meatball-marinara|6",
+    "category": "Sandwiches",
+    "category_path": [],
+    "portion": "6\"",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 460,
+      "protein_g": 24,
+      "carbs_g": 64,
+      "fat_g": 18,
+      "sodium_mg": 1170,
+      "sugar_g": 5
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/Subway.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.078405+00:00",
+    "updated_at": "2026-04-10T08:42:29.078405+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "subway",
+    "restaurant_name": "Subway",
+    "item_name": "Piri-Piri Chicken",
+    "summary": null,
+    "unique_key": "subway|piri-piri-chicken|6",
+    "category": "Sandwiches",
+    "category_path": [],
+    "portion": "6\"",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 510,
+      "protein_g": 12,
+      "carbs_g": 52,
+      "fat_g": 23,
+      "sodium_mg": 740,
+      "sugar_g": 2
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/Subway.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.078204+00:00",
+    "updated_at": "2026-04-10T08:42:29.078204+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "subway",
+    "restaurant_name": "Subway",
+    "item_name": "Pizza Sub",
+    "summary": null,
+    "unique_key": "subway|pizza-sub|6",
+    "category": "Sandwiches",
+    "category_path": [],
+    "portion": "6\"",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 430,
+      "protein_g": 18,
+      "carbs_g": 54,
+      "fat_g": 20,
+      "sodium_mg": 1050,
+      "sugar_g": 4
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/Subway.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.078433+00:00",
+    "updated_at": "2026-04-10T08:42:29.078433+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "subway",
+    "restaurant_name": "Subway",
+    "item_name": "Rotisserie-Style Chicken",
+    "summary": null,
+    "unique_key": "subway|rotisserie-style-chicken|1-salad",
+    "category": "Salads",
+    "category_path": [],
+    "portion": "1 salad",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 170,
+      "protein_g": 23,
+      "carbs_g": 10,
+      "fat_g": 4,
+      "sodium_mg": 340,
+      "sugar_g": 3
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/Subway.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.078747+00:00",
+    "updated_at": "2026-04-10T08:42:29.078747+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "subway",
+    "restaurant_name": "Subway",
+    "item_name": "Rotisserie-Style Chicken",
+    "summary": null,
+    "unique_key": "subway|rotisserie-style-chicken|1-wrap",
+    "category": "Wraps",
+    "category_path": [],
+    "portion": "1 wrap",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 490,
+      "protein_g": 26,
+      "carbs_g": 53,
+      "fat_g": 19,
+      "sodium_mg": 960,
+      "sugar_g": 3
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/Subway.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.078615+00:00",
+    "updated_at": "2026-04-10T08:42:29.078615+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "subway",
+    "restaurant_name": "Subway",
+    "item_name": "Rotisserie-Style Chicken",
+    "summary": null,
+    "unique_key": "subway|rotisserie-style-chicken|6",
+    "category": "Sandwiches",
+    "category_path": [],
+    "portion": "6\"",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 320,
+      "protein_g": 24,
+      "carbs_g": 45,
+      "fat_g": 5,
+      "sodium_mg": 650,
+      "sugar_g": 4
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/Subway.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.078457+00:00",
+    "updated_at": "2026-04-10T08:42:29.078457+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "subway",
+    "restaurant_name": "Subway",
+    "item_name": "Steak & Bacon",
+    "summary": null,
+    "unique_key": "subway|steak-and-bacon|6",
+    "category": "Sandwiches",
+    "category_path": [],
+    "portion": "6\"",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 600,
+      "protein_g": 18,
+      "carbs_g": 46,
+      "fat_g": 32,
+      "sodium_mg": 1480,
+      "sugar_g": 3
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/Subway.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.077807+00:00",
+    "updated_at": "2026-04-10T08:42:29.077807+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "subway",
+    "restaurant_name": "Subway",
+    "item_name": "Steak & Cheese",
+    "summary": null,
+    "unique_key": "subway|steak-and-cheese|1-salad",
+    "category": "Salads",
+    "category_path": [],
+    "portion": "1 salad",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 260,
+      "protein_g": 18,
+      "carbs_g": 10,
+      "fat_g": 21,
+      "sodium_mg": 780,
+      "sugar_g": 4
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/Subway.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.078770+00:00",
+    "updated_at": "2026-04-10T08:42:29.078770+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "subway",
+    "restaurant_name": "Subway",
+    "item_name": "Steak & Cheese",
+    "summary": null,
+    "unique_key": "subway|steak-and-cheese|1-wrap",
+    "category": "Wraps",
+    "category_path": [],
+    "portion": "1 wrap",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 510,
+      "protein_g": 24,
+      "carbs_g": 55,
+      "fat_g": 22,
+      "sodium_mg": 1420,
+      "sugar_g": 5
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/Subway.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.078637+00:00",
+    "updated_at": "2026-04-10T08:42:29.078637+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "subway",
+    "restaurant_name": "Subway",
+    "item_name": "Steak & Cheese",
+    "summary": null,
+    "unique_key": "subway|steak-and-cheese|6",
+    "category": "Sandwiches",
+    "category_path": [],
+    "portion": "6\"",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 360,
+      "protein_g": 24,
+      "carbs_g": 51,
+      "fat_g": 10,
+      "sodium_mg": 1120,
+      "sugar_g": 4
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/Subway.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.078481+00:00",
+    "updated_at": "2026-04-10T08:42:29.078481+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "subway",
+    "restaurant_name": "Subway",
+    "item_name": "Sweet Onion Chicken Teriyaki",
+    "summary": null,
+    "unique_key": "subway|sweet-onion-chicken-teriyaki|1-salad",
+    "category": "Salads",
+    "category_path": [],
+    "portion": "1 salad",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 160,
+      "protein_g": 17,
+      "carbs_g": 8,
+      "fat_g": 4,
+      "sodium_mg": 760,
+      "sugar_g": 3
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/Subway.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.078792+00:00",
+    "updated_at": "2026-04-10T08:42:29.078792+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "subway",
+    "restaurant_name": "Subway",
+    "item_name": "Sweet Onion Chicken Teriyaki",
+    "summary": null,
+    "unique_key": "subway|sweet-onion-chicken-teriyaki|6",
+    "category": "Sandwiches",
+    "category_path": [],
+    "portion": "6\"",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 370,
+      "protein_g": 24,
+      "carbs_g": 43,
+      "fat_g": 5,
+      "sodium_mg": 920,
+      "sugar_g": 10
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/Subway.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.078504+00:00",
+    "updated_at": "2026-04-10T08:42:29.078504+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "subway",
+    "restaurant_name": "Subway",
+    "item_name": "Tuna (Includes Mayonnaise)",
+    "summary": null,
+    "unique_key": "subway|tuna-includes-mayonnaise|1-salad",
+    "category": "Salads",
+    "category_path": [],
+    "portion": "1 salad",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 280,
+      "protein_g": 18,
+      "carbs_g": 10,
+      "fat_g": 21,
+      "sodium_mg": 380,
+      "sugar_g": 4
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/Subway.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.078814+00:00",
+    "updated_at": "2026-04-10T08:42:29.078814+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "subway",
+    "restaurant_name": "Subway",
+    "item_name": "Turkey Breast",
+    "summary": null,
+    "unique_key": "subway|turkey-breast|1-salad",
+    "category": "Salads",
+    "category_path": [],
+    "portion": "1 salad",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 120,
+      "protein_g": 12,
+      "carbs_g": 4,
+      "fat_g": 3,
+      "sodium_mg": 570,
+      "sugar_g": 1
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/Subway.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.078841+00:00",
+    "updated_at": "2026-04-10T08:42:29.078841+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "subway",
+    "restaurant_name": "Subway",
+    "item_name": "Turkey Breast",
+    "summary": null,
+    "unique_key": "subway|turkey-breast|6",
+    "category": "Sandwiches",
+    "category_path": [],
+    "portion": "6\"",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 290,
+      "protein_g": 17,
+      "carbs_g": 40,
+      "fat_g": 5,
+      "sodium_mg": 860,
+      "sugar_g": 2
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/Subway.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.078527+00:00",
+    "updated_at": "2026-04-10T08:42:29.078527+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "subway",
+    "restaurant_name": "Subway",
+    "item_name": "Veggie Delite",
+    "summary": null,
+    "unique_key": "subway|veggie-delite|1-salad",
+    "category": "Salads",
+    "category_path": [],
+    "portion": "1 salad",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 50,
+      "protein_g": 2,
+      "carbs_g": 5,
+      "fat_g": 1,
+      "sodium_mg": 75,
+      "sugar_g": 1
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/Subway.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.078862+00:00",
+    "updated_at": "2026-04-10T08:42:29.078862+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "subway",
+    "restaurant_name": "Subway",
+    "item_name": "Veggie Delite",
+    "summary": null,
+    "unique_key": "subway|veggie-delite|1-wrap",
+    "category": "Wraps",
+    "category_path": [],
+    "portion": "1 wrap",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 390,
+      "protein_g": 9,
+      "carbs_g": 50,
+      "fat_g": 15,
+      "sodium_mg": 330,
+      "sugar_g": 4
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/Subway.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.078659+00:00",
+    "updated_at": "2026-04-10T08:42:29.078659+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "subway",
+    "restaurant_name": "Subway",
+    "item_name": "Veggie Delite",
+    "summary": null,
+    "unique_key": "subway|veggie-delite|6",
+    "category": "Sandwiches",
+    "category_path": [],
+    "portion": "6\"",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 220,
+      "protein_g": 10,
+      "carbs_g": 36,
+      "fat_g": 3,
+      "sodium_mg": 360,
+      "sugar_g": 2
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/Subway.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.078548+00:00",
+    "updated_at": "2026-04-10T08:42:29.078548+00:00"
+  }
+]

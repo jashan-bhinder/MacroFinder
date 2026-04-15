@@ -1,0 +1,276 @@
+[
+  {
+    "_id": "rest_a-and-w",
+    "name": "A&W",
+    "slug": "a-and-w",
+    "description": "Franchise-level record for A&W, with 129 tracked items across Proteins, Sides, Sauces, Sweets & Treats, Root Beer.",
+    "website_url": null,
+    "menu_url": null,
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "high-protein",
+      "big-meal",
+      "protein-friendly",
+      "sweet"
+    ],
+    "categories": [
+      "Proteins",
+      "Sides",
+      "Sauces",
+      "Sweets & Treats",
+      "Root Beer"
+    ],
+    "nutrition_pdf": "aw_nutrition.pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ACheese%20Curds%2C%20Large%2010oz",
+    "stats": {
+      "item_count": 129,
+      "avg_protein_g": 14.5,
+      "avg_calories": 480.8
+    },
+    "status": "active",
+    "created_at": "2026-04-10T00:00:00.000Z",
+    "updated_at": "2026-04-10T00:00:00.000Z"
+  },
+  {
+    "_id": "rest_chucks-roadhouse",
+    "name": "Chuck's Roadhouse",
+    "slug": "chucks-roadhouse",
+    "description": "Franchise-level record for Chuck's Roadhouse, with 105 tracked items across Chuck's Favourites, Starters, Side Fixin's, BBQ Chicken, Ribs & Combos, Burgers.",
+    "website_url": null,
+    "menu_url": null,
+    "tags": [
+      "high-protein",
+      "big-meal",
+      "lower-cal",
+      "protein-friendly",
+      "sweet",
+      "quick"
+    ],
+    "categories": [
+      "Chuck's Favourites",
+      "Starters",
+      "Side Fixin's",
+      "BBQ Chicken, Ribs & Combos",
+      "Burgers",
+      "Steaks & Prime Rib (select locations)",
+      "Steak & Lobster",
+      "Salads & Soups",
+      "Desserts",
+      "Sandwiches",
+      "Kids' Menu"
+    ],
+    "nutrition_pdf": "chucks_roadhouse_nutrition.pdf",
+    "image_url": "https://placehold.co/800x600/5D3B2E/FFF7F2?text=Chuck%27s%20Roadhouse%0AWings%2C%20Rings%20%26%20Fingers%20-%20add%20Ranch",
+    "stats": {
+      "item_count": 105,
+      "avg_protein_g": 26.6,
+      "avg_calories": 583.8
+    },
+    "status": "active",
+    "created_at": "2026-04-10T00:00:00.000Z",
+    "updated_at": "2026-04-10T00:00:00.000Z"
+  },
+  {
+    "_id": "rest_old-spaghetti-factory",
+    "name": "Old Spaghetti Factory",
+    "slug": "old-spaghetti-factory",
+    "description": "Franchise-level record for Old Spaghetti Factory, with 83 tracked items across Starter Salads, Grilled Items, Starter Soups, Appetizers, Kids Menu.",
+    "website_url": null,
+    "menu_url": null,
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "portable",
+      "high-protein",
+      "big-meal",
+      "sweet"
+    ],
+    "categories": [
+      "Starter Salads",
+      "Grilled Items",
+      "Starter Soups",
+      "Appetizers",
+      "Kids Menu",
+      "Signature Pastas",
+      "Lunch Menu",
+      "Entree Salads",
+      "Bread",
+      "Spaghetti Classics"
+    ],
+    "nutrition_pdf": "old_spaghetti_factory_nutrition.pdf",
+    "image_url": "https://placehold.co/800x600/7B4B2A/FFF8F2?text=Old%20Spaghetti%20Factory%0ASteamed%20Mussels",
+    "stats": {
+      "item_count": 83,
+      "avg_protein_g": 31.8,
+      "avg_calories": 656.5
+    },
+    "status": "active",
+    "created_at": "2026-04-10T00:00:00.000Z",
+    "updated_at": "2026-04-10T00:00:00.000Z"
+  },
+  {
+    "_id": "rest_jugo-juice",
+    "name": "Jugo Juice",
+    "slug": "jugo-juice",
+    "description": "Franchise-level record for Jugo Juice, with 50 tracked items across Snacks, Smoothies, Protein Smoothies, Fresh Energy Smoothies, Fresh Pressed Juice.",
+    "website_url": null,
+    "menu_url": null,
+    "tags": [
+      "low-sodium",
+      "quick",
+      "portable",
+      "sweet",
+      "drink",
+      "high-protein"
+    ],
+    "categories": [
+      "Snacks",
+      "Smoothies",
+      "Protein Smoothies",
+      "Fresh Energy Smoothies",
+      "Fresh Pressed Juice",
+      "Xtra Benefits",
+      "Wraps",
+      "Wellness Shot",
+      "Grilled Cheese"
+    ],
+    "nutrition_pdf": "jugo_juice_nutrition.pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0AChia%20Seeds",
+    "stats": {
+      "item_count": 50,
+      "avg_protein_g": 9.5,
+      "avg_calories": 278.7
+    },
+    "status": "active",
+    "created_at": "2026-04-10T00:00:00.000Z",
+    "updated_at": "2026-04-10T00:00:00.000Z"
+  },
+  {
+    "_id": "rest_moxies",
+    "name": "Moxies",
+    "slug": "moxies",
+    "description": "Franchise-level record for Moxies, with 42 tracked items across Mains (sides included), Handhelds (also see sides), Desserts, Pastas & Bowls (no bread), Soup & Salads.",
+    "website_url": null,
+    "menu_url": null,
+    "tags": [
+      "high-protein",
+      "big-meal",
+      "low-sodium",
+      "sweet",
+      "quick",
+      "lower-cal"
+    ],
+    "categories": [
+      "Mains (sides included)",
+      "Handhelds (also see sides)",
+      "Desserts",
+      "Pastas & Bowls (no bread)",
+      "Soup & Salads",
+      "Appetizers",
+      "Sides",
+      "Steaks (also see sides)"
+    ],
+    "nutrition_pdf": "moxies_ca_nutrition.pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0ABABY%20BACK%20RIBS%20-%20FULL%20RACK",
+    "stats": {
+      "item_count": 42,
+      "avg_protein_g": 27.6,
+      "avg_calories": 599.6
+    },
+    "status": "active",
+    "created_at": "2026-04-10T00:00:00.000Z",
+    "updated_at": "2026-04-10T00:00:00.000Z"
+  },
+  {
+    "_id": "rest_noodlebox",
+    "name": "Noodlebox",
+    "slug": "noodlebox",
+    "description": "Franchise-level record for Noodlebox, with 40 tracked items across Extras, Protein, Boxes, Noodles.",
+    "website_url": null,
+    "menu_url": null,
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "protein-friendly",
+      "high-protein",
+      "big-meal"
+    ],
+    "categories": [
+      "Extras",
+      "Protein",
+      "Boxes",
+      "Noodles"
+    ],
+    "nutrition_pdf": "noodlebox_nutrition.pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0AChow%20Mien",
+    "stats": {
+      "item_count": 40,
+      "avg_protein_g": 13.4,
+      "avg_calories": 347.7
+    },
+    "status": "active",
+    "created_at": "2026-04-10T00:00:00.000Z",
+    "updated_at": "2026-04-10T00:00:00.000Z"
+  },
+  {
+    "_id": "rest_subway",
+    "name": "Subway",
+    "slug": "subway",
+    "description": "Franchise-level record for Subway, with 29 tracked items across Salads, Sandwiches, Wraps.",
+    "website_url": null,
+    "menu_url": null,
+    "tags": [
+      "lower-cal",
+      "portable",
+      "quick",
+      "high-protein",
+      "protein-friendly",
+      "low-sodium"
+    ],
+    "categories": [
+      "Salads",
+      "Sandwiches",
+      "Wraps"
+    ],
+    "nutrition_pdf": "Subway.pdf",
+    "image_url": "https://placehold.co/800x600/0B7A33/FFFFFF?text=Subway%0ABourbon%20Brisket",
+    "stats": {
+      "item_count": 29,
+      "avg_protein_g": 17.8,
+      "avg_calories": 364.8
+    },
+    "status": "active",
+    "created_at": "2026-04-10T00:00:00.000Z",
+    "updated_at": "2026-04-10T00:00:00.000Z"
+  },
+  {
+    "_id": "rest_triple-os",
+    "name": "Triple O's",
+    "slug": "triple-os",
+    "description": "Franchise-level record for Triple O's, with 7 tracked items across Classics, Breakfast.",
+    "website_url": null,
+    "menu_url": null,
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "protein-friendly",
+      "sweet",
+      "high-protein"
+    ],
+    "categories": [
+      "Classics",
+      "Breakfast"
+    ],
+    "nutrition_pdf": "triple_os_nutrition.pdf",
+    "image_url": "https://placehold.co/800x600/2A567A/F4FAFF?text=Triple%20O%27s%0AKid%27s%20Grilled%20Cheese%20On%20a%20burger%20bun",
+    "stats": {
+      "item_count": 7,
+      "avg_protein_g": 12.3,
+      "avg_calories": 374.4
+    },
+    "status": "active",
+    "created_at": "2026-04-10T00:00:00.000Z",
+    "updated_at": "2026-04-10T00:00:00.000Z"
+  }
+]

@@ -1,0 +1,2408 @@
+[
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Apple Pie Chia Pudding",
+    "summary": "chia seeds, coconut milk, almond milk, cinnamon, granola, house-made *apple pie compote, apple juice",
+    "unique_key": "jugo-juice|apple-pie-chia-pudding",
+    "category": "Snacks",
+    "category_path": [],
+    "portion": "1 serving",
+    "price_cad": 6.49,
+    "availability_status": "active",
+    "tags": [
+      "low-sodium",
+      "quick",
+      "portable"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 421,
+      "protein_g": 5.8,
+      "carbs_g": 43.7,
+      "fat_g": 28.6,
+      "sodium_mg": 140,
+      "sugar_g": 15.3
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0AApple%20Pie%20Chia%20Pudding",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296638+00:00",
+    "updated_at": "2026-04-10T08:42:29.296638+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Berry Banana",
+    "summary": "strawberries, blueberries, banana, Greek yogurt, apple juice",
+    "unique_key": "jugo-juice|berry-banana|24-oz",
+    "category": "Smoothies",
+    "category_path": [],
+    "portion": "24 oz.",
+    "price_cad": 8.99,
+    "availability_status": "active",
+    "tags": [
+      "low-sodium",
+      "sweet",
+      "quick",
+      "drink"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 400,
+      "protein_g": 7,
+      "carbs_g": 87,
+      "fat_g": 2,
+      "sodium_mg": 75,
+      "sugar_g": 62.6
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0ABerry%20Banana",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296016+00:00",
+    "updated_at": "2026-04-10T08:42:29.296016+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Big Blueberry Protein",
+    "summary": "vanilla whey protein, blueberries, banana, frozen yogurt, apple juice",
+    "unique_key": "jugo-juice|big-blueberry-protein|24-oz",
+    "category": "Protein Smoothies",
+    "category_path": [],
+    "portion": "24 oz.",
+    "price_cad": 9.49,
+    "availability_status": "active",
+    "tags": [
+      "high-protein",
+      "lower-cal",
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 322,
+      "protein_g": 27.4,
+      "carbs_g": 45.6,
+      "fat_g": 3.3,
+      "sodium_mg": 210,
+      "sugar_g": 20.5
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0ABig%20Blueberry%20Protein",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296340+00:00",
+    "updated_at": "2026-04-10T08:42:29.296340+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Blue Crush",
+    "summary": "pineapple, banana, blue spirulina, Greek yogurt, lemon, apple juice",
+    "unique_key": "jugo-juice|blue-crush|14-oz",
+    "category": "Fresh Energy Smoothies",
+    "category_path": [],
+    "portion": "14 oz.",
+    "price_cad": 6.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet",
+      "quick"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 290,
+      "protein_g": 7,
+      "carbs_g": 60,
+      "fat_g": 1.5,
+      "sodium_mg": 73,
+      "sugar_g": 43.2
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0ABlue%20Crush",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296105+00:00",
+    "updated_at": "2026-04-10T08:42:29.296105+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Blue Crush",
+    "summary": "pineapple, banana, blue spirulina, Greek yogurt, lemon, apple juice",
+    "unique_key": "jugo-juice|blue-crush|24-oz",
+    "category": "Fresh Energy Smoothies",
+    "category_path": [],
+    "portion": "24 oz.",
+    "price_cad": 8.99,
+    "availability_status": "active",
+    "tags": [
+      "low-sodium",
+      "sweet",
+      "quick",
+      "drink"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 420,
+      "protein_g": 7,
+      "carbs_g": 95,
+      "fat_g": 1.5,
+      "sodium_mg": 73,
+      "sugar_g": 68.4
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0ABlue%20Crush",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296084+00:00",
+    "updated_at": "2026-04-10T08:42:29.296084+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Blushing Mango",
+    "summary": "mango, raspberries, tropical juices",
+    "unique_key": "jugo-juice|blushing-mango|14-oz",
+    "category": "Smoothies",
+    "category_path": [],
+    "portion": "14 oz.",
+    "price_cad": 6.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet",
+      "quick"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 183,
+      "protein_g": 0.7,
+      "carbs_g": 44.1,
+      "fat_g": 0.4,
+      "sodium_mg": 31,
+      "sugar_g": 31.8
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0ABlushing%20Mango",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.295903+00:00",
+    "updated_at": "2026-04-10T08:42:29.295903+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Blushing Mango",
+    "summary": "mango, raspberries, tropical juices",
+    "unique_key": "jugo-juice|blushing-mango|24-oz",
+    "category": "Smoothies",
+    "category_path": [],
+    "portion": "24 oz.",
+    "price_cad": 8.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet",
+      "quick"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 307,
+      "protein_g": 1.1,
+      "carbs_g": 74.2,
+      "fat_g": 0.6,
+      "sodium_mg": 34,
+      "sugar_g": 53.4
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0ABlushing%20Mango",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.295881+00:00",
+    "updated_at": "2026-04-10T08:42:29.295881+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Carrot",
+    "summary": "A drinkable option from Jugo Juice with 3.5g protein and 123 calories. Estimated demo price: $6.99.",
+    "unique_key": "jugo-juice|carrot|14-oz",
+    "category": "Fresh Pressed Juice",
+    "category_path": [],
+    "portion": "14 oz.",
+    "price_cad": 6.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "quick",
+      "drink"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 123,
+      "protein_g": 3.5,
+      "carbs_g": 26.3,
+      "fat_g": 0,
+      "sodium_mg": 32,
+      "sugar_g": 18.9
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0ACarrot",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296810+00:00",
+    "updated_at": "2026-04-10T08:42:29.296810+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Carrot",
+    "summary": "A drinkable option from Jugo Juice with 6g protein and 210 calories. Estimated demo price: $8.99.",
+    "unique_key": "jugo-juice|carrot|24-oz",
+    "category": "Fresh Pressed Juice",
+    "category_path": [],
+    "portion": "24 oz.",
+    "price_cad": 8.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet",
+      "quick"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 210,
+      "protein_g": 6,
+      "carbs_g": 45,
+      "fat_g": 0,
+      "sodium_mg": 45,
+      "sugar_g": 32.4
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0ACarrot",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296792+00:00",
+    "updated_at": "2026-04-10T08:42:29.296792+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Chia Seeds",
+    "summary": "A solid xtra benefits option from Jugo Juice with 23g protein and 440 calories. Estimated demo price: $2.49.",
+    "unique_key": "jugo-juice|chia-seeds",
+    "category": "Xtra Benefits",
+    "category_path": [],
+    "portion": "1 add-on",
+    "price_cad": 2.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 440,
+      "protein_g": 23,
+      "carbs_g": 36,
+      "fat_g": 24,
+      "sodium_mg": 90,
+      "sugar_g": 9.0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0AChia%20Seeds",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296510+00:00",
+    "updated_at": "2026-04-10T08:42:29.296510+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Chicken Melt",
+    "summary": "chicken, mozzarella, spinach, caramelized onion",
+    "unique_key": "jugo-juice|chicken-melt",
+    "category": "Wraps",
+    "category_path": [],
+    "portion": "1 wrap",
+    "price_cad": 10.99,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "quick",
+      "portable"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 390,
+      "protein_g": 15,
+      "carbs_g": 50,
+      "fat_g": 12,
+      "sodium_mg": 588,
+      "sugar_g": 6.0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0AChicken%20Melt",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296530+00:00",
+    "updated_at": "2026-04-10T08:42:29.296530+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Chicken Melt",
+    "summary": "chicken, mozzarella, spinach, caramelized onion",
+    "unique_key": "jugo-juice|chicken-melt|tbsp",
+    "category": "Wraps",
+    "category_path": [],
+    "portion": "tbsp.",
+    "price_cad": 10.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "quick",
+      "portable"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 50,
+      "protein_g": 1,
+      "carbs_g": 5,
+      "fat_g": 4,
+      "sodium_mg": 444,
+      "sugar_g": 3.0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0AChicken%20Melt",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296550+00:00",
+    "updated_at": "2026-04-10T08:42:29.296550+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Crunchy Veggie",
+    "summary": "carrots, beets, zucchini, cucumber, sprouts, kale, beet hummus",
+    "unique_key": "jugo-juice|crunchy-veggie",
+    "category": "Wraps",
+    "category_path": [],
+    "portion": "1 wrap",
+    "price_cad": 10.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "quick",
+      "portable"
+    ],
+    "diet_tags": [
+      "vegetarian"
+    ],
+    "macros": {
+      "calories": 260,
+      "protein_g": 8,
+      "carbs_g": 41,
+      "fat_g": 8,
+      "sodium_mg": 516,
+      "sugar_g": 4.9
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "diet_tags",
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0ACrunchy%20Veggie",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296611+00:00",
+    "updated_at": "2026-04-10T08:42:29.296611+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Dragon Force",
+    "summary": "dragonfruit, strawberries, ginger, frozen yogurt, cranberry juice",
+    "unique_key": "jugo-juice|dragon-force|24-oz",
+    "category": "Fresh Energy Smoothies",
+    "category_path": [],
+    "portion": "24 oz.",
+    "price_cad": 8.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet",
+      "quick"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 219,
+      "protein_g": 2.9,
+      "carbs_g": 51.9,
+      "fat_g": 0.7,
+      "sodium_mg": 45,
+      "sugar_g": 37.4
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0ADragon%20Force",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296128+00:00",
+    "updated_at": "2026-04-10T08:42:29.296128+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Gold Digger",
+    "summary": "mango, lemon, peaches, almond milk, ginger, turmeric, cauliflower, tropical juices",
+    "unique_key": "jugo-juice|gold-digger|24-oz",
+    "category": "Fresh Energy Smoothies",
+    "category_path": [],
+    "portion": "24 oz.",
+    "price_cad": 8.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet",
+      "quick"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 320,
+      "protein_g": 4,
+      "carbs_g": 67,
+      "fat_g": 2,
+      "sodium_mg": 57,
+      "sugar_g": 48.2
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0AGold%20Digger",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296199+00:00",
+    "updated_at": "2026-04-10T08:42:29.296199+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Good Shot",
+    "summary": "lemon, ginger, turmeric, cayenne pepper",
+    "unique_key": "jugo-juice|good-shot|2-oz",
+    "category": "Wellness Shot",
+    "category_path": [],
+    "portion": "2 oz.",
+    "price_cad": 3.49,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "drink"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 28,
+      "protein_g": 0.6,
+      "carbs_g": 7,
+      "fat_g": 0.2,
+      "sodium_mg": 20,
+      "sugar_g": 4.9
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0AGood%20Shot",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296440+00:00",
+    "updated_at": "2026-04-10T08:42:29.296440+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Green Glow",
+    "summary": "fresh kale, avocado, banana, pineapple, tropical juices, coconut water",
+    "unique_key": "jugo-juice|green-glow|24-oz",
+    "category": "Fresh Energy Smoothies",
+    "category_path": [],
+    "portion": "24 oz.",
+    "price_cad": 8.99,
+    "availability_status": "active",
+    "tags": [
+      "low-sodium",
+      "sweet",
+      "quick",
+      "drink"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 367,
+      "protein_g": 3.3,
+      "carbs_g": 75.8,
+      "fat_g": 7.9,
+      "sodium_mg": 76,
+      "sugar_g": 54.6
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0AGreen%20Glow",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296222+00:00",
+    "updated_at": "2026-04-10T08:42:29.296222+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Ground Flax",
+    "summary": "A lighter option from Jugo Juice with 1g protein and 40 calories. Estimated demo price: $0.99.",
+    "unique_key": "jugo-juice|ground-flax|tbsp",
+    "category": "Xtra Benefits",
+    "category_path": [],
+    "portion": "tbsp.",
+    "price_cad": 0.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 40,
+      "protein_g": 1,
+      "carbs_g": 2,
+      "fat_g": 3,
+      "sodium_mg": 35,
+      "sugar_g": 0.5
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0AGround%20Flax",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296483+00:00",
+    "updated_at": "2026-04-10T08:42:29.296483+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Jugo Classico",
+    "summary": "strawberries, banana, apple juice, orange juice",
+    "unique_key": "jugo-juice|jugo-classico|14-oz",
+    "category": "Smoothies",
+    "category_path": [],
+    "portion": "14 oz.",
+    "price_cad": 6.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet",
+      "quick"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 157,
+      "protein_g": 1.4,
+      "carbs_g": 39.1,
+      "fat_g": 0.2,
+      "sodium_mg": 34,
+      "sugar_g": 28.2
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0AJugo%20Classico",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.295802+00:00",
+    "updated_at": "2026-04-10T08:42:29.295802+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Jugo Classico",
+    "summary": "strawberries, banana, apple juice, orange juice",
+    "unique_key": "jugo-juice|jugo-classico|24-oz",
+    "category": "Smoothies",
+    "category_path": [],
+    "portion": "24 oz.",
+    "price_cad": 8.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet",
+      "quick"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 267,
+      "protein_g": 2.5,
+      "carbs_g": 66.3,
+      "fat_g": 0.4,
+      "sodium_mg": 42,
+      "sugar_g": 47.7
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0AJugo%20Classico",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.295739+00:00",
+    "updated_at": "2026-04-10T08:42:29.295739+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Jugo Cold Brew",
+    "summary": "cold brew coffee, banana, dates, coconut milk, almond milk",
+    "unique_key": "jugo-juice|jugo-cold-brew|24-oz",
+    "category": "Fresh Energy Smoothies",
+    "category_path": [],
+    "portion": "24 oz.",
+    "price_cad": 8.99,
+    "availability_status": "active",
+    "tags": [
+      "low-sodium",
+      "sweet",
+      "quick",
+      "drink"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 362,
+      "protein_g": 4.4,
+      "carbs_g": 58.7,
+      "fat_g": 9.7,
+      "sodium_mg": 90,
+      "sugar_g": 42.3
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0AJugo%20Cold%20Brew",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296152+00:00",
+    "updated_at": "2026-04-10T08:42:29.296152+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Kale-Aid",
+    "summary": "kale, apple, spinach, celery, lemon, ginger",
+    "unique_key": "jugo-juice|kale-aid|14-oz",
+    "category": "Fresh Pressed Juice",
+    "category_path": [],
+    "portion": "14 oz.",
+    "price_cad": 6.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet",
+      "quick"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 160,
+      "protein_g": 1.2,
+      "carbs_g": 38.5,
+      "fat_g": 0.3,
+      "sodium_mg": 21,
+      "sugar_g": 27.7
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0AKale-Aid",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296911+00:00",
+    "updated_at": "2026-04-10T08:42:29.296911+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Kale-Aid",
+    "summary": "kale, apple, spinach, celery, lemon, ginger",
+    "unique_key": "jugo-juice|kale-aid|24-oz",
+    "category": "Fresh Pressed Juice",
+    "category_path": [],
+    "portion": "24 oz.",
+    "price_cad": 8.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet",
+      "quick"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 287,
+      "protein_g": 2.5,
+      "carbs_g": 69.8,
+      "fat_g": 0.6,
+      "sodium_mg": 28,
+      "sugar_g": 50.3
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0AKale-Aid",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296892+00:00",
+    "updated_at": "2026-04-10T08:42:29.296892+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Kaleabunga",
+    "summary": "fresh kale, peaches, fresh spinach, mango, cauliflower, tropical juices, apple juice",
+    "unique_key": "jugo-juice|kaleabunga|24-oz",
+    "category": "Fresh Energy Smoothies",
+    "category_path": [],
+    "portion": "24 oz.",
+    "price_cad": 8.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet",
+      "quick"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 305,
+      "protein_g": 4,
+      "carbs_g": 71.5,
+      "fat_g": 0.6,
+      "sodium_mg": 51,
+      "sugar_g": 51.5
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0AKaleabunga",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296246+00:00",
+    "updated_at": "2026-04-10T08:42:29.296246+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Lavender Lover",
+    "summary": "blueberries, banana, lavender, frozen yogurt, oat milk, orange juice",
+    "unique_key": "jugo-juice|lavender-lover|24-oz",
+    "category": "Fresh Energy Smoothies",
+    "category_path": [],
+    "portion": "24 oz.",
+    "price_cad": 8.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet",
+      "quick"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 310,
+      "protein_g": 7,
+      "carbs_g": 68,
+      "fat_g": 5,
+      "sodium_mg": 87,
+      "sugar_g": 49.0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0ALavender%20Lover",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296270+00:00",
+    "updated_at": "2026-04-10T08:42:29.296270+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Mango Magic",
+    "summary": "mango, orange juice, tropical juices",
+    "unique_key": "jugo-juice|mango-magic|14-oz",
+    "category": "Smoothies",
+    "category_path": [],
+    "portion": "14 oz.",
+    "price_cad": 6.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet",
+      "quick"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 175,
+      "protein_g": 0.8,
+      "carbs_g": 42.2,
+      "fat_g": 0.3,
+      "sodium_mg": 31,
+      "sugar_g": 30.4
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0AMango%20Magic",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.295858+00:00",
+    "updated_at": "2026-04-10T08:42:29.295858+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Mango Magic",
+    "summary": "mango, orange juice, tropical juices",
+    "unique_key": "jugo-juice|mango-magic|24-oz",
+    "category": "Smoothies",
+    "category_path": [],
+    "portion": "24 oz.",
+    "price_cad": 8.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet",
+      "quick"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 303,
+      "protein_g": 1.1,
+      "carbs_g": 73,
+      "fat_g": 0.5,
+      "sodium_mg": 34,
+      "sugar_g": 52.6
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0AMango%20Magic",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.295834+00:00",
+    "updated_at": "2026-04-10T08:42:29.295834+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Mighty Kale",
+    "summary": "fresh kale, fresh spinach, mango, pineapple, orange juice, apple juice",
+    "unique_key": "jugo-juice|mighty-kale|24-oz",
+    "category": "Smoothies",
+    "category_path": [],
+    "portion": "24 oz.",
+    "price_cad": 8.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet",
+      "quick"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 292,
+      "protein_g": 4,
+      "carbs_g": 68.4,
+      "fat_g": 0.5,
+      "sodium_mg": 51,
+      "sugar_g": 49.2
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0AMighty%20Kale",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296061+00:00",
+    "updated_at": "2026-04-10T08:42:29.296061+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Mocha Protein",
+    "summary": "chocolate whey protein, cold brew coffee, banana, dates, chocolate almond milk",
+    "unique_key": "jugo-juice|mocha-protein|24-oz",
+    "category": "Protein Smoothies",
+    "category_path": [],
+    "portion": "24 oz.",
+    "price_cad": 9.49,
+    "availability_status": "active",
+    "tags": [
+      "high-protein",
+      "low-sodium",
+      "quick",
+      "drink"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 402,
+      "protein_g": 27.7,
+      "carbs_g": 27.7,
+      "fat_g": 0.6,
+      "sodium_mg": 201,
+      "sugar_g": 12.5
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0AMocha%20Protein",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296293+00:00",
+    "updated_at": "2026-04-10T08:42:29.296293+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Morning Blend Protein",
+    "summary": "vanilla whey protein, strawberry, banana, dates, granola, cinnamon, oat milk, apple juice",
+    "unique_key": "jugo-juice|morning-blend-protein|24-oz",
+    "category": "Protein Smoothies",
+    "category_path": [],
+    "portion": "24 oz.",
+    "price_cad": 9.49,
+    "availability_status": "active",
+    "tags": [
+      "high-protein",
+      "low-sodium",
+      "sweet",
+      "quick"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 540,
+      "protein_g": 28,
+      "carbs_g": 93,
+      "fat_g": 7,
+      "sodium_mg": 228,
+      "sugar_g": 41.9
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0AMorning%20Blend%20Protein",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296414+00:00",
+    "updated_at": "2026-04-10T08:42:29.296414+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Peaches n' Raspberry Overnight Oats",
+    "summary": "gluten-free steal cut oats, vanilla oat milk, peaches, raspberries, hemp hearts, tropical juice",
+    "unique_key": "jugo-juice|peaches-n-raspberry-overnight-oats",
+    "category": "Snacks",
+    "category_path": [],
+    "portion": "1 serving",
+    "price_cad": 6.49,
+    "availability_status": "active",
+    "tags": [
+      "low-sodium",
+      "sweet",
+      "quick",
+      "portable"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 410,
+      "protein_g": 11,
+      "carbs_g": 76,
+      "fat_g": 7,
+      "sodium_mg": 360,
+      "sugar_g": 26.6
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0APeaches%20n%27%20Raspberry%20Overnight%20Oats",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296723+00:00",
+    "updated_at": "2026-04-10T08:42:29.296723+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Peanut Butter & Chocolate",
+    "summary": "banana, all natural peanut butter, frozen yogourt, chocolate almond milk",
+    "unique_key": "jugo-juice|peanut-butter-and-chocolate|14-oz",
+    "category": "Smoothies",
+    "category_path": [],
+    "portion": "14 oz.",
+    "price_cad": 6.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "quick",
+      "drink"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 200,
+      "protein_g": 6,
+      "carbs_g": 23,
+      "fat_g": 10,
+      "sodium_mg": 101,
+      "sugar_g": 16.6
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0APeanut%20Butter%20%26%20Chocolate",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.295993+00:00",
+    "updated_at": "2026-04-10T08:42:29.295993+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Peanut Butter & Chocolate",
+    "summary": "banana, all natural peanut butter, frozen yogourt, chocolate almond milk",
+    "unique_key": "jugo-juice|peanut-butter-and-chocolate|24-oz",
+    "category": "Smoothies",
+    "category_path": [],
+    "portion": "24 oz.",
+    "price_cad": 8.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet",
+      "quick"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 350,
+      "protein_g": 12,
+      "carbs_g": 39,
+      "fat_g": 19,
+      "sodium_mg": 173,
+      "sugar_g": 28.1
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0APeanut%20Butter%20%26%20Chocolate",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.295970+00:00",
+    "updated_at": "2026-04-10T08:42:29.295970+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Peanut Butter Protein",
+    "summary": "A drinkable option from Jugo Juice with 32.5g protein and 440 calories. Estimated demo price: $9.49.",
+    "unique_key": "jugo-juice|contains-peanuts-and-tree-nuts|24-oz",
+    "category": "Protein Smoothies",
+    "category_path": [],
+    "portion": "24 oz.",
+    "price_cad": 9.49,
+    "availability_status": "active",
+    "tags": [
+      "high-protein",
+      "low-sodium",
+      "sweet",
+      "quick"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 440,
+      "protein_g": 32.5,
+      "carbs_g": 50.7,
+      "fat_g": 15.1,
+      "sodium_mg": 283,
+      "sugar_g": 22.8
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0APeanut%20Butter%20Protein",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296318+00:00",
+    "updated_at": "2026-04-10T08:42:29.296318+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Pink Power Protein",
+    "summary": "vanilla whey protein, dragonfruit, strawberry, frozen yogurt, apple juice",
+    "unique_key": "jugo-juice|pink-power-protein|24-oz",
+    "category": "Protein Smoothies",
+    "category_path": [],
+    "portion": "24 oz.",
+    "price_cad": 9.49,
+    "availability_status": "active",
+    "tags": [
+      "high-protein",
+      "low-sodium",
+      "sweet",
+      "quick"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 400,
+      "protein_g": 26,
+      "carbs_g": 68,
+      "fat_g": 4,
+      "sodium_mg": 206,
+      "sugar_g": 30.6
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0APink%20Power%20Protein",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296390+00:00",
+    "updated_at": "2026-04-10T08:42:29.296390+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Thai Chicken",
+    "summary": "chicken, carrot, red cabbage, coriander, sweet chili sauce",
+    "unique_key": "jugo-juice|thai-chicken",
+    "category": "Wraps",
+    "category_path": [],
+    "portion": "1 wrap",
+    "price_cad": 10.99,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "lower-cal",
+      "quick",
+      "portable"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 320,
+      "protein_g": 20,
+      "carbs_g": 47,
+      "fat_g": 5,
+      "sodium_mg": 600,
+      "sugar_g": 5.6
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0AThai%20Chicken",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296746+00:00",
+    "updated_at": "2026-04-10T08:42:29.296746+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Three Cheese",
+    "summary": "provolone, mozzarella, cheddar",
+    "unique_key": "jugo-juice|three-cheese",
+    "category": "Grilled Cheese",
+    "category_path": [],
+    "portion": "1 sandwich",
+    "price_cad": 8.99,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 660,
+      "protein_g": 16,
+      "carbs_g": 47,
+      "fat_g": 40,
+      "sodium_mg": 996,
+      "sugar_g": 3.8
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0AThree%20Cheese",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296462+00:00",
+    "updated_at": "2026-04-10T08:42:29.296462+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Tropical Green Protein",
+    "summary": "vanilla whey protein, fresh kale, mango, pineapple, tropical juices",
+    "unique_key": "jugo-juice|tropical-green-protein|24-oz",
+    "category": "Protein Smoothies",
+    "category_path": [],
+    "portion": "24 oz.",
+    "price_cad": 9.49,
+    "availability_status": "active",
+    "tags": [
+      "high-protein",
+      "low-sodium",
+      "sweet",
+      "quick"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 366,
+      "protein_g": 25.7,
+      "carbs_g": 62.5,
+      "fat_g": 2.5,
+      "sodium_mg": 198,
+      "sugar_g": 28.1
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0ATropical%20Green%20Protein",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296363+00:00",
+    "updated_at": "2026-04-10T08:42:29.296363+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Tuna Avocado",
+    "summary": "tuna, avocado, mayonnaise, lemon juice, romaine lettuce, Dijon mustard",
+    "unique_key": "jugo-juice|tuna-avocado",
+    "category": "Wraps",
+    "category_path": [],
+    "portion": "1 wrap",
+    "price_cad": 10.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "quick",
+      "portable"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 290,
+      "protein_g": 12,
+      "carbs_g": 31,
+      "fat_g": 13,
+      "sodium_mg": 568,
+      "sugar_g": 3.7
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0ATuna%20Avocado",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296831+00:00",
+    "updated_at": "2026-04-10T08:42:29.296831+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Turkey Bacon Club",
+    "summary": "turkey, bacon, tomato, romaine lettuce, dijon & mayonnaise",
+    "unique_key": "jugo-juice|turkey-bacon-club",
+    "category": "Wraps",
+    "category_path": [],
+    "portion": "1 wrap",
+    "price_cad": 10.99,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "quick",
+      "portable"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 390,
+      "protein_g": 21,
+      "carbs_g": 30,
+      "fat_g": 19,
+      "sodium_mg": 664,
+      "sugar_g": 3.6
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0ATurkey%20Bacon%20Club",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296701+00:00",
+    "updated_at": "2026-04-10T08:42:29.296701+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Vanilla Matcha",
+    "summary": "banana, pineapple, matcha green tea, vanilla, oatmilk",
+    "unique_key": "jugo-juice|vanilla-matcha|24-oz",
+    "category": "Fresh Energy Smoothies",
+    "category_path": [],
+    "portion": "24 oz.",
+    "price_cad": 8.99,
+    "availability_status": "active",
+    "tags": [
+      "low-sodium",
+      "sweet",
+      "quick",
+      "drink"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 370,
+      "protein_g": 3,
+      "carbs_g": 83,
+      "fat_g": 1,
+      "sodium_mg": 47,
+      "sugar_g": 59.8
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0AVanilla%20Matcha",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296175+00:00",
+    "updated_at": "2026-04-10T08:42:29.296175+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Vanilla Whey Protein",
+    "summary": "A lighter option from Jugo Juice with 23g protein and 31 calories. Estimated demo price: $2.49.",
+    "unique_key": "jugo-juice|vanilla-whey-protein|scoop",
+    "category": "Xtra Benefits",
+    "category_path": [],
+    "portion": "scoop",
+    "price_cad": 2.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 31,
+      "protein_g": 23,
+      "carbs_g": 5,
+      "fat_g": 2,
+      "sodium_mg": 90,
+      "sugar_g": 1.2
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0AVanilla%20Whey%20Protein",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296571+00:00",
+    "updated_at": "2026-04-10T08:42:29.296571+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Vanilla Whey Protein",
+    "summary": "A lighter option from Jugo Juice with 5.4g protein and 13 calories. Estimated demo price: $0.99.",
+    "unique_key": "jugo-juice|vanilla-whey-protein|tbsp",
+    "category": "Xtra Benefits",
+    "category_path": [],
+    "portion": "tbsp.",
+    "price_cad": 0.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 13,
+      "protein_g": 5.4,
+      "carbs_g": 1.2,
+      "fat_g": 0.5,
+      "sodium_mg": 35,
+      "sugar_g": 0.3
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0AVanilla%20Whey%20Protein",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296590+00:00",
+    "updated_at": "2026-04-10T08:42:29.296590+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Vega One Protein",
+    "summary": "A lighter option from Jugo Juice with 20g protein and 160 calories. Estimated demo price: $2.49.",
+    "unique_key": "jugo-juice|vega-one-protein|scoop",
+    "category": "Xtra Benefits",
+    "category_path": [],
+    "portion": "scoop",
+    "price_cad": 2.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 160,
+      "protein_g": 20,
+      "carbs_g": 10,
+      "fat_g": 6,
+      "sodium_mg": 90,
+      "sugar_g": 2.5
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0AVega%20One%20Protein",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296662+00:00",
+    "updated_at": "2026-04-10T08:42:29.296662+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Vega One Protein",
+    "summary": "A lighter option from Jugo Juice with 3.4g protein and 27 calories. Estimated demo price: $0.99.",
+    "unique_key": "jugo-juice|vega-one-protein|tbsp",
+    "category": "Xtra Benefits",
+    "category_path": [],
+    "portion": "tbsp.",
+    "price_cad": 0.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 27,
+      "protein_g": 3.4,
+      "carbs_g": 1.7,
+      "fat_g": 1,
+      "sodium_mg": 35,
+      "sugar_g": 0.4
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0AVega%20One%20Protein",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296680+00:00",
+    "updated_at": "2026-04-10T08:42:29.296680+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "Yogurt Parfait",
+    "summary": "vanilla yogurt, blueberries, granola",
+    "unique_key": "jugo-juice|yogurt-parfait",
+    "category": "Snacks",
+    "category_path": [],
+    "portion": "1 serving",
+    "price_cad": 6.49,
+    "availability_status": "active",
+    "tags": [
+      "low-sodium",
+      "quick",
+      "portable"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 370,
+      "protein_g": 9,
+      "carbs_g": 52,
+      "fat_g": 15,
+      "sodium_mg": 364,
+      "sugar_g": 18.2
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0AYogurt%20Parfait",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296767+00:00",
+    "updated_at": "2026-04-10T08:42:29.296767+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "cranberry juice",
+    "summary": "A drinkable option from Jugo Juice with 1g protein and 140 calories. Estimated demo price: $6.99.",
+    "unique_key": "jugo-juice|cranberry-juice|14-oz",
+    "category": "Smoothies",
+    "category_path": [],
+    "portion": "14 oz.",
+    "price_cad": 6.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet",
+      "quick"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 140,
+      "protein_g": 1,
+      "carbs_g": 31.4,
+      "fat_g": 0.2,
+      "sodium_mg": 32,
+      "sugar_g": 22.6
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0Acranberry%20juice",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.295927+00:00",
+    "updated_at": "2026-04-10T08:42:29.295927+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "cranberry juice",
+    "summary": "A drinkable option from Jugo Juice with 9g protein and 430 calories. Estimated demo price: $8.99.",
+    "unique_key": "jugo-juice|cranberry-juice|24-oz",
+    "category": "Smoothies",
+    "category_path": [],
+    "portion": "24 oz.",
+    "price_cad": 8.99,
+    "availability_status": "active",
+    "tags": [
+      "low-sodium",
+      "sweet",
+      "quick",
+      "drink"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 430,
+      "protein_g": 9,
+      "carbs_g": 91,
+      "fat_g": 1.5,
+      "sodium_mg": 85,
+      "sugar_g": 65.5
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0Acranberry%20juice",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296039+00:00",
+    "updated_at": "2026-04-10T08:42:29.296039+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "green pepper",
+    "summary": "A drinkable option from Jugo Juice with 2.8g protein and 83 calories. Estimated demo price: $6.99.",
+    "unique_key": "jugo-juice|green-pepper|14-oz",
+    "category": "Fresh Pressed Juice",
+    "category_path": [],
+    "portion": "14 oz.",
+    "price_cad": 6.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "quick",
+      "drink"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 83,
+      "protein_g": 2.8,
+      "carbs_g": 17.6,
+      "fat_g": 0.2,
+      "sodium_mg": 29,
+      "sugar_g": 12.7
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0Agreen%20pepper",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296872+00:00",
+    "updated_at": "2026-04-10T08:42:29.296872+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "jugo-juice",
+    "restaurant_name": "Jugo Juice",
+    "item_name": "green pepper",
+    "summary": "A drinkable option from Jugo Juice with 4.8g protein and 135 calories. Estimated demo price: $8.99.",
+    "unique_key": "jugo-juice|green-pepper|24-oz",
+    "category": "Fresh Pressed Juice",
+    "category_path": [],
+    "portion": "24 oz.",
+    "price_cad": 8.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet",
+      "quick"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 135,
+      "protein_g": 4.8,
+      "carbs_g": 28.6,
+      "fat_g": 0.4,
+      "sodium_mg": 39,
+      "sugar_g": 20.6
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/jugo_juice_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/5B7C5D/F6FFF7?text=Jugo%20Juice%0Agreen%20pepper",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.296853+00:00",
+    "updated_at": "2026-04-10T08:42:29.296853+00:00"
+  }
+]

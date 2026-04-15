@@ -1,0 +1,1562 @@
+[
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Apple Pie Spring Roll (1)",
+    "summary": null,
+    "unique_key": "noodlebox|apple-pie-spring-roll-1",
+    "category": "Extras",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 70,
+      "protein_g": 1,
+      "carbs_g": 17,
+      "fat_g": 0.2,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398086+00:00",
+    "updated_at": "2026-04-10T08:42:29.398086+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "BBQ Char Siu Pork",
+    "summary": null,
+    "unique_key": "noodlebox|bbq-char-siu-pork",
+    "category": "Protein",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 90,
+      "protein_g": 4,
+      "carbs_g": 16,
+      "fat_g": 1,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398432+00:00",
+    "updated_at": "2026-04-10T08:42:29.398432+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Banana Spring Roll (1)",
+    "summary": null,
+    "unique_key": "noodlebox|banana-spring-roll-1",
+    "category": "Extras",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 80,
+      "protein_g": 1,
+      "carbs_g": 16,
+      "fat_g": 1,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398113+00:00",
+    "updated_at": "2026-04-10T08:42:29.398113+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Beef Sirloin",
+    "summary": null,
+    "unique_key": "noodlebox|beef-sirloin",
+    "category": "Protein",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 90,
+      "protein_g": 18,
+      "carbs_g": 0,
+      "fat_g": 2,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398452+00:00",
+    "updated_at": "2026-04-10T08:42:29.398452+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Black Bean Box",
+    "summary": null,
+    "unique_key": "noodlebox|black-bean-box",
+    "category": "Boxes",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 310,
+      "protein_g": 7,
+      "carbs_g": 34,
+      "fat_g": 19,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.397655+00:00",
+    "updated_at": "2026-04-10T08:42:29.397655+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Bombay Cheese Balls (2)",
+    "summary": null,
+    "unique_key": "noodlebox|bombay-cheese-balls-2",
+    "category": "Extras",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 232,
+      "protein_g": 1,
+      "carbs_g": 40,
+      "fat_g": 9.5,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398137+00:00",
+    "updated_at": "2026-04-10T08:42:29.398137+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Bombay Mac & Cheese Box",
+    "summary": null,
+    "unique_key": "noodlebox|bombay-mac-and-cheese-box",
+    "category": "Boxes",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 700,
+      "protein_g": 15,
+      "carbs_g": 42,
+      "fat_g": 56,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.397713+00:00",
+    "updated_at": "2026-04-10T08:42:29.397713+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Burmese Naan (1)",
+    "summary": null,
+    "unique_key": "noodlebox|burmese-naan-1",
+    "category": "Extras",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 220,
+      "protein_g": 4,
+      "carbs_g": 30,
+      "fat_g": 10,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398158+00:00",
+    "updated_at": "2026-04-10T08:42:29.398158+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Butter Chicken Box",
+    "summary": null,
+    "unique_key": "noodlebox|butter-chicken-box",
+    "category": "Boxes",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 980,
+      "protein_g": 44,
+      "carbs_g": 46,
+      "fat_g": 46,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.397739+00:00",
+    "updated_at": "2026-04-10T08:42:29.397739+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Cambodian Jungle Curry Box",
+    "summary": null,
+    "unique_key": "noodlebox|cambodian-jungle-curry-box",
+    "category": "Boxes",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 750,
+      "protein_g": 14,
+      "carbs_g": 48,
+      "fat_g": 64,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.397762+00:00",
+    "updated_at": "2026-04-10T08:42:29.397762+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Cavatappi Noodle",
+    "summary": null,
+    "unique_key": "noodlebox|cavatappi-noodle|180g",
+    "category": "Noodles",
+    "category_path": [],
+    "portion": "180g",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 380,
+      "protein_g": 14,
+      "carbs_g": 74,
+      "fat_g": 2.2,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398285+00:00",
+    "updated_at": "2026-04-10T08:42:29.398285+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Chicken Breast",
+    "summary": null,
+    "unique_key": "noodlebox|chicken-breast",
+    "category": "Protein",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 80,
+      "protein_g": 18,
+      "carbs_g": 1,
+      "fat_g": 1,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398471+00:00",
+    "updated_at": "2026-04-10T08:42:29.398471+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Chow Mien",
+    "summary": null,
+    "unique_key": "noodlebox|chow-mien|250g",
+    "category": "Noodles",
+    "category_path": [],
+    "portion": "250g",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 526,
+      "protein_g": 30,
+      "carbs_g": 130,
+      "fat_g": 5,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398309+00:00",
+    "updated_at": "2026-04-10T08:42:29.398309+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Coconut Prawns (2)",
+    "summary": null,
+    "unique_key": "noodlebox|coconut-prawns-2",
+    "category": "Extras",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 230,
+      "protein_g": 10,
+      "carbs_g": 39,
+      "fat_g": 3.5,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398179+00:00",
+    "updated_at": "2026-04-10T08:42:29.398179+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Crispy Beef",
+    "summary": null,
+    "unique_key": "noodlebox|crispy-beef",
+    "category": "Protein",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 190,
+      "protein_g": 13,
+      "carbs_g": 14,
+      "fat_g": 2.5,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398489+00:00",
+    "updated_at": "2026-04-10T08:42:29.398489+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Crispy Chicken",
+    "summary": null,
+    "unique_key": "noodlebox|crispy-chicken",
+    "category": "Protein",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 190,
+      "protein_g": 16,
+      "carbs_g": 24,
+      "fat_g": 1.5,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398508+00:00",
+    "updated_at": "2026-04-10T08:42:29.398508+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Crispy Shanghai Chicken Box",
+    "summary": null,
+    "unique_key": "noodlebox|crispy-shanghai-chicken-box",
+    "category": "Boxes",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 630,
+      "protein_g": 27,
+      "carbs_g": 34,
+      "fat_g": 46,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.397784+00:00",
+    "updated_at": "2026-04-10T08:42:29.397784+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Crispy Tofu",
+    "summary": null,
+    "unique_key": "noodlebox|crispy-tofu",
+    "category": "Protein",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 130,
+      "protein_g": 14,
+      "carbs_g": 11,
+      "fat_g": 1,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398527+00:00",
+    "updated_at": "2026-04-10T08:42:29.398527+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Drunken Noodle Box",
+    "summary": null,
+    "unique_key": "noodlebox|drunken-noodle-box",
+    "category": "Boxes",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 498,
+      "protein_g": 16,
+      "carbs_g": 82,
+      "fat_g": 27,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.397804+00:00",
+    "updated_at": "2026-04-10T08:42:29.397804+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Fried Egg (1)",
+    "summary": null,
+    "unique_key": "noodlebox|fried-egg-1",
+    "category": "Extras",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 90,
+      "protein_g": 7,
+      "carbs_g": 1,
+      "fat_g": 7,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398200+00:00",
+    "updated_at": "2026-04-10T08:42:29.398200+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Ginger Beef Box",
+    "summary": null,
+    "unique_key": "noodlebox|ginger-beef-box",
+    "category": "Boxes",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 560,
+      "protein_g": 19,
+      "carbs_g": 47,
+      "fat_g": 35,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.397825+00:00",
+    "updated_at": "2026-04-10T08:42:29.397825+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Hokkien",
+    "summary": null,
+    "unique_key": "noodlebox|hokkien|250g",
+    "category": "Noodles",
+    "category_path": [],
+    "portion": "250g",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 437,
+      "protein_g": 24,
+      "carbs_g": 79,
+      "fat_g": 2,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398329+00:00",
+    "updated_at": "2026-04-10T08:42:29.398329+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Jasmine Rice",
+    "summary": null,
+    "unique_key": "noodlebox|jasmine-rice|180g",
+    "category": "Noodles",
+    "category_path": [],
+    "portion": "180g",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 260,
+      "protein_g": 5,
+      "carbs_g": 56,
+      "fat_g": 0,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398350+00:00",
+    "updated_at": "2026-04-10T08:42:29.398350+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Kids Chow Mein Box",
+    "summary": null,
+    "unique_key": "noodlebox|kids-chow-mein-box",
+    "category": "Boxes",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 160,
+      "protein_g": 2,
+      "carbs_g": 8,
+      "fat_g": 14,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.397985+00:00",
+    "updated_at": "2026-04-10T08:42:29.397985+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Kids Mac & Cheese Box",
+    "summary": null,
+    "unique_key": "noodlebox|kids-mac-and-cheese-box",
+    "category": "Boxes",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 360,
+      "protein_g": 10,
+      "carbs_g": 10,
+      "fat_g": 32,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398005+00:00",
+    "updated_at": "2026-04-10T08:42:29.398005+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Kung Pao Box",
+    "summary": null,
+    "unique_key": "noodlebox|kung-pao-box",
+    "category": "Boxes",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 440,
+      "protein_g": 13,
+      "carbs_g": 40,
+      "fat_g": 29,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.397845+00:00",
+    "updated_at": "2026-04-10T08:42:29.397845+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Nanaimo Bar Spring Roll (1)",
+    "summary": null,
+    "unique_key": "noodlebox|nanaimo-bar-spring-roll-1",
+    "category": "Extras",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 90,
+      "protein_g": 1,
+      "carbs_g": 28,
+      "fat_g": 0.4,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398221+00:00",
+    "updated_at": "2026-04-10T08:42:29.398221+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Organic Tofu",
+    "summary": null,
+    "unique_key": "noodlebox|organic-tofu",
+    "category": "Protein",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 80,
+      "protein_g": 14,
+      "carbs_g": 3,
+      "fat_g": 1,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398546+00:00",
+    "updated_at": "2026-04-10T08:42:29.398546+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Pad Thai Box",
+    "summary": null,
+    "unique_key": "noodlebox|pad-thai-box",
+    "category": "Boxes",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 550,
+      "protein_g": 12,
+      "carbs_g": 74,
+      "fat_g": 27,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.397864+00:00",
+    "updated_at": "2026-04-10T08:42:29.397864+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Prawns",
+    "summary": null,
+    "unique_key": "noodlebox|prawns",
+    "category": "Protein",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 90,
+      "protein_g": 20,
+      "carbs_g": 0,
+      "fat_g": 1,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398566+00:00",
+    "updated_at": "2026-04-10T08:42:29.398566+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Ribbon",
+    "summary": null,
+    "unique_key": "noodlebox|ribbon|180g",
+    "category": "Noodles",
+    "category_path": [],
+    "portion": "180g",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 480,
+      "protein_g": 13,
+      "carbs_g": 125,
+      "fat_g": 0,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398370+00:00",
+    "updated_at": "2026-04-10T08:42:29.398370+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Rice Noodle",
+    "summary": null,
+    "unique_key": "noodlebox|rice-noodle|180g",
+    "category": "Noodles",
+    "category_path": [],
+    "portion": "180g",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 414,
+      "protein_g": 7,
+      "carbs_g": 92,
+      "fat_g": 0.6,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398391+00:00",
+    "updated_at": "2026-04-10T08:42:29.398391+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Singapore Cashew Curry Box",
+    "summary": null,
+    "unique_key": "noodlebox|singapore-cashew-curry-box",
+    "category": "Boxes",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 640,
+      "protein_g": 10,
+      "carbs_g": 25,
+      "fat_g": 61,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.397884+00:00",
+    "updated_at": "2026-04-10T08:42:29.397884+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Spicy Peanut Box",
+    "summary": null,
+    "unique_key": "noodlebox|spicy-peanut-box",
+    "category": "Boxes",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 1150,
+      "protein_g": 33,
+      "carbs_g": 45,
+      "fat_g": 101,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.397904+00:00",
+    "updated_at": "2026-04-10T08:42:29.397904+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Tempura Chicken Bites (5)",
+    "summary": null,
+    "unique_key": "noodlebox|tempura-chicken-bites-5",
+    "category": "Extras",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 230,
+      "protein_g": 10,
+      "carbs_g": 39,
+      "fat_g": 3.5,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398242+00:00",
+    "updated_at": "2026-04-10T08:42:29.398242+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Teriyaki Box",
+    "summary": null,
+    "unique_key": "noodlebox|teriyaki-box",
+    "category": "Boxes",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 310,
+      "protein_g": 9,
+      "carbs_g": 34,
+      "fat_g": 19,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.397923+00:00",
+    "updated_at": "2026-04-10T08:42:29.397923+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Thai Chow Mein Box",
+    "summary": null,
+    "unique_key": "noodlebox|thai-chow-mein-box",
+    "category": "Boxes",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 370,
+      "protein_g": 8,
+      "carbs_g": 19,
+      "fat_g": 31,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.397944+00:00",
+    "updated_at": "2026-04-10T08:42:29.397944+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Vegetable Spring Roll (1)",
+    "summary": null,
+    "unique_key": "noodlebox|vegetable-spring-roll-1",
+    "category": "Extras",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 130,
+      "protein_g": 4,
+      "carbs_g": 16,
+      "fat_g": 5,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398263+00:00",
+    "updated_at": "2026-04-10T08:42:29.398263+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Yangzhou Fried Rice Box",
+    "summary": null,
+    "unique_key": "noodlebox|yangzhou-fried-rice-box",
+    "category": "Boxes",
+    "category_path": [],
+    "portion": null,
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 682,
+      "protein_g": 46,
+      "carbs_g": 48,
+      "fat_g": 42,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.397965+00:00",
+    "updated_at": "2026-04-10T08:42:29.397965+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Zucchini Noodle",
+    "summary": null,
+    "unique_key": "noodlebox|zucchini-noodle|225g",
+    "category": "Noodles",
+    "category_path": [],
+    "portion": "225g",
+    "price_cad": null,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 10,
+      "protein_g": 3,
+      "carbs_g": 9,
+      "fat_g": 1,
+      "sodium_mg": null,
+      "sugar_g": null
+    },
+    "data_quality": {
+      "partial_data": true,
+      "missing_fields": [
+        "price_cad",
+        "macros.sodium_mg",
+        "macros.sugar_g"
+      ]
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": null,
+    "image_source_url": null,
+    "image_status": "missing",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398412+00:00",
+    "updated_at": "2026-04-10T08:42:29.398412+00:00"
+  }
+]

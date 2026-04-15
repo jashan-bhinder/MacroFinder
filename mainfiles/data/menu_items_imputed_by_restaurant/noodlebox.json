@@ -1,0 +1,1890 @@
+[
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Apple Pie Spring Roll (1)",
+    "summary": "A lighter option from Noodlebox with 1g protein and 70 calories. Estimated demo price: $4.49.",
+    "unique_key": "noodlebox|apple-pie-spring-roll-1",
+    "category": "Extras",
+    "category_path": [],
+    "portion": "1 piece",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 70,
+      "protein_g": 1,
+      "carbs_g": 17,
+      "fat_g": 0.2,
+      "sodium_mg": 193,
+      "sugar_g": 4.8
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0AApple%20Pie%20Spring%20Roll%20%281%29",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398086+00:00",
+    "updated_at": "2026-04-10T08:42:29.398086+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "BBQ Char Siu Pork",
+    "summary": "A lighter option from Noodlebox with 4g protein and 90 calories. Estimated demo price: $4.99.",
+    "unique_key": "noodlebox|bbq-char-siu-pork",
+    "category": "Protein",
+    "category_path": [],
+    "portion": "1 add-on",
+    "price_cad": 4.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 90,
+      "protein_g": 4,
+      "carbs_g": 16,
+      "fat_g": 1,
+      "sodium_mg": 164,
+      "sugar_g": 3.2
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0ABBQ%20Char%20Siu%20Pork",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398432+00:00",
+    "updated_at": "2026-04-10T08:42:29.398432+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Banana Spring Roll (1)",
+    "summary": "A lighter option from Noodlebox with 1g protein and 80 calories. Estimated demo price: $4.49.",
+    "unique_key": "noodlebox|banana-spring-roll-1",
+    "category": "Extras",
+    "category_path": [],
+    "portion": "1 piece",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 80,
+      "protein_g": 1,
+      "carbs_g": 16,
+      "fat_g": 1,
+      "sodium_mg": 190,
+      "sugar_g": 4.5
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0ABanana%20Spring%20Roll%20%281%29",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398113+00:00",
+    "updated_at": "2026-04-10T08:42:29.398113+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Beef Sirloin",
+    "summary": "A lighter option from Noodlebox with 18g protein and 90 calories. Estimated demo price: $5.49.",
+    "unique_key": "noodlebox|beef-sirloin",
+    "category": "Protein",
+    "category_path": [],
+    "portion": "1 add-on",
+    "price_cad": 5.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 90,
+      "protein_g": 18,
+      "carbs_g": 0,
+      "fat_g": 2,
+      "sodium_mg": 174,
+      "sugar_g": 0.0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0ABeef%20Sirloin",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398452+00:00",
+    "updated_at": "2026-04-10T08:42:29.398452+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Black Bean Box",
+    "summary": "A solid boxes option from Noodlebox with 7g protein and 310 calories. Estimated demo price: $14.99.",
+    "unique_key": "noodlebox|black-bean-box",
+    "category": "Boxes",
+    "category_path": [],
+    "portion": "1 box",
+    "price_cad": 14.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 310,
+      "protein_g": 7,
+      "carbs_g": 34,
+      "fat_g": 19,
+      "sodium_mg": 920,
+      "sugar_g": 5.4
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0ABlack%20Bean%20Box",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.397655+00:00",
+    "updated_at": "2026-04-10T08:42:29.397655+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Bombay Cheese Balls (2)",
+    "summary": "A lighter option from Noodlebox with 1g protein and 232 calories. Estimated demo price: $4.49.",
+    "unique_key": "noodlebox|bombay-cheese-balls-2",
+    "category": "Extras",
+    "category_path": [],
+    "portion": "2 pieces",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 232,
+      "protein_g": 1,
+      "carbs_g": 40,
+      "fat_g": 9.5,
+      "sodium_mg": 262,
+      "sugar_g": 11.2
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0ABombay%20Cheese%20Balls%20%282%29",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398137+00:00",
+    "updated_at": "2026-04-10T08:42:29.398137+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Bombay Mac & Cheese Box",
+    "summary": "A solid boxes option from Noodlebox with 15g protein and 700 calories. Estimated demo price: $14.99.",
+    "unique_key": "noodlebox|bombay-mac-and-cheese-box",
+    "category": "Boxes",
+    "category_path": [],
+    "portion": "1 box",
+    "price_cad": 14.99,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 700,
+      "protein_g": 15,
+      "carbs_g": 42,
+      "fat_g": 56,
+      "sodium_mg": 1074,
+      "sugar_g": 6.7
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0ABombay%20Mac%20%26%20Cheese%20Box",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.397713+00:00",
+    "updated_at": "2026-04-10T08:42:29.397713+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Burmese Naan (1)",
+    "summary": "A lighter option from Noodlebox with 4g protein and 220 calories. Estimated demo price: $4.49.",
+    "unique_key": "noodlebox|burmese-naan-1",
+    "category": "Extras",
+    "category_path": [],
+    "portion": "1 piece",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 220,
+      "protein_g": 4,
+      "carbs_g": 30,
+      "fat_g": 10,
+      "sodium_mg": 238,
+      "sugar_g": 8.4
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0ABurmese%20Naan%20%281%29",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398158+00:00",
+    "updated_at": "2026-04-10T08:42:29.398158+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Butter Chicken Box",
+    "summary": "A heavier, more filling boxes from Noodlebox with 44g protein and 980 calories. Estimated demo price: $16.49.",
+    "unique_key": "noodlebox|butter-chicken-box",
+    "category": "Boxes",
+    "category_path": [],
+    "portion": "1 box",
+    "price_cad": 16.49,
+    "availability_status": "active",
+    "tags": [
+      "high-protein",
+      "big-meal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 980,
+      "protein_g": 44,
+      "carbs_g": 46,
+      "fat_g": 46,
+      "sodium_mg": 1194,
+      "sugar_g": 7.4
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0AButter%20Chicken%20Box",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.397739+00:00",
+    "updated_at": "2026-04-10T08:42:29.397739+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Cambodian Jungle Curry Box",
+    "summary": "A solid boxes option from Noodlebox with 14g protein and 750 calories. Estimated demo price: $14.99.",
+    "unique_key": "noodlebox|cambodian-jungle-curry-box",
+    "category": "Boxes",
+    "category_path": [],
+    "portion": "1 box",
+    "price_cad": 14.99,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 750,
+      "protein_g": 14,
+      "carbs_g": 48,
+      "fat_g": 64,
+      "sodium_mg": 1122,
+      "sugar_g": 7.7
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0ACambodian%20Jungle%20Curry%20Box",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.397762+00:00",
+    "updated_at": "2026-04-10T08:42:29.397762+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Cavatappi Noodle",
+    "summary": "A solid noodles option from Noodlebox with 14g protein and 380 calories. Estimated demo price: $3.99.",
+    "unique_key": "noodlebox|cavatappi-noodle|180g",
+    "category": "Noodles",
+    "category_path": [],
+    "portion": "180g",
+    "price_cad": 3.99,
+    "availability_status": "active",
+    "tags": [
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 380,
+      "protein_g": 14,
+      "carbs_g": 74,
+      "fat_g": 2.2,
+      "sodium_mg": 209,
+      "sugar_g": 3.7
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0ACavatappi%20Noodle",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398285+00:00",
+    "updated_at": "2026-04-10T08:42:29.398285+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Chicken Breast",
+    "summary": "A lighter option from Noodlebox with 18g protein and 80 calories. Estimated demo price: $5.49.",
+    "unique_key": "noodlebox|chicken-breast",
+    "category": "Protein",
+    "category_path": [],
+    "portion": "1 add-on",
+    "price_cad": 5.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 80,
+      "protein_g": 18,
+      "carbs_g": 1,
+      "fat_g": 1,
+      "sodium_mg": 176,
+      "sugar_g": 0.2
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0AChicken%20Breast",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398471+00:00",
+    "updated_at": "2026-04-10T08:42:29.398471+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Chow Mien",
+    "summary": "A solid noodles option from Noodlebox with 30g protein and 526 calories. Estimated demo price: $3.99.",
+    "unique_key": "noodlebox|chow-mien|250g",
+    "category": "Noodles",
+    "category_path": [],
+    "portion": "250g",
+    "price_cad": 3.99,
+    "availability_status": "active",
+    "tags": [
+      "high-protein",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 526,
+      "protein_g": 30,
+      "carbs_g": 130,
+      "fat_g": 5,
+      "sodium_mg": 345,
+      "sugar_g": 6.5
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0AChow%20Mien",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398309+00:00",
+    "updated_at": "2026-04-10T08:42:29.398309+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Coconut Prawns (2)",
+    "summary": "A lighter option from Noodlebox with 10g protein and 230 calories. Estimated demo price: $4.49.",
+    "unique_key": "noodlebox|coconut-prawns-2",
+    "category": "Extras",
+    "category_path": [],
+    "portion": "2 pieces",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 230,
+      "protein_g": 10,
+      "carbs_g": 39,
+      "fat_g": 3.5,
+      "sodium_mg": 277,
+      "sugar_g": 10.9
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0ACoconut%20Prawns%20%282%29",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398179+00:00",
+    "updated_at": "2026-04-10T08:42:29.398179+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Crispy Beef",
+    "summary": "A lighter option from Noodlebox with 13g protein and 190 calories. Estimated demo price: $4.99.",
+    "unique_key": "noodlebox|crispy-beef",
+    "category": "Protein",
+    "category_path": [],
+    "portion": "1 add-on",
+    "price_cad": 4.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 190,
+      "protein_g": 13,
+      "carbs_g": 14,
+      "fat_g": 2.5,
+      "sodium_mg": 187,
+      "sugar_g": 2.8
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0ACrispy%20Beef",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398489+00:00",
+    "updated_at": "2026-04-10T08:42:29.398489+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Crispy Chicken",
+    "summary": "A lighter option from Noodlebox with 16g protein and 190 calories. Estimated demo price: $4.99.",
+    "unique_key": "noodlebox|crispy-chicken",
+    "category": "Protein",
+    "category_path": [],
+    "portion": "1 add-on",
+    "price_cad": 4.99,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 190,
+      "protein_g": 16,
+      "carbs_g": 24,
+      "fat_g": 1.5,
+      "sodium_mg": 216,
+      "sugar_g": 4.8
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0ACrispy%20Chicken",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398508+00:00",
+    "updated_at": "2026-04-10T08:42:29.398508+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Crispy Shanghai Chicken Box",
+    "summary": "A solid boxes option from Noodlebox with 27g protein and 630 calories. Estimated demo price: $14.99.",
+    "unique_key": "noodlebox|crispy-shanghai-chicken-box",
+    "category": "Boxes",
+    "category_path": [],
+    "portion": "1 box",
+    "price_cad": 14.99,
+    "availability_status": "active",
+    "tags": [
+      "high-protein"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 630,
+      "protein_g": 27,
+      "carbs_g": 34,
+      "fat_g": 46,
+      "sodium_mg": 1054,
+      "sugar_g": 5.4
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0ACrispy%20Shanghai%20Chicken%20Box",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.397784+00:00",
+    "updated_at": "2026-04-10T08:42:29.397784+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Crispy Tofu",
+    "summary": "A lighter option from Noodlebox with 14g protein and 130 calories. Estimated demo price: $4.99.",
+    "unique_key": "noodlebox|crispy-tofu",
+    "category": "Protein",
+    "category_path": [],
+    "portion": "1 add-on",
+    "price_cad": 4.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [
+      "vegetarian"
+    ],
+    "macros": {
+      "calories": 130,
+      "protein_g": 14,
+      "carbs_g": 11,
+      "fat_g": 1,
+      "sodium_mg": 184,
+      "sugar_g": 2.2
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "diet_tags",
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0ACrispy%20Tofu",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398527+00:00",
+    "updated_at": "2026-04-10T08:42:29.398527+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Drunken Noodle Box",
+    "summary": "A solid boxes option from Noodlebox with 16g protein and 498 calories. Estimated demo price: $14.99.",
+    "unique_key": "noodlebox|drunken-noodle-box",
+    "category": "Boxes",
+    "category_path": [],
+    "portion": "1 box",
+    "price_cad": 14.99,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 498,
+      "protein_g": 16,
+      "carbs_g": 82,
+      "fat_g": 27,
+      "sodium_mg": 1260,
+      "sugar_g": 13.1
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0ADrunken%20Noodle%20Box",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.397804+00:00",
+    "updated_at": "2026-04-10T08:42:29.397804+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Fried Egg (1)",
+    "summary": "A lighter option from Noodlebox with 7g protein and 90 calories. Estimated demo price: $4.49.",
+    "unique_key": "noodlebox|fried-egg-1",
+    "category": "Extras",
+    "category_path": [],
+    "portion": "1 piece",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 90,
+      "protein_g": 7,
+      "carbs_g": 1,
+      "fat_g": 7,
+      "sodium_mg": 157,
+      "sugar_g": 2.0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0AFried%20Egg%20%281%29",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398200+00:00",
+    "updated_at": "2026-04-10T08:42:29.398200+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Ginger Beef Box",
+    "summary": "A solid boxes option from Noodlebox with 19g protein and 560 calories. Estimated demo price: $14.99.",
+    "unique_key": "noodlebox|ginger-beef-box",
+    "category": "Boxes",
+    "category_path": [],
+    "portion": "1 box",
+    "price_cad": 14.99,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 560,
+      "protein_g": 19,
+      "carbs_g": 47,
+      "fat_g": 35,
+      "sodium_mg": 1078,
+      "sugar_g": 7.5
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0AGinger%20Beef%20Box",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.397825+00:00",
+    "updated_at": "2026-04-10T08:42:29.397825+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Hokkien",
+    "summary": "A solid noodles option from Noodlebox with 24g protein and 437 calories. Estimated demo price: $3.99.",
+    "unique_key": "noodlebox|hokkien|250g",
+    "category": "Noodles",
+    "category_path": [],
+    "portion": "250g",
+    "price_cad": 3.99,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 437,
+      "protein_g": 24,
+      "carbs_g": 79,
+      "fat_g": 2,
+      "sodium_mg": 234,
+      "sugar_g": 4.0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0AHokkien",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398329+00:00",
+    "updated_at": "2026-04-10T08:42:29.398329+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Jasmine Rice",
+    "summary": "A lighter option from Noodlebox with 5g protein and 260 calories. Estimated demo price: $3.99.",
+    "unique_key": "noodlebox|jasmine-rice|180g",
+    "category": "Noodles",
+    "category_path": [],
+    "portion": "180g",
+    "price_cad": 3.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 260,
+      "protein_g": 5,
+      "carbs_g": 56,
+      "fat_g": 0,
+      "sodium_mg": 160,
+      "sugar_g": 2.8
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0AJasmine%20Rice",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398350+00:00",
+    "updated_at": "2026-04-10T08:42:29.398350+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Kids Chow Mein Box",
+    "summary": "A lighter option from Noodlebox with 2g protein and 160 calories. Estimated demo price: $14.99.",
+    "unique_key": "noodlebox|kids-chow-mein-box",
+    "category": "Boxes",
+    "category_path": [],
+    "portion": "1 box",
+    "price_cad": 14.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 160,
+      "protein_g": 2,
+      "carbs_g": 8,
+      "fat_g": 14,
+      "sodium_mg": 734,
+      "sugar_g": 4.0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0AKids%20Chow%20Mein%20Box",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.397985+00:00",
+    "updated_at": "2026-04-10T08:42:29.397985+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Kids Mac & Cheese Box",
+    "summary": "A solid boxes option from Noodlebox with 10g protein and 360 calories. Estimated demo price: $14.99.",
+    "unique_key": "noodlebox|kids-mac-and-cheese-box",
+    "category": "Boxes",
+    "category_path": [],
+    "portion": "1 box",
+    "price_cad": 14.99,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 360,
+      "protein_g": 10,
+      "carbs_g": 10,
+      "fat_g": 32,
+      "sodium_mg": 814,
+      "sugar_g": 4.0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0AKids%20Mac%20%26%20Cheese%20Box",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398005+00:00",
+    "updated_at": "2026-04-10T08:42:29.398005+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Kung Pao Box",
+    "summary": "A solid boxes option from Noodlebox with 13g protein and 440 calories. Estimated demo price: $14.99.",
+    "unique_key": "noodlebox|kung-pao-box",
+    "category": "Boxes",
+    "category_path": [],
+    "portion": "1 box",
+    "price_cad": 14.99,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 440,
+      "protein_g": 13,
+      "carbs_g": 40,
+      "fat_g": 29,
+      "sodium_mg": 1000,
+      "sugar_g": 6.4
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0AKung%20Pao%20Box",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.397845+00:00",
+    "updated_at": "2026-04-10T08:42:29.397845+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Nanaimo Bar Spring Roll (1)",
+    "summary": "A lighter option from Noodlebox with 1g protein and 90 calories. Estimated demo price: $4.49.",
+    "unique_key": "noodlebox|nanaimo-bar-spring-roll-1",
+    "category": "Extras",
+    "category_path": [],
+    "portion": "1 piece",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 90,
+      "protein_g": 1,
+      "carbs_g": 28,
+      "fat_g": 0.4,
+      "sodium_mg": 226,
+      "sugar_g": 7.8
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0ANanaimo%20Bar%20Spring%20Roll%20%281%29",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398221+00:00",
+    "updated_at": "2026-04-10T08:42:29.398221+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Organic Tofu",
+    "summary": "A lighter option from Noodlebox with 14g protein and 80 calories. Estimated demo price: $4.99.",
+    "unique_key": "noodlebox|organic-tofu",
+    "category": "Protein",
+    "category_path": [],
+    "portion": "1 add-on",
+    "price_cad": 4.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [
+      "vegetarian"
+    ],
+    "macros": {
+      "calories": 80,
+      "protein_g": 14,
+      "carbs_g": 3,
+      "fat_g": 1,
+      "sodium_mg": 168,
+      "sugar_g": 0.6
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "diet_tags",
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0AOrganic%20Tofu",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398546+00:00",
+    "updated_at": "2026-04-10T08:42:29.398546+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Pad Thai Box",
+    "summary": "A solid boxes option from Noodlebox with 12g protein and 550 calories. Estimated demo price: $14.99.",
+    "unique_key": "noodlebox|pad-thai-box",
+    "category": "Boxes",
+    "category_path": [],
+    "portion": "1 box",
+    "price_cad": 14.99,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 550,
+      "protein_g": 12,
+      "carbs_g": 74,
+      "fat_g": 27,
+      "sodium_mg": 1196,
+      "sugar_g": 11.8
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0APad%20Thai%20Box",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.397864+00:00",
+    "updated_at": "2026-04-10T08:42:29.397864+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Prawns",
+    "summary": "A lighter option from Noodlebox with 20g protein and 90 calories. Estimated demo price: $5.49.",
+    "unique_key": "noodlebox|prawns",
+    "category": "Protein",
+    "category_path": [],
+    "portion": "1 add-on",
+    "price_cad": 5.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 90,
+      "protein_g": 20,
+      "carbs_g": 0,
+      "fat_g": 1,
+      "sodium_mg": 180,
+      "sugar_g": 0.0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0APrawns",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398566+00:00",
+    "updated_at": "2026-04-10T08:42:29.398566+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Ribbon",
+    "summary": "A solid noodles option from Noodlebox with 13g protein and 480 calories. Estimated demo price: $3.99.",
+    "unique_key": "noodlebox|ribbon|180g",
+    "category": "Noodles",
+    "category_path": [],
+    "portion": "180g",
+    "price_cad": 3.99,
+    "availability_status": "active",
+    "tags": [
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 480,
+      "protein_g": 13,
+      "carbs_g": 125,
+      "fat_g": 0,
+      "sodium_mg": 310,
+      "sugar_g": 6.2
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0ARibbon",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398370+00:00",
+    "updated_at": "2026-04-10T08:42:29.398370+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Rice Noodle",
+    "summary": "A solid noodles option from Noodlebox with 7g protein and 414 calories. Estimated demo price: $3.99.",
+    "unique_key": "noodlebox|rice-noodle|180g",
+    "category": "Noodles",
+    "category_path": [],
+    "portion": "180g",
+    "price_cad": 3.99,
+    "availability_status": "active",
+    "tags": [
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 414,
+      "protein_g": 7,
+      "carbs_g": 92,
+      "fat_g": 0.6,
+      "sodium_mg": 234,
+      "sugar_g": 4.6
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0ARice%20Noodle",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398391+00:00",
+    "updated_at": "2026-04-10T08:42:29.398391+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Singapore Cashew Curry Box",
+    "summary": "A solid boxes option from Noodlebox with 10g protein and 640 calories. Estimated demo price: $14.99.",
+    "unique_key": "noodlebox|singapore-cashew-curry-box",
+    "category": "Boxes",
+    "category_path": [],
+    "portion": "1 box",
+    "price_cad": 14.99,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 640,
+      "protein_g": 10,
+      "carbs_g": 25,
+      "fat_g": 61,
+      "sodium_mg": 962,
+      "sugar_g": 4.0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0ASingapore%20Cashew%20Curry%20Box",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.397884+00:00",
+    "updated_at": "2026-04-10T08:42:29.397884+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Spicy Peanut Box",
+    "summary": "A heavier, more filling boxes from Noodlebox with 33g protein and 1150 calories. Estimated demo price: $16.49.",
+    "unique_key": "noodlebox|spicy-peanut-box",
+    "category": "Boxes",
+    "category_path": [],
+    "portion": "1 box",
+    "price_cad": 16.49,
+    "availability_status": "active",
+    "tags": [
+      "high-protein",
+      "big-meal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 1150,
+      "protein_g": 33,
+      "carbs_g": 45,
+      "fat_g": 101,
+      "sodium_mg": 1254,
+      "sugar_g": 7.2
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0ASpicy%20Peanut%20Box",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.397904+00:00",
+    "updated_at": "2026-04-10T08:42:29.397904+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Tempura Chicken Bites (5)",
+    "summary": "A lighter option from Noodlebox with 10g protein and 230 calories. Estimated demo price: $4.49.",
+    "unique_key": "noodlebox|tempura-chicken-bites-5",
+    "category": "Extras",
+    "category_path": [],
+    "portion": "5 pieces",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 230,
+      "protein_g": 10,
+      "carbs_g": 39,
+      "fat_g": 3.5,
+      "sodium_mg": 277,
+      "sugar_g": 10.9
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0ATempura%20Chicken%20Bites%20%285%29",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398242+00:00",
+    "updated_at": "2026-04-10T08:42:29.398242+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Teriyaki Box",
+    "summary": "A solid boxes option from Noodlebox with 9g protein and 310 calories. Estimated demo price: $14.99.",
+    "unique_key": "noodlebox|teriyaki-box",
+    "category": "Boxes",
+    "category_path": [],
+    "portion": "1 box",
+    "price_cad": 14.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 310,
+      "protein_g": 9,
+      "carbs_g": 34,
+      "fat_g": 19,
+      "sodium_mg": 928,
+      "sugar_g": 5.4
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0ATeriyaki%20Box",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.397923+00:00",
+    "updated_at": "2026-04-10T08:42:29.397923+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Thai Chow Mein Box",
+    "summary": "A solid boxes option from Noodlebox with 8g protein and 370 calories. Estimated demo price: $14.99.",
+    "unique_key": "noodlebox|thai-chow-mein-box",
+    "category": "Boxes",
+    "category_path": [],
+    "portion": "1 box",
+    "price_cad": 14.99,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 370,
+      "protein_g": 8,
+      "carbs_g": 19,
+      "fat_g": 31,
+      "sodium_mg": 858,
+      "sugar_g": 4.0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0AThai%20Chow%20Mein%20Box",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.397944+00:00",
+    "updated_at": "2026-04-10T08:42:29.397944+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Vegetable Spring Roll (1)",
+    "summary": "A lighter option from Noodlebox with 4g protein and 130 calories. Estimated demo price: $4.49.",
+    "unique_key": "noodlebox|vegetable-spring-roll-1",
+    "category": "Extras",
+    "category_path": [],
+    "portion": "1 piece",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 130,
+      "protein_g": 4,
+      "carbs_g": 16,
+      "fat_g": 5,
+      "sodium_mg": 196,
+      "sugar_g": 4.5
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0AVegetable%20Spring%20Roll%20%281%29",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398263+00:00",
+    "updated_at": "2026-04-10T08:42:29.398263+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Yangzhou Fried Rice Box",
+    "summary": "A solid boxes option from Noodlebox with 46g protein and 682 calories. Estimated demo price: $14.99.",
+    "unique_key": "noodlebox|yangzhou-fried-rice-box",
+    "category": "Boxes",
+    "category_path": [],
+    "portion": "1 box",
+    "price_cad": 14.99,
+    "availability_status": "active",
+    "tags": [
+      "high-protein"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 682,
+      "protein_g": 46,
+      "carbs_g": 48,
+      "fat_g": 42,
+      "sodium_mg": 1206,
+      "sugar_g": 7.7
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "portion",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0AYangzhou%20Fried%20Rice%20Box",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.397965+00:00",
+    "updated_at": "2026-04-10T08:42:29.397965+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "noodlebox",
+    "restaurant_name": "Noodlebox",
+    "item_name": "Zucchini Noodle",
+    "summary": "A lighter option from Noodlebox with 3g protein and 10 calories. Estimated demo price: $3.99.",
+    "unique_key": "noodlebox|zucchini-noodle|225g",
+    "category": "Noodles",
+    "category_path": [],
+    "portion": "225g",
+    "price_cad": 3.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 10,
+      "protein_g": 3,
+      "carbs_g": 9,
+      "fat_g": 1,
+      "sodium_mg": 62,
+      "sugar_g": 1.0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "macros.sodium_mg",
+        "macros.sugar_g",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/noodlebox_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/A6462A/FFF8F5?text=Noodlebox%0AZucchini%20Noodle",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.398412+00:00",
+    "updated_at": "2026-04-10T08:42:29.398412+00:00"
+  }
+]

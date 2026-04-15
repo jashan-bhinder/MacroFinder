@@ -1,0 +1,54 @@
+[
+  {
+    "_id": "owner-task-subway-item-details",
+    "owner_id": "demo-owner-user-1",
+    "restaurant_name": "Subway",
+    "scope": "item",
+    "item_name": "Black Forest Ham",
+    "item_category": "Salads",
+    "task_type": "request_image",
+    "description": "Admin parsed the nutrition PDF. Add customer-facing details before the items are sent back for review.",
+    "admin_note": "Macros are ready. Please confirm the categories, add short descriptions, and provide image links or files for the visible menu cards.",
+    "status": "pending",
+    "created_at": "2026-04-10T12:20:00.000Z"
+  },
+  {
+    "_id": "owner-task-subway-pdf-confirmation",
+    "owner_id": "demo-owner-user-1",
+    "restaurant_name": "Subway",
+    "scope": "restaurant",
+    "item_name": null,
+    "item_category": null,
+    "task_type": "request_pdf",
+    "description": "Admin needs the owner to confirm that the current Subway nutrition PDF is still the latest official source.",
+    "admin_note": "If the PDF is still current, submit a short confirmation. If not, use Add restaurant / source request to upload the newer file.",
+    "status": "submitted",
+    "created_at": "2026-04-10T12:24:00.000Z"
+  },
+  {
+    "_id": "owner-task-subway-demo-submitted-description",
+    "owner_id": "demo-owner-user-1",
+    "restaurant_name": "Subway",
+    "scope": "restaurant",
+    "item_name": null,
+    "item_category": null,
+    "task_type": "request_description",
+    "description": "Owner sent back updated restaurant copy and one image note for admin approval.",
+    "admin_note": "Please confirm the description is acceptable. If it needs tone changes, send it back with a note.",
+    "status": "submitted",
+    "created_at": "2026-04-10T13:16:00.000Z"
+  },
+  {
+    "_id": "owner-task-subway-image-review",
+    "owner_id": "demo-owner-user-1",
+    "restaurant_name": "Subway",
+    "scope": "item",
+    "item_name": "Black Forest Ham",
+    "item_category": "Salads",
+    "task_type": "request_image",
+    "description": "Several Subway items are using placeholder images. Send replacements for admin review when you have them.",
+    "admin_note": "This can wait until the core text fields are finished.",
+    "status": "pending",
+    "created_at": "2026-04-10T12:28:00.000Z"
+  }
+]

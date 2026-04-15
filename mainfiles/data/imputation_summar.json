@@ -1,0 +1,30 @@
+{
+  "source_file": "/Users/gurwinder/IdeaProjects/fun_project_with_buddies/data/menu_items.json",
+  "output_file": "/Users/gurwinder/IdeaProjects/fun_project_with_buddies/data/menu_items_imputed.json",
+  "item_count": 485,
+  "restaurants": {
+    "a-and-w": 129,
+    "chucks-roadhouse": 105,
+    "jugo-juice": 50,
+    "moxies": 42,
+    "noodlebox": 40,
+    "old-spaghetti-factory": 83,
+    "subway": 29,
+    "triple-os": 7
+  },
+  "imputed_field_counts": {
+    "diet_tags": 11,
+    "image_url": 485,
+    "macros.sodium_mg": 90,
+    "macros.sugar_g": 90,
+    "portion": 57,
+    "price_cad": 485,
+    "summary": 448,
+    "tags": 460
+  },
+  "notes": [
+    "This file is presentation-oriented and includes heuristic fills.",
+    "Raw extracted data remains in data/menu_items.json.",
+    "Placeholder image URLs were generated for display stability."
+  ]
+}

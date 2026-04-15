@@ -1,0 +1,314 @@
+[
+  {
+    "item_id": null,
+    "restaurant_id": "triple-os",
+    "restaurant_name": "Triple O's",
+    "item_name": "Cheesecake on a stick",
+    "summary": "A lighter option from Triple O's with 3g protein and 190 calories. Estimated demo price: $4.49.",
+    "unique_key": "triple-os|cheesecake-on-a-stick|51-g",
+    "category": "Classics",
+    "category_path": [],
+    "portion": "51 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 190,
+      "protein_g": 3,
+      "carbs_g": 21,
+      "fat_g": 11,
+      "sodium_mg": 105,
+      "sugar_g": 10
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/triple_os_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2A567A/F4FAFF?text=Triple%20O%27s%0ACheesecake%20on%20a%20stick",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.548408+00:00",
+    "updated_at": "2026-04-10T08:42:29.548408+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "triple-os",
+    "restaurant_name": "Triple O's",
+    "item_name": "Chocolate Chunk Cookie 1 cookie",
+    "summary": "A lighter option from Triple O's with 2g protein and 170 calories. Estimated demo price: $2.49.",
+    "unique_key": "triple-os|chocolate-chunk-cookie-1-cookie|38-g",
+    "category": "Classics",
+    "category_path": [],
+    "portion": "38 g",
+    "price_cad": 2.49,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 170,
+      "protein_g": 2,
+      "carbs_g": 23,
+      "fat_g": 8,
+      "sodium_mg": 120,
+      "sugar_g": 14
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/triple_os_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2A567A/F4FAFF?text=Triple%20O%27s%0AChocolate%20Chunk%20Cookie%201%20cookie",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.548450+00:00",
+    "updated_at": "2026-04-10T08:42:29.548450+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "triple-os",
+    "restaurant_name": "Triple O's",
+    "item_name": "Hamburger Bun",
+    "summary": "A lighter option from Triple O's with 8g protein and 220 calories. Estimated demo price: $1.49.",
+    "unique_key": "triple-os|hamburger-bun|90-g",
+    "category": "Breakfast",
+    "category_path": [],
+    "portion": "90 g",
+    "price_cad": 1.49,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 220,
+      "protein_g": 8,
+      "carbs_g": 42,
+      "fat_g": 4.5,
+      "sodium_mg": 390,
+      "sugar_g": 8
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/triple_os_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2A567A/F4FAFF?text=Triple%20O%27s%0AHamburger%20Bun",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.548156+00:00",
+    "updated_at": "2026-04-10T08:42:29.548156+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "triple-os",
+    "restaurant_name": "Triple O's",
+    "item_name": "Kid's Grilled Cheese On a burger bun",
+    "summary": "A solid classics option from Triple O's with 18.1g protein and 520 calories. Estimated demo price: $1.49.",
+    "unique_key": "triple-os|kid-s-grilled-cheese-on-a-burger-bun|152-g",
+    "category": "Classics",
+    "category_path": [],
+    "portion": "152 g",
+    "price_cad": 1.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 520,
+      "protein_g": 18.1,
+      "carbs_g": 44,
+      "fat_g": 35,
+      "sodium_mg": 840,
+      "sugar_g": 32
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/triple_os_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2A567A/F4FAFF?text=Triple%20O%27s%0AKid%27s%20Grilled%20Cheese%20On%20a%20burger%20bun",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.548284+00:00",
+    "updated_at": "2026-04-10T08:42:29.548284+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "triple-os",
+    "restaurant_name": "Triple O's",
+    "item_name": "Loaded Breakfast Wrap",
+    "summary": "A solid breakfast option from Triple O's with 30.8g protein and 564 calories. Estimated demo price: $8.99.",
+    "unique_key": "triple-os|loaded-breakfast-wrap|323-g",
+    "category": "Breakfast",
+    "category_path": [],
+    "portion": "323 g",
+    "price_cad": 8.99,
+    "availability_status": "active",
+    "tags": [
+      "high-protein"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 564,
+      "protein_g": 30.8,
+      "carbs_g": 21,
+      "fat_g": 41,
+      "sodium_mg": 942.7,
+      "sugar_g": 1.4
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/triple_os_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2A567A/F4FAFF?text=Triple%20O%27s%0ALoaded%20Breakfast%20Wrap",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.548094+00:00",
+    "updated_at": "2026-04-10T08:42:29.548094+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "triple-os",
+    "restaurant_name": "Triple O's",
+    "item_name": "Onion Rings 6 pieces",
+    "summary": "A solid classics option from Triple O's with 5.5g protein and 467 calories. Estimated demo price: $5.49.",
+    "unique_key": "triple-os|onion-rings-6-pieces|184-g",
+    "category": "Classics",
+    "category_path": [],
+    "portion": "184 g",
+    "price_cad": 5.49,
+    "availability_status": "active",
+    "tags": [
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 467,
+      "protein_g": 5.5,
+      "carbs_g": 47.7,
+      "fat_g": 28.8,
+      "sodium_mg": 436.5,
+      "sugar_g": 11.4
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/triple_os_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2A567A/F4FAFF?text=Triple%20O%27s%0AOnion%20Rings%206%20pieces",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.548349+00:00",
+    "updated_at": "2026-04-10T08:42:29.548349+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "triple-os",
+    "restaurant_name": "Triple O's",
+    "item_name": "Poutine",
+    "summary": "A solid classics option from Triple O's with 18.7g protein and 490 calories. Estimated demo price: $6.99.",
+    "unique_key": "triple-os|poutine|312-g",
+    "category": "Classics",
+    "category_path": [],
+    "portion": "312 g",
+    "price_cad": 6.99,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 490,
+      "protein_g": 18.7,
+      "carbs_g": 35.9,
+      "fat_g": 29.9,
+      "sodium_mg": 986.5,
+      "sugar_g": 1.7
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/triple_os_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2A567A/F4FAFF?text=Triple%20O%27s%0APoutine",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.548323+00:00",
+    "updated_at": "2026-04-10T08:42:29.548323+00:00"
+  }
+]

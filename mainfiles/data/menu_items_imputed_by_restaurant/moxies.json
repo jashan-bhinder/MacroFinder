@@ -1,0 +1,1875 @@
+[
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "BABY BACK RIBS - FULL RACK",
+    "summary": "A heavier, more filling mains (sides included) from Moxies with 100g protein and 1760 calories. Estimated demo price: $26.99.",
+    "unique_key": "moxies|baby-back-ribs-full-rack|878-g",
+    "category": "Mains (sides included)",
+    "category_path": [],
+    "portion": "878 g",
+    "price_cad": 26.99,
+    "availability_status": "active",
+    "tags": [
+      "high-protein",
+      "big-meal",
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 1760,
+      "protein_g": 100,
+      "carbs_g": 94,
+      "fat_g": 96,
+      "sodium_mg": 310,
+      "sugar_g": 44
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0ABABY%20BACK%20RIBS%20-%20FULL%20RACK",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.372676+00:00",
+    "updated_at": "2026-04-10T08:42:29.372676+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "BABY BACK RIBS - HALF RACK",
+    "summary": "A heavier, more filling mains (sides included) from Moxies with 53g protein and 1140 calories. Estimated demo price: $24.99.",
+    "unique_key": "moxies|baby-back-ribs-half-rack|637-g",
+    "category": "Mains (sides included)",
+    "category_path": [],
+    "portion": "637 g",
+    "price_cad": 24.99,
+    "availability_status": "active",
+    "tags": [
+      "high-protein",
+      "big-meal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 1140,
+      "protein_g": 53,
+      "carbs_g": 65,
+      "fat_g": 61,
+      "sodium_mg": 2400,
+      "sugar_g": 16
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0ABABY%20BACK%20RIBS%20-%20HALF%20RACK",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.372651+00:00",
+    "updated_at": "2026-04-10T08:42:29.372651+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "BEEF DIP",
+    "summary": "A heavier, more filling handhelds (also see sides) from Moxies with 56g protein and 910 calories. Estimated demo price: $18.99.",
+    "unique_key": "moxies|beef-dip|545-g",
+    "category": "Handhelds (also see sides)",
+    "category_path": [],
+    "portion": "545 g",
+    "price_cad": 18.99,
+    "availability_status": "active",
+    "tags": [
+      "high-protein",
+      "big-meal",
+      "quick"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 910,
+      "protein_g": 56,
+      "carbs_g": 82,
+      "fat_g": 42,
+      "sodium_mg": 2110,
+      "sugar_g": 4
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0ABEEF%20DIP",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.372919+00:00",
+    "updated_at": "2026-04-10T08:42:29.372919+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "BITE OF BROWNIE",
+    "summary": "A solid desserts option from Moxies with 7g protein and 680 calories. Estimated demo price: $9.99.",
+    "unique_key": "moxies|bite-of-brownie|217-g",
+    "category": "Desserts",
+    "category_path": [],
+    "portion": "217 g",
+    "price_cad": 9.99,
+    "availability_status": "active",
+    "tags": [
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 680,
+      "protein_g": 7,
+      "carbs_g": 87,
+      "fat_g": 35,
+      "sodium_mg": 290,
+      "sugar_g": 53
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0ABITE%20OF%20BROWNIE",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.372989+00:00",
+    "updated_at": "2026-04-10T08:42:29.372989+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "BLACK BEAN TACOS - 1 EACH",
+    "summary": "A lighter option from Moxies with 9g protein and 240 calories. Estimated demo price: $21.99.",
+    "unique_key": "moxies|black-bean-tacos-1-each|121-g",
+    "category": "Pastas & Bowls (no bread)",
+    "category_path": [],
+    "portion": "121 g",
+    "price_cad": 21.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 240,
+      "protein_g": 9,
+      "carbs_g": 27,
+      "fat_g": 12,
+      "sodium_mg": 680,
+      "sugar_g": 3
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0ABLACK%20BEAN%20TACOS%20-%201%20EACH",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.372869+00:00",
+    "updated_at": "2026-04-10T08:42:29.372869+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "BLACKENED CHICKEN BURGER",
+    "summary": "A solid handhelds (also see sides) option from Moxies with 39g protein and 650 calories. Estimated demo price: $18.99.",
+    "unique_key": "moxies|blackened-chicken-burger|358-g",
+    "category": "Handhelds (also see sides)",
+    "category_path": [],
+    "portion": "358 g",
+    "price_cad": 18.99,
+    "availability_status": "active",
+    "tags": [
+      "high-protein",
+      "quick"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 650,
+      "protein_g": 39,
+      "carbs_g": 48,
+      "fat_g": 32,
+      "sodium_mg": 2170,
+      "sugar_g": 3
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0ABLACKENED%20CHICKEN%20BURGER",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.372942+00:00",
+    "updated_at": "2026-04-10T08:42:29.372942+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "BLACKENED SHRIMP TACOS - 1 EACH",
+    "summary": "A lighter option from Moxies with 17g protein and 280 calories. Estimated demo price: $21.99.",
+    "unique_key": "moxies|blackened-shrimp-tacos-1-each|185-g",
+    "category": "Pastas & Bowls (no bread)",
+    "category_path": [],
+    "portion": "185 g",
+    "price_cad": 21.99,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "lower-cal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 280,
+      "protein_g": 17,
+      "carbs_g": 24,
+      "fat_g": 12,
+      "sodium_mg": 1300,
+      "sugar_g": 2
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0ABLACKENED%20SHRIMP%20TACOS%20-%201%20EACH",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.372847+00:00",
+    "updated_at": "2026-04-10T08:42:29.372847+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "BT'S CRISPY CHICKEN SANDWICH",
+    "summary": "A solid handhelds (also see sides) option from Moxies with 31g protein and 710 calories. Estimated demo price: $18.99.",
+    "unique_key": "moxies|bt-s-crispy-chicken-sandwich|385-g",
+    "category": "Handhelds (also see sides)",
+    "category_path": [],
+    "portion": "385 g",
+    "price_cad": 18.99,
+    "availability_status": "active",
+    "tags": [
+      "high-protein",
+      "quick"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 710,
+      "protein_g": 31,
+      "carbs_g": 73,
+      "fat_g": 31,
+      "sodium_mg": 1420,
+      "sugar_g": 7
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0ABT%27S%20CRISPY%20CHICKEN%20SANDWICH",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.372965+00:00",
+    "updated_at": "2026-04-10T08:42:29.372965+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "CAESAR SALAD",
+    "summary": "A solid soup & salads option from Moxies with 14g protein and 550 calories. Estimated demo price: $16.99.",
+    "unique_key": "moxies|caesar-salad|359-g",
+    "category": "Soup & Salads",
+    "category_path": [],
+    "portion": "359 g",
+    "price_cad": 16.99,
+    "availability_status": "active",
+    "tags": [
+      "portable"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 550,
+      "protein_g": 14,
+      "carbs_g": 21,
+      "fat_g": 46,
+      "sodium_mg": 1350,
+      "sugar_g": 3
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0ACAESAR%20SALAD",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.372310+00:00",
+    "updated_at": "2026-04-10T08:42:29.372310+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "CAESAR SALAD - NO DRESSING",
+    "summary": "A lighter option from Moxies with 10g protein and 210 calories. Estimated demo price: $16.99.",
+    "unique_key": "moxies|caesar-salad-no-dressing|288-g",
+    "category": "Soup & Salads",
+    "category_path": [],
+    "portion": "288 g",
+    "price_cad": 16.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "portable"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 210,
+      "protein_g": 10,
+      "carbs_g": 18,
+      "fat_g": 11,
+      "sodium_mg": 360,
+      "sugar_g": 3
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0ACAESAR%20SALAD%20-%20NO%20DRESSING",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.372333+00:00",
+    "updated_at": "2026-04-10T08:42:29.372333+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "CALAMARI (3 servings)",
+    "summary": "A solid appetizers option from Moxies with 16g protein and 410 calories. Estimated demo price: $15.99.",
+    "unique_key": "moxies|calamari-3-servings|150-g",
+    "category": "Appetizers",
+    "category_path": [],
+    "portion": "150 g",
+    "price_cad": 15.99,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 410,
+      "protein_g": 16,
+      "carbs_g": 28,
+      "fat_g": 26,
+      "sodium_mg": 730,
+      "sugar_g": 3
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0ACALAMARI%20%283%20servings%29",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.372153+00:00",
+    "updated_at": "2026-04-10T08:42:29.372153+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "CHICKEN & RIBS",
+    "summary": "A heavier, more filling mains (sides included) from Moxies with 75g protein and 1320 calories. Estimated demo price: $26.99.",
+    "unique_key": "moxies|chicken-and-ribs|784-g",
+    "category": "Mains (sides included)",
+    "category_path": [],
+    "portion": "784 g",
+    "price_cad": 26.99,
+    "availability_status": "active",
+    "tags": [
+      "high-protein",
+      "big-meal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 1320,
+      "protein_g": 75,
+      "carbs_g": 69,
+      "fat_g": 72,
+      "sodium_mg": 3260,
+      "sugar_g": 17
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0ACHICKEN%20%26%20RIBS",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.372697+00:00",
+    "updated_at": "2026-04-10T08:42:29.372697+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "CHICKEN MADEIRA RIGATONI",
+    "summary": "A heavier, more filling pastas & bowls (no bread) from Moxies with 43g protein and 1460 calories. Estimated demo price: $23.99.",
+    "unique_key": "moxies|chicken-madeira-rigatoni|568-g",
+    "category": "Pastas & Bowls (no bread)",
+    "category_path": [],
+    "portion": "568 g",
+    "price_cad": 23.99,
+    "availability_status": "active",
+    "tags": [
+      "high-protein",
+      "big-meal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 1460,
+      "protein_g": 43,
+      "carbs_g": 85,
+      "fat_g": 103,
+      "sodium_mg": 3680,
+      "sugar_g": 8
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0ACHICKEN%20MADEIRA%20RIGATONI",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.372745+00:00",
+    "updated_at": "2026-04-10T08:42:29.372745+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "CHICKEN TENDERS",
+    "summary": "A heavier, more filling pastas & bowls (no bread) from Moxies with 35g protein and 800 calories. Estimated demo price: $21.99.",
+    "unique_key": "moxies|chicken-tenders|569-g",
+    "category": "Pastas & Bowls (no bread)",
+    "category_path": [],
+    "portion": "569 g",
+    "price_cad": 21.99,
+    "availability_status": "active",
+    "tags": [
+      "high-protein",
+      "big-meal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 800,
+      "protein_g": 35,
+      "carbs_g": 48,
+      "fat_g": 50,
+      "sodium_mg": 680,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0ACHICKEN%20TENDERS",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.372893+00:00",
+    "updated_at": "2026-04-10T08:42:29.372893+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "CHIPOTLE MANGO CHICKEN",
+    "summary": "A heavier, more filling mains (sides included) from Moxies with 55g protein and 970 calories. Estimated demo price: $24.99.",
+    "unique_key": "moxies|chipotle-mango-chicken|745-g",
+    "category": "Mains (sides included)",
+    "category_path": [],
+    "portion": "745 g",
+    "price_cad": 24.99,
+    "availability_status": "active",
+    "tags": [
+      "high-protein",
+      "big-meal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 970,
+      "protein_g": 55,
+      "carbs_g": 79,
+      "fat_g": 51,
+      "sodium_mg": 2750,
+      "sugar_g": 15
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0ACHIPOTLE%20MANGO%20CHICKEN",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.372604+00:00",
+    "updated_at": "2026-04-10T08:42:29.372604+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "CHURRO SANDWICH (2 servings)",
+    "summary": "A solid desserts option from Moxies with 6g protein and 460 calories. Estimated demo price: $9.99.",
+    "unique_key": "moxies|churro-sandwich-2-servings|174-g",
+    "category": "Desserts",
+    "category_path": [],
+    "portion": "174 g",
+    "price_cad": 9.99,
+    "availability_status": "active",
+    "tags": [
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 460,
+      "protein_g": 6,
+      "carbs_g": 44,
+      "fat_g": 29,
+      "sodium_mg": 310,
+      "sugar_g": 17
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0ACHURRO%20SANDWICH%20%282%20servings%29",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.373131+00:00",
+    "updated_at": "2026-04-10T08:42:29.373131+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "GARLIC BUTTER PRAWNS",
+    "summary": "A lighter option from Moxies with 16g protein and 180 calories. Estimated demo price: $5.99.",
+    "unique_key": "moxies|garlic-butter-prawns|140-g",
+    "category": "Sides",
+    "category_path": [],
+    "portion": "140 g",
+    "price_cad": 5.99,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "lower-cal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 180,
+      "protein_g": 16,
+      "carbs_g": 0.5,
+      "fat_g": 12,
+      "sodium_mg": 920,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0AGARLIC%20BUTTER%20PRAWNS",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.373287+00:00",
+    "updated_at": "2026-04-10T08:42:29.373287+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "GRILLED CHICKEN",
+    "summary": "A lighter option from Moxies with 20g protein and 270 calories. Estimated demo price: $5.99.",
+    "unique_key": "moxies|grilled-chicken|150-g",
+    "category": "Sides",
+    "category_path": [],
+    "portion": "150 g",
+    "price_cad": 5.99,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "lower-cal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 270,
+      "protein_g": 20,
+      "carbs_g": 1,
+      "fat_g": 22,
+      "sodium_mg": 730,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0AGRILLED%20CHICKEN",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.373154+00:00",
+    "updated_at": "2026-04-10T08:42:29.373154+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "GRILLED SALMON",
+    "summary": "A lighter option from Moxies with 17g protein and 300 calories. Estimated demo price: $5.99.",
+    "unique_key": "moxies|grilled-salmon|99-g",
+    "category": "Sides",
+    "category_path": [],
+    "portion": "99 g",
+    "price_cad": 5.99,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 300,
+      "protein_g": 17,
+      "carbs_g": 0,
+      "fat_g": 25,
+      "sodium_mg": 340,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0AGRILLED%20SALMON",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.373176+00:00",
+    "updated_at": "2026-04-10T08:42:29.373176+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "JASMINE RICE",
+    "summary": "A solid sides option from Moxies with 6g protein and 350 calories. Estimated demo price: $5.99.",
+    "unique_key": "moxies|jasmine-rice|198-g",
+    "category": "Sides",
+    "category_path": [],
+    "portion": "198 g",
+    "price_cad": 5.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 350,
+      "protein_g": 6,
+      "carbs_g": 74,
+      "fat_g": 2.5,
+      "sodium_mg": 370,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0AJASMINE%20RICE",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.373265+00:00",
+    "updated_at": "2026-04-10T08:42:29.373265+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "KEY LIME PIE (2 servings)",
+    "summary": "A solid desserts option from Moxies with 10g protein and 620 calories. Estimated demo price: $9.99.",
+    "unique_key": "moxies|key-lime-pie-2-servings|177-g",
+    "category": "Desserts",
+    "category_path": [],
+    "portion": "177 g",
+    "price_cad": 9.99,
+    "availability_status": "active",
+    "tags": [
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 620,
+      "protein_g": 10,
+      "carbs_g": 62,
+      "fat_g": 39,
+      "sodium_mg": 350,
+      "sugar_g": 49
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0AKEY%20LIME%20PIE%20%282%20servings%29",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.373060+00:00",
+    "updated_at": "2026-04-10T08:42:29.373060+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "LEMON BASIL SALMON",
+    "summary": "A heavier, more filling mains (sides included) from Moxies with 45g protein and 910 calories. Estimated demo price: $24.99.",
+    "unique_key": "moxies|lemon-basil-salmon|577-g",
+    "category": "Mains (sides included)",
+    "category_path": [],
+    "portion": "577 g",
+    "price_cad": 24.99,
+    "availability_status": "active",
+    "tags": [
+      "high-protein",
+      "big-meal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 910,
+      "protein_g": 45,
+      "carbs_g": 66,
+      "fat_g": 52,
+      "sodium_mg": 1450,
+      "sugar_g": 7
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0ALEMON%20BASIL%20SALMON",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.372627+00:00",
+    "updated_at": "2026-04-10T08:42:29.372627+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "MASHED POTATOES",
+    "summary": "A solid sides option from Moxies with 6g protein and 370 calories. Estimated demo price: $5.99.",
+    "unique_key": "moxies|mashed-potatoes|255-g",
+    "category": "Sides",
+    "category_path": [],
+    "portion": "255 g",
+    "price_cad": 5.99,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 370,
+      "protein_g": 6,
+      "carbs_g": 41,
+      "fat_g": 18,
+      "sodium_mg": 980,
+      "sugar_g": 2
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0AMASHED%20POTATOES",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.373351+00:00",
+    "updated_at": "2026-04-10T08:42:29.373351+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "MINI STICKY TOFFEE PUDDING",
+    "summary": "A solid desserts option from Moxies with 7g protein and 580 calories. Estimated demo price: $9.99.",
+    "unique_key": "moxies|mini-sticky-toffee-pudding|214-g",
+    "category": "Desserts",
+    "category_path": [],
+    "portion": "214 g",
+    "price_cad": 9.99,
+    "availability_status": "active",
+    "tags": [
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 580,
+      "protein_g": 7,
+      "carbs_g": 89,
+      "fat_g": 23,
+      "sodium_mg": 340,
+      "sugar_g": 54
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0AMINI%20STICKY%20TOFFEE%20PUDDING",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.373084+00:00",
+    "updated_at": "2026-04-10T08:42:29.373084+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "MUSHROOM SIRLOIN",
+    "summary": "A solid steaks (also see sides) option from Moxies with 47g protein and 720 calories. Estimated demo price: $31.99.",
+    "unique_key": "moxies|mushroom-sirloin|369-g",
+    "category": "Steaks (also see sides)",
+    "category_path": [],
+    "portion": "369 g",
+    "price_cad": 31.99,
+    "availability_status": "active",
+    "tags": [
+      "high-protein"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 720,
+      "protein_g": 47,
+      "carbs_g": 8,
+      "fat_g": 52,
+      "sodium_mg": 2000,
+      "sugar_g": 2
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0AMUSHROOM%20SIRLOIN",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.372512+00:00",
+    "updated_at": "2026-04-10T08:42:29.372512+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "NACHOS (3 servings)",
+    "summary": "A solid appetizers option from Moxies with 41g protein and 670 calories. Estimated demo price: $15.99.",
+    "unique_key": "moxies|nachos-3-servings|276-g",
+    "category": "Appetizers",
+    "category_path": [],
+    "portion": "276 g",
+    "price_cad": 15.99,
+    "availability_status": "active",
+    "tags": [
+      "high-protein"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 670,
+      "protein_g": 41,
+      "carbs_g": 36,
+      "fat_g": 40,
+      "sodium_mg": 1500,
+      "sugar_g": 2
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0ANACHOS%20%283%20servings%29",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.372286+00:00",
+    "updated_at": "2026-04-10T08:42:29.372286+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "NEW YORK",
+    "summary": "A solid steaks (also see sides) option from Moxies with 62g protein and 590 calories. Estimated demo price: $31.99.",
+    "unique_key": "moxies|new-york|304-g",
+    "category": "Steaks (also see sides)",
+    "category_path": [],
+    "portion": "304 g",
+    "price_cad": 31.99,
+    "availability_status": "active",
+    "tags": [
+      "high-protein"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 590,
+      "protein_g": 62,
+      "carbs_g": 2,
+      "fat_g": 37,
+      "sodium_mg": 1450,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0ANEW%20YORK",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.372534+00:00",
+    "updated_at": "2026-04-10T08:42:29.372534+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "PEPPERCORN SAUCE",
+    "summary": "A solid sides option from Moxies with 2g protein and 340 calories. Estimated demo price: $5.99.",
+    "unique_key": "moxies|peppercorn-sauce|84-g",
+    "category": "Sides",
+    "category_path": [],
+    "portion": "84 g",
+    "price_cad": 5.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 340,
+      "protein_g": 2,
+      "carbs_g": 8,
+      "fat_g": 33,
+      "sodium_mg": 980,
+      "sugar_g": 3
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0APEPPERCORN%20SAUCE",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.373307+00:00",
+    "updated_at": "2026-04-10T08:42:29.373307+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "POTSTICKERS (2 servings)",
+    "summary": "A solid appetizers option from Moxies with 7g protein and 320 calories. Estimated demo price: $15.99.",
+    "unique_key": "moxies|potstickers-2-servings|139-g",
+    "category": "Appetizers",
+    "category_path": [],
+    "portion": "139 g",
+    "price_cad": 15.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 320,
+      "protein_g": 7,
+      "carbs_g": 19,
+      "fat_g": 23,
+      "sodium_mg": 760,
+      "sugar_g": 4
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0APOTSTICKERS%20%282%20servings%29",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.372102+00:00",
+    "updated_at": "2026-04-10T08:42:29.372102+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "RIB EYE",
+    "summary": "A heavier, more filling steaks (also see sides) from Moxies with 100g protein and 960 calories. Estimated demo price: $31.99.",
+    "unique_key": "moxies|rib-eye|388-g",
+    "category": "Steaks (also see sides)",
+    "category_path": [],
+    "portion": "388 g",
+    "price_cad": 31.99,
+    "availability_status": "active",
+    "tags": [
+      "high-protein",
+      "big-meal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 960,
+      "protein_g": 100,
+      "carbs_g": 2,
+      "fat_g": 61,
+      "sodium_mg": 1550,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0ARIB%20EYE",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.372557+00:00",
+    "updated_at": "2026-04-10T08:42:29.372557+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "ROASTED TOMATOES & WHIPPED FETA (2 servings)",
+    "summary": "A solid appetizers option from Moxies with 16g protein and 520 calories. Estimated demo price: $15.99.",
+    "unique_key": "moxies|roasted-tomatoes-and-whipped-feta-2-servings|262-g",
+    "category": "Appetizers",
+    "category_path": [],
+    "portion": "262 g",
+    "price_cad": 15.99,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 520,
+      "protein_g": 16,
+      "carbs_g": 47,
+      "fat_g": 33,
+      "sodium_mg": 960,
+      "sugar_g": 5
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0AROASTED%20TOMATOES%20%26%20WHIPPED%20FETA%20%282%20servings%29",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.372177+00:00",
+    "updated_at": "2026-04-10T08:42:29.372177+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "SALTED CARAMEL CHEESECAKE (2 servings)",
+    "summary": "A solid desserts option from Moxies with 10g protein and 543 calories. Estimated demo price: $9.99.",
+    "unique_key": "moxies|salted-caramel-cheesecake-2-servings|134-g",
+    "category": "Desserts",
+    "category_path": [],
+    "portion": "134 g",
+    "price_cad": 9.99,
+    "availability_status": "active",
+    "tags": [
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 543,
+      "protein_g": 10,
+      "carbs_g": 40,
+      "fat_g": 40,
+      "sodium_mg": 370,
+      "sugar_g": 35
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0ASALTED%20CARAMEL%20CHEESECAKE%20%282%20servings%29",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.373037+00:00",
+    "updated_at": "2026-04-10T08:42:29.373037+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "SEASONAL VEGETABLES",
+    "summary": "A lighter option from Moxies with 1g protein and 110 calories. Estimated demo price: $5.99.",
+    "unique_key": "moxies|seasonal-vegetables|124-g",
+    "category": "Sides",
+    "category_path": [],
+    "portion": "124 g",
+    "price_cad": 5.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 110,
+      "protein_g": 1,
+      "carbs_g": 11,
+      "fat_g": 7,
+      "sodium_mg": 550,
+      "sugar_g": 5
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0ASEASONAL%20VEGETABLES",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.373328+00:00",
+    "updated_at": "2026-04-10T08:42:29.373328+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "SIRLOIN",
+    "summary": "A protein-forward pick from Moxies with 44g protein and 370 calories. Estimated demo price: $31.99.",
+    "unique_key": "moxies|sirloin|217-g",
+    "category": "Steaks (also see sides)",
+    "category_path": [],
+    "portion": "217 g",
+    "price_cad": 31.99,
+    "availability_status": "active",
+    "tags": [
+      "high-protein"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 370,
+      "protein_g": 44,
+      "carbs_g": 2,
+      "fat_g": 20,
+      "sodium_mg": 1400,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0ASIRLOIN",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.372489+00:00",
+    "updated_at": "2026-04-10T08:42:29.372489+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "STEAK FRITES",
+    "summary": "A protein-forward pick from Moxies with 44g protein and 370 calories. Estimated demo price: $31.99.",
+    "unique_key": "moxies|steak-frites|217-g",
+    "category": "Steaks (also see sides)",
+    "category_path": [],
+    "portion": "217 g",
+    "price_cad": 31.99,
+    "availability_status": "active",
+    "tags": [
+      "high-protein"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 370,
+      "protein_g": 44,
+      "carbs_g": 2,
+      "fat_g": 20,
+      "sodium_mg": 1400,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0ASTEAK%20FRITES",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.372467+00:00",
+    "updated_at": "2026-04-10T08:42:29.372467+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "STICKY TOFFEE PUDDING (2 servings)",
+    "summary": "A solid desserts option from Moxies with 10g protein and 730 calories. Estimated demo price: $9.99.",
+    "unique_key": "moxies|sticky-toffee-pudding-2-servings|263-g",
+    "category": "Desserts",
+    "category_path": [],
+    "portion": "263 g",
+    "price_cad": 9.99,
+    "availability_status": "active",
+    "tags": [
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 730,
+      "protein_g": 10,
+      "carbs_g": 112,
+      "fat_g": 29,
+      "sodium_mg": 500,
+      "sugar_g": 70
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0ASTICKY%20TOFFEE%20PUDDING%20%282%20servings%29",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.373108+00:00",
+    "updated_at": "2026-04-10T08:42:29.373108+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "TENDERLOIN",
+    "summary": "A solid steaks (also see sides) option from Moxies with 30g protein and 590 calories. Estimated demo price: $31.99.",
+    "unique_key": "moxies|tenderloin|186-g",
+    "category": "Steaks (also see sides)",
+    "category_path": [],
+    "portion": "186 g",
+    "price_cad": 31.99,
+    "availability_status": "active",
+    "tags": [
+      "high-protein"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 590,
+      "protein_g": 30,
+      "carbs_g": 1,
+      "fat_g": 51,
+      "sodium_mg": 680,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0ATENDERLOIN",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.372580+00:00",
+    "updated_at": "2026-04-10T08:42:29.372580+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "TINY TUNA TACOS (each taco)",
+    "summary": "A lighter option from Moxies with 10g protein and 170 calories. Estimated demo price: $15.99.",
+    "unique_key": "moxies|tiny-tuna-tacos-each-taco|79-g",
+    "category": "Appetizers",
+    "category_path": [],
+    "portion": "79 g",
+    "price_cad": 15.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 170,
+      "protein_g": 10,
+      "carbs_g": 20,
+      "fat_g": 5,
+      "sodium_mg": 390,
+      "sugar_g": 2
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0ATINY%20TUNA%20TACOS%20%28each%20taco%29",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.372129+00:00",
+    "updated_at": "2026-04-10T08:42:29.372129+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "TRUFFLE PARM FRIES (2 servings)",
+    "summary": "A solid appetizers option from Moxies with 10g protein and 420 calories. Estimated demo price: $15.99.",
+    "unique_key": "moxies|truffle-parm-fries-2-servings|179-g",
+    "category": "Appetizers",
+    "category_path": [],
+    "portion": "179 g",
+    "price_cad": 15.99,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 420,
+      "protein_g": 10,
+      "carbs_g": 37,
+      "fat_g": 26,
+      "sodium_mg": 1690,
+      "sugar_g": 1
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0ATRUFFLE%20PARM%20FRIES%20%282%20servings%29",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.372071+00:00",
+    "updated_at": "2026-04-10T08:42:29.372071+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "TUNA SUSHI STACK (2 servings)",
+    "summary": "A solid appetizers option from Moxies with 3g protein and 320 calories. Estimated demo price: $15.99.",
+    "unique_key": "moxies|tuna-sushi-stack-2-servings|182-g",
+    "category": "Appetizers",
+    "category_path": [],
+    "portion": "182 g",
+    "price_cad": 15.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 320,
+      "protein_g": 3,
+      "carbs_g": 44,
+      "fat_g": 12,
+      "sodium_mg": 1170,
+      "sugar_g": 14
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0ATUNA%20SUSHI%20STACK%20%282%20servings%29",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.371993+00:00",
+    "updated_at": "2026-04-10T08:42:29.371993+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "VEGETARIAN POWER BOWL",
+    "summary": "A solid pastas & bowls (no bread) option from Moxies with 18g protein and 540 calories. Estimated demo price: $21.99.",
+    "unique_key": "moxies|vegetarian-power-bowl|537-g",
+    "category": "Pastas & Bowls (no bread)",
+    "category_path": [],
+    "portion": "537 g",
+    "price_cad": 21.99,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly"
+    ],
+    "diet_tags": [
+      "vegetarian"
+    ],
+    "macros": {
+      "calories": 540,
+      "protein_g": 18,
+      "carbs_g": 43,
+      "fat_g": 310,
+      "sodium_mg": 1380,
+      "sugar_g": 19
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "diet_tags",
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0AVEGETARIAN%20POWER%20BOWL",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.372719+00:00",
+    "updated_at": "2026-04-10T08:42:29.372719+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "moxies",
+    "restaurant_name": "Moxies",
+    "item_name": "WHITE CHOCOLATE BROWNIE (2 servings)",
+    "summary": "A solid desserts option from Moxies with 10g protein and 770 calories. Estimated demo price: $9.99.",
+    "unique_key": "moxies|white-chocolate-brownie-2-servings|217-g",
+    "category": "Desserts",
+    "category_path": [],
+    "portion": "217 g",
+    "price_cad": 9.99,
+    "availability_status": "active",
+    "tags": [
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 770,
+      "protein_g": 10,
+      "carbs_g": 96,
+      "fat_g": 40,
+      "sodium_mg": 310,
+      "sugar_g": 60
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/moxies_ca_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/2C3E50/F8FBFF?text=Moxies%0AWHITE%20CHOCOLATE%20BROWNIE%20%282%20servings%29",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.373013+00:00",
+    "updated_at": "2026-04-10T08:42:29.373013+00:00"
+  }
+]

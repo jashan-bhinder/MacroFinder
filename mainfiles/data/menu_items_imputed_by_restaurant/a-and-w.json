@@ -1,0 +1,5761 @@
+[
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "1 Pc. Hand-Breaded Chicken Tenders",
+    "summary": "A lighter option from A&W with 13g protein and 90 calories. Estimated demo price: $5.99.",
+    "unique_key": "a-and-w|1-pc-hand-breaded-chicken-tenders|52-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "52 g",
+    "price_cad": 5.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 90,
+      "protein_g": 13,
+      "carbs_g": 2,
+      "fat_g": 3,
+      "sodium_mg": 370,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0A1%20Pc.%20Hand-Breaded%20Chicken%20Tenders",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.175714+00:00",
+    "updated_at": "2026-04-10T08:42:29.175714+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "2 Pc. Pub Cod Sandwich",
+    "summary": "A heavier, more filling proteins from A&W with 33g protein and 940 calories. Estimated demo price: $10.99.",
+    "unique_key": "a-and-w|2-pc-pub-cod-sandwich|364-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "364 g",
+    "price_cad": 10.99,
+    "availability_status": "active",
+    "tags": [
+      "high-protein",
+      "big-meal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 940,
+      "protein_g": 33,
+      "carbs_g": 85,
+      "fat_g": 51,
+      "sodium_mg": 1810,
+      "sugar_g": 9
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0A2%20Pc.%20Pub%20Cod%20Sandwich",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176743+00:00",
+    "updated_at": "2026-04-10T08:42:29.176743+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "3 Pc. Hand-Breaded Chicken Tenders",
+    "summary": "A protein-forward pick from A&W with 40g protein and 260 calories. Estimated demo price: $5.99.",
+    "unique_key": "a-and-w|3-pc-hand-breaded-chicken-tenders|156-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "156 g",
+    "price_cad": 5.99,
+    "availability_status": "active",
+    "tags": [
+      "high-protein",
+      "lower-cal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 260,
+      "protein_g": 40,
+      "carbs_g": 5,
+      "fat_g": 9,
+      "sodium_mg": 1100,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0A3%20Pc.%20Hand-Breaded%20Chicken%20Tenders",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.175848+00:00",
+    "updated_at": "2026-04-10T08:42:29.175848+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "3 Piece Chicken Strips - Freezer to Fryer",
+    "summary": "A solid proteins option from A&W with 21g protein and 370 calories. Estimated demo price: $7.49.",
+    "unique_key": "a-and-w|3-piece-chicken-strips-freezer-to-fryer|176-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "176 g",
+    "price_cad": 7.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 370,
+      "protein_g": 21,
+      "carbs_g": 29,
+      "fat_g": 18,
+      "sodium_mg": 1190,
+      "sugar_g": 8
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0A3%20Piece%20Chicken%20Strips%20-%20Freezer%20to%20Fryer",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.175887+00:00",
+    "updated_at": "2026-04-10T08:42:29.175887+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "5 Pc. Hand-Breaded Chicken Tenders",
+    "summary": "A protein-forward pick from A&W with 67g protein and 430 calories. Estimated demo price: $7.49.",
+    "unique_key": "a-and-w|5-pc-hand-breaded-chicken-tenders|260-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "260 g",
+    "price_cad": 7.49,
+    "availability_status": "active",
+    "tags": [
+      "high-protein"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 430,
+      "protein_g": 67,
+      "carbs_g": 8,
+      "fat_g": 15,
+      "sodium_mg": 1830,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0A5%20Pc.%20Hand-Breaded%20Chicken%20Tenders",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.175922+00:00",
+    "updated_at": "2026-04-10T08:42:29.175922+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "BBQ Bacon Crunch Cheeseburger - Double",
+    "summary": "A solid proteins option from A&W with 36g protein and 760 calories. Estimated demo price: $12.49.",
+    "unique_key": "a-and-w|bbq-bacon-crunch-cheeseburger-double|269-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "269 g",
+    "price_cad": 12.49,
+    "availability_status": "active",
+    "tags": [
+      "high-protein"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 760,
+      "protein_g": 36,
+      "carbs_g": 51,
+      "fat_g": 47,
+      "sodium_mg": 1450,
+      "sugar_g": 14
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ABBQ%20Bacon%20Crunch%20Cheeseburger%20-%20Double",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176185+00:00",
+    "updated_at": "2026-04-10T08:42:29.176185+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "BBQ Bacon Crunch Cheeseburger - Single",
+    "summary": "A solid proteins option from A&W with 22g protein and 550 calories. Estimated demo price: $8.99.",
+    "unique_key": "a-and-w|bbq-bacon-crunch-cheeseburger-single|198-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "198 g",
+    "price_cad": 8.99,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 550,
+      "protein_g": 22,
+      "carbs_g": 50,
+      "fat_g": 30,
+      "sodium_mg": 1050,
+      "sugar_g": 13
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ABBQ%20Bacon%20Crunch%20Cheeseburger%20-%20Single",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176206+00:00",
+    "updated_at": "2026-04-10T08:42:29.176206+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Bacon Cheese Dog",
+    "summary": "A solid proteins option from A&W with 15g protein and 390 calories. Estimated demo price: $7.49.",
+    "unique_key": "a-and-w|bacon-cheese-dog|146-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "146 g",
+    "price_cad": 7.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 390,
+      "protein_g": 15,
+      "carbs_g": 29,
+      "fat_g": 25,
+      "sodium_mg": 1010,
+      "sugar_g": 3
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ABacon%20Cheese%20Dog",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176584+00:00",
+    "updated_at": "2026-04-10T08:42:29.176584+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Beyond Bacon Cheeseburger",
+    "summary": "A solid proteins option from A&W with 25g protein and 510 calories. Estimated demo price: $8.99.",
+    "unique_key": "a-and-w|beyond-bacon-cheeseburger|252-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "252 g",
+    "price_cad": 8.99,
+    "availability_status": "active",
+    "tags": [
+      "high-protein"
+    ],
+    "diet_tags": [
+      "vegetarian"
+    ],
+    "macros": {
+      "calories": 510,
+      "protein_g": 25,
+      "carbs_g": 46,
+      "fat_g": 27,
+      "sodium_mg": 1110,
+      "sugar_g": 9
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "diet_tags",
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ABeyond%20Bacon%20Cheeseburger",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176227+00:00",
+    "updated_at": "2026-04-10T08:42:29.176227+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Beyond Burger",
+    "summary": "A solid proteins option from A&W with 22g protein and 500 calories. Estimated demo price: $8.99.",
+    "unique_key": "a-and-w|beyond-burger|250-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "250 g",
+    "price_cad": 8.99,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly"
+    ],
+    "diet_tags": [
+      "vegetarian"
+    ],
+    "macros": {
+      "calories": 500,
+      "protein_g": 22,
+      "carbs_g": 51,
+      "fat_g": 25,
+      "sodium_mg": 990,
+      "sugar_g": 13
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "diet_tags",
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ABeyond%20Burger",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176249+00:00",
+    "updated_at": "2026-04-10T08:42:29.176249+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Cheese Curds, Large 10oz",
+    "summary": "A heavier, more filling sides from A&W with 52g protein and 1060 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|cheese-curds-large-10oz|291-g",
+    "category": "Sides",
+    "category_path": [],
+    "portion": "291 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "high-protein",
+      "big-meal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 1060,
+      "protein_g": 52,
+      "carbs_g": 44,
+      "fat_g": 74,
+      "sodium_mg": 1770,
+      "sugar_g": 4
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ACheese%20Curds%2C%20Large%2010oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176856+00:00",
+    "updated_at": "2026-04-10T08:42:29.176856+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Cheese Curds, Small 5oz",
+    "summary": "A solid sides option from A&W with 26g protein and 530 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|cheese-curds-small-5oz|146-g",
+    "category": "Sides",
+    "category_path": [],
+    "portion": "146 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "high-protein"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 530,
+      "protein_g": 26,
+      "carbs_g": 22,
+      "fat_g": 37,
+      "sodium_mg": 890,
+      "sugar_g": 2
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ACheese%20Curds%2C%20Small%205oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176877+00:00",
+    "updated_at": "2026-04-10T08:42:29.176877+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Cheese Fries - Large",
+    "summary": "A solid sides option from A&W with 12g protein and 680 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|cheese-fries-large|299-g",
+    "category": "Sides",
+    "category_path": [],
+    "portion": "299 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 680,
+      "protein_g": 12,
+      "carbs_g": 90,
+      "fat_g": 29,
+      "sodium_mg": 2090,
+      "sugar_g": 2
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ACheese%20Fries%20-%20Large",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176897+00:00",
+    "updated_at": "2026-04-10T08:42:29.176897+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Cheese Fries - Regular",
+    "summary": "A solid sides option from A&W with 11g protein and 640 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|cheese-fries-regular|271-g",
+    "category": "Sides",
+    "category_path": [],
+    "portion": "271 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 640,
+      "protein_g": 11,
+      "carbs_g": 88,
+      "fat_g": 26,
+      "sodium_mg": 1870,
+      "sugar_g": 2
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ACheese%20Fries%20-%20Regular",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176917+00:00",
+    "updated_at": "2026-04-10T08:42:29.176917+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Cheese Sauce 2oz",
+    "summary": "A lighter option from A&W with 2g protein and 80 calories. Estimated demo price: $0.99.",
+    "unique_key": "a-and-w|cheese-sauce-2oz|57-g",
+    "category": "Sauces",
+    "category_path": [],
+    "portion": "57 g",
+    "price_cad": 0.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 80,
+      "protein_g": 2,
+      "carbs_g": 5,
+      "fat_g": 6,
+      "sodium_mg": 430,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ACheese%20Sauce%202oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.178408+00:00",
+    "updated_at": "2026-04-10T08:42:29.178408+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Cheeseburger",
+    "summary": "A solid proteins option from A&W with 19g protein and 410 calories. Estimated demo price: $7.49.",
+    "unique_key": "a-and-w|cheeseburger|175-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "175 g",
+    "price_cad": 7.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 410,
+      "protein_g": 19,
+      "carbs_g": 42,
+      "fat_g": 19,
+      "sodium_mg": 910,
+      "sugar_g": 10
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ACheeseburger",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176269+00:00",
+    "updated_at": "2026-04-10T08:42:29.176269+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Chicken Club Sandwich - Grilled",
+    "summary": "A solid proteins option from A&W with 22g protein and 440 calories. Estimated demo price: $7.49.",
+    "unique_key": "a-and-w|chicken-club-sandwich-grilled|291-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "291 g",
+    "price_cad": 7.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 440,
+      "protein_g": 22,
+      "carbs_g": 39,
+      "fat_g": 14,
+      "sodium_mg": 1220,
+      "sugar_g": 8
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AChicken%20Club%20Sandwich%20-%20Grilled",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176013+00:00",
+    "updated_at": "2026-04-10T08:42:29.176013+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Chicken Club Sandwich - Hand Breaded",
+    "summary": "A protein-forward pick from A&W with 36g protein and 470 calories. Estimated demo price: $7.49.",
+    "unique_key": "a-and-w|chicken-club-sandwich-hand-breaded|250-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "250 g",
+    "price_cad": 7.49,
+    "availability_status": "active",
+    "tags": [
+      "high-protein"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 470,
+      "protein_g": 36,
+      "carbs_g": 43,
+      "fat_g": 17,
+      "sodium_mg": 1370,
+      "sugar_g": 9
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AChicken%20Club%20Sandwich%20-%20Hand%20Breaded",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176034+00:00",
+    "updated_at": "2026-04-10T08:42:29.176034+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Chicken Sandwich - Grilled",
+    "summary": "A solid proteins option from A&W with 19g protein and 380 calories. Estimated demo price: $7.49.",
+    "unique_key": "a-and-w|chicken-sandwich-grilled|272-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "272 g",
+    "price_cad": 7.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 380,
+      "protein_g": 19,
+      "carbs_g": 40,
+      "fat_g": 9,
+      "sodium_mg": 970,
+      "sugar_g": 8
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AChicken%20Sandwich%20-%20Grilled",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176055+00:00",
+    "updated_at": "2026-04-10T08:42:29.176055+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Chicken Sandwich - Hand Breaded",
+    "summary": "A protein-forward pick from A&W with 33g protein and 410 calories. Estimated demo price: $7.49.",
+    "unique_key": "a-and-w|chicken-sandwich-hand-breaded|230-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "230 g",
+    "price_cad": 7.49,
+    "availability_status": "active",
+    "tags": [
+      "high-protein"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 410,
+      "protein_g": 33,
+      "carbs_g": 43,
+      "fat_g": 12,
+      "sodium_mg": 1130,
+      "sugar_g": 8
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AChicken%20Sandwich%20-%20Hand%20Breaded",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176076+00:00",
+    "updated_at": "2026-04-10T08:42:29.176076+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Chicken Slider - Grilled",
+    "summary": "A lighter option from A&W with 10g protein and 200 calories. Estimated demo price: $3.99.",
+    "unique_key": "a-and-w|chicken-slider-grilled|127-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "127 g",
+    "price_cad": 3.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 200,
+      "protein_g": 10,
+      "carbs_g": 19,
+      "fat_g": 6,
+      "sodium_mg": 600,
+      "sugar_g": 3
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AChicken%20Slider%20-%20Grilled",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176100+00:00",
+    "updated_at": "2026-04-10T08:42:29.176100+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Chicken Slider - Hand Breaded",
+    "summary": "A lighter option from A&W with 16g protein and 220 calories. Estimated demo price: $3.99.",
+    "unique_key": "a-and-w|chicken-slider-hand-breaded|106-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "106 g",
+    "price_cad": 3.99,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "lower-cal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 220,
+      "protein_g": 16,
+      "carbs_g": 21,
+      "fat_g": 7,
+      "sodium_mg": 680,
+      "sugar_g": 3
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AChicken%20Slider%20-%20Hand%20Breaded",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176121+00:00",
+    "updated_at": "2026-04-10T08:42:29.176121+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Chili Cheese Fries - Large",
+    "summary": "A solid sides option from A&W with 14g protein and 600 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|chili-cheese-fries-large|298-g",
+    "category": "Sides",
+    "category_path": [],
+    "portion": "298 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 600,
+      "protein_g": 14,
+      "carbs_g": 73,
+      "fat_g": 27,
+      "sodium_mg": 1700,
+      "sugar_g": 3
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AChili%20Cheese%20Fries%20-%20Large",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176959+00:00",
+    "updated_at": "2026-04-10T08:42:29.176959+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Chili Cheese Fries - Regular",
+    "summary": "A solid sides option from A&W with 9g protein and 410 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|chili-cheese-fries-regular|198-g",
+    "category": "Sides",
+    "category_path": [],
+    "portion": "198 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 410,
+      "protein_g": 9,
+      "carbs_g": 51,
+      "fat_g": 18,
+      "sodium_mg": 1100,
+      "sugar_g": 2
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AChili%20Cheese%20Fries%20-%20Regular",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176979+00:00",
+    "updated_at": "2026-04-10T08:42:29.176979+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Chili Fries - Large",
+    "summary": "A solid sides option from A&W with 9g protein and 670 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|chili-fries-large|271-g",
+    "category": "Sides",
+    "category_path": [],
+    "portion": "271 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 670,
+      "protein_g": 9,
+      "carbs_g": 88,
+      "fat_g": 30,
+      "sodium_mg": 1880,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AChili%20Fries%20-%20Large",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176999+00:00",
+    "updated_at": "2026-04-10T08:42:29.176999+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Chili Fries - Regular",
+    "summary": "A solid sides option from A&W with 5g protein and 350 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|chili-fries-regular|143-g",
+    "category": "Sides",
+    "category_path": [],
+    "portion": "143 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 350,
+      "protein_g": 5,
+      "carbs_g": 47,
+      "fat_g": 16,
+      "sodium_mg": 1260,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AChili%20Fries%20-%20Regular",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177019+00:00",
+    "updated_at": "2026-04-10T08:42:29.177019+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Chocolate Cone - Kids 4oz",
+    "summary": "A lighter option from A&W with 4g protein and 220 calories. Estimated demo price: $3.49.",
+    "unique_key": "a-and-w|chocolate-cone-kids-4oz|119-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "119 g",
+    "price_cad": 3.49,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 220,
+      "protein_g": 4,
+      "carbs_g": 36,
+      "fat_g": 5,
+      "sodium_mg": 122,
+      "sugar_g": 29
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AChocolate%20Cone%20-%20Kids%204oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177191+00:00",
+    "updated_at": "2026-04-10T08:42:29.177191+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Chocolate Cone - Regular 5.5oz",
+    "summary": "A lighter option from A&W with 6g protein and 293 calories. Estimated demo price: $3.49.",
+    "unique_key": "a-and-w|chocolate-cone-regular-5-5oz|162-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "162 g",
+    "price_cad": 3.49,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 293,
+      "protein_g": 6,
+      "carbs_g": 48,
+      "fat_g": 7,
+      "sodium_mg": 163,
+      "sugar_g": 39
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AChocolate%20Cone%20-%20Regular%205.5oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177212+00:00",
+    "updated_at": "2026-04-10T08:42:29.177212+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Coney Cheese Dog",
+    "summary": "A solid proteins option from A&W with 15g protein and 380 calories. Estimated demo price: $7.49.",
+    "unique_key": "a-and-w|coney-cheese-dog|168-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "168 g",
+    "price_cad": 7.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 380,
+      "protein_g": 15,
+      "carbs_g": 31,
+      "fat_g": 23,
+      "sodium_mg": 1100,
+      "sugar_g": 4
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AConey%20Cheese%20Dog",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176604+00:00",
+    "updated_at": "2026-04-10T08:42:29.176604+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Coney Cheese Fries - Large",
+    "summary": "A solid sides option from A&W with 12g protein and 510 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|coney-cheese-fries-large|241-g",
+    "category": "Sides",
+    "category_path": [],
+    "portion": "241 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 510,
+      "protein_g": 12,
+      "carbs_g": 68,
+      "fat_g": 20,
+      "sodium_mg": 1270,
+      "sugar_g": 3
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AConey%20Cheese%20Fries%20-%20Large",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177039+00:00",
+    "updated_at": "2026-04-10T08:42:29.177039+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Coney Dog",
+    "summary": "A solid proteins option from A&W with 14g protein and 340 calories. Estimated demo price: $7.49.",
+    "unique_key": "a-and-w|coney-dog|139-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "139 g",
+    "price_cad": 7.49,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 340,
+      "protein_g": 14,
+      "carbs_g": 29,
+      "fat_g": 20,
+      "sodium_mg": 890,
+      "sugar_g": 4
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AConey%20Dog",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176624+00:00",
+    "updated_at": "2026-04-10T08:42:29.176624+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Coney Fries - Large",
+    "summary": "A solid sides option from A&W with 8g protein and 370 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|coney-fries-large|170-g",
+    "category": "Sides",
+    "category_path": [],
+    "portion": "170 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 370,
+      "protein_g": 8,
+      "carbs_g": 49,
+      "fat_g": 15,
+      "sodium_mg": 880,
+      "sugar_g": 2
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AConey%20Fries%20-%20Large",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177060+00:00",
+    "updated_at": "2026-04-10T08:42:29.177060+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Coney Sauce 2oz",
+    "summary": "A lighter option from A&W with 5g protein and 60 calories. Estimated demo price: $0.99.",
+    "unique_key": "a-and-w|coney-sauce-2oz|57-g",
+    "category": "Sauces",
+    "category_path": [],
+    "portion": "57 g",
+    "price_cad": 0.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 60,
+      "protein_g": 5,
+      "carbs_g": 5,
+      "fat_g": 2.5,
+      "sodium_mg": 420,
+      "sugar_g": 2
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AConey%20Sauce%202oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.178427+00:00",
+    "updated_at": "2026-04-10T08:42:29.178427+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Corn Dog Nuggets - 10 Pc.",
+    "summary": "A solid proteins option from A&W with 17g protein and 540 calories. Estimated demo price: $8.99.",
+    "unique_key": "a-and-w|corn-dog-nuggets-10-pc|194-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "194 g",
+    "price_cad": 8.99,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 540,
+      "protein_g": 17,
+      "carbs_g": 60,
+      "fat_g": 26,
+      "sodium_mg": 670,
+      "sugar_g": 12
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ACorn%20Dog%20Nuggets%20-%2010%20Pc.",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176541+00:00",
+    "updated_at": "2026-04-10T08:42:29.176541+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Corn Dog Nuggets - 5 Pc.",
+    "summary": "A lighter option from A&W with 8g protein and 270 calories. Estimated demo price: $5.99.",
+    "unique_key": "a-and-w|corn-dog-nuggets-5-pc|97-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "97 g",
+    "price_cad": 5.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 270,
+      "protein_g": 8,
+      "carbs_g": 30,
+      "fat_g": 13,
+      "sodium_mg": 330,
+      "sugar_g": 6
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ACorn%20Dog%20Nuggets%20-%205%20Pc.",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176562+00:00",
+    "updated_at": "2026-04-10T08:42:29.176562+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Crispy Chicken Club Sandwich - FTF",
+    "summary": "A solid proteins option from A&W with 26g protein and 540 calories. Estimated demo price: $8.99.",
+    "unique_key": "a-and-w|crispy-chicken-club-sandwich-ftf|260-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "260 g",
+    "price_cad": 8.99,
+    "availability_status": "active",
+    "tags": [
+      "high-protein"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 540,
+      "protein_g": 26,
+      "carbs_g": 52,
+      "fat_g": 25,
+      "sodium_mg": 1510,
+      "sugar_g": 12
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ACrispy%20Chicken%20Club%20Sandwich%20-%20FTF",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176143+00:00",
+    "updated_at": "2026-04-10T08:42:29.176143+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Crispy Chicken Sandwich FTF",
+    "summary": "A solid proteins option from A&W with 23g protein and 480 calories. Estimated demo price: $7.49.",
+    "unique_key": "a-and-w|crispy-chicken-sandwich-ftf|240-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "240 g",
+    "price_cad": 7.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 480,
+      "protein_g": 23,
+      "carbs_g": 51,
+      "fat_g": 20,
+      "sodium_mg": 1270,
+      "sugar_g": 12
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ACrispy%20Chicken%20Sandwich%20FTF",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176164+00:00",
+    "updated_at": "2026-04-10T08:42:29.176164+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Diet Root Beer, 1/2 Gallon",
+    "summary": "A lighter option from A&W with 0g protein and 0 calories. Estimated demo price: $2.99.",
+    "unique_key": "a-and-w|diet-root-beer-1-2-gallon|1920-g",
+    "category": "Root Beer",
+    "category_path": [],
+    "portion": "1920 g",
+    "price_cad": 2.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 0,
+      "protein_g": 0,
+      "carbs_g": 0,
+      "fat_g": 0,
+      "sodium_mg": 576,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ADiet%20Root%20Beer%2C%201/2%20Gallon",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.178158+00:00",
+    "updated_at": "2026-04-10T08:42:29.178158+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Diet Root Beer, Gallon",
+    "summary": "A lighter option from A&W with 0g protein and 0 calories. Estimated demo price: $2.99.",
+    "unique_key": "a-and-w|diet-root-beer-gallon|3840-g",
+    "category": "Root Beer",
+    "category_path": [],
+    "portion": "3840 g",
+    "price_cad": 2.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 0,
+      "protein_g": 0,
+      "carbs_g": 0,
+      "fat_g": 0,
+      "sodium_mg": 1152,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ADiet%20Root%20Beer%2C%20Gallon",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.178180+00:00",
+    "updated_at": "2026-04-10T08:42:29.178180+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Diet Root Beer, Kid's, 12 oz.",
+    "summary": "A lighter option from A&W with 0g protein and 0 calories. Estimated demo price: $2.99.",
+    "unique_key": "a-and-w|diet-root-beer-kid-s-12-oz|340-g",
+    "category": "Root Beer",
+    "category_path": [],
+    "portion": "340 g",
+    "price_cad": 2.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 0,
+      "protein_g": 0,
+      "carbs_g": 0,
+      "fat_g": 0,
+      "sodium_mg": 108,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ADiet%20Root%20Beer%2C%20Kid%27s%2C%2012%20oz.",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.178202+00:00",
+    "updated_at": "2026-04-10T08:42:29.178202+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Diet Root Beer, Large, 30 oz.",
+    "summary": "A lighter option from A&W with 0g protein and 0 calories. Estimated demo price: $2.99.",
+    "unique_key": "a-and-w|diet-root-beer-large-30-oz|900-g",
+    "category": "Root Beer",
+    "category_path": [],
+    "portion": "900 g",
+    "price_cad": 2.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 0,
+      "protein_g": 0,
+      "carbs_g": 0,
+      "fat_g": 0,
+      "sodium_mg": 270,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ADiet%20Root%20Beer%2C%20Large%2C%2030%20oz.",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.178222+00:00",
+    "updated_at": "2026-04-10T08:42:29.178222+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Diet Root Beer, Regular, 20 oz.",
+    "summary": "A lighter option from A&W with 0g protein and 0 calories. Estimated demo price: $2.99.",
+    "unique_key": "a-and-w|diet-root-beer-regular-20-oz|600-g",
+    "category": "Root Beer",
+    "category_path": [],
+    "portion": "600 g",
+    "price_cad": 2.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 0,
+      "protein_g": 0,
+      "carbs_g": 0,
+      "fat_g": 0,
+      "sodium_mg": 180,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ADiet%20Root%20Beer%2C%20Regular%2C%2020%20oz.",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.178243+00:00",
+    "updated_at": "2026-04-10T08:42:29.178243+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Diet Root Beer, Small, 16 oz.",
+    "summary": "A lighter option from A&W with 0g protein and 0 calories. Estimated demo price: $2.99.",
+    "unique_key": "a-and-w|diet-root-beer-small-16-oz|480-g",
+    "category": "Root Beer",
+    "category_path": [],
+    "portion": "480 g",
+    "price_cad": 2.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 0,
+      "protein_g": 0,
+      "carbs_g": 0,
+      "fat_g": 0,
+      "sodium_mg": 144,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ADiet%20Root%20Beer%2C%20Small%2C%2016%20oz.",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.178264+00:00",
+    "updated_at": "2026-04-10T08:42:29.178264+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Double Cheeseburger",
+    "summary": "A solid proteins option from A&W with 31g protein and 600 calories. Estimated demo price: $10.49.",
+    "unique_key": "a-and-w|double-cheeseburger|242-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "242 g",
+    "price_cad": 10.49,
+    "availability_status": "active",
+    "tags": [
+      "high-protein"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 600,
+      "protein_g": 31,
+      "carbs_g": 42,
+      "fat_g": 34,
+      "sodium_mg": 1260,
+      "sugar_g": 10
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ADouble%20Cheeseburger",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176290+00:00",
+    "updated_at": "2026-04-10T08:42:29.176290+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Float, Diet Root Beer, 16oz",
+    "summary": "A lighter option from A&W with 4g protein and 159 calories. Estimated demo price: $3.49.",
+    "unique_key": "a-and-w|float-diet-root-beer-16oz|411-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "411 g",
+    "price_cad": 3.49,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 159,
+      "protein_g": 4,
+      "carbs_g": 22,
+      "fat_g": 5,
+      "sodium_mg": 158,
+      "sugar_g": 21
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AFloat%2C%20Diet%20Root%20Beer%2C%2016oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177274+00:00",
+    "updated_at": "2026-04-10T08:42:29.177274+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Float, Diet Root Beer, 20oz",
+    "summary": "A lighter option from A&W with 4g protein and 159 calories. Estimated demo price: $3.49.",
+    "unique_key": "a-and-w|float-diet-root-beer-20oz|468-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "468 g",
+    "price_cad": 3.49,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 159,
+      "protein_g": 4,
+      "carbs_g": 22,
+      "fat_g": 5,
+      "sodium_mg": 168,
+      "sugar_g": 21
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AFloat%2C%20Diet%20Root%20Beer%2C%2020oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177295+00:00",
+    "updated_at": "2026-04-10T08:42:29.177295+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Float, Diet Root Beer, 30oz",
+    "summary": "A solid sweets & treats option from A&W with 8g protein and 318 calories. Estimated demo price: $3.49.",
+    "unique_key": "a-and-w|float-diet-root-beer-30oz|737-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "737 g",
+    "price_cad": 3.49,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 318,
+      "protein_g": 8,
+      "carbs_g": 44,
+      "fat_g": 10,
+      "sodium_mg": 299,
+      "sugar_g": 42
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AFloat%2C%20Diet%20Root%20Beer%2C%2030oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177319+00:00",
+    "updated_at": "2026-04-10T08:42:29.177319+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Float, Pepsi, Large",
+    "summary": "A solid sweets & treats option from A&W with 8g protein and 580 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|float-pepsi-large|794-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "794 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 580,
+      "protein_g": 8,
+      "carbs_g": 116,
+      "fat_g": 10,
+      "sodium_mg": 256,
+      "sugar_g": 114
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AFloat%2C%20Pepsi%2C%20Large",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177340+00:00",
+    "updated_at": "2026-04-10T08:42:29.177340+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Float, Pepsi, Regular",
+    "summary": "A solid sweets & treats option from A&W with 4g protein and 321 calories. Estimated demo price: $3.49.",
+    "unique_key": "a-and-w|float-pepsi-regular|468-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "468 g",
+    "price_cad": 3.49,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 321,
+      "protein_g": 4,
+      "carbs_g": 67,
+      "fat_g": 5,
+      "sodium_mg": 135,
+      "sugar_g": 66
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AFloat%2C%20Pepsi%2C%20Regular",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177360+00:00",
+    "updated_at": "2026-04-10T08:42:29.177360+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Float, Pepsi, Small",
+    "summary": "A lighter option from A&W with 4g protein and 296 calories. Estimated demo price: $3.49.",
+    "unique_key": "a-and-w|float-pepsi-small|411-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "411 g",
+    "price_cad": 3.49,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 296,
+      "protein_g": 4,
+      "carbs_g": 60,
+      "fat_g": 5,
+      "sodium_mg": 129,
+      "sugar_g": 59
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AFloat%2C%20Pepsi%2C%20Small",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177379+00:00",
+    "updated_at": "2026-04-10T08:42:29.177379+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Float, Root Beer, 16oz",
+    "summary": "A solid sweets & treats option from A&W with 4g protein and 315 calories. Estimated demo price: $3.49.",
+    "unique_key": "a-and-w|float-root-beer-16oz|411-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "411 g",
+    "price_cad": 3.49,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 315,
+      "protein_g": 4,
+      "carbs_g": 60,
+      "fat_g": 5,
+      "sodium_mg": 151,
+      "sugar_g": 59
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AFloat%2C%20Root%20Beer%2C%2016oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177399+00:00",
+    "updated_at": "2026-04-10T08:42:29.177399+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Float, Root Beer, 20oz",
+    "summary": "A solid sweets & treats option from A&W with 4g protein and 343 calories. Estimated demo price: $3.49.",
+    "unique_key": "a-and-w|float-root-beer-20oz|468-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "468 g",
+    "price_cad": 3.49,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 343,
+      "protein_g": 4,
+      "carbs_g": 66,
+      "fat_g": 5,
+      "sodium_mg": 161,
+      "sugar_g": 65
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AFloat%2C%20Root%20Beer%2C%2020oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177419+00:00",
+    "updated_at": "2026-04-10T08:42:29.177419+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Float, Root Beer, 30oz",
+    "summary": "A solid sweets & treats option from A&W with 8g protein and 587 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|float-root-beer-30oz|737-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "737 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 587,
+      "protein_g": 8,
+      "carbs_g": 109,
+      "fat_g": 10,
+      "sodium_mg": 288,
+      "sugar_g": 107
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AFloat%2C%20Root%20Beer%2C%2030oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177439+00:00",
+    "updated_at": "2026-04-10T08:42:29.177439+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Footlong Coney Cheese Dog",
+    "summary": "A solid proteins option from A&W with 26g protein and 730 calories. Estimated demo price: $10.99.",
+    "unique_key": "a-and-w|footlong-coney-cheese-dog|335-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "335 g",
+    "price_cad": 10.99,
+    "availability_status": "active",
+    "tags": [
+      "high-protein"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 730,
+      "protein_g": 26,
+      "carbs_g": 56,
+      "fat_g": 44,
+      "sodium_mg": 2340,
+      "sugar_g": 9
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AFootlong%20Coney%20Cheese%20Dog",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176643+00:00",
+    "updated_at": "2026-04-10T08:42:29.176643+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Footlong Coney Dog",
+    "summary": "A solid proteins option from A&W with 24g protein and 650 calories. Estimated demo price: $8.99.",
+    "unique_key": "a-and-w|footlong-coney-dog|278-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "278 g",
+    "price_cad": 8.99,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 650,
+      "protein_g": 24,
+      "carbs_g": 52,
+      "fat_g": 38,
+      "sodium_mg": 1910,
+      "sugar_g": 9
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AFootlong%20Coney%20Dog",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176663+00:00",
+    "updated_at": "2026-04-10T08:42:29.176663+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Footlong Hot Dog Regular",
+    "summary": "A solid proteins option from A&W with 20g protein and 640 calories. Estimated demo price: $8.99.",
+    "unique_key": "a-and-w|footlong-hot-dog-regular|250-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "250 g",
+    "price_cad": 8.99,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 640,
+      "protein_g": 20,
+      "carbs_g": 55,
+      "fat_g": 36,
+      "sodium_mg": 1660,
+      "sugar_g": 13
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AFootlong%20Hot%20Dog%20Regular",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176683+00:00",
+    "updated_at": "2026-04-10T08:42:29.176683+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Freeze, Diet Root Beer, 16oz",
+    "summary": "A lighter option from A&W with 7g protein and 272 calories. Estimated demo price: $3.49.",
+    "unique_key": "a-and-w|freeze-diet-root-beer-16oz|397-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "397 g",
+    "price_cad": 3.49,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 272,
+      "protein_g": 7,
+      "carbs_g": 37,
+      "fat_g": 9,
+      "sodium_mg": 213,
+      "sugar_g": 36
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AFreeze%2C%20Diet%20Root%20Beer%2C%2016oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177459+00:00",
+    "updated_at": "2026-04-10T08:42:29.177459+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Freeze, Diet Root Beer, 20oz",
+    "summary": "A solid sweets & treats option from A&W with 9g protein and 363 calories. Estimated demo price: $3.49.",
+    "unique_key": "a-and-w|freeze-diet-root-beer-20oz|539-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "539 g",
+    "price_cad": 3.49,
+    "availability_status": "active",
+    "tags": [
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 363,
+      "protein_g": 9,
+      "carbs_g": 50,
+      "fat_g": 11,
+      "sodium_mg": 285,
+      "sugar_g": 48
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AFreeze%2C%20Diet%20Root%20Beer%2C%2020oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177479+00:00",
+    "updated_at": "2026-04-10T08:42:29.177479+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Freeze, Diet Root Beer, 30oz",
+    "summary": "A solid sweets & treats option from A&W with 16g protein and 635 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|freeze-diet-root-beer-30oz|822-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "822 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 635,
+      "protein_g": 16,
+      "carbs_g": 87,
+      "fat_g": 20,
+      "sodium_mg": 477,
+      "sugar_g": 83
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AFreeze%2C%20Diet%20Root%20Beer%2C%2030oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177500+00:00",
+    "updated_at": "2026-04-10T08:42:29.177500+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Freeze, Pepsi, Large",
+    "summary": "A heavier, more filling sweets & treats from A&W with 16g protein and 848 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|freeze-pepsi-large|879-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "879 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "big-meal",
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 848,
+      "protein_g": 16,
+      "carbs_g": 146,
+      "fat_g": 20,
+      "sodium_mg": 444,
+      "sugar_g": 142
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AFreeze%2C%20Pepsi%2C%20Large",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177520+00:00",
+    "updated_at": "2026-04-10T08:42:29.177520+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Freeze, Pepsi, Regular",
+    "summary": "A solid sweets & treats option from A&W with 9g protein and 500 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|freeze-pepsi-regular|539-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "539 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 500,
+      "protein_g": 9,
+      "carbs_g": 88,
+      "fat_g": 11,
+      "sodium_mg": 257,
+      "sugar_g": 86
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AFreeze%2C%20Pepsi%2C%20Regular",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177540+00:00",
+    "updated_at": "2026-04-10T08:42:29.177540+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Freeze, Pepsi, Small",
+    "summary": "A solid sweets & treats option from A&W with 7g protein and 372 calories. Estimated demo price: $3.49.",
+    "unique_key": "a-and-w|freeze-pepsi-small|397-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "397 g",
+    "price_cad": 3.49,
+    "availability_status": "active",
+    "tags": [
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 372,
+      "protein_g": 7,
+      "carbs_g": 65,
+      "fat_g": 9,
+      "sodium_mg": 192,
+      "sugar_g": 63
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AFreeze%2C%20Pepsi%2C%20Small",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177560+00:00",
+    "updated_at": "2026-04-10T08:42:29.177560+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Freeze, Root Beer, 16oz",
+    "summary": "A solid sweets & treats option from A&W with 7g protein and 386 calories. Estimated demo price: $3.49.",
+    "unique_key": "a-and-w|freeze-root-beer-16oz|397-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "397 g",
+    "price_cad": 3.49,
+    "availability_status": "active",
+    "tags": [
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 386,
+      "protein_g": 7,
+      "carbs_g": 65,
+      "fat_g": 9,
+      "sodium_mg": 208,
+      "sugar_g": 63
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AFreeze%2C%20Root%20Beer%2C%2016oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177580+00:00",
+    "updated_at": "2026-04-10T08:42:29.177580+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Freeze, Root Beer, 20oz",
+    "summary": "A solid sweets & treats option from A&W with 9g protein and 519 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|freeze-root-beer-20oz|539-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "539 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 519,
+      "protein_g": 9,
+      "carbs_g": 88,
+      "fat_g": 11,
+      "sodium_mg": 279,
+      "sugar_g": 85
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AFreeze%2C%20Root%20Beer%2C%2020oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177605+00:00",
+    "updated_at": "2026-04-10T08:42:29.177605+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Freeze, Root Beer, 30oz",
+    "summary": "A heavier, more filling sweets & treats from A&W with 16g protein and 848 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|freeze-root-beer-30oz|822-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "822 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "big-meal",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 848,
+      "protein_g": 16,
+      "carbs_g": 139,
+      "fat_g": 20,
+      "sodium_mg": 468,
+      "sugar_g": 134
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AFreeze%2C%20Root%20Beer%2C%2030oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177626+00:00",
+    "updated_at": "2026-04-10T08:42:29.177626+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Fries - Large 5.5oz",
+    "summary": "A solid sides option from A&W with 5g protein and 430 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|fries-large-5-5oz|157-g",
+    "category": "Sides",
+    "category_path": [],
+    "portion": "157 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 430,
+      "protein_g": 5,
+      "carbs_g": 61,
+      "fat_g": 17,
+      "sodium_mg": 1220,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AFries%20-%20Large%205.5oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177081+00:00",
+    "updated_at": "2026-04-10T08:42:29.177081+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Fries - Regular 4oz",
+    "summary": "A solid sides option from A&W with 4g protein and 310 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|fries-regular-4oz|115-g",
+    "category": "Sides",
+    "category_path": [],
+    "portion": "115 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 310,
+      "protein_g": 4,
+      "carbs_g": 44,
+      "fat_g": 12,
+      "sodium_mg": 1050,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AFries%20-%20Regular%204oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177100+00:00",
+    "updated_at": "2026-04-10T08:42:29.177100+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Grilled Tender - 1 Tender",
+    "summary": "A lighter option from A&W with 7g protein and 70 calories. Estimated demo price: $5.99.",
+    "unique_key": "a-and-w|grilled-tender-1-tender|73-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "73 g",
+    "price_cad": 5.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 70,
+      "protein_g": 7,
+      "carbs_g": 0,
+      "fat_g": 1.5,
+      "sodium_mg": 240,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AGrilled%20Tender%20-%201%20Tender",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.175945+00:00",
+    "updated_at": "2026-04-10T08:42:29.175945+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Grilled Tenders - 3 Tenders",
+    "summary": "A lighter option from A&W with 20g protein and 220 calories. Estimated demo price: $5.99.",
+    "unique_key": "a-and-w|grilled-tenders-3-tenders|218-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "218 g",
+    "price_cad": 5.99,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "lower-cal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 220,
+      "protein_g": 20,
+      "carbs_g": 0,
+      "fat_g": 4.5,
+      "sodium_mg": 630,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AGrilled%20Tenders%20-%203%20Tenders",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.175970+00:00",
+    "updated_at": "2026-04-10T08:42:29.175970+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Grilled Tenders - 5 Tenders",
+    "summary": "A protein-forward pick from A&W with 33g protein and 360 calories. Estimated demo price: $7.49.",
+    "unique_key": "a-and-w|grilled-tenders-5-tenders|363-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "363 g",
+    "price_cad": 7.49,
+    "availability_status": "active",
+    "tags": [
+      "high-protein"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 360,
+      "protein_g": 33,
+      "carbs_g": 0,
+      "fat_g": 8,
+      "sodium_mg": 1180,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AGrilled%20Tenders%20-%205%20Tenders",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.175991+00:00",
+    "updated_at": "2026-04-10T08:42:29.175991+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Hamburger",
+    "summary": "A solid proteins option from A&W with 16g protein and 360 calories. Estimated demo price: $7.49.",
+    "unique_key": "a-and-w|hamburger|161-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "161 g",
+    "price_cad": 7.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 360,
+      "protein_g": 16,
+      "carbs_g": 41,
+      "fat_g": 14,
+      "sodium_mg": 680,
+      "sugar_g": 9
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AHamburger",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176310+00:00",
+    "updated_at": "2026-04-10T08:42:29.176310+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Hot Dog Regular",
+    "summary": "A solid proteins option from A&W with 12g protein and 330 calories. Estimated demo price: $7.49.",
+    "unique_key": "a-and-w|hot-dog-regular|125-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "125 g",
+    "price_cad": 7.49,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 330,
+      "protein_g": 12,
+      "carbs_g": 31,
+      "fat_g": 19,
+      "sodium_mg": 770,
+      "sugar_g": 6
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AHot%20Dog%20Regular",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176703+00:00",
+    "updated_at": "2026-04-10T08:42:29.176703+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Ketchup 2oz",
+    "summary": "A lighter option from A&W with 0g protein and 50 calories. Estimated demo price: $0.99.",
+    "unique_key": "a-and-w|ketchup-2oz|57-g",
+    "category": "Sauces",
+    "category_path": [],
+    "portion": "57 g",
+    "price_cad": 0.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 50,
+      "protein_g": 0,
+      "carbs_g": 13,
+      "fat_g": 0,
+      "sodium_mg": 630,
+      "sugar_g": 13
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AKetchup%202oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.178447+00:00",
+    "updated_at": "2026-04-10T08:42:29.178447+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Marinara 2oz",
+    "summary": "A lighter option from A&W with 1g protein and 30 calories. Estimated demo price: $0.99.",
+    "unique_key": "a-and-w|marinara-2oz|57-g",
+    "category": "Sauces",
+    "category_path": [],
+    "portion": "57 g",
+    "price_cad": 0.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 30,
+      "protein_g": 1,
+      "carbs_g": 6,
+      "fat_g": 1,
+      "sodium_mg": 180,
+      "sugar_g": 4
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AMarinara%202oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.178468+00:00",
+    "updated_at": "2026-04-10T08:42:29.178468+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Mushroom Onion Melts - Burger - Double",
+    "summary": "A solid proteins option from A&W with 32g protein and 590 calories. Estimated demo price: $10.49.",
+    "unique_key": "a-and-w|mushroom-onion-melts-burger-double|235-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "235 g",
+    "price_cad": 10.49,
+    "availability_status": "active",
+    "tags": [
+      "high-protein"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 590,
+      "protein_g": 32,
+      "carbs_g": 39,
+      "fat_g": 34,
+      "sodium_mg": 1480,
+      "sugar_g": 7
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AMushroom%20Onion%20Melts%20-%20Burger%20-%20Double",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176457+00:00",
+    "updated_at": "2026-04-10T08:42:29.176457+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Mushroom Onion Melts - Burger - Single",
+    "summary": "A solid proteins option from A&W with 19g protein and 400 calories. Estimated demo price: $7.49.",
+    "unique_key": "a-and-w|mushroom-onion-melts-burger-single|167-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "167 g",
+    "price_cad": 7.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 400,
+      "protein_g": 19,
+      "carbs_g": 38,
+      "fat_g": 19,
+      "sodium_mg": 1150,
+      "sugar_g": 7
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AMushroom%20Onion%20Melts%20-%20Burger%20-%20Single",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176478+00:00",
+    "updated_at": "2026-04-10T08:42:29.176478+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Mushroom Onion Melts - Texas Toast Double",
+    "summary": "A solid proteins option from A&W with 36g protein and 640 calories. Estimated demo price: $10.49.",
+    "unique_key": "a-and-w|mushroom-onion-melts-texas-toast-double|245-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "245 g",
+    "price_cad": 10.49,
+    "availability_status": "active",
+    "tags": [
+      "high-protein"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 640,
+      "protein_g": 36,
+      "carbs_g": 35,
+      "fat_g": 41,
+      "sodium_mg": 1820,
+      "sugar_g": 4
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AMushroom%20Onion%20Melts%20-%20Texas%20Toast%20Double",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176499+00:00",
+    "updated_at": "2026-04-10T08:42:29.176499+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Mushroom Onion Melts - Texas Toast Single",
+    "summary": "A solid proteins option from A&W with 22g protein and 430 calories. Estimated demo price: $7.49.",
+    "unique_key": "a-and-w|mushroom-onion-melts-texas-toast-single|175-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "175 g",
+    "price_cad": 7.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 430,
+      "protein_g": 22,
+      "carbs_g": 34,
+      "fat_g": 24,
+      "sodium_mg": 1420,
+      "sugar_g": 3
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AMushroom%20Onion%20Melts%20-%20Texas%20Toast%20Single",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176520+00:00",
+    "updated_at": "2026-04-10T08:42:29.176520+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Mustard 2oz",
+    "summary": "A lighter option from A&W with 2g protein and 45 calories. Estimated demo price: $0.99.",
+    "unique_key": "a-and-w|mustard-2oz|57-g",
+    "category": "Sauces",
+    "category_path": [],
+    "portion": "57 g",
+    "price_cad": 0.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 45,
+      "protein_g": 2,
+      "carbs_g": 4,
+      "fat_g": 1.5,
+      "sodium_mg": 690,
+      "sugar_g": 0
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AMustard%202oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.178488+00:00",
+    "updated_at": "2026-04-10T08:42:29.178488+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Onion Rings - Large 12 Pc.",
+    "summary": "A solid sides option from A&W with 9g protein and 380 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|onion-rings-large-12-pc|224-g",
+    "category": "Sides",
+    "category_path": [],
+    "portion": "224 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 380,
+      "protein_g": 9,
+      "carbs_g": 67,
+      "fat_g": 7,
+      "sodium_mg": 1810,
+      "sugar_g": 9
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AOnion%20Rings%20-%20Large%2012%20Pc.",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177120+00:00",
+    "updated_at": "2026-04-10T08:42:29.177120+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Onion Rings - Regular 8 Pc.",
+    "summary": "A lighter option from A&W with 6g protein and 250 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|onion-rings-regular-8-pc|149-g",
+    "category": "Sides",
+    "category_path": [],
+    "portion": "149 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 250,
+      "protein_g": 6,
+      "carbs_g": 45,
+      "fat_g": 4.5,
+      "sodium_mg": 1200,
+      "sugar_g": 6
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AOnion%20Rings%20-%20Regular%208%20Pc.",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177141+00:00",
+    "updated_at": "2026-04-10T08:42:29.177141+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Original Bacon Cheeseburger - Double",
+    "summary": "A solid proteins option from A&W with 36g protein and 690 calories. Estimated demo price: $10.49.",
+    "unique_key": "a-and-w|original-bacon-cheeseburger-double|296-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "296 g",
+    "price_cad": 10.49,
+    "availability_status": "active",
+    "tags": [
+      "high-protein"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 690,
+      "protein_g": 36,
+      "carbs_g": 42,
+      "fat_g": 43,
+      "sodium_mg": 1410,
+      "sugar_g": 10
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AOriginal%20Bacon%20Cheeseburger%20-%20Double",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176330+00:00",
+    "updated_at": "2026-04-10T08:42:29.176330+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Original Bacon Cheeseburger - Single",
+    "summary": "A solid proteins option from A&W with 23g protein and 480 calories. Estimated demo price: $7.49.",
+    "unique_key": "a-and-w|original-bacon-cheeseburger-single|225-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "225 g",
+    "price_cad": 7.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 480,
+      "protein_g": 23,
+      "carbs_g": 41,
+      "fat_g": 26,
+      "sodium_mg": 1010,
+      "sugar_g": 9
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AOriginal%20Bacon%20Cheeseburger%20-%20Single",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176352+00:00",
+    "updated_at": "2026-04-10T08:42:29.176352+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Papa Burger - Double",
+    "summary": "A solid proteins option from A&W with 31g protein and 650 calories. Estimated demo price: $10.49.",
+    "unique_key": "a-and-w|papa-burger-double|282-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "282 g",
+    "price_cad": 10.49,
+    "availability_status": "active",
+    "tags": [
+      "high-protein"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 650,
+      "protein_g": 31,
+      "carbs_g": 42,
+      "fat_g": 40,
+      "sodium_mg": 1260,
+      "sugar_g": 11
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0APapa%20Burger%20-%20Double",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176373+00:00",
+    "updated_at": "2026-04-10T08:42:29.176373+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Papa Burger - Single",
+    "summary": "A solid proteins option from A&W with 19g protein and 460 calories. Estimated demo price: $7.49.",
+    "unique_key": "a-and-w|papa-burger-single|214-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "214 g",
+    "price_cad": 7.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 460,
+      "protein_g": 19,
+      "carbs_g": 42,
+      "fat_g": 24,
+      "sodium_mg": 920,
+      "sugar_g": 10
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0APapa%20Burger%20-%20Single",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176393+00:00",
+    "updated_at": "2026-04-10T08:42:29.176393+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Papa Sauce 2oz",
+    "summary": "A lighter option from A&W with 0g protein and 260 calories. Estimated demo price: $0.99.",
+    "unique_key": "a-and-w|papa-sauce-2oz|57-g",
+    "category": "Sauces",
+    "category_path": [],
+    "portion": "57 g",
+    "price_cad": 0.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 260,
+      "protein_g": 0,
+      "carbs_g": 9,
+      "fat_g": 24,
+      "sodium_mg": 700,
+      "sugar_g": 9
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0APapa%20Sauce%202oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.178508+00:00",
+    "updated_at": "2026-04-10T08:42:29.178508+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Polar Swirl, Cookie Dough, 12oz",
+    "summary": "A solid sweets & treats option from A&W with 13g protein and 672 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|polar-swirl-cookie-dough-12oz|331-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "331 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 672,
+      "protein_g": 13,
+      "carbs_g": 93,
+      "fat_g": 25,
+      "sodium_mg": 443,
+      "sugar_g": 76
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0APolar%20Swirl%2C%20Cookie%20Dough%2C%2012oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177646+00:00",
+    "updated_at": "2026-04-10T08:42:29.177646+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Polar Swirl, Cookie Dough, 16oz",
+    "summary": "A solid sweets & treats option from A&W with 15g protein and 763 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|polar-swirl-cookie-dough-16oz|388-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "388 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 763,
+      "protein_g": 15,
+      "carbs_g": 106,
+      "fat_g": 27,
+      "sodium_mg": 500,
+      "sugar_g": 88
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0APolar%20Swirl%2C%20Cookie%20Dough%2C%2016oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177666+00:00",
+    "updated_at": "2026-04-10T08:42:29.177666+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Polar Swirl, Cookie Dough, 20oz",
+    "summary": "A heavier, more filling sweets & treats from A&W with 19g protein and 996 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|polar-swirl-cookie-dough-20oz|494-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "494 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "big-meal",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 996,
+      "protein_g": 19,
+      "carbs_g": 138,
+      "fat_g": 36,
+      "sodium_mg": 656,
+      "sugar_g": 113
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0APolar%20Swirl%2C%20Cookie%20Dough%2C%2020oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177690+00:00",
+    "updated_at": "2026-04-10T08:42:29.177690+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Polar Swirl, M&M, 12oz",
+    "summary": "A heavier, more filling sweets & treats from A&W with 15g protein and 817 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|polar-swirl-mandm-12oz|360-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "360 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "big-meal",
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 817,
+      "protein_g": 15,
+      "carbs_g": 118,
+      "fat_g": 28,
+      "sodium_mg": 337,
+      "sugar_g": 109
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0APolar%20Swirl%2C%20M%26M%2C%2012oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177710+00:00",
+    "updated_at": "2026-04-10T08:42:29.177710+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Polar Swirl, M&M, 16oz",
+    "summary": "A heavier, more filling sweets & treats from A&W with 17g protein and 908 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|polar-swirl-mandm-16oz|417-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "417 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "big-meal",
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 908,
+      "protein_g": 17,
+      "carbs_g": 130,
+      "fat_g": 31,
+      "sodium_mg": 393,
+      "sugar_g": 121
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0APolar%20Swirl%2C%20M%26M%2C%2016oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177730+00:00",
+    "updated_at": "2026-04-10T08:42:29.177730+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Polar Swirl, M&M, 20oz",
+    "summary": "A heavier, more filling sweets & treats from A&W with 22g protein and 1205 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|polar-swirl-mandm-20oz|536-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "536 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "big-meal",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 1205,
+      "protein_g": 22,
+      "carbs_g": 174,
+      "fat_g": 42,
+      "sodium_mg": 502,
+      "sugar_g": 161
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0APolar%20Swirl%2C%20M%26M%2C%2020oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177750+00:00",
+    "updated_at": "2026-04-10T08:42:29.177750+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Polar Swirl, Oreo, 12oz",
+    "summary": "A solid sweets & treats option from A&W with 13g protein and 665 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|polar-swirl-oreo-12oz|328-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "328 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 665,
+      "protein_g": 13,
+      "carbs_g": 95,
+      "fat_g": 16,
+      "sodium_mg": 456,
+      "sugar_g": 78
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0APolar%20Swirl%2C%20Oreo%2C%2012oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177771+00:00",
+    "updated_at": "2026-04-10T08:42:29.177771+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Polar Swirl, Oreo, 16oz",
+    "summary": "A solid sweets & treats option from A&W with 15g protein and 756 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|polar-swirl-oreo-16oz|385-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "385 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 756,
+      "protein_g": 15,
+      "carbs_g": 107,
+      "fat_g": 19,
+      "sodium_mg": 513,
+      "sugar_g": 90
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0APolar%20Swirl%2C%20Oreo%2C%2016oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177791+00:00",
+    "updated_at": "2026-04-10T08:42:29.177791+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Polar Swirl, Oreo, 20oz",
+    "summary": "A heavier, more filling sweets & treats from A&W with 20g protein and 986 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|polar-swirl-oreo-20oz|490-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "490 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "big-meal",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 986,
+      "protein_g": 20,
+      "carbs_g": 140,
+      "fat_g": 24,
+      "sodium_mg": 675,
+      "sugar_g": 116
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0APolar%20Swirl%2C%20Oreo%2C%2020oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177811+00:00",
+    "updated_at": "2026-04-10T08:42:29.177811+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Polar Swirl, Reese's Peanut Butter Cup, 12oz",
+    "summary": "A solid sweets & treats option from A&W with 16g protein and 693 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|polar-swirl-reese-s-peanut-butter-cup-12oz|331-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "331 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 693,
+      "protein_g": 16,
+      "carbs_g": 90,
+      "fat_g": 28,
+      "sodium_mg": 431,
+      "sugar_g": 85
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0APolar%20Swirl%2C%20Reese%27s%20Peanut%20Butter%20Cup%2C%2012oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177832+00:00",
+    "updated_at": "2026-04-10T08:42:29.177832+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Polar Swirl, Reese's Peanut Butter Cup, 16oz",
+    "summary": "A solid sweets & treats option from A&W with 19g protein and 784 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|polar-swirl-reese-s-peanut-butter-cup-16oz|388-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "388 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 784,
+      "protein_g": 19,
+      "carbs_g": 103,
+      "fat_g": 31,
+      "sodium_mg": 488,
+      "sugar_g": 97
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0APolar%20Swirl%2C%20Reese%27s%20Peanut%20Butter%20Cup%2C%2016oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177853+00:00",
+    "updated_at": "2026-04-10T08:42:29.177853+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Polar Swirl, Reese's Peanut Butter Cup, 20oz",
+    "summary": "A heavier, more filling sweets & treats from A&W with 24g protein and 1027 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|polar-swirl-reese-s-peanut-butter-cup-20oz|494-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "494 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "big-meal",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 1027,
+      "protein_g": 24,
+      "carbs_g": 134,
+      "fat_g": 41,
+      "sodium_mg": 638,
+      "sugar_g": 126
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0APolar%20Swirl%2C%20Reese%27s%20Peanut%20Butter%20Cup%2C%2020oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177874+00:00",
+    "updated_at": "2026-04-10T08:42:29.177874+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Pork Tenderloin Sandwich",
+    "summary": "A solid proteins option from A&W with 19g protein and 470 calories. Estimated demo price: $7.49.",
+    "unique_key": "a-and-w|pork-tenderloin-sandwich|242-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "242 g",
+    "price_cad": 7.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 470,
+      "protein_g": 19,
+      "carbs_g": 63,
+      "fat_g": 13,
+      "sodium_mg": 1070,
+      "sugar_g": 8
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0APork%20Tenderloin%20Sandwich",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176723+00:00",
+    "updated_at": "2026-04-10T08:42:29.176723+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Pub Battered Cod A La Carte - 2 Pc.",
+    "summary": "A heavier, more filling proteins from A&W with 27g protein and 890 calories. Estimated demo price: $10.99.",
+    "unique_key": "a-and-w|pub-battered-cod-a-la-carte-2-pc|306-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "306 g",
+    "price_cad": 10.99,
+    "availability_status": "active",
+    "tags": [
+      "high-protein",
+      "big-meal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 890,
+      "protein_g": 27,
+      "carbs_g": 57,
+      "fat_g": 61,
+      "sodium_mg": 1780,
+      "sugar_g": 9
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0APub%20Battered%20Cod%20A%20La%20Carte%20-%202%20Pc.",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176770+00:00",
+    "updated_at": "2026-04-10T08:42:29.176770+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Pub Battered Cod A La Carte - 3 Pc.",
+    "summary": "A heavier, more filling proteins from A&W with 11g protein and 850 calories. Estimated demo price: $10.99.",
+    "unique_key": "a-and-w|pub-battered-cod-a-la-carte-3-pc|259-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "259 g",
+    "price_cad": 10.99,
+    "availability_status": "active",
+    "tags": [
+      "big-meal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 850,
+      "protein_g": 11,
+      "carbs_g": 75,
+      "fat_g": 68,
+      "sodium_mg": 930,
+      "sugar_g": 9
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0APub%20Battered%20Cod%20A%20La%20Carte%20-%203%20Pc.",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176791+00:00",
+    "updated_at": "2026-04-10T08:42:29.176791+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Pub Battered Cod Slider",
+    "summary": "A solid proteins option from A&W with 7g protein and 360 calories. Estimated demo price: $3.99.",
+    "unique_key": "a-and-w|pub-battered-cod-slider|121-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "121 g",
+    "price_cad": 3.99,
+    "availability_status": "active",
+    "tags": [],
+    "diet_tags": [],
+    "macros": {
+      "calories": 360,
+      "protein_g": 7,
+      "carbs_g": 41,
+      "fat_g": 22,
+      "sodium_mg": 490,
+      "sugar_g": 4
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0APub%20Battered%20Cod%20Slider",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176814+00:00",
+    "updated_at": "2026-04-10T08:42:29.176814+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Root Beer, 1/2 Gallon",
+    "summary": "A heavier, more filling root beer from A&W with 0g protein and 928 calories. Estimated demo price: $2.99.",
+    "unique_key": "a-and-w|root-beer-1-2-gallon|1920-g",
+    "category": "Root Beer",
+    "category_path": [],
+    "portion": "1920 g",
+    "price_cad": 2.99,
+    "availability_status": "active",
+    "tags": [
+      "big-meal",
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 928,
+      "protein_g": 0,
+      "carbs_g": 250,
+      "fat_g": 0,
+      "sodium_mg": 432,
+      "sugar_g": 240
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ARoot%20Beer%2C%201/2%20Gallon",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.178285+00:00",
+    "updated_at": "2026-04-10T08:42:29.178285+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Root Beer, Gallon",
+    "summary": "A heavier, more filling root beer from A&W with 0g protein and 1856 calories. Estimated demo price: $2.99.",
+    "unique_key": "a-and-w|root-beer-gallon|3840-g",
+    "category": "Root Beer",
+    "category_path": [],
+    "portion": "3840 g",
+    "price_cad": 2.99,
+    "availability_status": "active",
+    "tags": [
+      "big-meal",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 1856,
+      "protein_g": 0,
+      "carbs_g": 500,
+      "fat_g": 0,
+      "sodium_mg": 864,
+      "sugar_g": 480
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ARoot%20Beer%2C%20Gallon",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.178307+00:00",
+    "updated_at": "2026-04-10T08:42:29.178307+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Root Beer, Kids, 12 oz.",
+    "summary": "A lighter option from A&W with 0g protein and 150 calories. Estimated demo price: $2.99.",
+    "unique_key": "a-and-w|root-beer-kids-12-oz|340-g",
+    "category": "Root Beer",
+    "category_path": [],
+    "portion": "340 g",
+    "price_cad": 2.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 150,
+      "protein_g": 0,
+      "carbs_g": 43,
+      "fat_g": 0,
+      "sodium_mg": 30,
+      "sugar_g": 43
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ARoot%20Beer%2C%20Kids%2C%2012%20oz.",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.178327+00:00",
+    "updated_at": "2026-04-10T08:42:29.178327+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Root Beer, Large, 30 oz.",
+    "summary": "A solid root beer option from A&W with 0g protein and 440 calories. Estimated demo price: $2.99.",
+    "unique_key": "a-and-w|root-beer-large-30-oz|900-g",
+    "category": "Root Beer",
+    "category_path": [],
+    "portion": "900 g",
+    "price_cad": 2.99,
+    "availability_status": "active",
+    "tags": [
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 440,
+      "protein_g": 0,
+      "carbs_g": 117,
+      "fat_g": 0,
+      "sodium_mg": 200,
+      "sugar_g": 117
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ARoot%20Beer%2C%20Large%2C%2030%20oz.",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.178347+00:00",
+    "updated_at": "2026-04-10T08:42:29.178347+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Root Beer, Regular, 20 oz.",
+    "summary": "A lighter option from A&W with 0g protein and 290 calories. Estimated demo price: $2.99.",
+    "unique_key": "a-and-w|root-beer-regular-20-oz|600-g",
+    "category": "Root Beer",
+    "category_path": [],
+    "portion": "600 g",
+    "price_cad": 2.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 290,
+      "protein_g": 0,
+      "carbs_g": 78,
+      "fat_g": 0,
+      "sodium_mg": 135,
+      "sugar_g": 75
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ARoot%20Beer%2C%20Regular%2C%2020%20oz.",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.178367+00:00",
+    "updated_at": "2026-04-10T08:42:29.178367+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Root Beer, Small, 16 oz.",
+    "summary": "A lighter option from A&W with 0g protein and 230 calories. Estimated demo price: $2.99.",
+    "unique_key": "a-and-w|root-beer-small-16-oz|480-g",
+    "category": "Root Beer",
+    "category_path": [],
+    "portion": "480 g",
+    "price_cad": 2.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 230,
+      "protein_g": 0,
+      "carbs_g": 63,
+      "fat_g": 0,
+      "sodium_mg": 108,
+      "sugar_g": 60
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ARoot%20Beer%2C%20Small%2C%2016%20oz.",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.178387+00:00",
+    "updated_at": "2026-04-10T08:42:29.178387+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Shake, Chocolate 16oz",
+    "summary": "A solid sweets & treats option from A&W with 15g protein and 548 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|shake-chocolate-16oz|358-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "358 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 548,
+      "protein_g": 15,
+      "carbs_g": 80,
+      "fat_g": 17,
+      "sodium_mg": 293,
+      "sugar_g": 73
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AShake%2C%20Chocolate%2016oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177897+00:00",
+    "updated_at": "2026-04-10T08:42:29.177897+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Shake, Chocolate 20oz",
+    "summary": "A solid sweets & treats option from A&W with 20g protein and 776 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|shake-chocolate-20oz|500-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "500 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 776,
+      "protein_g": 20,
+      "carbs_g": 119,
+      "fat_g": 22,
+      "sodium_mg": 414,
+      "sugar_g": 108
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AShake%2C%20Chocolate%2020oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177917+00:00",
+    "updated_at": "2026-04-10T08:42:29.177917+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Shake, Chocolate 30oz",
+    "summary": "A heavier, more filling sweets & treats from A&W with 26g protein and 1073 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|shake-chocolate-30oz|699-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "699 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "high-protein",
+      "big-meal",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 1073,
+      "protein_g": 26,
+      "carbs_g": 167,
+      "fat_g": 29,
+      "sodium_mg": 579,
+      "sugar_g": 152
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AShake%2C%20Chocolate%2030oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177937+00:00",
+    "updated_at": "2026-04-10T08:42:29.177937+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Shake, Strawberry 16oz",
+    "summary": "A solid sweets & treats option from A&W with 15g protein and 515 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|shake-strawberry-16oz|358-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "358 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 515,
+      "protein_g": 15,
+      "carbs_g": 72,
+      "fat_g": 16,
+      "sodium_mg": 271,
+      "sugar_g": 67
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AShake%2C%20Strawberry%2016oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177957+00:00",
+    "updated_at": "2026-04-10T08:42:29.177957+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Shake, Strawberry 20oz",
+    "summary": "A solid sweets & treats option from A&W with 19g protein and 710 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|shake-strawberry-20oz|500-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "500 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 710,
+      "protein_g": 19,
+      "carbs_g": 104,
+      "fat_g": 21,
+      "sodium_mg": 370,
+      "sugar_g": 97
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AShake%2C%20Strawberry%2020oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177976+00:00",
+    "updated_at": "2026-04-10T08:42:29.177976+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Shake, Strawberry 30oz",
+    "summary": "A heavier, more filling sweets & treats from A&W with 24g protein and 973 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|shake-strawberry-30oz|699-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "699 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "big-meal",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 973,
+      "protein_g": 24,
+      "carbs_g": 144,
+      "fat_g": 28,
+      "sodium_mg": 513,
+      "sugar_g": 110
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AShake%2C%20Strawberry%2030oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177996+00:00",
+    "updated_at": "2026-04-10T08:42:29.177996+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Shake, Vanilla 16oz",
+    "summary": "A solid sweets & treats option from A&W with 15g protein and 540 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|shake-vanilla-16oz|358-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "358 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 540,
+      "protein_g": 15,
+      "carbs_g": 78,
+      "fat_g": 16,
+      "sodium_mg": 278,
+      "sugar_g": 72
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AShake%2C%20Vanilla%2016oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.178015+00:00",
+    "updated_at": "2026-04-10T08:42:29.178015+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Shake, Vanilla 20oz",
+    "summary": "A solid sweets & treats option from A&W with 19g protein and 760 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|shake-vanilla-20oz|500-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "500 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 760,
+      "protein_g": 19,
+      "carbs_g": 116,
+      "fat_g": 21,
+      "sodium_mg": 386,
+      "sugar_g": 106
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AShake%2C%20Vanilla%2020oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.178035+00:00",
+    "updated_at": "2026-04-10T08:42:29.178035+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Shake, Vanilla 30oz",
+    "summary": "A heavier, more filling sweets & treats from A&W with 24g protein and 987 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|shake-vanilla-30oz|670-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "670 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly",
+      "big-meal",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 987,
+      "protein_g": 24,
+      "carbs_g": 147,
+      "fat_g": 28,
+      "sodium_mg": 528,
+      "sugar_g": 135
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AShake%2C%20Vanilla%2030oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.178056+00:00",
+    "updated_at": "2026-04-10T08:42:29.178056+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Shrimp - 16 Pc.",
+    "summary": "A solid proteins option from A&W with 18g protein and 480 calories. Estimated demo price: $7.49.",
+    "unique_key": "a-and-w|shrimp-16-pc|161-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "161 g",
+    "price_cad": 7.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 480,
+      "protein_g": 18,
+      "carbs_g": 45,
+      "fat_g": 26,
+      "sodium_mg": 1010,
+      "sugar_g": 1
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AShrimp%20-%2016%20Pc.",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176834+00:00",
+    "updated_at": "2026-04-10T08:42:29.176834+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Slaw 4oz",
+    "summary": "A lighter option from A&W with 1g protein and 130 calories. Estimated demo price: $3.49.",
+    "unique_key": "a-and-w|slaw-4oz|113-g",
+    "category": "Sides",
+    "category_path": [],
+    "portion": "113 g",
+    "price_cad": 3.49,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 130,
+      "protein_g": 1,
+      "carbs_g": 9,
+      "fat_g": 11,
+      "sodium_mg": 270,
+      "sugar_g": 7
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ASlaw%204oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177164+00:00",
+    "updated_at": "2026-04-10T08:42:29.177164+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Spicy Papa Burger - Double",
+    "summary": "A solid proteins option from A&W with 31g protein and 660 calories. Estimated demo price: $10.49.",
+    "unique_key": "a-and-w|spicy-papa-burger-double|300-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "300 g",
+    "price_cad": 10.49,
+    "availability_status": "active",
+    "tags": [
+      "high-protein"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 660,
+      "protein_g": 31,
+      "carbs_g": 44,
+      "fat_g": 40,
+      "sodium_mg": 1660,
+      "sugar_g": 12
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ASpicy%20Papa%20Burger%20-%20Double",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176413+00:00",
+    "updated_at": "2026-04-10T08:42:29.176413+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Spicy Papa Burger - Single",
+    "summary": "A solid proteins option from A&W with 19g protein and 470 calories. Estimated demo price: $7.49.",
+    "unique_key": "a-and-w|spicy-papa-burger-single|233-g",
+    "category": "Proteins",
+    "category_path": [],
+    "portion": "233 g",
+    "price_cad": 7.49,
+    "availability_status": "active",
+    "tags": [
+      "protein-friendly"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 470,
+      "protein_g": 19,
+      "carbs_g": 43,
+      "fat_g": 24,
+      "sodium_mg": 1400,
+      "sugar_g": 11
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ASpicy%20Papa%20Burger%20-%20Single",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.176434+00:00",
+    "updated_at": "2026-04-10T08:42:29.176434+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Spicy Papa Sauce 2oz",
+    "summary": "A lighter option from A&W with 0g protein and 260 calories. Estimated demo price: $0.99.",
+    "unique_key": "a-and-w|spicy-papa-sauce-2oz|57-g",
+    "category": "Sauces",
+    "category_path": [],
+    "portion": "57 g",
+    "price_cad": 0.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 260,
+      "protein_g": 0,
+      "carbs_g": 12,
+      "fat_g": 24,
+      "sodium_mg": 690,
+      "sugar_g": 10
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ASpicy%20Papa%20Sauce%202oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.178528+00:00",
+    "updated_at": "2026-04-10T08:42:29.178528+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Sundae, Chocolate, Regular",
+    "summary": "A solid sweets & treats option from A&W with 11g protein and 367 calories. Estimated demo price: $3.49.",
+    "unique_key": "a-and-w|sundae-chocolate-regular|202-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "202 g",
+    "price_cad": 3.49,
+    "availability_status": "active",
+    "tags": [
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 367,
+      "protein_g": 11,
+      "carbs_g": 55,
+      "fat_g": 11,
+      "sodium_mg": 178,
+      "sugar_g": 49
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ASundae%2C%20Chocolate%2C%20Regular",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.178076+00:00",
+    "updated_at": "2026-04-10T08:42:29.178076+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Sundae, Hot Caramel, Regular",
+    "summary": "A solid sweets & treats option from A&W with 10g protein and 373 calories. Estimated demo price: $3.49.",
+    "unique_key": "a-and-w|sundae-hot-caramel-regular|202-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "202 g",
+    "price_cad": 3.49,
+    "availability_status": "active",
+    "tags": [
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 373,
+      "protein_g": 10,
+      "carbs_g": 56,
+      "fat_g": 11,
+      "sodium_mg": 197,
+      "sugar_g": 47
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ASundae%2C%20Hot%20Caramel%2C%20Regular",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.178096+00:00",
+    "updated_at": "2026-04-10T08:42:29.178096+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Sundae, Hot Fudge, Regular",
+    "summary": "A solid sweets & treats option from A&W with 11g protein and 420 calories. Estimated demo price: $4.49.",
+    "unique_key": "a-and-w|sundae-hot-fudge-regular|202-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "202 g",
+    "price_cad": 4.49,
+    "availability_status": "active",
+    "tags": [
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 420,
+      "protein_g": 11,
+      "carbs_g": 59,
+      "fat_g": 15,
+      "sodium_mg": 208,
+      "sugar_g": 48
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ASundae%2C%20Hot%20Fudge%2C%20Regular",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.178116+00:00",
+    "updated_at": "2026-04-10T08:42:29.178116+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Sundae, Strawberry, Regular",
+    "summary": "A solid sweets & treats option from A&W with 10g protein and 333 calories. Estimated demo price: $3.49.",
+    "unique_key": "a-and-w|sundae-strawberry-regular|202-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "202 g",
+    "price_cad": 3.49,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 333,
+      "protein_g": 10,
+      "carbs_g": 47,
+      "fat_g": 11,
+      "sodium_mg": 156,
+      "sugar_g": 44
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ASundae%2C%20Strawberry%2C%20Regular",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.178136+00:00",
+    "updated_at": "2026-04-10T08:42:29.178136+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Tartar Sauce 2oz",
+    "summary": "A lighter option from A&W with 0g protein and 200 calories. Estimated demo price: $0.99.",
+    "unique_key": "a-and-w|tartar-sauce-2oz|57-g",
+    "category": "Sauces",
+    "category_path": [],
+    "portion": "57 g",
+    "price_cad": 0.99,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 200,
+      "protein_g": 0,
+      "carbs_g": 13,
+      "fat_g": 16,
+      "sodium_mg": 490,
+      "sugar_g": 9
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0ATartar%20Sauce%202oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.178548+00:00",
+    "updated_at": "2026-04-10T08:42:29.178548+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Vanilla Cone - Kids 4oz",
+    "summary": "A lighter option from A&W with 5g protein and 206 calories. Estimated demo price: $3.49.",
+    "unique_key": "a-and-w|vanilla-cone-kids-4oz|119-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "119 g",
+    "price_cad": 3.49,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 206,
+      "protein_g": 5,
+      "carbs_g": 30,
+      "fat_g": 6,
+      "sodium_mg": 126,
+      "sugar_g": 24
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AVanilla%20Cone%20-%20Kids%204oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177233+00:00",
+    "updated_at": "2026-04-10T08:42:29.177233+00:00"
+  },
+  {
+    "item_id": null,
+    "restaurant_id": "a-and-w",
+    "restaurant_name": "A&W",
+    "item_name": "Vanilla Cone - Regular 5.5oz",
+    "summary": "A lighter option from A&W with 6g protein and 274 calories. Estimated demo price: $3.49.",
+    "unique_key": "a-and-w|vanilla-cone-regular-5-5oz|162-g",
+    "category": "Sweets & Treats",
+    "category_path": [],
+    "portion": "162 g",
+    "price_cad": 3.49,
+    "availability_status": "active",
+    "tags": [
+      "lower-cal",
+      "low-sodium",
+      "sweet"
+    ],
+    "diet_tags": [],
+    "macros": {
+      "calories": 274,
+      "protein_g": 6,
+      "carbs_g": 39,
+      "fat_g": 8,
+      "sodium_mg": 168,
+      "sugar_g": 33
+    },
+    "data_quality": {
+      "partial_data": false,
+      "missing_fields": [],
+      "imputed_fields": [
+        "image_url",
+        "price_cad",
+        "summary",
+        "tags"
+      ],
+      "presentation_ready": true
+    },
+    "source_url": "file:///Users/gurwinder/IdeaProjects/fun_project_with_buddies/.idea/DATABASE/aw_nutrition.pdf",
+    "source_type": "pdf",
+    "image_url": "https://placehold.co/800x600/7A2F23/FFF6F0?text=A%26W%0AVanilla%20Cone%20-%20Regular%205.5oz",
+    "image_source_url": null,
+    "image_status": "placeholder",
+    "last_verified_at": null,
+    "scraped_at": "2026-04-10T08:42:29.177254+00:00",
+    "updated_at": "2026-04-10T08:42:29.177254+00:00"
+  }
+]

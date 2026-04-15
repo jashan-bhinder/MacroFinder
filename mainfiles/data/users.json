@@ -1,0 +1,76 @@
+[
+  {
+    "_id": "demo-user-1",
+    "name": "Demo User",
+    "email": "demo@macrofinder.ca",
+    "password_hash": "macrofinder123",
+    "role": "user",
+    "phone": null,
+    "saved_items": [
+      "Subway::Black Forest Ham",
+      "Subway::Bourbon BBQ Steak & Cheddar",
+      "A&W::3 Pc. Hand-Breaded Chicken Tenders"
+    ],
+    "saved_restaurants": [
+      "Subway",
+      "A&W",
+      "Old Spaghetti Factory"
+    ],
+    "diet_preferences": [],
+    "managed_restaurants": [],
+    "permissions": [],
+    "created_at": "2026-04-10T12:00:00.000Z",
+    "updated_at": "2026-04-10T12:00:00.000Z"
+  },
+  {
+    "_id": "demo-owner-user-1",
+    "name": "Avery Singh",
+    "email": "owner@macrofinder.ca",
+    "password_hash": "owner123",
+    "role": "restaurant_owner",
+    "phone": "(403) 555-0176",
+    "saved_items": [
+      "Subway::Black Forest Ham"
+    ],
+    "saved_restaurants": [
+      "Subway"
+    ],
+    "diet_preferences": [],
+    "managed_restaurants": [
+      {
+        "restaurant_slug": "subway",
+        "restaurant_name": "Subway",
+        "verified": true,
+        "status": "active",
+        "franchise_type": "",
+        "cuisine_tags": [],
+        "pdf_file": "Subway.pdf",
+        "pdf_status": "approved"
+      }
+    ],
+    "permissions": [],
+    "created_at": "2026-04-10T12:10:00.000Z",
+    "updated_at": "2026-04-10T12:10:00.000Z"
+  },
+  {
+    "_id": "demo-admin-user-1",
+    "name": "Macro Finder Admin",
+    "email": "admin@macrofinder.ca",
+    "password_hash": "admin123",
+    "role": "admin",
+    "phone": null,
+    "saved_items": [],
+    "saved_restaurants": [],
+    "diet_preferences": [],
+    "managed_restaurants": [],
+    "permissions": [
+      "review_restaurant_requests",
+      "review_owner_submissions",
+      "review_reported_issues",
+      "manage_restaurants",
+      "manage_menu_items"
+    ],
+    "created_at": "2026-04-10T12:30:00.000Z",
+    "updated_at": "2026-04-10T12:30:00.000Z"
+  }
+]
