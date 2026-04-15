@@ -13,4 +13,13 @@ type(scope): description
 - build for build system changes
 - ci for CI/CD changes
 
+examples:
+
+- feat(auth): add password reset flow
+- fix(api): handle 429 retry response
+- docs(readme): clarify local setup steps
+- refactor(ui): simplify modal state handling
+- test(cart): add checkout edge case coverage
+- chore(deps): bump eslint to 9.2.0
+
 2. WHEN IT COMES TO BRANCHES
