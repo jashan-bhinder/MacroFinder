@@ -1,0 +1,18 @@
+{
+  "name": "macrofinder",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Root runner for the MacroFinder demo app stored in mainfiles.",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "npm run dev:client",
+    "dev:client": "npm --prefix mainfiles run dev --",
+    "dev:server": "npm --prefix server run dev",
+    "build": "npm --prefix mainfiles run build",
+    "preview": "npm --prefix mainfiles run preview --",
+    "setup": "npm run setup:client && npm run setup:server",
+    "setup:client": "npm --prefix mainfiles install",
+    "setup:server": "npm --prefix server install",
+    "seed": "npm --prefix server run seed"
+  }
+}
