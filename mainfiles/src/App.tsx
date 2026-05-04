@@ -1627,17 +1627,18 @@ function MainView({mode,setMode,filtered,exp,setExp,goGallery,saved,toggleSave,u
     const hero=filtered[0];const qp=filtered.slice(1,4);const r1=filtered.slice(0,6);const r2=filtered.slice(6,12);
     return(<><Chips mode={mode} setMode={setMode} setExp={setExp}/>
         {hero&&<div style={{display:"grid",gridTemplateColumns:mob?"1fr":"1.4fr 1fr",gap:12,marginBottom:18}}>
-            <div style={{background:"linear-gradient(135deg,#1b2a20,#2d4a36)",borderRadius:22,padding:22,color:"white",display:"flex",flexDirection:"column",justifyContent:"flex-end",minHeight:260,position:"relative"}}>
+            <div onClick={()=>goItem?.(hero)} style={{background:"linear-gradient(135deg,#1b2a20,#2d4a36)",borderRadius:22,padding:22,color:"white",display:"flex",flexDirection:"column",justifyContent:"flex-end",minHeight:260,position:"relative",cursor:"pointer",transition:"transform 0.12s"}} onMouseEnter={e=>e.currentTarget.style.transform="translateY(-2px)"} onMouseLeave={e=>e.currentTarget.style.transform="none"}>
                 <div style={{position:"absolute",top:12,left:12,background:"rgba(255,255,255,0.1)",borderRadius:999,padding:"5px 9px",fontSize:10,fontWeight:800}}>{ML[mode]} Pick</div>
                 <div style={{marginTop:"auto"}}><div style={{fontSize:10,textTransform:"uppercase",letterSpacing:"0.07em",opacity:0.65,marginBottom:4}}>{hero.cat} · {hero.r}</div>
                     <h1 style={{fontFamily:"'Fraunces',serif",fontSize:"clamp(1.4rem,3vw,2rem)",lineHeight:0.98,margin:"0 0 8px",letterSpacing:"-0.04em",fontWeight:900}}>{hero.n}</h1>
                     <div style={{display:"flex",gap:4,flexWrap:"wrap",marginBottom:8}}>{[`${hero.p}P`,`${hero.c} Cal`,`${fpc(hero.ppc)}% P/Cal`].map((s,i)=><span key={i} style={{background:"rgba(255,255,255,0.1)",borderRadius:999,padding:"5px 9px",fontSize:10,fontWeight:700}}>{s}</span>)}</div>
-                    <p style={{fontSize:11,opacity:0.7,lineHeight:1.35,margin:0}}>{MD[mode]}</p>
+                    <p style={{fontSize:11,opacity:0.7,lineHeight:1.35,margin:"0 0 6px"}}>{MD[mode]}</p>
+                    <span style={{fontSize:10,fontWeight:800,opacity:0.85}}>Open item →</span>
                 </div>
             </div>
             <div style={{background:"rgba(255,255,255,0.92)",border:"1px solid #e4ddd0",borderRadius:22,padding:14,display:"flex",flexDirection:"column",gap:8}}>
                 <h2 style={{margin:0,fontSize:13,fontWeight:800}}>Quick picks</h2>
-                {qp.map((it,i)=><QP key={i} it={it} i={i}/>)}
+                {qp.map((it,i)=><QP key={i} it={it} i={i} onClick={()=>goItem?.(it)}/>)}
             </div>
         </div>}
         <Sec title={ML[mode]+" Rankings"} sub="Top items across 8 franchises" onSeeAll={()=>goGallery(mode)}>
@@ -1694,7 +1695,7 @@ function SearchView({results,filters,setFilters,exp,setExp,goMain,afc,search,sav
 function AC({l,x}){return <span style={{display:"inline-flex",alignItems:"center",gap:4,padding:"4px 8px",borderRadius:999,fontSize:9,fontWeight:800,background:"#edf5ef",color:"#274b37"}}>{l}<span onClick={x} style={{cursor:"pointer",opacity:0.5}}>✕</span></span>}
 function FG({title,children}){return <div style={{paddingTop:10,marginTop:10,borderTop:"1px solid #e9e3d6"}}><div style={{fontSize:10,fontWeight:800,marginBottom:5}}>{title}</div>{children}</div>}
 function Fl({label,value,onChange}){return <div><label style={{fontSize:8,fontWeight:800,color:"#6d6a61",display:"block",marginBottom:2}}>{label}</label><input value={value} onChange={e=>onChange(e.target.value)} style={{...inp,fontSize:10,padding:"6px 8px"}} type="number"/></div>}
-function QP({it,i}){return <div style={{display:"grid",gridTemplateColumns:"40px 1fr",gap:8,alignItems:"center",padding:6,borderRadius:12,background:"#f7f4ec",border:"1px solid #e9e3d6"}}><div style={{width:40,height:40,borderRadius:11,background:`linear-gradient(135deg,${C[i%8]}22,${C[i%8]}11)`,display:"grid",placeItems:"center",fontSize:14,fontWeight:900,color:C[i%8],fontFamily:"'Fraunces',serif"}}>{ini(it.r)}</div><div><div style={{fontWeight:700,fontSize:11,lineHeight:1.2,marginBottom:1}}>{it.n}</div><div style={{color:"#6d6a61",fontSize:10,marginBottom:3}}>{it.r}</div><div style={{display:"flex",gap:4}}><span style={tag}>{it.p}P</span><span style={tag}>{it.c}Cal</span></div></div></div>}
+function QP({it,i,onClick}){return <div onClick={onClick} style={{display:"grid",gridTemplateColumns:"40px 1fr",gap:8,alignItems:"center",padding:6,borderRadius:12,background:"#f7f4ec",border:"1px solid #e9e3d6",cursor:onClick?"pointer":"default",transition:"transform 0.12s"}} onMouseEnter={e=>{if(onClick)e.currentTarget.style.transform="translateY(-1px)"}} onMouseLeave={e=>e.currentTarget.style.transform="none"}><div style={{width:40,height:40,borderRadius:11,background:`linear-gradient(135deg,${C[i%8]}22,${C[i%8]}11)`,display:"grid",placeItems:"center",fontSize:14,fontWeight:900,color:C[i%8],fontFamily:"'Fraunces',serif"}}>{ini(it.r)}</div><div><div style={{fontWeight:700,fontSize:11,lineHeight:1.2,marginBottom:1}}>{it.n}</div><div style={{color:"#6d6a61",fontSize:10,marginBottom:3}}>{it.r}</div><div style={{display:"flex",gap:4}}><span style={tag}>{it.p}P</span><span style={tag}>{it.c}Cal</span></div></div></div>}
 
 function Card({it,rank,ci,exp,toggle,saved,toggleSave,goItem}){
     const cl=C[ci%8];const isSaved=saved?.has(ik(it));
