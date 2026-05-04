@@ -7,7 +7,7 @@ services:
     region: oregon
     buildCommand: npm run setup && npm run build
     startCommand: npm run start:server
-    healthCheckPath: /api/health
+    healthCheckPath: /api/healthz
     envVars:
       - key: NPM_CONFIG_PRODUCTION
         value: "false"

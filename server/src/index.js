@@ -567,6 +567,36 @@ app.get("/api/health", async (_request, response) => {
   }
 });
 
+app.get("/api/healthz", async (_request, response) => {
+  if (!hasDatabaseConfig()) {
+    response.status(200).json({
+      ok: true,
+      databaseConfigured: false,
+      databaseReachable: false,
+      message: "Service is up. MongoDB is not configured.",
+    });
+    return;
+  }
+
+  try {
+    await pingDatabase();
+    response.status(200).json({
+      ok: true,
+      databaseConfigured: true,
+      databaseReachable: true,
+      message: "Service and MongoDB are reachable.",
+    });
+  } catch (error) {
+    response.status(200).json({
+      ok: true,
+      databaseConfigured: true,
+      databaseReachable: false,
+      message: "Service is up, but MongoDB did not respond to ping.",
+      error: error instanceof Error ? error.message : "Unknown error",
+    });
+  }
+});
+
 app.get("/api/bootstrap", async (_request, response) => {
   const db = await requireDatabase(response);
   if (!db) return;
