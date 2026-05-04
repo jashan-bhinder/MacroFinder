@@ -1,0 +1,31 @@
+services:
+  - type: web
+    name: macrofinder-demo
+    runtime: node
+    plan: free
+    rootDir: .
+    region: oregon
+    buildCommand: npm run setup && npm run build
+    startCommand: npm run start:server
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: "10000"
+      - key: CORS_ORIGIN
+        value: "*"
+      - key: MONGODB_URI
+        sync: false
+      - key: MONGODB_DB_NAME
+        value: macrofinder
+      - key: DISABLE_PUBLIC_SIGNUP
+        value: "true"
+      - key: PUBLIC_DEMO_MODE
+        value: "true"
+      - key: SERVE_STATIC_FRONTEND
+        value: "true"
+      - key: VITE_PUBLIC_DEMO_MODE
+        value: "true"
+      - key: VITE_DEMO_NOTICE
+        value: Public demo — use the seeded demo accounts below. Data may reset between deploys.
