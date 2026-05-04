@@ -1,4 +1,4 @@
-import rawDemoRequests from "../../data/demo_requests.json";
+import rawRequests from "../../data/requests.json";
 import type { DbRequest, RoleUpgradeRequestData } from "../types/models";
 
 export interface DemoAccessRequestRecord {
@@ -55,7 +55,7 @@ function toDemoAccessRequestRecord(value: unknown): DemoAccessRequestRecord | nu
     };
 }
 
-const defaultDemoAccessRequests = (rawDemoRequests as DbRequest[])
+const defaultDemoAccessRequests = (rawRequests as DbRequest[])
     .map((request) => toDemoAccessRequestRecord(request))
     .filter((request): request is DemoAccessRequestRecord => request !== null);
 

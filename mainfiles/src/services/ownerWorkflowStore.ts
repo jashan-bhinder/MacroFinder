@@ -1,6 +1,5 @@
-import rawDemoRequests from "../../data/demo_requests.json";
-import rawDemoTasks from "../../data/demo_tasks.json";
-import rawOwnerItemDrafts from "../../data/demo_owner_item_update_submissions.json";
+import rawRequests from "../../data/requests.json";
+import rawTasks from "../../data/tasks.json";
 import type {
     ChangeRequestData,
     DbRequest,
@@ -426,14 +425,14 @@ function mapDbRequestToOwnerRestaurantChangeRequest(
     };
 }
 
-const defaultOwnerTasks = (rawDemoTasks as DbTask[])
+const defaultOwnerTasks = (rawTasks as DbTask[])
     .map((task) => mapDbTaskToOwnerTask(task))
     .filter((task): task is OwnerTask => task !== null);
-const defaultOwnerItemDrafts = rawOwnerItemDrafts as OwnerItemDraft[];
-const defaultOwnerRestaurantChangeRequests = (rawDemoRequests as DbRequest[])
+const defaultOwnerItemDrafts: OwnerItemDraft[] = [];
+const defaultOwnerRestaurantChangeRequests = (rawRequests as DbRequest[])
     .map((request) => mapDbRequestToOwnerRestaurantChangeRequest(request))
     .filter((request): request is OwnerRestaurantChangeRequest => request !== null);
-const defaultOwnerRestaurantRequests = (rawDemoRequests as DbRequest[])
+const defaultOwnerRestaurantRequests = (rawRequests as DbRequest[])
     .map((request) => mapDbRequestToOwnerRestaurantRequest(request))
     .filter((request): request is OwnerRestaurantRequestDraft => request !== null);
 

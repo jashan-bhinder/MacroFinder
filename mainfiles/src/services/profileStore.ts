@@ -1,4 +1,4 @@
-import rawDemoUsers from "../../data/demo_users.json";
+import rawUsers from "../../data/users.json";
 import type {
     AdminProfile,
     DbUser,
@@ -212,7 +212,7 @@ function normalizeUserProfile(value: unknown): UserProfile {
     };
 }
 
-const demoUsers = (rawDemoUsers as DbUser[]).map((record) => normalizeDbUser(record));
+const demoUsers = (rawUsers as DbUser[]).map((record) => normalizeDbUser(record));
 const demoLoginProfiles = demoUsers.map((user) => ({
     email: user.email,
     password: user.password_hash ?? "",
@@ -268,7 +268,7 @@ export function loadDemoSession(): DemoSession {
         return {
             ...defaultDemoSession,
             ...parsed,
-            logged_in: false,
+            logged_in: parsed.logged_in === true,
             requested_owner_access: parsed.requested_owner_access === true,
             user: normalizeUserProfile(parsed.user),
         };

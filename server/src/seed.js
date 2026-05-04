@@ -2,7 +2,7 @@ import "dotenv/config";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { getDatabase } from "./db.js";
+import { closeDatabaseConnection, getDatabase } from "./db.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -45,22 +45,30 @@ async function createIndexes(db) {
 }
 
 async function seed() {
-  const db = await getDatabase();
-  if (!db) {
-    throw new Error(
-      "MONGODB_URI is missing. Copy server/.env.example to server/.env and fill it in first.",
+  try {
+    const db = await getDatabase();
+    if (!db) {
+      throw new Error(
+        "MONGODB_URI is missing. Copy server/.env.example to server/.env and fill it in first.",
+      );
+    }
+
+    console.log(
+      "Reset seeding core app collections (restaurants, items, users, requests, tasks)...",
     );
-  }
 
-  for (const dataset of datasetDefinitions) {
-    const filePath = path.join(repoRoot, dataset.relativePath);
-    const documents = await readJsonArray(filePath);
-    await replaceCollection(db, dataset.collection, documents);
-    console.log(`Seeded ${dataset.collection}: ${documents.length} documents`);
-  }
+    for (const dataset of datasetDefinitions) {
+      const filePath = path.join(repoRoot, dataset.relativePath);
+      const documents = await readJsonArray(filePath);
+      await replaceCollection(db, dataset.collection, documents);
+      console.log(`Seeded ${dataset.collection}: ${documents.length} documents`);
+    }
 
-  await createIndexes(db);
-  console.log("MongoDB seed complete.");
+    await createIndexes(db);
+    console.log("MongoDB seed complete.");
+  } finally {
+    await closeDatabaseConnection();
+  }
 }
 
 seed().catch((error) => {

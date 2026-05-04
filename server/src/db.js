@@ -1,16 +1,24 @@
-import { MongoClient, ServerApiVersion } from "mongodb";
+import {
+  GridFSBucket,
+  MongoClient,
+  ObjectId,
+  ServerApiVersion,
+} from "mongodb";
 import { loadConfig } from "./config.js";
 
 let clientPromise = null;
+let clientInstance = null;
+const DEFAULT_UPLOAD_BUCKET = "uploads";
 
 function createClient(uri) {
-  return new MongoClient(uri, {
+  clientInstance = new MongoClient(uri, {
     serverApi: {
       version: ServerApiVersion.v1,
       strict: true,
       deprecationErrors: true,
     },
   });
+  return clientInstance;
 }
 
 export async function getDatabase() {
@@ -30,4 +38,25 @@ export async function pingDatabase() {
   if (!db) return false;
   await db.command({ ping: 1 });
   return true;
+}
+
+export async function getUploadBucket(bucketName = DEFAULT_UPLOAD_BUCKET) {
+  const db = await getDatabase();
+  if (!db) return null;
+  return new GridFSBucket(db, { bucketName });
+}
+
+export function parseObjectId(value) {
+  try {
+    return new ObjectId(String(value ?? ""));
+  } catch {
+    return null;
+  }
+}
+
+export async function closeDatabaseConnection() {
+  if (!clientInstance) return;
+  await clientInstance.close();
+  clientPromise = null;
+  clientInstance = null;
 }

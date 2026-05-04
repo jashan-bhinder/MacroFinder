@@ -1,10 +1,9 @@
 // @ts-nocheck
-import { useState, useMemo, useEffect } from "react";
-import { menuRepository } from "./services";
+import { useState, useMemo, useEffect, useRef } from "react";
 import {
     loadDemoAccessRequests,
-    saveDemoAccessRequests,
 } from "./services/accessRequestStore";
+import { appStateApi } from "./services/appStateApi";
 import {
     extractItemNameFromKey,
     resolveItemUniqueKey,
@@ -13,24 +12,21 @@ import {
 } from "./services/demoSchemaUtils";
 import {
     loadReportedIssues,
-    saveReportedIssues,
 } from "./services/itemInteractionStore";
 import {
-    createOwnerUploadedFile,
     loadOwnerRestaurantChangeRequests,
     loadOwnerRestaurantRequests,
     loadOwnerTasks,
-    saveOwnerRestaurantChangeRequests,
-    saveOwnerRestaurantRequests,
-    saveOwnerTasks,
 } from "./services/ownerWorkflowStore";
 import {
+    defaultDemoSession,
     getDemoAdminProfiles,
     getDemoLoginProfiles,
     getDemoRestaurantOwnerProfiles,
     loadDemoSession,
     saveDemoSession,
 } from "./services/profileStore";
+import { adaptRemoteAppState } from "./services/serverStateAdapters";
 
 const ALL=[{"n":"Chicken Breast","r":"Noodlebox","cat":"Protein Add-on","p":18,"c":80,"f":1,"ca":1,"so":null,"su":null,"ppc":0.225},{"n":"Prawns","r":"Noodlebox","cat":"Protein Add-on","p":20,"c":90,"f":1,"ca":0,"so":null,"su":null,"ppc":0.2222},{"n":"Beef Sirloin","r":"Noodlebox","cat":"Protein Add-on","p":18,"c":90,"f":2,"ca":0,"so":null,"su":null,"ppc":0.2},{"n":"Organic Tofu","r":"Noodlebox","cat":"Protein Add-on","p":14,"c":80,"f":1,"ca":3,"so":null,"su":null,"ppc":0.175},{"n":"5 Pc Hand-Breaded Chicken Tenders","r":"A&W","cat":"Chicken","p":67,"c":430,"f":15,"ca":8,"so":1830,"su":0,"ppc":0.1558},{"n":"3 Pc Hand-Breaded Chicken Tenders","r":"A&W","cat":"Chicken","p":40,"c":260,"f":9,"ca":5,"so":1100,"su":0,"ppc":0.1538},{"n":"New York Steak","r":"Old Spaghetti Factory","cat":"Grilled Items","p":54,"c":360,"f":14,"ca":5,"so":1370,"su":2,"ppc":0.15},{"n":"1 Pc Hand-Breaded Chicken Tenders","r":"A&W","cat":"Chicken","p":13,"c":90,"f":3,"ca":2,"so":370,"su":0,"ppc":0.1444},{"n":"Bacon Wrapped Filet Mignon 7oz","r":"Chuck's Roadhouse","cat":"Steaks","p":54,"c":443,"f":22.4,"ca":0,"so":522,"su":0,"ppc":0.1219},{"n":"Steak Frites","r":"Moxies","cat":"Steaks","p":44,"c":370,"f":20,"ca":2,"so":1400,"su":0,"ppc":0.1189},{"n":"Sirloin","r":"Moxies","cat":"Steaks","p":44,"c":370,"f":20,"ca":2,"so":1400,"su":0,"ppc":0.1189},{"n":"New York 10oz","r":"Chuck's Roadhouse","cat":"Steaks","p":76,"c":674,"f":37,"ca":0,"so":309,"su":0,"ppc":0.1128},{"n":"Rib-Eye 12oz","r":"Chuck's Roadhouse","cat":"Steaks","p":102,"c":904,"f":55,"ca":0,"so":420,"su":0,"ppc":0.1128},{"n":"Crispy Tofu","r":"Noodlebox","cat":"Protein Add-on","p":14,"c":130,"f":1,"ca":11,"so":null,"su":null,"ppc":0.1077},{"n":"Steak & Cheese Salad","r":"Subway","cat":"Salads","p":17,"c":160,"f":6,"ca":13,"so":620,"su":6,"ppc":0.1062},{"n":"New York","r":"Moxies","cat":"Steaks","p":62,"c":590,"f":37,"ca":2,"so":1450,"su":0,"ppc":0.1051},{"n":"Rib Eye","r":"Moxies","cat":"Steaks","p":100,"c":960,"f":61,"ca":2,"so":1550,"su":0,"ppc":0.1042},{"n":"Turkey Breast Salad","r":"Subway","cat":"Salads","p":12,"c":120,"f":3,"ca":13,"so":570,"su":6,"ppc":0.1},{"n":"T-Bone 14oz","r":"Chuck's Roadhouse","cat":"Steaks","p":101,"c":1035,"f":64,"ca":0,"so":442,"su":0,"ppc":0.0976},{"n":"Grilled Tenders - 5","r":"A&W","cat":"Chicken","p":33,"c":360,"f":8,"ca":0,"so":1180,"su":0,"ppc":0.0917},{"n":"Grilled Tenders - 3","r":"A&W","cat":"Chicken","p":20,"c":220,"f":4.5,"ca":0,"so":630,"su":0,"ppc":0.0909},{"n":"Chicken Wings","r":"Old Spaghetti Factory","cat":"Appetizers","p":75,"c":830,"f":52,"ca":12,"so":3180,"su":0,"ppc":0.0904},{"n":"Top Sirloin 7oz","r":"Chuck's Roadhouse","cat":"Steaks","p":42,"c":466,"f":32.5,"ca":0,"so":269,"su":0,"ppc":0.0901},{"n":"Porterhouse 20oz","r":"Chuck's Roadhouse","cat":"Steaks","p":142,"c":1585,"f":112,"ca":0,"so":545,"su":0,"ppc":0.0896},{"n":"NY Steak Sandwich","r":"Old Spaghetti Factory","cat":"Lunch","p":44,"c":500,"f":25,"ca":24,"so":1630,"su":3,"ppc":0.088},{"n":"Rotisserie-Style Chicken Salad","r":"Subway","cat":"Salads","p":13,"c":150,"f":4,"ca":10,"so":340,"su":5,"ppc":0.0867},{"n":"Big Blueberry Protein","r":"Jugo Juice","cat":"Protein Smoothies","p":27.4,"c":322,"f":3.3,"ca":45.6,"so":null,"su":null,"ppc":0.0851},{"n":"Black Forest Ham Salad","r":"Subway","cat":"Salads","p":11,"c":130,"f":3,"ca":13,"so":590,"su":6,"ppc":0.0846},{"n":"Crispy Chicken","r":"Noodlebox","cat":"Protein Add-on","p":16,"c":190,"f":1.5,"ca":24,"so":null,"su":null,"ppc":0.0842},{"n":"Rotisserie-Style Chicken","r":"Subway","cat":"6\" Classic Subs","p":26,"c":320,"f":5,"ca":43,"so":650,"su":5,"ppc":0.0813},{"n":"Chicken Sandwich - Hand Breaded","r":"A&W","cat":"Chicken","p":33,"c":410,"f":12,"ca":43,"so":1130,"su":8,"ppc":0.0805},{"n":"Dippin Chicken 5pc","r":"Triple O's","cat":"Classics & Sides","p":35,"c":450,"f":18.2,"ca":28.3,"so":917,"su":8.3,"ppc":0.0778},{"n":"Chicken Parmigiana","r":"Old Spaghetti Factory","cat":"Grilled Items","p":55,"c":711,"f":36,"ca":40,"so":1000,"su":6,"ppc":0.0774},{"n":"Chicken Club Sandwich - Hand Breaded","r":"A&W","cat":"Chicken","p":36,"c":470,"f":17,"ca":43,"so":1370,"su":9,"ppc":0.0766},{"n":"Grilled Chicken","r":"Subway","cat":"6\" Limited/Regional Subs","p":21,"c":280,"f":4,"ca":41,"so":690,"su":6,"ppc":0.075},{"n":"Sweet Onion Chicken Teriyaki Salad","r":"Subway","cat":"Salads","p":18,"c":240,"f":4,"ca":34,"so":760,"su":26,"ppc":0.075},{"n":"Garlic Parmesan Chicken Wings","r":"Old Spaghetti Factory","cat":"Appetizers","p":93,"c":1250,"f":90,"ca":15,"so":4270,"su":2,"ppc":0.0744},{"n":"Grilled Chicken","r":"Moxies","cat":"Sides","p":20,"c":270,"f":22,"ca":1,"so":730,"su":0,"ppc":0.0741},{"n":"Peanut Butter Protein","r":"Jugo Juice","cat":"Protein Smoothies","p":32.5,"c":440,"f":15.1,"ca":50.7,"so":null,"su":null,"ppc":0.0739},{"n":"Chuck's BBQ Chicken","r":"Chuck's Roadhouse","cat":"BBQ & Ribs","p":26,"c":364,"f":8.5,"ca":0,"so":1930,"su":0,"ppc":0.0714},{"n":"Lunch Lasagna","r":"Old Spaghetti Factory","cat":"Lunch","p":49,"c":690,"f":29,"ca":59,"so":1360,"su":6,"ppc":0.071},{"n":"Tropical Green Protein","r":"Jugo Juice","cat":"Protein Smoothies","p":25.7,"c":366,"f":2.5,"ca":62.5,"so":null,"su":null,"ppc":0.0702},{"n":"Mocha Protein","r":"Jugo Juice","cat":"Protein Smoothies","p":27.7,"c":402,"f":0.6,"ca":27.7,"so":null,"su":null,"ppc":0.0689},{"n":"Bacon Cheeseburger","r":"Moxies","cat":"Handhelds","p":68,"c":990,"f":52,"ca":53,"so":1670,"su":4,"ppc":0.0687},{"n":"Crispy Beef","r":"Noodlebox","cat":"Protein Add-on","p":13,"c":190,"f":2.5,"ca":14,"so":null,"su":null,"ppc":0.0684},{"n":"Lasagna","r":"Old Spaghetti Factory","cat":"Signature Pastas","p":79,"c":1170,"f":45,"ca":115,"so":2150,"su":10,"ppc":0.0675},{"n":"Yangzhou Fried Rice Box","r":"Noodlebox","cat":"Boxes","p":46,"c":682,"f":42,"ca":48,"so":null,"su":null,"ppc":0.0674},{"n":"Steak & Cheese","r":"Subway","cat":"6\" Classic Subs","p":24,"c":360,"f":10,"ca":43,"so":1120,"su":5,"ppc":0.0667},{"n":"Chicken & Rib Combo","r":"Chuck's Roadhouse","cat":"BBQ & Ribs","p":53,"c":801,"f":34,"ca":0,"so":2816,"su":0,"ppc":0.0662},{"n":"Turkey Breast","r":"Subway","cat":"6\" Classic Subs","p":19,"c":290,"f":5,"ca":44,"so":860,"su":7,"ppc":0.0655},{"n":"Mushroom Sirloin","r":"Moxies","cat":"Steaks","p":47,"c":720,"f":52,"ca":2,"so":2000,"su":0,"ppc":0.0653},{"n":"Pink Power Protein","r":"Jugo Juice","cat":"Protein Smoothies","p":26,"c":400,"f":4,"ca":68,"so":null,"su":null,"ppc":0.065},{"n":"Sweet Onion Chicken Teriyaki","r":"Subway","cat":"6\" Classic Subs","p":24,"c":370,"f":5,"ca":59,"so":920,"su":19,"ppc":0.0649},{"n":"Chicken Rancher","r":"Subway","cat":"6\" Chicken Subs","p":36,"c":560,"f":26,"ca":45,"so":1140,"su":6,"ppc":0.0643},{"n":"Chimichurri Steak Salad","r":"Moxies","cat":"Soup & Salads","p":38,"c":600,"f":21,"ca":31,"so":1240,"su":20,"ppc":0.0633},{"n":"Thai Chicken Wrap","r":"Jugo Juice","cat":"Wraps","p":20,"c":320,"f":5,"ca":47,"so":null,"su":null,"ppc":0.0625},{"n":"Italian B.M.T. Salad","r":"Subway","cat":"Salads","p":15,"c":240,"f":16,"ca":13,"so":1080,"su":6,"ppc":0.0625},{"n":"Manicotti","r":"Old Spaghetti Factory","cat":"Signature Pastas","p":43,"c":690,"f":36,"ca":51,"so":2290,"su":8,"ppc":0.0623},{"n":"2 Pc Fish & Chips","r":"Chuck's Roadhouse","cat":"Favourites","p":58,"c":933,"f":45,"ca":0,"so":2118,"su":0,"ppc":0.0622},{"n":"Black Forest Ham","r":"Subway","cat":"6\" Classic Subs","p":18,"c":290,"f":5,"ca":44,"so":870,"su":7,"ppc":0.0621},{"n":"Meatball Marinara Salad","r":"Subway","cat":"Salads","p":18,"c":290,"f":16,"ca":22,"so":800,"su":9,"ppc":0.0621},{"n":"Beef Dip","r":"Moxies","cat":"Handhelds","p":56,"c":910,"f":42,"ca":82,"so":2110,"su":4,"ppc":0.0615},{"n":"Spaghetti with Meatballs","r":"Old Spaghetti Factory","cat":"Spaghetti Classics","p":51,"c":830,"f":26,"ca":100,"so":1910,"su":10,"ppc":0.0614},{"n":"Seafood Linguine","r":"Old Spaghetti Factory","cat":"Signature Pastas","p":62,"c":1020,"f":38,"ca":109,"so":2090,"su":9,"ppc":0.0608},{"n":"Piri-Piri Chicken","r":"Subway","cat":"6\" Chicken Subs","p":31,"c":510,"f":23,"ca":44,"so":1170,"su":5,"ppc":0.0608},{"n":"Blackened Shrimp Tacos","r":"Moxies","cat":"Handhelds","p":17,"c":280,"f":12,"ca":24,"so":1300,"su":2,"ppc":0.0607},{"n":"Tuna Poke Bowl","r":"Moxies","cat":"Pastas & Bowls","p":35,"c":580,"f":30,"ca":36,"so":1230,"su":14,"ppc":0.0603},{"n":"Blackened Chicken Burger","r":"Moxies","cat":"Handhelds","p":39,"c":650,"f":32,"ca":48,"so":2170,"su":3,"ppc":0.06},{"n":"Veggie Delite Salad","r":"Subway","cat":"Salads","p":3,"c":50,"f":1,"ca":9,"so":75,"su":4,"ppc":0.06},{"n":"Philly Beef Sandwich","r":"Chuck's Roadhouse","cat":"Sandwiches","p":42,"c":701,"f":50,"ca":0,"so":941,"su":0,"ppc":0.0599},{"n":"Bourbon BBQ Steak & Cheddar","r":"Subway","cat":"6\" Steak Subs","p":31,"c":520,"f":18,"ca":55,"so":1230,"su":9,"ppc":0.0596},{"n":"Roasted Garlic Grilled Chicken","r":"Old Spaghetti Factory","cat":"Grilled Items","p":70,"c":1180,"f":62,"ca":83,"so":1030,"su":2,"ppc":0.0593},{"n":"Hunter's Chicken","r":"Old Spaghetti Factory","cat":"Grilled Items","p":42,"c":731,"f":44,"ca":43,"so":570,"su":8,"ppc":0.0575},{"n":"Spicy Chicken Sandwich","r":"Chuck's Roadhouse","cat":"Sandwiches","p":36,"c":633,"f":46,"ca":0,"so":1820,"su":0,"ppc":0.0569},{"n":"Chicken Tenders and Fries","r":"Old Spaghetti Factory","cat":"Lunch","p":37,"c":650,"f":25,"ca":31,"so":1520,"su":2,"ppc":0.0569},{"n":"Chicken Rancher Wrap","r":"Subway","cat":"Wraps","p":37,"c":650,"f":31,"ca":56,"so":1340,"su":5,"ppc":0.0569},{"n":"3 Piece Chicken Strips","r":"A&W","cat":"Chicken","p":21,"c":370,"f":18,"ca":29,"so":1190,"su":8,"ppc":0.0568},{"n":"Baby Back Ribs - Full Rack","r":"Moxies","cat":"Mains","p":100,"c":1760,"f":96,"ca":94,"so":310,"su":44,"ppc":0.0568},{"n":"Chicken & Ribs","r":"Moxies","cat":"Mains","p":75,"c":1320,"f":72,"ca":69,"so":3260,"su":17,"ppc":0.0568},{"n":"Chipotle Mango Chicken","r":"Moxies","cat":"Mains","p":55,"c":970,"f":51,"ca":79,"so":2750,"su":15,"ppc":0.0567},{"n":"Grilled Salmon","r":"Moxies","cat":"Sides","p":17,"c":300,"f":25,"ca":0,"so":340,"su":0,"ppc":0.0567},{"n":"Great Canadian Club","r":"Subway","cat":"6\" Deli Subs","p":27,"c":480,"f":20,"ca":49,"so":1390,"su":8,"ppc":0.0563},{"n":"Baby Back Ribs","r":"Old Spaghetti Factory","cat":"Grilled Items","p":84,"c":1500,"f":101,"ca":57,"so":1330,"su":43,"ppc":0.056},{"n":"Chicken Bacon Cheddar","r":"Triple O's","cat":"Burgers","p":44,"c":791,"f":41,"ca":58,"so":1214,"su":12,"ppc":0.0556},{"n":"Spaghetti with IMPOSSIBLE Meatballs","r":"Old Spaghetti Factory","cat":"Spaghetti Classics","p":46,"c":830,"f":29,"ca":100,"so":2030,"su":9,"ppc":0.0554},{"n":"Buffalo Chicken Sandwich","r":"Chuck's Roadhouse","cat":"Sandwiches","p":37,"c":673,"f":26.5,"ca":0,"so":1463,"su":0,"ppc":0.055},{"n":"Loaded Breakfast Wrap","r":"Triple O's","cat":"Breakfast","p":30.8,"c":564,"f":41,"ca":21,"so":943,"su":1.4,"ppc":0.0546},{"n":"Mushroom Onion Melts Burger - Double","r":"A&W","cat":"Burgers","p":32,"c":590,"f":34,"ca":39,"so":1480,"su":7,"ppc":0.0542},{"n":"The Big Chuck","r":"Chuck's Roadhouse","cat":"Burgers","p":74,"c":1366,"f":81,"ca":0,"so":2377,"su":0,"ppc":0.0542},{"n":"Cheeseburger","r":"Moxies","cat":"Handhelds","p":45,"c":830,"f":44,"ca":57,"so":2330,"su":5,"ppc":0.0542},{"n":"Nashville-Style Hot Chicken","r":"Subway","cat":"6\" Chicken Subs","p":32,"c":590,"f":27,"ca":53,"so":1270,"su":7,"ppc":0.0542},{"n":"Spaghetti with Meat Sauce","r":"Old Spaghetti Factory","cat":"Spaghetti Classics","p":33,"c":610,"f":11,"ca":97,"so":1240,"su":10,"ppc":0.0541},{"n":"Turkey Bacon Club Wrap","r":"Jugo Juice","cat":"Wraps","p":21,"c":390,"f":19,"ca":30,"so":null,"su":null,"ppc":0.0538},{"n":"Teriyaki Crunch","r":"Subway","cat":"6\" Chicken Subs","p":29,"c":540,"f":15,"ca":67,"so":1340,"su":20,"ppc":0.0537},{"n":"Grilled Chicken Club","r":"Chuck's Roadhouse","cat":"Sandwiches","p":33,"c":620,"f":32,"ca":0,"so":1849,"su":0,"ppc":0.0532},{"n":"Rotisserie-Style Chicken Wrap","r":"Subway","cat":"Wraps","p":26,"c":490,"f":19,"ca":55,"so":960,"su":4,"ppc":0.0531},{"n":"B.L.T.","r":"Subway","cat":"6\" Limited/Regional Subs","p":19,"c":360,"f":13,"ca":42,"so":930,"su":4,"ppc":0.0528},{"n":"Bacon Cheese Burger","r":"Chuck's Roadhouse","cat":"Burgers","p":44,"c":836,"f":44.7,"ca":0,"so":1392,"su":0,"ppc":0.0526},{"n":"Chicken Avocado Wrap","r":"Jugo Juice","cat":"Wraps","p":23,"c":440,"f":24,"ca":36,"so":null,"su":null,"ppc":0.0523},{"n":"GOA Chicken Wrap","r":"Jugo Juice","cat":"Wraps","p":23,"c":440,"f":23,"ca":33,"so":null,"su":null,"ppc":0.0523},{"n":"Original Bacon Cheeseburger - Double","r":"A&W","cat":"Burgers","p":36,"c":690,"f":43,"ca":42,"so":1410,"su":10,"ppc":0.0522},{"n":"Meatball Marinara","r":"Subway","cat":"6\" Classic Subs","p":24,"c":460,"f":18,"ca":51,"so":1170,"su":7,"ppc":0.0522},{"n":"Sweet Onion Teriyaki Wrap","r":"Subway","cat":"Wraps","p":24,"c":460,"f":10,"ca":70,"so":1110,"su":18,"ppc":0.0522},{"n":"Morning Blend Protein","r":"Jugo Juice","cat":"Protein Smoothies","p":28,"c":540,"f":7,"ca":93,"so":null,"su":null,"ppc":0.0519},{"n":"Original Burger","r":"A&W","cat":"Burgers","p":31,"c":600,"f":34,"ca":42,"so":1260,"su":10,"ppc":0.0517},{"n":"Double Cheeseburger","r":"A&W","cat":"Burgers","p":31,"c":600,"f":34,"ca":42,"so":1260,"su":10,"ppc":0.0517},{"n":"Steak'n Bacon","r":"Subway","cat":"6\" Steak Subs","p":31,"c":600,"f":32,"ca":46,"so":1480,"su":6,"ppc":0.0517},{"n":"Full Rack Ribs","r":"Chuck's Roadhouse","cat":"BBQ & Ribs","p":55,"c":1070,"f":51,"ca":0,"so":2960,"su":0,"ppc":0.0514},{"n":"Italian B.M.T.","r":"Subway","cat":"6\" Classic Subs","p":21,"c":410,"f":17,"ca":46,"so":1400,"su":6,"ppc":0.0512},{"n":"Seafood Fettuccine Alfredo","r":"Old Spaghetti Factory","cat":"Signature Pastas","p":53,"c":1040,"f":34,"ca":129,"so":1190,"su":3,"ppc":0.051},{"n":"Tenderloin","r":"Moxies","cat":"Steaks","p":30,"c":590,"f":51,"ca":2,"so":680,"su":0,"ppc":0.0508},{"n":"Buffalo Chicken Burger","r":"Triple O's","cat":"Burgers","p":36.3,"c":714,"f":34.1,"ca":63.7,"so":2100,"su":11.6,"ppc":0.0508},{"n":"Chuck's Burger","r":"Chuck's Roadhouse","cat":"Burgers","p":35,"c":690,"f":33.5,"ca":0,"so":928,"su":0,"ppc":0.0507},{"n":"Cheese Burger","r":"Chuck's Roadhouse","cat":"Burgers","p":41,"c":810,"f":42.5,"ca":0,"so":1118,"su":0,"ppc":0.0506},{"n":"Chicken Club Sandwich - Grilled","r":"A&W","cat":"Chicken","p":22,"c":440,"f":14,"ca":39,"so":1220,"su":8,"ppc":0.05},{"n":"Chicken Sandwich - Grilled","r":"A&W","cat":"Chicken","p":19,"c":380,"f":9,"ca":40,"so":970,"su":8,"ppc":0.05},{"n":"Cold Cut Combo Salad","r":"Subway","cat":"Salads","p":12,"c":240,"f":17,"ca":12,"so":620,"su":5,"ppc":0.05},{"n":"Tuna Salad","r":"Subway","cat":"Salads","p":14,"c":280,"f":21,"ca":10,"so":380,"su":5,"ppc":0.05},{"n":"1 Pc Fish & Chips","r":"Chuck's Roadhouse","cat":"Favourites","p":32,"c":647,"f":32,"ca":0,"so":1473,"su":0,"ppc":0.0495},{"n":"Lemon Basil Salmon","r":"Moxies","cat":"Mains","p":45,"c":910,"f":52,"ca":66,"so":1450,"su":7,"ppc":0.0495},{"n":"Chicken Zen Bowl","r":"Moxies","cat":"Pastas & Bowls","p":45,"c":910,"f":27,"ca":122,"so":3020,"su":32,"ppc":0.0495},{"n":"Bourbon Brisket","r":"Subway","cat":"6\" Steak Subs","p":34,"c":690,"f":34,"ca":63,"so":1600,"su":16,"ppc":0.0493},{"n":"Cheese Curds Large","r":"A&W","cat":"Sides","p":52,"c":1060,"f":74,"ca":44,"so":1770,"su":4,"ppc":0.0491},{"n":"Cheese Curds Small","r":"A&W","cat":"Sides","p":26,"c":530,"f":37,"ca":22,"so":890,"su":2,"ppc":0.0491},{"n":"Beyond Bacon Cheeseburger","r":"A&W","cat":"Burgers","p":25,"c":510,"f":27,"ca":46,"so":1110,"su":9,"ppc":0.049},{"n":"Steak & Cheese Wrap","r":"Subway","cat":"Wraps","p":25,"c":510,"f":22,"ca":55,"so":1420,"su":5,"ppc":0.049},{"n":"Chicken Dippers","r":"Old Spaghetti Factory","cat":"Appetizers","p":26,"c":532,"f":40,"ca":32,"so":770,"su":1,"ppc":0.0489},{"n":"Crispy Chicken Club Sandwich","r":"A&W","cat":"Chicken","p":26,"c":540,"f":25,"ca":52,"so":1510,"su":12,"ppc":0.0481},{"n":"Spaghetti with Spicy Meat Sauce","r":"Old Spaghetti Factory","cat":"Spaghetti Classics","p":26,"c":540,"f":8,"ca":91,"so":920,"su":7,"ppc":0.0481},{"n":"Pizza Sub Melt Salad","r":"Subway","cat":"Salads","p":13,"c":270,"f":19,"ca":15,"so":1190,"su":8,"ppc":0.0481},{"n":"Crispy Chicken Sandwich","r":"A&W","cat":"Chicken","p":23,"c":480,"f":20,"ca":51,"so":1270,"su":12,"ppc":0.0479},{"n":"Original Bacon Cheeseburger - Single","r":"A&W","cat":"Burgers","p":23,"c":480,"f":26,"ca":41,"so":1010,"su":9,"ppc":0.0479},{"n":"Half Rack Ribs","r":"Chuck's Roadhouse","cat":"BBQ & Ribs","p":28,"c":585,"f":25.5,"ca":0,"so":1860,"su":0,"ppc":0.0479},{"n":"Chicken Fingers (5pc)","r":"Chuck's Roadhouse","cat":"Favourites","p":27,"c":564,"f":42.5,"ca":0,"so":952,"su":0,"ppc":0.0479},{"n":"Papa Burger - Double","r":"A&W","cat":"Burgers","p":31,"c":650,"f":40,"ca":44,"so":1660,"su":12,"ppc":0.0477},{"n":"Coney Dog","r":"A&W","cat":"Hot Dogs","p":31,"c":650,"f":40,"ca":44,"so":1660,"su":12,"ppc":0.0477},{"n":"Veggie Burger","r":"Chuck's Roadhouse","cat":"Burgers","p":31,"c":650,"f":26.7,"ca":0,"so":1475,"su":0,"ppc":0.0477},{"n":"Mushroom Onion Melts Burger - Single","r":"A&W","cat":"Burgers","p":19,"c":400,"f":19,"ca":38,"so":1150,"su":7,"ppc":0.0475},{"n":"BBQ Bacon Crunch Cheeseburger - Double","r":"A&W","cat":"Burgers","p":36,"c":760,"f":47,"ca":51,"so":1450,"su":14,"ppc":0.0474},{"n":"Spicy Papa Burger - Double","r":"A&W","cat":"Burgers","p":31,"c":660,"f":40,"ca":44,"so":1820,"su":12,"ppc":0.047},{"n":"Rib & Wing Combo","r":"Chuck's Roadhouse","cat":"BBQ & Ribs","p":79,"c":1680,"f":77.7,"ca":0,"so":3706,"su":0,"ppc":0.047},{"n":"Double Double Burger","r":"Triple O's","cat":"Burgers","p":57.2,"c":1217,"f":81.6,"ca":59.4,"so":1649,"su":11.4,"ppc":0.047},{"n":"Grilled Chicken Wrap","r":"Subway","cat":"Wraps","p":21,"c":450,"f":17,"ca":55,"so":1030,"su":5,"ppc":0.0467},{"n":"Baby Back Ribs - Half Rack","r":"Moxies","cat":"Mains","p":53,"c":1140,"f":61,"ca":65,"so":2400,"su":16,"ppc":0.0465},{"n":"Cheeseburger","r":"A&W","cat":"Burgers","p":19,"c":410,"f":19,"ca":42,"so":910,"su":10,"ppc":0.0463},{"n":"Original Sunny Start - Sausage","r":"Triple O's","cat":"Breakfast","p":32.5,"c":713,"f":39.3,"ca":55.1,"so":1319,"su":9.6,"ppc":0.0456},{"n":"Veggie Delite","r":"Subway","cat":"6\" Classic Subs","p":10,"c":220,"f":3,"ca":40,"so":360,"su":6,"ppc":0.0455},{"n":"Butter Chicken Box","r":"Noodlebox","cat":"Boxes","p":44,"c":980,"f":46,"ca":46,"so":null,"su":null,"ppc":0.0449},{"n":"Crispy Chicken Club","r":"Triple O's","cat":"Burgers","p":31.6,"c":710,"f":32,"ca":65.1,"so":2090,"su":9.6,"ppc":0.0445},{"n":"Hamburger","r":"A&W","cat":"Burgers","p":16,"c":360,"f":14,"ca":41,"so":680,"su":9,"ppc":0.0444},{"n":"BBQ Char Siu Pork","r":"Noodlebox","cat":"Protein Add-on","p":4,"c":90,"f":1,"ca":16,"so":null,"su":null,"ppc":0.0444},{"n":"Tuna (includes Mayonnaise)","r":"Subway","cat":"6\" Classic Subs","p":20,"c":450,"f":22,"ca":42,"so":690,"su":5,"ppc":0.0444},{"n":"Beyond Burger","r":"A&W","cat":"Burgers","p":22,"c":500,"f":25,"ca":51,"so":990,"su":13,"ppc":0.044},{"n":"Mozza Triangles","r":"Old Spaghetti Factory","cat":"Appetizers","p":21,"c":477,"f":29,"ca":32,"so":910,"su":3,"ppc":0.044},{"n":"Tuna Sushi Stack","r":"Moxies","cat":"Appetizers","p":14,"c":320,"f":12,"ca":44,"so":3,"su":44,"ppc":0.0437},{"n":"Chicken Tenders","r":"Moxies","cat":"Handhelds","p":35,"c":800,"f":50,"ca":48,"so":680,"su":0,"ppc":0.0437},{"n":"BT's Crispy Chicken Sandwich","r":"Moxies","cat":"Handhelds","p":31,"c":710,"f":31,"ca":73,"so":1420,"su":7,"ppc":0.0437},{"n":"Smashed Avocado & Turkey","r":"Subway","cat":"6\" Deli Subs","p":24,"c":550,"f":28,"ca":50,"so":1240,"su":7,"ppc":0.0436},{"n":"Coconut Prawns (2)","r":"Noodlebox","cat":"Extras","p":10,"c":230,"f":3.5,"ca":39,"so":null,"su":null,"ppc":0.0435},{"n":"Tempura Chicken Bites (5)","r":"Noodlebox","cat":"Extras","p":10,"c":230,"f":3.5,"ca":39,"so":null,"su":null,"ppc":0.0435},{"n":"Cranberry Turkey","r":"Jugo Juice","cat":"Grilled Cheese","p":19,"c":440,"f":15,"ca":50,"so":null,"su":null,"ppc":0.0432},{"n":"Chicken Parmigiana","r":"Chuck's Roadhouse","cat":"Favourites","p":34,"c":791,"f":33,"ca":0,"so":1527,"su":0,"ppc":0.043},{"n":"Crispy Shanghai Chicken Box","r":"Noodlebox","cat":"Boxes","p":27,"c":630,"f":46,"ca":34,"so":null,"su":null,"ppc":0.0429},{"n":"Chicken Alfredo and Bacon Ravioli","r":"Old Spaghetti Factory","cat":"Signature Pastas","p":54,"c":1260,"f":83,"ca":67,"so":1530,"su":6,"ppc":0.0429},{"n":"Sweet Carolina Burger","r":"Chuck's Roadhouse","cat":"Burgers","p":44,"c":1030,"f":62,"ca":0,"so":1733,"su":0,"ppc":0.0427},{"n":"Cold Cut Combo","r":"Subway","cat":"6\" Classic Subs","p":17,"c":400,"f":18,"ca":43,"so":930,"su":6,"ppc":0.0425},{"n":"Bacon Cheddar Burger","r":"Triple O's","cat":"Burgers","p":39.4,"c":933,"f":60.7,"ca":54.9,"so":1138,"su":11.3,"ppc":0.0422},{"n":"Pizza Sub","r":"Subway","cat":"6\" Classic Subs","p":18,"c":430,"f":20,"ca":44,"so":1500,"su":6,"ppc":0.0419},{"n":"Smokehouse Burger","r":"Chuck's Roadhouse","cat":"Burgers","p":42,"c":1012,"f":46,"ca":0,"so":1696,"su":0,"ppc":0.0415},{"n":"Tuna Avocado Wrap","r":"Jugo Juice","cat":"Wraps","p":12,"c":290,"f":13,"ca":31,"so":null,"su":null,"ppc":0.0414},{"n":"Veggie Patty","r":"Subway","cat":"6\" Classic Subs","p":16,"c":390,"f":12,"ca":57,"so":680,"su":8,"ppc":0.041},{"n":"Breakfast Club - Sausage","r":"Triple O's","cat":"Breakfast","p":34.3,"c":843,"f":45,"ca":72.2,"so":1633,"su":9.6,"ppc":0.0407},{"n":"Honey Mustard Ham Snackwich","r":"Subway","cat":"Snackwiches","p":13,"c":320,"f":13,"ca":42,"so":970,"su":4,"ppc":0.0406},{"n":"Papa Burger - Single","r":"A&W","cat":"Burgers","p":19,"c":470,"f":24,"ca":43,"so":1400,"su":11,"ppc":0.0404},{"n":"Spicy Papa Burger - Single","r":"A&W","cat":"Burgers","p":19,"c":470,"f":24,"ca":43,"so":1400,"su":11,"ppc":0.0404},{"n":"Pork Tenderloin Sandwich","r":"A&W","cat":"Sandwiches","p":19,"c":470,"f":13,"ca":63,"so":1070,"su":8,"ppc":0.0404},{"n":"Thai Chicken Salad","r":"Moxies","cat":"Soup & Salads","p":40,"c":990,"f":54,"ca":93,"so":1420,"su":11,"ppc":0.0404},{"n":"BBQ Bacon Crunch Cheeseburger - Single","r":"A&W","cat":"Burgers","p":22,"c":550,"f":30,"ca":50,"so":1050,"su":13,"ppc":0.04},{"n":"Beyond Meat Burger","r":"Moxies","cat":"Handhelds","p":32,"c":800,"f":33,"ca":89,"so":3460,"su":29,"ppc":0.04},{"n":"Pot-Pourri Spaghetti","r":"Old Spaghetti Factory","cat":"Spaghetti Classics","p":26,"c":650,"f":21,"ca":89,"so":1680,"su":7,"ppc":0.04},{"n":"Turkey Ranch Snackwich","r":"Subway","cat":"Snackwiches","p":14,"c":350,"f":15,"ca":40,"so":980,"su":2,"ppc":0.04},{"n":"Three Cheese Snackwich","r":"Subway","cat":"Snackwiches","p":14,"c":350,"f":16,"ca":37,"so":780,"su":1,"ppc":0.04},{"n":"Monty Mushroom","r":"Triple O's","cat":"Burgers","p":37.2,"c":943,"f":62.4,"ca":57.3,"so":812,"su":12.9,"ppc":0.0394},{"n":"Original Sunny Start - Bacon","r":"Triple O's","cat":"Breakfast","p":24.1,"c":611,"f":32,"ca":54.4,"so":1270,"su":9.6,"ppc":0.0394},{"n":"Original Cheeseburger","r":"Triple O's","cat":"Burgers","p":33.8,"c":860,"f":54.1,"ca":56.9,"so":1169,"su":11.3,"ppc":0.0393},{"n":"3 Piece Fish & Chips","r":"Triple O's","cat":"Classics & Sides","p":24.5,"c":629,"f":30,"ca":58.5,"so":884,"su":1.7,"ppc":0.039},{"n":"Loaded Cheeseburger","r":"Moxies","cat":"Handhelds","p":45,"c":1160,"f":77,"ca":67,"so":2570,"su":13,"ppc":0.0388},{"n":"Chicken Melt","r":"Jugo Juice","cat":"Grilled Cheese","p":15,"c":390,"f":12,"ca":50,"so":null,"su":null,"ppc":0.0385},{"n":"Spicy Ultimate Crunch","r":"Triple O's","cat":"Burgers","p":27.1,"c":703,"f":37.6,"ca":63,"so":1257,"su":11.1,"ppc":0.0385},{"n":"Poutine","r":"Triple O's","cat":"Classics & Sides","p":18.7,"c":490,"f":29.9,"ca":35.9,"so":987,"su":1.7,"ppc":0.0382},{"n":"Honey Mustard Crunch","r":"Triple O's","cat":"Burgers","p":28,"c":734,"f":39,"ca":66,"so":1336,"su":13,"ppc":0.0381},{"n":"Penne with Chicken","r":"Old Spaghetti Factory","cat":"Signature Pastas","p":35,"c":920,"f":54,"ca":74,"so":870,"su":4,"ppc":0.038},{"n":"Smokehouse Supreme","r":"Triple O's","cat":"Burgers","p":39.5,"c":1043,"f":61.9,"ca":60.4,"so":1275,"su":15.6,"ppc":0.0379},{"n":"Original Burger","r":"Triple O's","cat":"Burgers","p":29.7,"c":789,"f":49.2,"ca":54.6,"so":808,"su":11.3,"ppc":0.0376},{"n":"Corn Dog Nuggets - 10 Pc","r":"A&W","cat":"Sides","p":18,"c":480,"f":26,"ca":45,"so":1010,"su":4,"ppc":0.0375},{"n":"Shrimp - 16 Pc","r":"A&W","cat":"Seafood","p":18,"c":480,"f":26,"ca":45,"so":1010,"su":1,"ppc":0.0375},{"n":"Black Bean Tacos","r":"Moxies","cat":"Handhelds","p":9,"c":240,"f":12,"ca":27,"so":680,"su":3,"ppc":0.0375},{"n":"Spaghetti with Marinara","r":"Old Spaghetti Factory","cat":"Spaghetti Classics","p":18,"c":480,"f":4.5,"ca":94,"so":1110,"su":9,"ppc":0.0375},{"n":"Kid's Burger","r":"Triple O's","cat":"Burgers","p":29.1,"c":778,"f":49.1,"ca":52.2,"so":803,"su":9.7,"ppc":0.0374},{"n":"Big Veggie","r":"Subway","cat":"6\" Veggie Subs","p":20,"c":540,"f":25,"ca":60,"so":1080,"su":7,"ppc":0.037},{"n":"Chicken Alfredo","r":"Moxies","cat":"Pastas & Bowls","p":48,"c":1310,"f":81,"ca":93,"so":1780,"su":5,"ppc":0.0366},{"n":"Hot Dog Regular","r":"A&W","cat":"Hot Dogs","p":12,"c":330,"f":19,"ca":31,"so":770,"su":6,"ppc":0.0364},{"n":"Calamari Fritti","r":"Old Spaghetti Factory","cat":"Appetizers","p":19,"c":524,"f":36,"ca":31,"so":1130,"su":3,"ppc":0.0363},{"n":"Crispy Fish Burger","r":"Triple O's","cat":"Burgers","p":24.7,"c":684,"f":31.6,"ca":71.1,"so":1162,"su":7.9,"ppc":0.0361},{"n":"Avocado & Bacon Cobb Salad","r":"Moxies","cat":"Soup & Salads","p":32,"c":890,"f":62,"ca":53,"so":2720,"su":16,"ppc":0.036},{"n":"Breakfast Burger","r":"Triple O's","cat":"Breakfast","p":39,"c":1090,"f":81,"ca":52,"so":1340,"su":17,"ppc":0.0358},{"n":"Beef Vindaloo","r":"Moxies","cat":"Pastas & Bowls","p":31,"c":870,"f":63,"ca":46,"so":900,"su":23,"ppc":0.0356},{"n":"2 Pc Pub Cod Sandwich","r":"A&W","cat":"Seafood","p":33,"c":940,"f":51,"ca":85,"so":1810,"su":9,"ppc":0.0351},{"n":"BLT Snackwich","r":"Subway","cat":"Snackwiches","p":14,"c":400,"f":22,"ca":38,"so":800,"su":1,"ppc":0.035},{"n":"Fettuccini Alfredo","r":"Old Spaghetti Factory","cat":"Signature Pastas","p":37,"c":1060,"f":43,"ca":129,"so":780,"su":3,"ppc":0.0349},{"n":"Kid's Grilled Cheese","r":"Triple O's","cat":"Classics & Sides","p":18.1,"c":520,"f":35,"ca":44,"so":840,"su":32,"ppc":0.0348},{"n":"Spaghetti with Mizithra","r":"Old Spaghetti Factory","cat":"Spaghetti Classics","p":34,"c":980,"f":50,"ca":81,"so":2990,"su":4,"ppc":0.0347},{"n":"Cashew Chicken Lettuce Wraps","r":"Moxies","cat":"Appetizers","p":10,"c":290,"f":15,"ca":29,"so":12,"su":29,"ppc":0.0345},{"n":"Cashew Tofu Lettuce Wraps","r":"Moxies","cat":"Appetizers","p":10,"c":290,"f":17,"ca":28,"so":7,"su":28,"ppc":0.0345},{"n":"Peanut Butter & Chocolate","r":"Jugo Juice","cat":"Smoothies","p":12,"c":350,"f":19,"ca":39,"so":null,"su":null,"ppc":0.0343},{"n":"Breakfast Club - Bacon","r":"Triple O's","cat":"Breakfast","p":25.1,"c":731,"f":37,"ca":71.4,"so":1570,"su":9.6,"ppc":0.0343},{"n":"Ginger Beef Box","r":"Noodlebox","cat":"Boxes","p":19,"c":560,"f":35,"ca":47,"so":null,"su":null,"ppc":0.0339},{"n":"Linguine with Clams","r":"Old Spaghetti Factory","cat":"Signature Pastas","p":27,"c":800,"f":38,"ca":88,"so":1920,"su":1,"ppc":0.0338},{"n":"Falafel Wrap","r":"Jugo Juice","cat":"Wraps","p":14,"c":420,"f":19,"ca":53,"so":null,"su":null,"ppc":0.0333},{"n":"Vegetarian Power Bowl","r":"Moxies","cat":"Pastas & Bowls","p":18,"c":540,"f":31,"ca":43,"so":1380,"su":19,"ppc":0.0333},{"n":"Drunken Noodle Box","r":"Noodlebox","cat":"Boxes","p":16,"c":498,"f":27,"ca":82,"so":null,"su":null,"ppc":0.0321},{"n":"Bacon Cheese Dog","r":"A&W","cat":"Hot Dogs","p":20,"c":640,"f":36,"ca":55,"so":1660,"su":13,"ppc":0.0312},{"n":"Coney Cheese Dog","r":"A&W","cat":"Hot Dogs","p":20,"c":640,"f":36,"ca":55,"so":1660,"su":13,"ppc":0.0312},{"n":"Super Greens Salad","r":"Moxies","cat":"Soup & Salads","p":26,"c":840,"f":66,"ca":44,"so":860,"su":6,"ppc":0.031},{"n":"Crispy Chicken Club","r":"Old Spaghetti Factory","cat":"Lunch","p":37,"c":1194,"f":71,"ca":89,"so":2670,"su":14,"ppc":0.031},{"n":"Crunchy Veggie Wrap","r":"Jugo Juice","cat":"Wraps","p":8,"c":260,"f":8,"ca":41,"so":null,"su":null,"ppc":0.0308},{"n":"Vegetable Spring Roll","r":"Noodlebox","cat":"Extras","p":4,"c":130,"f":5,"ca":16,"so":null,"su":null,"ppc":0.0308},{"n":"Bam Bam Shrimp","r":"Old Spaghetti Factory","cat":"Appetizers","p":22,"c":720,"f":48,"ca":54,"so":1440,"su":5,"ppc":0.0306},{"n":"Mushroom Veggie Burger","r":"Triple O's","cat":"Burgers","p":20,"c":660,"f":33,"ca":78,"so":1270,"su":19,"ppc":0.0303},{"n":"Impossible Burger","r":"Triple O's","cat":"Burgers","p":20,"c":660,"f":49,"ca":78,"so":1282,"su":19,"ppc":0.0303},{"n":"Pesto Linguine","r":"Old Spaghetti Factory","cat":"Signature Pastas","p":29,"c":960,"f":53,"ca":88,"so":1280,"su":5,"ppc":0.0302},{"n":"Chicken Madeira Rigatoni","r":"Moxies","cat":"Pastas & Bowls","p":43,"c":1460,"f":103,"ca":85,"so":3680,"su":8,"ppc":0.0295},{"n":"Kung Pao Box","r":"Noodlebox","cat":"Boxes","p":13,"c":440,"f":29,"ca":40,"so":null,"su":null,"ppc":0.0295},{"n":"Spaghetti with Mushroom Alfredo","r":"Old Spaghetti Factory","cat":"Spaghetti Classics","p":27,"c":920,"f":47,"ca":90,"so":1170,"su":7,"ppc":0.0293},{"n":"Teriyaki Box","r":"Noodlebox","cat":"Boxes","p":9,"c":310,"f":19,"ca":34,"so":null,"su":null,"ppc":0.029},{"n":"Spicy Peanut Box","r":"Noodlebox","cat":"Boxes","p":33,"c":1150,"f":101,"ca":45,"so":null,"su":null,"ppc":0.0287},{"n":"Kids Mac & Cheese Box","r":"Noodlebox","cat":"Boxes","p":10,"c":360,"f":32,"ca":10,"so":null,"su":null,"ppc":0.0278},{"n":"Peaches n Raspberry Overnight Oats","r":"Jugo Juice","cat":"Snacks","p":11,"c":410,"f":7,"ca":76,"so":null,"su":null,"ppc":0.0268},{"n":"Egg BLT Ciabatta","r":"Triple O's","cat":"Breakfast","p":18,"c":680,"f":51,"ca":35,"so":1000,"su":4,"ppc":0.0265},{"n":"Ancient Grains","r":"Moxies","cat":"Sides","p":10,"c":380,"f":15,"ca":52,"so":400,"su":1,"ppc":0.0263},{"n":"Corn Dog Nuggets - 5 Pc","r":"A&W","cat":"Sides","p":7,"c":270,"f":13,"ca":41,"so":490,"su":4,"ppc":0.0259},{"n":"Caesar Salad","r":"Moxies","cat":"Soup & Salads","p":14,"c":550,"f":46,"ca":21,"so":1350,"su":3,"ppc":0.0255},{"n":"Strawberry Pecan Salad","r":"Chuck's Roadhouse","cat":"Salads","p":6,"c":245,"f":20,"ca":0,"so":332,"su":0,"ppc":0.0245},{"n":"Tortellini Pomodoro","r":"Old Spaghetti Factory","cat":"Signature Pastas","p":25,"c":1020,"f":53,"ca":116,"so":1380,"su":10,"ppc":0.0245},{"n":"Yogurt Parfait","r":"Jugo Juice","cat":"Snacks","p":9,"c":370,"f":15,"ca":52,"so":null,"su":null,"ppc":0.0243},{"n":"Three Cheese","r":"Jugo Juice","cat":"Grilled Cheese","p":16,"c":660,"f":40,"ca":47,"so":null,"su":null,"ppc":0.0242},{"n":"Onion Rings - Regular","r":"A&W","cat":"Sides","p":6,"c":250,"f":4.5,"ca":45,"so":1200,"su":6,"ppc":0.024},{"n":"Garlic Cheese Toast","r":"Old Spaghetti Factory","cat":"Appetizers","p":24,"c":1000,"f":73,"ca":54,"so":2000,"su":1,"ppc":0.024},{"n":"Onion Rings - Large","r":"A&W","cat":"Sides","p":9,"c":380,"f":7,"ca":67,"so":1810,"su":9,"ppc":0.0237},{"n":"Chili Fries - Large","r":"A&W","cat":"Sides","p":12,"c":510,"f":20,"ca":68,"so":1270,"su":3,"ppc":0.0235},{"n":"Veggie Delite Wrap","r":"Subway","cat":"Wraps","p":9,"c":390,"f":15,"ca":54,"so":710,"su":4,"ppc":0.0231},{"n":"Lavender Lover","r":"Jugo Juice","cat":"Smoothies","p":7,"c":310,"f":5,"ca":68,"so":null,"su":null,"ppc":0.0226},{"n":"Black Bean Box","r":"Noodlebox","cat":"Boxes","p":7,"c":310,"f":19,"ca":34,"so":null,"su":null,"ppc":0.0226},{"n":"Pad Thai Box","r":"Noodlebox","cat":"Boxes","p":12,"c":550,"f":27,"ca":74,"so":null,"su":null,"ppc":0.0218},{"n":"Chili Fries - Regular","r":"A&W","cat":"Sides","p":8,"c":370,"f":15,"ca":49,"so":880,"su":2,"ppc":0.0216},{"n":"Thai Chow Mein Box","r":"Noodlebox","cat":"Boxes","p":8,"c":370,"f":31,"ca":19,"so":null,"su":null,"ppc":0.0216},{"n":"Bombay Mac & Cheese Box","r":"Noodlebox","cat":"Boxes","p":15,"c":700,"f":56,"ca":42,"so":null,"su":null,"ppc":0.0214},{"n":"Raspberry Rush","r":"Jugo Juice","cat":"Smoothies","p":9,"c":430,"f":1.5,"ca":91,"so":null,"su":null,"ppc":0.0209},{"n":"Parmesan Sweet Potato Fries","r":"Old Spaghetti Factory","cat":"Appetizers","p":18,"c":890,"f":69,"ca":55,"so":900,"su":12,"ppc":0.0202},{"n":"Prawn Thai Curry Laksa","r":"Moxies","cat":"Pastas & Bowls","p":21,"c":1060,"f":49,"ca":138,"so":2710,"su":82,"ppc":0.0198},{"n":"Cambodian Jungle Curry Box","r":"Noodlebox","cat":"Boxes","p":14,"c":750,"f":64,"ca":48,"so":null,"su":null,"ppc":0.0187},{"n":"Salted Caramel Cheesecake","r":"Moxies","cat":"Desserts","p":10,"c":543,"f":40,"ca":40,"so":370,"su":35,"ppc":0.0184},{"n":"Burmese Naan","r":"Noodlebox","cat":"Extras","p":4,"c":220,"f":10,"ca":30,"so":null,"su":null,"ppc":0.0182},{"n":"Cheese Fries - Large","r":"A&W","cat":"Sides","p":12,"c":680,"f":29,"ca":90,"so":2090,"su":2,"ppc":0.0176},{"n":"Berry Banana","r":"Jugo Juice","cat":"Smoothies","p":7,"c":400,"f":2,"ca":87,"so":null,"su":null,"ppc":0.0175},{"n":"Cheese Fries - Regular","r":"A&W","cat":"Sides","p":11,"c":640,"f":26,"ca":88,"so":1870,"su":2,"ppc":0.0172},{"n":"Jasmine Rice","r":"Moxies","cat":"Sides","p":6,"c":350,"f":2.5,"ca":74,"so":370,"su":0,"ppc":0.0171},{"n":"Blue Crush","r":"Jugo Juice","cat":"Smoothies","p":7,"c":420,"f":1.5,"ca":95,"so":null,"su":null,"ppc":0.0167},{"n":"Vegan Thai Curry Laksa","r":"Moxies","cat":"Pastas & Bowls","p":18,"c":1085,"f":51,"ca":145,"so":1690,"su":81,"ppc":0.0166},{"n":"Mashed Potatoes","r":"Moxies","cat":"Sides","p":6,"c":370,"f":18,"ca":41,"so":980,"su":2,"ppc":0.0162},{"n":"Key Lime Pie","r":"Moxies","cat":"Desserts","p":10,"c":620,"f":39,"ca":62,"so":350,"su":49,"ppc":0.0161},{"n":"Cheesecake on a Stick","r":"Triple O's","cat":"Classics & Sides","p":3,"c":190,"f":11,"ca":21,"so":105,"su":10,"ppc":0.0158},{"n":"Singapore Cashew Curry Box","r":"Noodlebox","cat":"Boxes","p":10,"c":640,"f":61,"ca":25,"so":null,"su":null,"ppc":0.0156},{"n":"Cashew Chili Chicken","r":"Moxies","cat":"Appetizers","p":7,"c":460,"f":26,"ca":34,"so":22,"su":34,"ppc":0.0152},{"n":"Fries Large","r":"Triple O's","cat":"Classics & Sides","p":5,"c":334,"f":16.8,"ca":42,"so":165,"su":2.3,"ppc":0.015},{"n":"Porchetta Sandwich","r":"Old Spaghetti Factory","cat":"Lunch","p":18,"c":1220,"f":95,"ca":60,"so":1320,"su":1,"ppc":0.0148},{"n":"Fries Regular","r":"Triple O's","cat":"Classics & Sides","p":3.5,"c":239,"f":12,"ca":30,"so":119,"su":1.7,"ppc":0.0146},{"n":"Apple Pie Spring Roll","r":"Noodlebox","cat":"Extras","p":1,"c":70,"f":0.2,"ca":17,"so":null,"su":null,"ppc":0.0143},{"n":"Apple Pie Chia Pudding","r":"Jugo Juice","cat":"Snacks","p":5.8,"c":421,"f":28.6,"ca":43.7,"so":null,"su":null,"ppc":0.0138},{"n":"Mighty Kale","r":"Jugo Juice","cat":"Smoothies","p":4,"c":292,"f":0.5,"ca":68.4,"so":null,"su":null,"ppc":0.0137},{"n":"Coney Fries - Large","r":"A&W","cat":"Sides","p":9,"c":670,"f":30,"ca":88,"so":1880,"su":0,"ppc":0.0134},{"n":"Churro Sandwich","r":"Moxies","cat":"Desserts","p":6,"c":460,"f":29,"ca":44,"so":310,"su":17,"ppc":0.013},{"n":"Fries - Regular","r":"A&W","cat":"Sides","p":4,"c":310,"f":12,"ca":44,"so":1050,"su":0,"ppc":0.0129},{"n":"Potstickers","r":"Moxies","cat":"Appetizers","p":4,"c":320,"f":23,"ca":19,"so":7,"su":19,"ppc":0.0125},{"n":"Kids Chow Mein Box","r":"Noodlebox","cat":"Boxes","p":2,"c":160,"f":14,"ca":8,"so":null,"su":null,"ppc":0.0125},{"n":"Banana Spring Roll","r":"Noodlebox","cat":"Extras","p":1,"c":80,"f":1,"ca":16,"so":null,"su":null,"ppc":0.0125},{"n":"Mini Sticky Toffee Pudding","r":"Moxies","cat":"Desserts","p":7,"c":580,"f":23,"ca":89,"so":340,"su":54,"ppc":0.0121},{"n":"Tiny Tuna Tacos","r":"Moxies","cat":"Appetizers","p":2,"c":170,"f":5,"ca":20,"so":10,"su":20,"ppc":0.0118},{"n":"Onion Rings","r":"Triple O's","cat":"Classics & Sides","p":5.5,"c":467,"f":28.8,"ca":47.7,"so":437,"su":11.4,"ppc":0.0118},{"n":"Fries - Large","r":"A&W","cat":"Sides","p":5,"c":430,"f":17,"ca":61,"so":1220,"su":0,"ppc":0.0116},{"n":"Caesar Salad","r":"Chuck's Roadhouse","cat":"Salads","p":5,"c":462,"f":44,"ca":0,"so":568,"su":0,"ppc":0.0108},{"n":"Sweet Potato Fries Regular","r":"Triple O's","cat":"Classics & Sides","p":5.4,"c":519,"f":29.6,"ca":60.5,"so":523,"su":23.4,"ppc":0.0104},{"n":"Bite of Brownie","r":"Moxies","cat":"Desserts","p":7,"c":680,"f":35,"ca":87,"so":290,"su":53,"ppc":0.0103},{"n":"Roasted Tomatoes & Whipped Feta","r":"Moxies","cat":"Appetizers","p":5,"c":520,"f":33,"ca":47,"so":16,"su":47,"ppc":0.0096},{"n":"Jugo Classico","r":"Jugo Juice","cat":"Smoothies","p":2.5,"c":267,"f":0.4,"ca":66.3,"so":null,"su":null,"ppc":0.0094},{"n":"Seasonal Vegetables","r":"Moxies","cat":"Sides","p":1,"c":110,"f":7,"ca":11,"so":550,"su":5,"ppc":0.0091},{"n":"Chuck's Caesar","r":"Chuck's Roadhouse","cat":"Salads","p":8,"c":886,"f":86.5,"ca":0,"so":1060,"su":0,"ppc":0.009},{"n":"Green Glow","r":"Jugo Juice","cat":"Smoothies","p":3.3,"c":367,"f":7.9,"ca":75.8,"so":null,"su":null,"ppc":0.009},{"n":"Vanilla Matcha","r":"Jugo Juice","cat":"Smoothies","p":3,"c":370,"f":1,"ca":83,"so":null,"su":null,"ppc":0.0081},{"n":"Smashed Avocado Dip","r":"Moxies","cat":"Appetizers","p":1,"c":130,"f":5,"ca":19,"so":2,"su":19,"ppc":0.0077},{"n":"Calamari","r":"Moxies","cat":"Appetizers","p":3,"c":410,"f":26,"ca":28,"so":16,"su":28,"ppc":0.0073},{"n":"Fries","r":"Moxies","cat":"Sides","p":4,"c":620,"f":45,"ca":49,"so":2160,"su":1,"ppc":0.0065},{"n":"Sweet Potato Fries","r":"Moxies","cat":"Sides","p":3,"c":630,"f":38,"ca":68,"so":1430,"su":32,"ppc":0.0048},{"n":"Bombay Cheese Balls (2)","r":"Noodlebox","cat":"Extras","p":1,"c":232,"f":9.5,"ca":40,"so":null,"su":null,"ppc":0.0043},{"n":"Mango Magic","r":"Jugo Juice","cat":"Smoothies","p":1.1,"c":303,"f":0.5,"ca":73,"so":null,"su":null,"ppc":0.0036},{"n":"Nachos","r":"Moxies","cat":"Appetizers","p":2,"c":670,"f":40,"ca":36,"so":41,"su":36,"ppc":0.003},{"n":"Truffle Parm Fries","r":"Moxies","cat":"Appetizers","p":1,"c":420,"f":26,"ca":37,"so":10,"su":37,"ppc":0.0024}];
 const R=[{"name":"A&W","desc":"American-style fast food with burgers, chicken, and root beer.","tags":["Fast Food","Burgers","Chicken","Hot Dogs"],"ic":48,"cats":["Burgers","Chicken","Hot Dogs","Sandwiches","Seafood","Sides"],"pdf":"aw_nutrition.pdf","avgP":22.9,"avgC":498.0},{"name":"Chuck's Roadhouse","desc":"Value steakhouse chain with ribs, burgers, and chicken.","tags":["Casual Dining","Steakhouse","Canadian","Value"],"ic":29,"cats":["BBQ & Ribs","Burgers","Favourites","Salads","Sandwiches","Steaks"],"pdf":"chucks_roadhouse_nutrition.pdf","avgP":47.8,"avgC":798.0},{"name":"Jugo Juice","desc":"Smoothie and juice bar with wraps, grilled cheese, and snacks.","tags":["Smoothie Bar","Juice","Wraps","Quick Service"],"ic":29,"cats":["Grilled Cheese","Protein Smoothies","Smoothies","Snacks","Wraps"],"pdf":"jugo_juice_nutrition.pdf","avgP":14.5,"avgC":387.0},{"name":"Moxies","desc":"Canadian casual dining with steaks, pastas, bowls, and handhelds.","tags":["Casual Dining","Canadian","Steaks","Burgers"],"ic":61,"cats":["Appetizers","Desserts","Handhelds","Mains","Pastas & Bowls","Sides","Soup & Salads","Steaks"],"pdf":"moxies_ca_nutrition.pdf","avgP":27.7,"avgC":649.0},{"name":"Noodlebox","desc":"Asian-inspired noodle and rice boxes with customizable proteins.","tags":["Asian","Noodles","Quick Service","Customizable"],"ic":31,"cats":["Boxes","Extras","Protein Add-on"],"pdf":"noodlebox_nutrition.pdf","avgP":14.0,"avgC":362.0},{"name":"Old Spaghetti Factory","desc":"Classic Italian-style pasta house with spaghetti, grilled items, and family dining.","tags":["Casual Dining","Italian","Pasta","Family"],"ic":36,"cats":["Appetizers","Grilled Items","Lunch","Signature Pastas","Spaghetti Classics"],"pdf":"old_spaghetti_factory_nutrition.pdf","avgP":41.5,"avgC":854.0},{"name":"Subway","desc":"Global sandwich chain with customizable subs, wraps, and salads.","tags":["Fast Food","Sandwiches","Wraps","Salads"],"ic":45,"cats":["6\" Chicken Subs","6\" Classic Subs","6\" Deli Subs","6\" Limited/Regional Subs","6\" Steak Subs","6\" Veggie Subs","Salads","Snackwiches","Wraps"],"pdf":"Subway.pdf","avgP":20.3,"avgC":381.0},{"name":"Triple O's","desc":"White Spot's quick-service burger chain with burgers, chicken, and shakes.","tags":["Fast Casual","Burgers","Chicken","Canadian"],"ic":31,"cats":["Breakfast","Burgers","Classics & Sides"],"pdf":"triple_os_nutrition.pdf","avgP":26.5,"avgC":687.0}];
@@ -40,13 +36,14 @@ const fpc=v=>(v*100).toFixed(1);
 const ik=it=>it?.key||`${it.r}::${it.n}`;
 const RNAMES=R.map(r=>r.name);
 const GCATS=["Burgers","Subs & Sandwiches","Salads","Wraps","Chicken","Steaks","Pasta","Bowls & Mains","BBQ & Ribs","Smoothies","Breakfast","Sides","Appetizers"];
+const PUBLIC_DEMO_MODE=import.meta.env.VITE_PUBLIC_DEMO_MODE==="true";
+const DEMO_NOTICE=import.meta.env.VITE_DEMO_NOTICE||"Public demo - use the seeded demo accounts below.";
 function catGroup(c){if(!c)return"Other";if(c.includes("Sub")||c.includes("Snack"))return"Subs & Sandwiches";if(c.includes("Burger"))return"Burgers";if(c.includes("Steak"))return"Steaks";if(c.includes("Salad"))return"Salads";if(c.includes("Wrap"))return"Wraps";if(c.includes("Chicken")&&!c.includes("Box"))return"Chicken";if(c.includes("Pasta")||c.includes("Spaghetti")||c.includes("Signature"))return"Pasta";if(c.includes("Bowl")||c.includes("Box")||c.includes("Main"))return"Bowls & Mains";if(c.includes("Breakfast"))return"Breakfast";if(c.includes("Smoothie"))return"Smoothies";if(c.includes("Side")||c.includes("Classic"))return"Sides";if(c.includes("Rib")||c.includes("BBQ"))return"BBQ & Ribs";if(c.includes("Appetizer")||c.includes("Extra"))return"Appetizers";return"Other";}
 function sortItems(items,sm){const s=[...items];if(sm==="protein")s.sort((a,b)=>b.p-a.p);else if(sm==="lowCal")s.sort((a,b)=>a.c-b.c);else if(sm==="lowSodium")s.sort((a,b)=>(a.so??9999)-(b.so??9999));else s.sort((a,b)=>b.ppc-a.ppc);return s;}
 const QUEUE={"rr":[{"id":"rr_001","owner":"Maria Fontaine","email":"maria@moxies.com","phone":"403-555-0142","rest":"Moxies","role":"Owner","web":"https://www.moxies.com","menuUrl":"https://www.moxies.com/menu","note":"We focus on casual dining with steaks, pastas, and handhelds. Full nutrition PDF available.","pdf":"moxies_ca_nutrition.pdf","hasImage":true,"samples":[{"name":"Steak Frites","cat":"Steaks","protein":44,"cal":370,"price":"24.99"},{"name":"Tuna Poke Bowl","cat":"Pastas & Bowls","protein":35,"cal":580,"price":"19.99"}],"status":"approved","at":"2025-11-20"},{"id":"rr_002","owner":"Dave Thompson","email":"dave@chucksroadhouse.ca","phone":"416-555-0238","rest":"Chuck's Roadhouse","role":"Owner","web":null,"menuUrl":null,"note":"Value steakhouse chain. All nutrition data available in official PDF.","pdf":"chucks_roadhouse_nutrition.pdf","hasImage":false,"samples":[{"name":"Top Sirloin 7oz","cat":"Steaks","protein":42,"cal":350,"price":"12.99"}],"status":"approved","at":"2025-12-10"},{"id":"rr_003","owner":"Priya Nair","email":"priya@noodlebox.ca","phone":"604-555-0391","rest":"Noodlebox","role":"Owner","web":"https://www.noodlebox.ca","menuUrl":"https://www.noodlebox.ca/menu","note":"Asian-inspired noodle and rice boxes with customizable proteins. We have a full nutrition breakdown for all core items.","pdf":"noodlebox_nutrition.pdf","hasImage":true,"samples":[{"name":"Crispy Shanghai Chicken Box","cat":"Boxes","protein":28,"cal":680,"price":"15.49"},{"name":"Thai Basil Tofu Box","cat":"Boxes","protein":18,"cal":520,"price":"14.49"}],"status":"pending","at":"2026-03-20"}],"role":[{"id":"role_001","user":"Jordan Lee","email":"jordan@example.com","rest":"Freshii","role":"Owner","note":"I own three Freshii locations in Calgary. Would like to upload our nutrition PDF and keep our data current on MacroFinder.","status":"pending","at":"2026-04-08"}],"issues":[{"id":"issue_001","user":"Sam Chen","item":"Moxies::Rib Eye","rest":"Moxies","type":"Wrong nutrition info","note":"Protein count seems too high at 100g for a 388g serving.","status":"open","at":"2026-04-05"},{"id":"issue_002","user":"Alex Rivera","item":"Subway::Turkey Breast","rest":"Subway","type":"Item discontinued","note":"This sub was removed from Calgary locations.","status":"open","at":"2026-04-09"},{"id":"issue_003","user":"Jordan Lee","item":"A&W::Chicken Wrap","rest":"A&W","type":"Wrong category","note":"Should be under Wraps not Chicken.","status":"resolved","at":"2026-03-28"}],"cr":[{"id":"cr_001","owner":"Maria Fontaine","rest":"Moxies","type":"rest_image","desc":"Update restaurant hero image \u2014 branding photo PDF attached","pdf":"moxies_branding_2026.pdf","status":"pending","at":"2026-04-09"},{"id":"cr_002","owner":"Dave Thompson","rest":"Chuck's Roadhouse","type":"rest_description","desc":"Update restaurant description \u2014 PDF with new copy attached","pdf":"chucks_desc_update.pdf","status":"approved","at":"2026-03-30"}]};
 const defFilters={sort:"",minP:"",maxCal:"",maxSod:"",maxSug:"",rest:"",cats:[],coreOnly:false};
 const USERS=[{"id":"user_001","name":"Jordan Lee","email":"jordan@example.com","pass":"demo123","role":"user","si":["A&W::5 Pc Hand-Breaded Chicken Tenders","A&W::3 Pc Hand-Breaded Chicken Tenders","Old Spaghetti Factory::New York Steak","Chuck's Roadhouse::Bacon Wrapped Filet Mignon 7oz","Moxies::Steak Frites","Moxies::Sirloin"],"sr":["Chuck's Roadhouse","Moxies"],"diet":["high-protein","low-carb"]},{"id":"user_002","name":"Sam Chen","email":"sam@example.com","pass":"demo123","role":"user","si":["Noodlebox::Chicken Breast","Moxies::Sirloin","A&W::Grilled Tenders - 3"],"sr":["A&W"],"diet":[]},{"id":"user_003","name":"Alex Rivera","email":"alex@example.com","pass":"demo123","role":"user","si":["Noodlebox::Chicken Breast","Noodlebox::Prawns","Noodlebox::Beef Sirloin","A&W::3 Pc Hand-Breaded Chicken Tenders"],"sr":["Subway","Jugo Juice"],"diet":["low-calorie"]},{"id":"owner_001","name":"Maria Fontaine","email":"maria@moxies.com","pass":"owner123","role":"restaurant_owner","phone":"403-555-0142","rests":[{"name":"Moxies","verified":true,"status":"active","type":"Casual Dining","tags":["Canadian","Steaks","Pasta"],"pdf":"moxies_ca_nutrition.pdf","pdfStatus":"approved","ic":61,"pt":12,"ct":2}],"todos":[{"id":"task_item_001_moxies","type":"add_image","item":"Tuna Sushi Stack","cat":"Appetizers","status":"pending","desc":"Upload a photo for Tuna Sushi Stack"},{"id":"task_item_002_moxies","type":"add_image","item":"Truffle Parm Fries","cat":"Appetizers","status":"pending","desc":"Upload a photo for Truffle Parm Fries"},{"id":"task_item_003_moxies","type":"add_image","item":"Potstickers","cat":"Appetizers","status":"pending","desc":"Upload a photo for Potstickers"},{"id":"task_item_004_moxies","type":"add_image","item":"Tiny Tuna Tacos","cat":"Appetizers","status":"pending","desc":"Upload a photo for Tiny Tuna Tacos"},{"id":"task_item_005_moxies","type":"add_image","item":"Calamari","cat":"Appetizers","status":"pending","desc":"Upload a photo for Calamari"},{"id":"task_item_006_moxies","type":"add_image","item":"Roasted Tomatoes & Whipped Feta","cat":"Appetizers","status":"pending","desc":"Upload a photo for Roasted Tomatoes & Whipped Feta"},{"id":"task_item_007_moxies","type":"add_image","item":"Dry Ribs","cat":"Appetizers","status":"pending","desc":"Upload a photo for Dry Ribs"},{"id":"task_item_008_moxies","type":"add_image","item":"Smashed Avocado Dip","cat":"Appetizers","status":"pending","desc":"Upload a photo for Smashed Avocado Dip"},{"id":"task_desc_item_009_moxies","type":"add_description","item":"1lb Chicken Wings","cat":"Appetizers","status":"pending","desc":"Write a short description for 1lb Chicken Wings"},{"id":"task_desc_item_010_moxies","type":"add_description","item":"Celery & Dip","cat":"Appetizers","status":"pending","desc":"Write a short description for Celery & Dip"},{"id":"task_desc_item_011_moxies","type":"add_description","item":"Cashew Chicken Lettuce Wraps","cat":"Appetizers","status":"pending","desc":"Write a short description for Cashew Chicken Lettuce Wraps"},{"id":"task_desc_item_012_moxies","type":"add_description","item":"Cashew Tofu Lettuce Wraps","cat":"Appetizers","status":"pending","desc":"Write a short description for Cashew Tofu Lettuce Wraps"},{"id":"task_pdf_upload","type":"upload_pdf","item":null,"cat":null,"status":"completed","desc":"Upload nutrition PDF for Moxies"},{"id":"task_verify_menu","type":"verify_categories","item":null,"cat":null,"status":"completed","desc":"Verify menu categories match your restaurant"}],"perms":["upload_pdf","edit_items","view_reports"],"si":[],"sr":["Moxies"]},{"id":"owner_002","name":"Dave Thompson","email":"dave@chucksroadhouse.ca","pass":"owner123","role":"restaurant_owner","phone":"416-555-0238","rests":[{"name":"Chuck's Roadhouse","verified":true,"status":"active","type":"Casual Dining","tags":["Steakhouse","Canadian","Value"],"pdf":"chucks_roadhouse_nutrition.pdf","pdfStatus":"approved","ic":29,"pt":5,"ct":1}],"todos":[{"id":"task_item_001_chucks-roadhouse","type":"add_image","item":"Top Sirloin 7oz","cat":"Steaks","status":"pending","desc":"Upload a photo for Top Sirloin 7oz"},{"id":"task_item_002_chucks-roadhouse","type":"add_image","item":"New York 10oz","cat":"Steaks","status":"pending","desc":"Upload a photo for New York 10oz"},{"id":"task_item_003_chucks-roadhouse","type":"add_image","item":"Rib-Eye 12oz","cat":"Steaks","status":"pending","desc":"Upload a photo for Rib-Eye 12oz"},{"id":"task_item_004_chucks-roadhouse","type":"add_image","item":"Porterhouse 20oz","cat":"Steaks","status":"pending","desc":"Upload a photo for Porterhouse 20oz"},{"id":"task_item_005_chucks-roadhouse","type":"add_image","item":"T-Bone 14oz","cat":"Steaks","status":"pending","desc":"Upload a photo for T-Bone 14oz"},{"id":"task_pdf_chucks","type":"upload_pdf","item":null,"cat":null,"status":"completed","desc":"Upload nutrition PDF for Chuck's Roadhouse"}],"perms":["upload_pdf","edit_items","view_reports"],"si":[],"sr":["Chuck's Roadhouse"]},{"id":"owner_003","name":"Priya Nair","email":"priya@noodlebox.ca","pass":"owner123","role":"restaurant_owner","phone":null,"rests":[{"name":"Noodlebox","verified":false,"status":"pending","type":"Quick Service","tags":["Asian","Noodles"],"pdf":null,"pdfStatus":"not_submitted","ic":0,"pt":2,"ct":0}],"todos":[{"id":"task_submit_pdf_nb","type":"upload_pdf","item":null,"cat":null,"status":"pending","desc":"Upload nutrition PDF for Noodlebox"},{"id":"task_franchise_details","type":"franchise_details","item":null,"cat":null,"status":"pending","desc":"Complete franchise details for admin review"}],"perms":["view_reports"],"si":[],"sr":["Noodlebox"]},{"id":"admin_001","name":"Taylor Kim","email":"taylor@macrofinder.ca","pass":"admin123","role":"admin","si":[],"sr":[]},{"id":"admin_002","name":"Morgan Reeves","email":"morgan@macrofinder.ca","pass":"admin123","role":"admin","si":[],"sr":[]}];
 
-const CUSTOM_USERS_STORAGE_KEY="macrofinder.demo.customUsers";
 const OWNER_DEFAULT_PERMS=["upload_pdf","edit_items","view_reports"];
 const OWNER_PENDING_PERMS=["view_reports"];
 
@@ -57,9 +54,12 @@ function toDateOnly(value){return typeof value==="string"&&value?value.slice(0,1
 function toIsoDate(value,fallback){if(typeof value==="string"&&value){return value.length===10?`${value}T00:00:00.000Z`:value}return fallback||new Date().toISOString()}
 function ppcFor(protein,calories){if(!calories||calories<=0)return 0;return roundValue(protein/calories,4)}
 function matchStatus(status,...allowed){return allowed.includes(status)}
+function absoluteApiUrl(url){if(!url)return null;if(/^https?:\/\//i.test(url))return url;const base=(import.meta.env.VITE_API_BASE_URL||"").replace(/\/+$/,"");return base?`${base}${url}`:url}
+function previewUrlFor(file){return file?.local_preview_url||file?.file_url||file?.storage_path||null}
+function downloadUrlFor(file){return file?.storage_path||file?.download_url||file?.local_preview_url||file?.file_url||null}
+function openUrl(url,flash,missingMessage="No uploaded file is available yet."){const resolved=absoluteApiUrl(url);if(!resolved){flash(missingMessage);return}window.open(resolved,"_blank","noopener,noreferrer")}
+function downloadUrl(url,fileName,flash,missingMessage="No downloadable file is available yet."){const resolved=absoluteApiUrl(url);if(!resolved){flash(missingMessage);return}const link=document.createElement("a");link.href=resolved;link.download=fileName||"";link.target="_blank";link.rel="noopener noreferrer";document.body.appendChild(link);link.click();document.body.removeChild(link)}
 function buildOwnerProfileId(userId,restaurantName){const restaurantSlug=resolveRestaurantId(restaurantName)||slugifyIdentifier(restaurantName||"")||slugifyIdentifier(userId||"owner");return `owner-profile-${restaurantSlug}-demo`}
-function loadStoredCustomUsers(){try{const raw=window.localStorage.getItem(CUSTOM_USERS_STORAGE_KEY);if(!raw)return[];const parsed=JSON.parse(raw);if(!Array.isArray(parsed))return[];return parsed.filter(u=>u&&typeof u==="object"&&typeof u.email==="string"&&typeof u.name==="string")}catch{return[]}}
-function saveStoredCustomUsers(users){window.localStorage.setItem(CUSTOM_USERS_STORAGE_KEY,JSON.stringify(users))}
 function toUiAccessStatus(status){if(status==="approved")return"approved";if(status==="denied")return"denied";if(status==="needs_changes")return"needs_changes";return"pending"}
 function fromUiAccessStatus(status){if(status==="approved")return"approved";if(status==="denied")return"denied";if(status==="needs_changes")return"needs_changes";return"pending_review"}
 function toUiRestaurantRequestStatus(status){if(status==="approved")return"approved";if(status==="rejected")return"denied";if(status==="needs_changes")return"needs_changes";return"pending"}
@@ -108,17 +108,25 @@ function buildLegacyRestaurants(restaurants,items){
     const itemsByRestaurant=new Map();
     items.forEach(item=>{const bucket=itemsByRestaurant.get(item.r)||[];bucket.push(item);itemsByRestaurant.set(item.r,bucket)});
     return restaurants.map(restaurant=>{
-        const restItems=itemsByRestaurant.get(restaurant.restaurant_name)||[];
+        const restaurantName=restaurant.restaurant_name||restaurant.name;
+        const restaurantId=restaurant.restaurant_id||restaurant.slug||resolveRestaurantId(restaurantName);
+        const restItems=itemsByRestaurant.get(restaurantName)||[];
+        const nutritionFile=restaurant?.files?.nutrition_pdf||null;
+        const restaurantImage=restaurant?.files?.restaurant_image||null;
         return{
-            id:restaurant.restaurant_id,
-            name:restaurant.restaurant_name,
-            desc:restaurant.description||`Franchise-level record for ${restaurant.restaurant_name}.`,
+            id:restaurantId,
+            name:restaurantName,
+            desc:restaurant.description||`Franchise-level record for ${restaurantName}.`,
             tags:[...(restaurant.tags||[])],
-            ic:restaurant.item_count||restItems.length,
+            ic:restaurant.item_count||restaurant?.stats?.item_count||restItems.length,
             cats:[...(restaurant.categories||[])],
-            pdf:restItems.find(item=>item.pdf)?.pdf||null,
-            avgP:roundValue(restaurant.avg_protein_g||averageNumbers(restItems.map(item=>item.p)),1),
-            avgC:roundValue(averageNumbers(restItems.map(item=>item.c)),1),
+            pdf:nutritionFile?.file_name||restaurant.nutrition_pdf||restItems.find(item=>item.pdf)?.pdf||null,
+            pdfUrl:nutritionFile?.file_url||null,
+            pdfDownloadUrl:nutritionFile?.download_url||null,
+            menuUrl:restaurant.menu_url||null,
+            imageUrl:restaurantImage?.file_url||restaurant.image_url||null,
+            avgP:roundValue(restaurant.avg_protein_g||restaurant?.stats?.avg_protein_g||averageNumbers(restItems.map(item=>item.p)),1),
+            avgC:roundValue(restaurant.avg_calories||restaurant?.stats?.avg_calories||averageNumbers(restItems.map(item=>item.c)),1),
             avgPrice:roundValue(restaurant.avg_price_cad||averageNumbers(restItems.map(item=>item.price).filter(Boolean)),2),
         }
     })
@@ -137,7 +145,10 @@ function buildLegacyQueue({accessRequests,restaurantRequests,changeRequests,repo
             menuUrl:request.restaurant.menu_url||null,
             note:request.restaurant.owner_note||"",
             pdf:request.files.nutrition_pdf?.file_name||null,
+            pdfUrl:previewUrlFor(request.files.nutrition_pdf),
+            pdfDownloadUrl:downloadUrlFor(request.files.nutrition_pdf),
             hasImage:Boolean(request.files.restaurant_image),
+            imageUrl:previewUrlFor(request.files.restaurant_image),
             samples:(request.sample_items||[]).map(sample=>({
                 name:sample.item_name,
                 cat:sample.category,
@@ -197,6 +208,8 @@ function buildLegacyQueue({accessRequests,restaurantRequests,changeRequests,repo
                 note:meta.note,
                 desc:meta.itemName?`${meta.note} [${meta.itemName}]`:meta.note,
                 pdf:request.files.restaurant_image?.file_name||null,
+                pdfUrl:previewUrlFor(request.files.restaurant_image),
+                pdfDownloadUrl:downloadUrlFor(request.files.restaurant_image),
                 status:toUiChangeStatus(request.review.status),
                 at:toDateOnly(request.submitted_at),
                 requesterUserId:request.requester_user_id,
@@ -209,7 +222,7 @@ function buildLegacyQueue({accessRequests,restaurantRequests,changeRequests,repo
         }),
     }
 }
-function buildLegacyUsers({loginProfiles,ownerProfiles,adminProfiles,roleRequests,ownerTasks,restaurants,items,session,customUsers}){
+function buildLegacyUsers({loginProfiles,ownerProfiles,adminProfiles,roleRequests,ownerTasks,restaurants,items}){
     const restaurantsById=new Map(restaurants.map(restaurant=>[restaurant.id,restaurant]));
     const restaurantsByResolvedId=new Map(restaurants.map(restaurant=>[resolveRestaurantId(restaurant.name),restaurant]));
     const restaurantsByName=new Map(restaurants.map(restaurant=>[restaurant.name.toLowerCase(),restaurant]));
@@ -231,16 +244,15 @@ function buildLegacyUsers({loginProfiles,ownerProfiles,adminProfiles,roleRequest
         const ownerProfile=ownerByUserId.get(profile.user_id)||null;
         const adminProfile=adminByUserId.get(profile.user_id)||null;
         const role=profile.account_type==="user"&&approvedRole?"restaurant_owner":profile.account_type;
-        const sessionMatches=session?.user?.email?.toLowerCase()===email;
-        const savedItemKeys=sessionMatches&&session?.user?.saved_item_keys?.length?[...session.user.saved_item_keys]:[...(profile.saved_item_keys||[])];
-        const savedRestaurantIds=sessionMatches&&session?.user?.saved_restaurant_ids?.length?[...session.user.saved_restaurant_ids]:[...(profile.saved_restaurant_ids||[])];
+        const savedItemKeys=[...(profile.saved_item_keys||[])];
+        const savedRestaurantIds=[...(profile.saved_restaurant_ids||[])];
         const savedRestaurantNames=[...new Set(savedRestaurantIds.map(id=>restaurantsById.get(id)?.name||restaurantsByResolvedId.get(id)?.name).filter(Boolean))];
         const user={
             id:profile.user_id,
             userId:profile.user_id,
             name:profile.full_name,
             email:record.email,
-            pass:record.password||"demo123",
+            pass:record.password||"",
             role,
             si:savedItemKeys,
             sr:savedRestaurantNames,
@@ -302,10 +314,7 @@ function buildLegacyUsers({loginProfiles,ownerProfiles,adminProfiles,roleRequest
             sr:[...new Set([...savedRestaurantNames,...rests.map(rest=>rest.name)])],
         };
     });
-
-    const mergedByEmail=new Map();
-    [...baseUsers,...(customUsers||[])].forEach(user=>{mergedByEmail.set(user.email.toLowerCase(),user)});
-    return [...mergedByEmail.values()];
+    return baseUsers;
 }
 function toSessionUser(user,savedKeys,savedRestaurants,restaurants){
     const restaurantByName=new Map(restaurants.map(restaurant=>[restaurant.name.toLowerCase(),restaurant]));
@@ -351,9 +360,10 @@ export default function App(){
         reportedIssues:loadReportedIssues(),
         loginProfiles:getDemoLoginProfiles(),
     }));
-    const[customUsers,setCustomUsers]=useState(()=>loadStoredCustomUsers());
-    const[currentUserEmail,setCurrentUserEmail]=useState(null);
-    const[sessionSeed,setSessionSeed]=useState(()=>loadDemoSession());
+    const[currentUserEmail,setCurrentUserEmail]=useState(()=>{
+        const session=loadDemoSession();
+        return session.logged_in?session.user.email:null;
+    });
     const[dataReady,setDataReady]=useState(false);
     const[mob,setMob]=useState(()=>typeof window!=="undefined"&&window.innerWidth<768);
 
@@ -365,16 +375,11 @@ export default function App(){
         ownerTasks,
         restaurants:restaurantsState,
         items:allItemsState,
-        session:sessionSeed,
-        customUsers,
-    }),[loginProfiles,ownerProfiles,adminProfiles,adminQ.role,ownerTasks,restaurantsState,allItemsState,sessionSeed,customUsers]);
+    }),[loginProfiles,ownerProfiles,adminProfiles,adminQ.role,ownerTasks,restaurantsState,allItemsState]);
     const user=useMemo(()=>users.find(entry=>entry.email.toLowerCase()===String(currentUserEmail||"").toLowerCase())||null,[users,currentUserEmail]);
     const currentUser=user?{...user,si:[...saved],sr:[...savedR]}:null;
 
     const flash=(msg)=>{setToast(msg);setTimeout(()=>setToast(""),1800)};
-    const toggleSave=(it)=>{if(!currentUser){setView("login");return}const k=ik(it);setSaved(prev=>{const next=new Set(prev);if(next.has(k)){next.delete(k);flash("Removed")}else{next.add(k);flash("Saved!")}return next})};
-    const toggleSaveR=(name)=>{if(!currentUser){setView("login");return}setSavedR(prev=>{const next=new Set(prev);if(next.has(name)){next.delete(name);flash("Restaurant removed")}else{next.add(name);flash("Restaurant saved!")}return next})};
-    const addIssue=(issue)=>{setAdminQ(prev=>({...prev,issues:[...prev.issues,{...issue,itemKey:issue.itemKey||resolveItemUniqueKey(issue.item,issue.rest)||null,reporterUserId:issue.reporterUserId||currentUser?.id||"",source:issue.source||null}]}))};
 
     useEffect(()=>{
         const handleResize=()=>setMob(window.innerWidth<768);
@@ -382,39 +387,66 @@ export default function App(){
         return()=>window.removeEventListener("resize",handleResize);
     },[]);
 
+    const applyLoadedState=(payload)=>{
+        const adapted=adaptRemoteAppState(payload);
+        const legacyItems=buildLegacyItems(payload.bootstrap.items||[]);
+        const legacyRestaurants=buildLegacyRestaurants(payload.restaurants||[],legacyItems);
+        const queue=buildLegacyQueue({
+            accessRequests:adapted.accessRequests,
+            restaurantRequests:adapted.restaurantRequests,
+            changeRequests:adapted.changeRequests,
+            reportedIssues:adapted.reportedIssues,
+            loginProfiles:adapted.loginProfiles,
+        });
+        setAllItemsState(legacyItems);
+        setRestaurantsState(legacyRestaurants);
+        setLoginProfiles(adapted.loginProfiles);
+        setOwnerProfiles(adapted.ownerProfiles);
+        setAdminProfiles(adapted.adminProfiles);
+        setOwnerTasks(adapted.ownerTasks);
+        setAdminQ(queue);
+    };
+
+    const loadFallbackState=()=>{
+        const loadedLoginProfiles=getDemoLoginProfiles();
+        const loadedOwnerProfiles=getDemoRestaurantOwnerProfiles();
+        const loadedAdminProfiles=getDemoAdminProfiles();
+        const loadedOwnerTasks=loadOwnerTasks();
+        const loadedAccessRequests=loadDemoAccessRequests();
+        const loadedRestaurantRequests=loadOwnerRestaurantRequests();
+        const loadedChangeRequests=loadOwnerRestaurantChangeRequests();
+        const loadedIssues=loadReportedIssues();
+        const queue=buildLegacyQueue({
+            accessRequests:loadedAccessRequests,
+            restaurantRequests:loadedRestaurantRequests,
+            changeRequests:loadedChangeRequests,
+            reportedIssues:loadedIssues,
+            loginProfiles:loadedLoginProfiles,
+        });
+        setLoginProfiles(loadedLoginProfiles);
+        setOwnerProfiles(loadedOwnerProfiles);
+        setAdminProfiles(loadedAdminProfiles);
+        setOwnerTasks(loadedOwnerTasks);
+        setAdminQ(queue);
+    };
+
+    const refreshRemoteState=async()=>{
+        const payload=await appStateApi.getAppState();
+        applyLoadedState(payload);
+    };
+
     useEffect(()=>{
         let ignore=false;
         async function loadData(){
             try{
-                const bootstrap=await menuRepository.getBootstrapData();
+                const payload=await appStateApi.getAppState();
                 if(ignore)return;
-                const legacyItems=buildLegacyItems(bootstrap.items||[]);
-                const legacyRestaurants=buildLegacyRestaurants(bootstrap.restaurants||[],legacyItems);
-                const loadedLoginProfiles=getDemoLoginProfiles();
-                const loadedOwnerProfiles=getDemoRestaurantOwnerProfiles();
-                const loadedAdminProfiles=getDemoAdminProfiles();
-                const loadedOwnerTasks=loadOwnerTasks();
-                const loadedAccessRequests=loadDemoAccessRequests();
-                const loadedRestaurantRequests=loadOwnerRestaurantRequests();
-                const loadedChangeRequests=loadOwnerRestaurantChangeRequests();
-                const loadedIssues=loadReportedIssues();
-                const queue=buildLegacyQueue({
-                    accessRequests:loadedAccessRequests,
-                    restaurantRequests:loadedRestaurantRequests,
-                    changeRequests:loadedChangeRequests,
-                    reportedIssues:loadedIssues,
-                    loginProfiles:loadedLoginProfiles,
-                });
-                setAllItemsState(legacyItems);
-                setRestaurantsState(legacyRestaurants);
-                setLoginProfiles(loadedLoginProfiles);
-                setOwnerProfiles(loadedOwnerProfiles);
-                setAdminProfiles(loadedAdminProfiles);
-                setOwnerTasks(loadedOwnerTasks);
-                setAdminQ(queue);
-                setDataReady(true);
+                applyLoadedState(payload);
             }catch{
-                setDataReady(true);
+                if(ignore)return;
+                loadFallbackState();
+            }finally{
+                if(!ignore)setDataReady(true);
             }
         }
         loadData();
@@ -433,147 +465,12 @@ export default function App(){
         replaceArrayContents(QUEUE.issues,adminQ.issues);
         replaceArrayContents(QUEUE.cr,adminQ.cr);
     },[adminQ]);
-    useEffect(()=>{saveStoredCustomUsers(customUsers)},[customUsers]);
-    useEffect(()=>{
-        if(!dataReady)return;
-        saveOwnerTasks(ownerTasks);
-    },[dataReady,ownerTasks]);
 
     useEffect(()=>{
-        if(!dataReady)return;
-        const userByEmail=new Map(users.map(entry=>[entry.email.toLowerCase(),entry]));
-        const userById=new Map(users.map(entry=>[entry.id||entry.userId,entry]));
-        const accessRequests=adminQ.role.map(entry=>{
-            const source=entry.source||{};
-            const matchedUser=userById.get(entry.requesterUserId)||userByEmail.get(String(entry.accountEmail||entry.email||"").toLowerCase());
-            return{
-                requestId:source.requestId||entry.id,
-                requesterUserId:source.requesterUserId||entry.requesterUserId||matchedUser?.id||"",
-                restaurantName:entry.rest,
-                role:entry.role,
-                businessEmail:entry.email||"",
-                websiteUrl:source.websiteUrl||"",
-                note:entry.note||"",
-                submittedAt:source.submittedAt||toIsoDate(entry.at),
-                status:fromUiAccessStatus(entry.status),
-                adminNotes:entry.adminNote||source.adminNotes||null,
-                reviewedAt:entry.status==="pending"?null:(entry.reviewedAt||source.reviewedAt||new Date().toISOString()),
-                reviewedByAdminId:entry.status==="pending"?null:(entry.reviewedBy||source.reviewedByAdminId||null),
-            }
-        });
-        const restaurantRequests=adminQ.rr.map(entry=>{
-            const source=entry.source||{};
-            const now=new Date().toISOString();
-            const matchedUser=userById.get(entry.requesterUserId)||userByEmail.get(String(entry.email||"").toLowerCase())||currentUser;
-            return{
-                _id:source._id||entry.id,
-                request_id:source.request_id||entry.id,
-                owner_profile_id:source.owner_profile_id||entry.ownerProfileId||buildOwnerProfileId(matchedUser?.id||entry.email,entry.rest),
-                requester_user_id:source.requester_user_id||entry.requesterUserId||matchedUser?.id||"",
-                restaurant:{
-                    restaurant_id:source.restaurant?.restaurant_id||null,
-                    restaurant_name:entry.rest,
-                    franchise_key:source.restaurant?.franchise_key||resolveRestaurantId(entry.rest),
-                    website_url:entry.web||source.restaurant?.website_url||"",
-                    menu_url:entry.menuUrl||source.restaurant?.menu_url||"",
-                    owner_note:entry.note||source.restaurant?.owner_note||"",
-                },
-                contact:{
-                    owner_full_name:entry.owner||source.contact?.owner_full_name||matchedUser?.name||"",
-                    owner_role:entry.role||source.contact?.owner_role||"Owner",
-                    restaurant_email:entry.email||source.contact?.restaurant_email||matchedUser?.email||"",
-                    owner_phone:entry.phone||source.contact?.owner_phone||"",
-                },
-                files:{
-                    nutrition_pdf:source.files?.nutrition_pdf||createOwnerUploadedFile(entry.pdf||`${resolveRestaurantId(entry.rest)}-nutrition.pdf`,"nutrition_pdf","application/pdf"),
-                    restaurant_image:source.files?.restaurant_image||(entry.hasImage?createOwnerUploadedFile(`${resolveRestaurantId(entry.rest)}-restaurant.jpg`,"restaurant_image","image/jpeg"):null),
-                    menu_export:source.files?.menu_export||null,
-                },
-                sample_items:(entry.samples||[]).map(sample=>({
-                    item_name:sample.name||"",
-                    category:sample.cat||"",
-                    price_cad:sample.price!==""&&sample.price!=null?Number(sample.price):null,
-                    protein_g:sample.protein!=null?Number(sample.protein):null,
-                    calories:sample.cal!=null?Number(sample.cal):null,
-                    sodium_mg:null,
-                    files:{item_image:null},
-                })),
-                checklist:source.checklist||{
-                    official_source_confirmed:true,
-                    review_before_launch_acknowledged:true,
-                },
-                review:{
-                    status:fromUiRestaurantRequestStatus(entry.status),
-                    admin_notes:entry.adminNote||source.review?.admin_notes||null,
-                    reviewed_by_admin_id:entry.status==="pending"?null:(entry.reviewedBy||source.review?.reviewed_by_admin_id||null),
-                    reviewed_at:entry.status==="pending"?null:(entry.reviewedAt||source.review?.reviewed_at||now),
-                },
-                submitted_at:source.submitted_at||toIsoDate(entry.at,now),
-                created_at:source.created_at||source.submitted_at||toIsoDate(entry.at,now),
-                updated_at:entry.reviewedAt||source.updated_at||now,
-            }
-        });
-        const changeRequests=adminQ.cr.map(entry=>{
-            const source=entry.source||{};
-            const metaNote=encodeChangeNote(entry.type,entry.itemName||"",entry.note||entry.desc||"");
-            const now=new Date().toISOString();
-            const matchedUser=userById.get(entry.requesterUserId)||userByEmail.get(String(entry.email||"").toLowerCase())||currentUser;
-            return{
-                _id:source._id||entry.id,
-                request_id:source.request_id||entry.id,
-                owner_profile_id:source.owner_profile_id||entry.ownerProfileId||buildOwnerProfileId(matchedUser?.id||entry.rest,entry.rest),
-                requester_user_id:source.requester_user_id||entry.requesterUserId||matchedUser?.id||"",
-                restaurant_id:source.restaurant_id||resolveRestaurantId(entry.rest),
-                restaurant_name:entry.rest,
-                request_type:"restaurant_profile_update",
-                requested_changes:{
-                    description:entry.type==="rest_description"||entry.type==="rest_url"||entry.type.startsWith("item_")?(entry.note||entry.desc||""):source.requested_changes?.description||null,
-                    image_url:entry.type==="rest_image"?(source.requested_changes?.image_url||"pending"):source.requested_changes?.image_url||null,
-                },
-                owner_note:metaNote,
-                files:{
-                    restaurant_image:source.files?.restaurant_image||createOwnerUploadedFile(entry.pdf||"change_request.pdf","restaurant_image","application/pdf"),
-                },
-                review:{
-                    status:fromUiChangeStatus(entry.status),
-                    admin_notes:entry.adminNote||source.review?.admin_notes||null,
-                    reviewed_by_admin_id:entry.status==="pending"?null:(entry.reviewedBy||source.review?.reviewed_by_admin_id||null),
-                    reviewed_at:entry.status==="pending"?null:(entry.reviewedAt||source.review?.reviewed_at||now),
-                },
-                submitted_at:source.submitted_at||toIsoDate(entry.at,now),
-                created_at:source.created_at||source.submitted_at||toIsoDate(entry.at,now),
-                updated_at:entry.reviewedAt||source.updated_at||now,
-            }
-        });
-        const issues=adminQ.issues.map(entry=>{
-            const source=entry.source||{};
-            const itemKey=entry.itemKey||source.item_key||resolveItemUniqueKey(entry.item,entry.rest)||null;
-            return{
-                issue_id:source.issue_id||entry.id,
-                reporter_user_id:source.reporter_user_id||entry.reporterUserId||"",
-                reporter_type:source.reporter_type||"user",
-                restaurant_id:source.restaurant_id||resolveRestaurantId(entry.rest),
-                restaurant_name:entry.rest,
-                item_key:itemKey,
-                item_name:source.item_name||extractItemNameFromKey(itemKey)||String(entry.item||"").split("::")[1]||null,
-                issue_type:entry.type,
-                note:entry.note||source.note||null,
-                attachment:source.attachment||{file_name:null,file_url:null,file_type:null},
-                listing_snapshot:source.listing_snapshot||{shown_price_cad:null,shown_category:null,last_updated_at:null,source_url:null},
-                status:entry.status==="resolved"?"resolved":entry.status==="in_progress"?"in_progress":"open",
-                resolution_note:entry.adminNote||source.resolution_note||null,
-                resolved_by_admin_id:entry.status==="resolved"?(entry.reviewedBy||source.resolved_by_admin_id||null):null,
-                submitted_at:source.submitted_at||toIsoDate(entry.at),
-                resolved_at:entry.status==="resolved"?(entry.reviewedAt||source.resolved_at||new Date().toISOString()):null,
-                created_at:source.created_at||source.submitted_at||toIsoDate(entry.at),
-                updated_at:entry.reviewedAt||source.updated_at||toIsoDate(entry.at),
-            }
-        });
-        saveDemoAccessRequests(accessRequests);
-        saveOwnerRestaurantRequests(restaurantRequests);
-        saveOwnerRestaurantChangeRequests(changeRequests);
-        saveReportedIssues(issues);
-    },[dataReady,adminQ,users,currentUser]);
+        if(!dataReady||!currentUserEmail||!user)return;
+        setSaved(new Set(user.si||[]));
+        setSavedR(new Set(user.sr||[]));
+    },[dataReady,currentUserEmail,user]);
 
     useEffect(()=>{
         if(!currentUser)return;
@@ -584,6 +481,29 @@ export default function App(){
         });
     },[currentUser,saved,savedR,restaurantsState,adminQ.role]);
 
+    useEffect(()=>{
+        if(!dataReady||!currentUserEmail)return;
+        if(user)return;
+        setCurrentUserEmail(null);
+        setSaved(new Set());
+        setSavedR(new Set());
+        saveDemoSession(defaultDemoSession);
+    },[dataReady,currentUserEmail,user]);
+
+    const syncUserPreferences=async(nextSaved,nextSavedRestaurants)=>{
+        if(!currentUser)return;
+        try{
+            await appStateApi.updateUserPreferences(currentUser.id||currentUser.userId,{
+                savedItems:[...nextSaved],
+                savedRestaurants:[...nextSavedRestaurants],
+                actorUserId:currentUser.id||currentUser.userId,
+            });
+        }catch{
+            flash("Couldn't sync that change right now.");
+            try{await refreshRemoteState()}catch{}
+        }
+    };
+
     const doLogin=(uData)=>{
         setCurrentUserEmail(uData.email);
         setSaved(new Set(uData.si||[]));
@@ -591,96 +511,166 @@ export default function App(){
         setView("main");
         flash(`Welcome, ${uData.name}!`);
     };
-    const doSignup=(uData)=>{
-        const createdId=uData.id||`custom_${Date.now()}`;
-        const createdUser={...uData,id:createdId,userId:createdId};
-        setCustomUsers(prev=>[...prev.filter(entry=>entry.email.toLowerCase()!==createdUser.email.toLowerCase()),createdUser]);
-        doLogin(createdUser);
+    const doSignup=async(uData)=>{
+        try{
+            await appStateApi.createUser({
+                name:uData.name,
+                email:uData.email,
+                password:uData.pass,
+            });
+            await refreshRemoteState();
+            setCurrentUserEmail(uData.email);
+            setSaved(new Set());
+            setSavedR(new Set());
+            setView("main");
+            flash(`Welcome, ${uData.name}!`);
+        }catch(error){
+            flash(error?.message||"Couldn't create that account.");
+        }
     };
-    const doLogout=()=>{setView("main");setCurrentUserEmail(null);setSaved(new Set());setSavedR(new Set());flash("Logged out")};
-
-    const createRestaurantRequest=(payload)=>{
-        const requestId=`rr_${Date.now()}`;
-        setAdminQ(prev=>({...prev,rr:[...prev.rr,{
-                id:requestId,
-                owner:currentUser?.name||"Restaurant owner",
-                email:payload.restaurantEmail||currentUser?.email||"",
-                phone:payload.phone||"",
-                rest:payload.restaurantName,
-                role:payload.ownerRole||"Owner",
-                web:payload.websiteUrl||null,
-                menuUrl:payload.menuUrl||null,
-                note:payload.ownerNote||"",
-                pdf:`${resolveRestaurantId(payload.restaurantName)}-nutrition.pdf`,
-                hasImage:true,
-                samples:(payload.sampleItems||[]).map(sample=>({
-                    name:sample.name||"",
-                    cat:sample.cat||"",
-                    protein:sample.protein||"",
-                    cal:sample.cal||"",
-                    price:sample.price||"",
-                })),
-                status:"pending",
-                at:new Date().toISOString().slice(0,10),
+    const doLogout=()=>{setView("main");setCurrentUserEmail(null);setSaved(new Set());setSavedR(new Set());saveDemoSession(defaultDemoSession);flash("Logged out")};
+    const toggleSave=(it)=>{
+        if(!currentUser){setView("login");return}
+        const k=ik(it);
+        const next=new Set(saved);
+        if(next.has(k)){next.delete(k);flash("Removed")}else{next.add(k);flash("Saved!")}
+        setSaved(next);
+        void syncUserPreferences(next,new Set(savedR));
+    };
+    const toggleSaveR=(name)=>{
+        if(!currentUser){setView("login");return}
+        const next=new Set(savedR);
+        if(next.has(name)){next.delete(name);flash("Restaurant removed")}else{next.add(name);flash("Restaurant saved!")}
+        setSavedR(next);
+        void syncUserPreferences(new Set(saved),next);
+    };
+    const addIssue=async(issue)=>{
+        if(!(currentUser?.id||currentUser?.userId)){
+            flash(PUBLIC_DEMO_MODE?"Log in with a demo account to submit an issue.":"Log in to submit an issue.");
+            setView("login");
+            return false;
+        }
+        try{
+            await appStateApi.createIssue({
+                reporterUserId:issue.reporterUserId||currentUser?.id||"",
+                itemKey:issue.itemKey||resolveItemUniqueKey(issue.item,issue.rest)||null,
+                itemName:String(issue.item||"").split("::")[1]||null,
+                restaurantName:issue.rest,
+                issueType:issue.type,
+                note:issue.note||issue.type,
+            });
+            await refreshRemoteState();
+            return true;
+        }catch(error){
+            flash(error?.message||"Couldn't submit that issue.");
+            return false;
+        }
+    };
+    const createRoleRequest=async(payload)=>{
+        try{
+            await appStateApi.createRoleUpgradeRequest({
+                requesterUserId:currentUser?.id||payload.requesterUserId||"",
+                restaurantName:payload.restaurantName,
+                role:payload.role||"Owner",
+                businessEmail:payload.businessEmail||currentUser?.email||"",
+                note:payload.note||"",
+            });
+            await refreshRemoteState();
+            return true;
+        }catch(error){
+            flash(error?.message||"Couldn't submit that request.");
+            return false;
+        }
+    };
+    const createRestaurantRequest=async(payload)=>{
+        try{
+            await appStateApi.createRestaurantCreationRequest({
                 requesterUserId:currentUser?.id||"",
-                ownerProfileId:currentUser?.ownerProfileId||buildOwnerProfileId(currentUser?.id||payload.restaurantEmail,payload.restaurantName),
-                source:null,
-            }]}));
+                restaurantName:payload.restaurantName,
+                ownerRole:payload.ownerRole||"Owner",
+                restaurantEmail:payload.restaurantEmail||currentUser?.email||"",
+                phone:payload.phone||"",
+                websiteUrl:payload.websiteUrl||"",
+                menuUrl:payload.menuUrl||"",
+                ownerNote:payload.ownerNote||"",
+                sampleItems:payload.sampleItems||[],
+                hasImage:Boolean(payload.hasImage),
+                pdfFileName:payload.pdfFileName||null,
+                restaurantImageFileName:payload.restaurantImageFileName||null,
+                menuExportFileName:payload.menuExportFileName||null,
+                uploadedFiles:payload.uploadedFiles||{},
+            });
+            await refreshRemoteState();
+            return true;
+        }catch(error){
+            flash(error?.message||"Couldn't submit that restaurant request.");
+            return false;
+        }
     };
-    const createChangeRequest=(payload)=>{
-        const requestId=`cr_${Date.now()}`;
-        setAdminQ(prev=>({...prev,cr:[...prev.cr,{
-                id:requestId,
-                owner:currentUser?.name||"Restaurant owner",
-                rest:payload.restaurantName,
+    const createChangeRequest=async(payload)=>{
+        try{
+            await appStateApi.createChangeRequest({
+                requesterUserId:currentUser?.id||"",
+                restaurantName:payload.restaurantName,
                 type:payload.type,
                 itemName:payload.itemName||"",
                 note:payload.note||"",
-                desc:payload.itemName?`${payload.note} [${payload.itemName}]`:payload.note,
-                pdf:"change_request.pdf",
-                status:"pending",
-                at:new Date().toISOString().slice(0,10),
-                requesterUserId:currentUser?.id||"",
-                ownerProfileId:currentUser?.ownerProfileId||buildOwnerProfileId(currentUser?.id||payload.restaurantName,payload.restaurantName),
-                source:null,
-            }]}));
+                pdfFileName:payload.pdfFileName||null,
+                uploadedFiles:payload.uploadedFiles||{},
+            });
+            await refreshRemoteState();
+            return true;
+        }catch(error){
+            flash(error?.message||"Couldn't submit that change request.");
+            return false;
+        }
     };
-    const completeOwnerTask=(taskId)=>{
-        setOwnerTasks(prev=>prev.map(task=>task.task_id===taskId?{...task,status:"submitted_for_admin_review",updated_at:new Date().toISOString()}:task));
+    const updateQueueStatus=async(id,status)=>{
+        try{
+            await appStateApi.updateRequestStatus(id,{
+                status,
+                reviewedByUserId:currentUser?.id||null,
+            });
+            await refreshRemoteState();
+            return true;
+        }catch(error){
+            flash(error?.message||"Couldn't update that request.");
+            return false;
+        }
     };
-    const sendOwnerTask=({restaurantName,itemName,requestType,note})=>{
+    const completeOwnerTask=async(taskId,payload={})=>{
+        try{
+            await appStateApi.updateTaskStatus(taskId,{
+                status:"submitted",
+                submittedFiles:payload.submittedFiles||[],
+                note:payload.note||"",
+                actorUserId:currentUser?.id||currentUser?.userId||"",
+            });
+            await refreshRemoteState();
+            return true;
+        }catch(error){
+            flash(error?.message||"Couldn't update that task.");
+            return false;
+        }
+    };
+    const sendOwnerTask=async({restaurantName,itemName,requestType,note})=>{
         const ownerUser=users.find(entry=>entry.role==="restaurant_owner"&&(entry.rests||[]).some(rest=>rest.name===restaurantName));
-        const itemKey=itemName?resolveItemUniqueKey(null,restaurantName,itemName):null;
-        const taskType=requestType.includes("image")?"photo_review":requestType.includes("PDF")?"pdf_review":"item_details";
-        const title=itemName
-            ? requestType.includes("image")
-                ? `Upload a photo for ${itemName}`
-                : requestType.includes("PDF")
-                    ? `Verify nutrition support for ${itemName}`
-                    : `Add item details for ${itemName}`
-            : requestType.includes("image")
-                ? `Upload a restaurant image for ${restaurantName}`
-                : requestType.includes("PDF")
-                    ? `Upload the latest nutrition PDF for ${restaurantName}`
-                    : `Update restaurant details for ${restaurantName}`;
-        setOwnerTasks(prev=>[...prev,{
-            task_id:`task_${Date.now()}`,
-            owner_profile_id:ownerUser?.ownerProfileId||buildOwnerProfileId(ownerUser?.id||restaurantName,restaurantName),
-            restaurant_id:resolveRestaurantId(restaurantName),
-            restaurant_name:restaurantName,
-            task_type,
-            title,
-            summary:note||requestType,
-            status:"needs_owner_input",
-            priority:requestType.includes("PDF")?"high":requestType.includes("image")?"low":"medium",
-            source_label:itemName||restaurantName,
-            item_keys:itemKey?[itemKey]:[],
-            missing_fields:requestType.includes("image")?["image"]:requestType.includes("PDF")?["pdf"]:["description"],
-            admin_note:note||"",
-            created_at:new Date().toISOString(),
-            updated_at:new Date().toISOString(),
-        }]);
-        return true;
+        if(!ownerUser)return false;
+        try{
+            await appStateApi.createTask({
+                actorUserId:currentUser?.id||currentUser?.userId||"",
+                ownerUserId:ownerUser.id||ownerUser.userId,
+                restaurantName,
+                itemName:itemName||"",
+                requestType,
+                note:note||"",
+            });
+            await refreshRemoteState();
+            return true;
+        }catch(error){
+            flash(error?.message||"Couldn't send that owner task.");
+            return false;
+        }
     };
 
     const modeItems=useMemo(()=>{let items=allItemsState.filter(it=>it.p>0&&it.c>50);if(mode==="lowCal")items=items.filter(it=>it.p>=12);if(mode==="lowSodium")items=items.filter(it=>it.so!=null&&it.p>=12);return sortItems(items,mode).slice(0,40)},[mode,allItemsState]);
@@ -727,14 +717,15 @@ export default function App(){
                         </>:<button onClick={()=>setView("login")} style={{...pill,background:"#3a8f5c",color:"white",borderColor:"#3a8f5c",padding:"7px 12px",fontSize:11}}>Log in</button>}
                     </div>
                 </div>
+                {PUBLIC_DEMO_MODE&&<div style={{padding:"8px 20px",background:"#fef8ee",borderTop:"1px solid #f1e4b7",color:"#6d5b1d",fontSize:11,fontWeight:700,textAlign:"center"}}>{DEMO_NOTICE}</div>}
             </header>}
             <main style={{maxWidth:1300,margin:"0 auto",padding:isAuth?"0":"14px 20px 60px"}}>
                 {view==="main"&&<MainView mode={mode} setMode={setMode} filtered={mainFiltered} exp={exp} setExp={setExp} goGallery={goGallery} saved={saved} toggleSave={toggleSave} user={currentUser} goLogin={()=>setView("login")} goRest={goRest} goItem={goItem} mob={mob}/>}
                 {view==="gallery"&&<GalleryView mode={mode} setMode={setMode} filtered={mainFiltered} exp={exp} setExp={setExp} goMain={goMain} saved={saved} toggleSave={toggleSave} goItem={goItem}/>}
                 {view==="search"&&<SearchView results={searchResults} filters={filters} setFilters={setFilters} exp={exp} setExp={setExp} goMain={goMain} afc={afc} search={search} saved={saved} toggleSave={toggleSave} goItem={goItem} mob={mob}/>}
-                {view==="login"&&<LoginView onLogin={doLogin} goSignup={()=>setView("signup")} goMain={goMain}/>}
-                {view==="signup"&&<SignupView onSignup={doSignup} goLogin={()=>setView("login")} goMain={goMain}/>}
-                {view==="profile"&&currentUser&&<ProfileView user={currentUser} goMain={goMain} doLogout={doLogout} saved={saved} savedR={savedR} savedItems={savedItems} savedRests={savedRests} toggleSave={toggleSave} toggleSaveR={toggleSaveR} goRest={goRest} goItem={goItem} exp={exp} setExp={setExp} flash={flash} adminQ={adminQ} setAdminQ={setAdminQ} mob={mob} onCreateRestaurantRequest={createRestaurantRequest} onCreateChangeRequest={createChangeRequest} onCompleteTask={completeOwnerTask} onSendTask={sendOwnerTask}/>}
+                {view==="login"&&<LoginView onLogin={doLogin} goSignup={()=>setView("signup")} goMain={goMain} publicDemoMode={PUBLIC_DEMO_MODE} demoNotice={DEMO_NOTICE}/>}
+                {view==="signup"&&<SignupView onSignup={doSignup} goLogin={()=>setView("login")} goMain={goMain} publicDemoMode={PUBLIC_DEMO_MODE} demoNotice={DEMO_NOTICE}/>}
+                {view==="profile"&&currentUser&&<ProfileView user={currentUser} goMain={goMain} doLogout={doLogout} saved={saved} savedR={savedR} savedItems={savedItems} savedRests={savedRests} toggleSave={toggleSave} toggleSaveR={toggleSaveR} goRest={goRest} goItem={goItem} exp={exp} setExp={setExp} flash={flash} adminQ={adminQ} setAdminQ={setAdminQ} mob={mob} onCreateRoleRequest={createRoleRequest} onCreateRestaurantRequest={createRestaurantRequest} onCreateChangeRequest={createChangeRequest} onCompleteTask={completeOwnerTask} onSendTask={sendOwnerTask} onUpdateQueueStatus={updateQueueStatus}/>}
                 {view==="restaurant"&&restData&&<RestaurantView rd={restData} items={restItems} filter={restFilter} setFilter={setRestFilter} goMain={goMain} saved={saved} toggleSave={toggleSave} savedR={savedR} toggleSaveR={toggleSaveR} exp={exp} setExp={setExp} flash={flash} goItem={goItem}/>}
                 {view==="item"&&selItem&&<ItemDetailView it={selItem} goBack={goBack} goRest={goRest} goItem={goItem} saved={saved} toggleSave={toggleSave} similar={similarItems} flash={flash} reportOpen={reportOpen} setReportOpen={setReportOpen} user={currentUser} addIssue={addIssue} mob={mob}/>}
             </main>
@@ -777,8 +768,8 @@ function RestaurantView({rd,items,filter,setFilter,goMain,saved,toggleSave,saved
             <div style={{padding:"12px 18px",borderTop:"1px solid #e4ddd0",background:"linear-gradient(135deg,#f9f7f1,#f5f2ea)",display:"flex",justifyContent:"space-between",alignItems:"center",gap:10,flexWrap:"wrap"}}>
                 <div><strong style={{fontSize:12}}>Nutrition source PDF</strong><br/><span style={{color:"#6d6a61",fontSize:11}}>{rd.pdf}</span></div>
                 <div style={{display:"flex",gap:6}}>
-                    <button onClick={()=>flash("PDF viewer would open here — will connect to MongoDB file storage")} style={{...pill,padding:"7px 12px",fontSize:11}}>View PDF</button>
-                    <button onClick={()=>flash(`Download: ${rd.pdf} — will serve from MongoDB GridFS`)} style={{...pill,padding:"7px 12px",fontSize:11}}>Download PDF</button>
+                    <button onClick={()=>openUrl(rd.pdfUrl,flash,`${rd.name} doesn't have an uploaded nutrition PDF yet.`)} style={{...pill,padding:"7px 12px",fontSize:11}}>View PDF</button>
+                    <button onClick={()=>downloadUrl(rd.pdfDownloadUrl||rd.pdfUrl,rd.pdf||"nutrition-source",flash,`${rd.name} doesn't have a downloadable nutrition PDF yet.`)} style={{...pill,padding:"7px 12px",fontSize:11}}>Download PDF</button>
                 </div>
             </div>
         </div>
@@ -811,8 +802,9 @@ function ItemDetailView({it,goBack,goRest,goItem,saved,toggleSave,similar,flash,
     const fields=[it.p!=null&&"protein",it.c!=null&&"calories",it.f!=null&&"fat",it.ca!=null&&"carbs",it.so!=null&&"sodium",it.su!=null&&"sugar"].filter(Boolean);
     const missing=["protein","calories","fat","carbs","sodium","sugar"].filter(f=>!fields.includes(f));
     const[rType,setRType]=useState("");const[rNote,setRNote]=useState("");
-    const submitReport=()=>{if(!rType){flash("Choose an issue type");return}
-        addIssue({id:`issue_${Date.now()}`,user:user?.name||"Guest",item:`${it.r}::${it.n}`,itemKey:it.key||null,reporterUserId:user?.id||"",rest:it.r,type:rType,note:rNote||rType,status:"open",at:new Date().toISOString().slice(0,10)});
+    const submitReport=async()=>{if(!rType){flash("Choose an issue type");return}
+        const created=await addIssue({id:`issue_${Date.now()}`,user:user?.name||"Guest",item:`${it.r}::${it.n}`,itemKey:it.key||null,reporterUserId:user?.id||"",rest:it.r,type:rType,note:rNote||rType,status:"open",at:new Date().toISOString().slice(0,10)});
+        if(created===false)return;
         flash("Issue reported — admins will review it.");setReportOpen(false);setRType("");setRNote("")};
 
     return(<>
@@ -929,19 +921,20 @@ function ItemDetailView({it,goBack,goRest,goItem,saved,toggleSave,similar,flash,
 }
 
 // ── AUTH ──
-function LoginView({onLogin,goSignup,goMain}){
+function LoginView({onLogin,goSignup,goMain,publicDemoMode,demoNotice}){
     const[email,setEmail]=useState("");const[pass,setPass]=useState("");const[err,setErr]=useState("");
     const submit=()=>{if(!email||!pass){setErr("Enter email and password");return}const u=USERS.find(u=>u.email===email&&u.pass===pass);if(!u){setErr("Invalid email or password");return}onLogin(u)};
     return <AuthShell><div style={{fontSize:11,textTransform:"uppercase",letterSpacing:"0.1em",color:"#3a8f5c",fontWeight:800,marginBottom:4}}>Macro Finder</div>
         <h1 style={{fontFamily:"'Fraunces',serif",fontSize:28,margin:"0 0 6px",letterSpacing:"-0.04em"}}>Log in</h1>
-        <p style={{color:"#6d6a61",fontSize:13,margin:"0 0 20px"}}>Welcome back. Sign in to continue to Macro Finder.</p>
+        <p style={{color:"#6d6a61",fontSize:13,margin:"0 0 20px"}}>{publicDemoMode?"Use a seeded demo account to explore the hosted app.":"Welcome back. Sign in to continue to Macro Finder."}</p>
+        {publicDemoMode&&<div style={{margin:"0 0 16px",padding:14,borderRadius:16,background:"#fef8ee",border:"1px solid #f1e4b7",fontSize:11,lineHeight:1.4,color:"#6d5b1d"}}>{demoNotice}</div>}
         <AF label="Email" value={email} onChange={setEmail} type="email" ph="Enter your email"/>
         <AF label="Password" value={pass} onChange={setPass} type="password" ph="Enter your password"/>
         {err&&<p style={{color:"#9e4c3b",fontSize:11,margin:"0 0 8px"}}>{err}</p>}
         <button onClick={submit} style={{...bigBtn,marginTop:8}}>Log in</button>
         <div style={{display:"flex",alignItems:"center",gap:10,margin:"16px 0"}}><div style={{flex:1,height:1,background:"#e4ddd0"}}/><span style={{color:"#6d6a61",fontSize:11}}>or</span><div style={{flex:1,height:1,background:"#e4ddd0"}}/></div>
         <button onClick={goMain} style={{...bigBtn,background:"white",color:"#1a1a17",border:"1px solid #e4ddd0"}}>Continue as guest</button>
-        <p style={{textAlign:"center",fontSize:13,color:"#6d6a61",marginTop:18}}>Don't have an account? <span onClick={goSignup} style={{fontWeight:800,color:"#1a1a17",cursor:"pointer"}}>Create one</span></p>
+        {!publicDemoMode&&<p style={{textAlign:"center",fontSize:13,color:"#6d6a61",marginTop:18}}>Don't have an account? <span onClick={goSignup} style={{fontWeight:800,color:"#1a1a17",cursor:"pointer"}}>Create one</span></p>}
         <div style={{marginTop:18,padding:14,borderRadius:16,background:"#f7f4ec",border:"1px solid #e9e3d6"}}>
             <div style={{fontSize:10,fontWeight:800,textTransform:"uppercase",color:"#6d6a61",marginBottom:8}}>Demo accounts</div>
             <div style={{display:"grid",gap:6}}>
@@ -953,7 +946,15 @@ function LoginView({onLogin,goSignup,goMain}){
         </div>
     </AuthShell>;
 }
-function SignupView({onSignup,goLogin}){
+function SignupView({onSignup,goLogin,goMain,publicDemoMode,demoNotice}){
+    if(publicDemoMode)return <AuthShell><>
+        <div style={{fontSize:11,textTransform:"uppercase",letterSpacing:"0.1em",color:"#3a8f5c",fontWeight:800,marginBottom:4}}>Macro Finder</div>
+        <h1 style={{fontFamily:"'Fraunces',serif",fontSize:28,margin:"0 0 6px",letterSpacing:"-0.04em"}}>Public signup disabled</h1>
+        <p style={{color:"#6d6a61",fontSize:13,margin:"0 0 16px",lineHeight:1.5}}>{demoNotice}</p>
+        <div style={{padding:14,borderRadius:16,background:"#fef8ee",border:"1px solid #f1e4b7",fontSize:11,lineHeight:1.45,color:"#6d5b1d",marginBottom:16}}>This hosted version is meant for portfolio demos, so new account creation is turned off. Use one of the seeded demo accounts from the login screen to try the flows.</div>
+        <button onClick={goLogin} style={{...bigBtn,marginBottom:10}}>Back to login</button>
+        <button onClick={goMain} style={{...bigBtn,background:"white",color:"#1a1a17",border:"1px solid #e4ddd0"}}>Continue as guest</button>
+    </></AuthShell>;
     const[name,setName]=useState("");const[email,setEmail]=useState("");const[pass,setPass]=useState("");const[pass2,setPass2]=useState("");const[agree,setAgree]=useState(false);const[err,setErr]=useState("");
     const submit=()=>{if(!name||!email||!pass){setErr("Fill in all fields");return}if(pass!==pass2){setErr("Passwords don't match");return}if(pass.length<8){setErr("Min 8 characters");return}if(!agree){setErr("Please agree to the privacy policy");return}onSignup({id:"user_new",name,email,pass,role:"user",si:[],sr:[],diet:[]})};
     return <AuthShell><div style={{fontSize:11,textTransform:"uppercase",letterSpacing:"0.1em",color:"#3a8f5c",fontWeight:800,marginBottom:4}}>Macro Finder</div>
@@ -974,22 +975,29 @@ function SignupView({onSignup,goLogin}){
 }
 function AuthShell({children}){return <div style={{minHeight:"100vh",display:"grid",placeItems:"center",padding:20,background:"linear-gradient(180deg,#faf9f5,#f0ede4)"}}><div style={{width:"100%",maxWidth:420}}>{children}</div></div>}
 function AF({label,value,onChange,type="text",ph}){return <div style={{marginBottom:14}}><label style={{display:"block",fontSize:12,fontWeight:800,marginBottom:5}}>{label}</label><input value={value} onChange={e=>onChange(e.target.value)} type={type} placeholder={ph} style={{width:"100%",padding:"12px 16px",borderRadius:18,border:"1px solid #e4ddd0",outline:"none",background:"white",fontSize:13,boxSizing:"border-box"}}/></div>}
+function FilePickerButton({accept,onPick,children,style,disabled}){
+    const inputRef=useRef(null);const[busy,setBusy]=useState(false);
+    const trigger=()=>{if(!disabled&&!busy)inputRef.current?.click()};
+    const handleChange=async(e)=>{const file=e.target.files?.[0];e.target.value="";if(!file)return;setBusy(true);try{await onPick(file)}finally{setBusy(false)}};
+    return<><input ref={inputRef} type="file" accept={accept} onChange={handleChange} style={{display:"none"}}/><button onClick={trigger} disabled={disabled||busy} style={{...style,opacity:disabled||busy?0.7:1,cursor:disabled||busy?"not-allowed":"pointer"}}>{busy?"Uploading...":children}</button></>
+}
 
 // ── PROFILE ──
-function ProfileView({user,goMain,doLogout,saved,savedR,savedItems,savedRests,toggleSave,toggleSaveR,goRest,goItem,exp,setExp,flash,adminQ,setAdminQ,mob,onCreateRestaurantRequest,onCreateChangeRequest,onCompleteTask,onSendTask}){
+function ProfileView({user,goMain,doLogout,saved,savedR,savedItems,savedRests,toggleSave,toggleSaveR,goRest,goItem,exp,setExp,flash,adminQ,setAdminQ,mob,onCreateRoleRequest,onCreateRestaurantRequest,onCreateChangeRequest,onCompleteTask,onSendTask,onUpdateQueueStatus}){
     if(mob&&(user.role==="admin"||user.role==="restaurant_owner")) return <><button onClick={goMain} style={{...pill,padding:"7px 11px",fontSize:11,marginBottom:14}}>← Back</button><div style={{background:"rgba(255,255,255,0.94)",border:"1px solid #e4ddd0",borderRadius:22,padding:24,textAlign:"center"}}><div style={{fontSize:28,marginBottom:8}}>💻</div><h2 style={{fontFamily:"'Fraunces',serif",fontSize:18,margin:"0 0 8px"}}>Desktop required</h2><p style={{color:"#6d6a61",fontSize:12,margin:"0 0 14px",lineHeight:1.4}}>{user.role==="admin"?"Admin dashboard":"Restaurant owner tools"} requires a desktop browser for the full experience.</p><p style={{color:"#6d6a61",fontSize:11,margin:"0 0 14px"}}>Logged in as <strong>{user.name}</strong> ({user.email})</p><button onClick={doLogout} style={{...pill,padding:"9px 14px",fontSize:11,color:"#9e4c3b"}}>Log out</button></div></>;
-    if(user.role==="admin") return <AdminView user={user} goMain={goMain} doLogout={doLogout} flash={flash} adminQ={adminQ} setAdminQ={setAdminQ} onSendTask={onSendTask}/>;
+    if(user.role==="admin") return <AdminView user={user} goMain={goMain} doLogout={doLogout} flash={flash} adminQ={adminQ} setAdminQ={setAdminQ} onSendTask={onSendTask} onUpdateQueueStatus={onUpdateQueueStatus}/>;
     if(user.role==="restaurant_owner") return <OwnerProfile user={user} goMain={goMain} doLogout={doLogout} goRest={goRest} flash={flash} adminQ={adminQ} setAdminQ={setAdminQ} onCreateRestaurantRequest={onCreateRestaurantRequest} onCreateChangeRequest={onCreateChangeRequest} onCompleteTask={onCompleteTask}/>;
-    return <UserProfile user={user} goMain={goMain} doLogout={doLogout} saved={saved} savedR={savedR} savedItems={savedItems} savedRests={savedRests} toggleSave={toggleSave} toggleSaveR={toggleSaveR} goRest={goRest} goItem={goItem} exp={exp} setExp={setExp} flash={flash} adminQ={adminQ} setAdminQ={setAdminQ}/>;
+    return <UserProfile user={user} goMain={goMain} doLogout={doLogout} saved={saved} savedR={savedR} savedItems={savedItems} savedRests={savedRests} toggleSave={toggleSave} toggleSaveR={toggleSaveR} goRest={goRest} goItem={goItem} exp={exp} setExp={setExp} flash={flash} adminQ={adminQ} setAdminQ={setAdminQ} onCreateRoleRequest={onCreateRoleRequest}/>;
 }
 
 // ── USER PROFILE ──
-function UserProfile({user,goMain,doLogout,saved,savedR,savedItems,savedRests,toggleSave,toggleSaveR,goRest,goItem,exp,setExp,flash,adminQ,setAdminQ}){
+function UserProfile({user,goMain,doLogout,saved,savedR,savedItems,savedRests,toggleSave,toggleSaveR,goRest,goItem,exp,setExp,flash,adminQ,onCreateRoleRequest}){
     const[sub,setSub]=useState(null);
     const[reqName,setReqName]=useState("");const[reqRole,setReqRole]=useState("Owner");const[reqEmail,setReqEmail]=useState(user?.email||"");const[reqNote,setReqNote]=useState("");const[reqSent,setReqSent]=useState(()=>adminQ.role.some(r=>r.requesterUserId===user?.id||r.accountEmail===user?.email||r.email===user?.email));
     const pendingRoleReq=adminQ.role.find(r=>r.requesterUserId===user?.id||r.accountEmail===user?.email||r.email===user?.email);
-    const submitReq=()=>{if(!reqName||!reqEmail){flash("Fill in restaurant name and email");return}
-        setAdminQ(p=>({...p,role:[...p.role,{id:`role_${Date.now()}`,user:user.name,email:reqEmail,accountEmail:user.email,rest:reqName,role:reqRole,note:reqNote,status:"pending",at:new Date().toISOString().slice(0,10),requesterUserId:user.id,source:null}]}));
+    const submitReq=async()=>{if(!reqName||!reqEmail){flash("Fill in restaurant name and email");return}
+        const created=await onCreateRoleRequest?.({requesterUserId:user.id,restaurantName:reqName,role:reqRole,businessEmail:reqEmail,note:reqNote});
+        if(created===false)return;
         setReqSent(true);flash("Request submitted — admins will review.")};
     const previewItems=savedItems.slice(0,2);const previewRests=savedRests.slice(0,2);
 
@@ -1076,18 +1084,24 @@ function OwnerProfile({user,goMain,doLogout,goRest,flash,adminQ,setAdminQ,onCrea
     const todos=user.todos||[];
     const[activeTask,setActiveTask]=useState(null);
     const[taskInput,setTaskInput]=useState("");
+    const[taskFile,setTaskFile]=useState(null);
     // Add restaurant form
     const[arName,setArName]=useState("");const[arRole,setArRole]=useState("Owner");const[arEmail,setArEmail]=useState(user?.email||"");const[arPhone,setArPhone]=useState(user?.phone||"");const[arWeb,setArWeb]=useState("");const[arMenuUrl,setArMenuUrl]=useState("");const[arNote,setArNote]=useState("");const[arSubmitted,setArSubmitted]=useState(false);
+    const[arPdfName,setArPdfName]=useState("");const[arImageName,setArImageName]=useState("");const[arMenuExportName,setArMenuExportName]=useState("");
+    const[arUploads,setArUploads]=useState({nutrition_pdf:null,restaurant_image:null,menu_export:null});
     const[arCheck1,setArCheck1]=useState(false);const[arCheck2,setArCheck2]=useState(false);
     const[s1,setS1]=useState({name:"",cat:"Burgers",price:"",protein:"",cal:"",sodium:""});
     const[s2,setS2]=useState({name:"",cat:"Bowls",price:"",protein:"",cal:"",sodium:""});
-    const submitAddRest=()=>{if(!arName){flash("Enter restaurant name");return}if(!arCheck1||!arCheck2){flash("Please confirm both checkboxes");return}onCreateRestaurantRequest?.({restaurantName:arName,ownerRole:arRole,restaurantEmail:arEmail,phone:arPhone,websiteUrl:arWeb,menuUrl:arMenuUrl,ownerNote:arNote,sampleItems:[s1,s2],hasImage:true});setArSubmitted(true);flash(`${arName} submitted for review!`);setSub(null)};
+    const[s1Image,setS1Image]=useState(null);const[s2Image,setS2Image]=useState(null);
+    const submitAddRest=async()=>{if(!arName){flash("Enter restaurant name");return}if(!arCheck1||!arCheck2){flash("Please confirm both checkboxes");return}const created=await onCreateRestaurantRequest?.({restaurantName:arName,ownerRole:arRole,restaurantEmail:arEmail,phone:arPhone,websiteUrl:arWeb,menuUrl:arMenuUrl,ownerNote:arNote,sampleItems:[{...s1,imageUpload:s1Image},{...s2,imageUpload:s2Image}],hasImage:Boolean(arImageName),pdfFileName:arPdfName||null,restaurantImageFileName:arImageName||null,menuExportFileName:arMenuExportName||null,uploadedFiles:arUploads});if(created===false)return;setArSubmitted(true);setArUploads({nutrition_pdf:null,restaurant_image:null,menu_export:null});setS1Image(null);setS2Image(null);flash(`${arName} submitted for review!`);setSub(null)};
     // Change requests
-    const[crType,setCrType]=useState("rest_url");const[crDesc,setCrDesc]=useState("");const[crItemName,setCrItemName]=useState("");
+    const[crType,setCrType]=useState("rest_url");const[crDesc,setCrDesc]=useState("");const[crItemName,setCrItemName]=useState("");const[crPdfName,setCrPdfName]=useState("");
+    const[crSupportFile,setCrSupportFile]=useState(null);
     const myRequests=useMemo(()=>(adminQ.cr||[]).filter(r=>(user.rests||[]).some(x=>x.name===r.rest)),[adminQ.cr,user.rests]);
 
     const pendingTodos=todos.filter(t=>t.status==="pending");
-    const completeTask=(taskId)=>{onCompleteTask?.(taskId);setActiveTask(null);setTaskInput("");flash("Task completed — PDF submitted to admin for review.")};
+    const uploadFor=async(file,purpose,onDone)=>{try{const uploaded=await appStateApi.uploadFile(file,{purpose,uploaderUserId:user.id||user.userId});onDone(uploaded);flash(`${file.name} uploaded.`)}catch(error){flash(error?.message||"Couldn't upload that file.")}};
+    const completeTask=async(taskId)=>{if(!taskFile){flash("Upload a supporting file first.");return}const completed=await onCompleteTask?.(taskId,{submittedFiles:[taskFile],note:taskInput||""});if(completed===false)return;setActiveTask(null);setTaskInput("");setTaskFile(null);flash("Task completed — sent to admin for review.")};
 
     // Task detail sub-view
     if(activeTask){
@@ -1110,8 +1124,10 @@ function OwnerProfile({user,goMain,doLogout,goRest,flash,adminQ,setAdminQ,onCrea
                     <div style={{fontSize:28,marginBottom:6}}>📄</div>
                     <strong style={{fontSize:12}}>Upload PDF</strong>
                     <p style={{color:"#6d6a61",fontSize:10,margin:"4px 0 0"}}>Attach the relevant document for admin review.</p>
-                    <button onClick={()=>flash("PDF upload → MongoDB GridFS")} style={{...pill,marginTop:10,padding:"8px 14px",fontSize:11}}>Choose PDF</button>
+                    <FilePickerButton accept=".pdf,.png,.jpg,.jpeg,.csv,.txt" onPick={file=>uploadFor(file,"owner_task_submission",uploaded=>setTaskFile(uploaded))} style={{...pill,marginTop:10,padding:"8px 14px",fontSize:11}}>Choose file</FilePickerButton>
+                    <p style={{color:"#6d6a61",fontSize:10,margin:"6px 0 0"}}>{taskFile?.fileName||"No file uploaded yet"}</p>
                 </div>
+                <div style={{marginBottom:12}}><label style={{display:"block",fontSize:12,fontWeight:800,marginBottom:5}}>Owner note</label><textarea value={taskInput} onChange={e=>setTaskInput(e.target.value)} placeholder="Optional context for the admin review." style={{...inp,minHeight:72,resize:"vertical",fontSize:12,padding:"10px 12px"}}/></div>
                 <button onClick={()=>completeTask(t.id)} style={{...pill,background:"#3a8f5c",color:"white",borderColor:"#3a8f5c",textAlign:"center",padding:"11px 16px",width:"100%"}}>Submit to admin</button>
             </div>
         </>;
@@ -1154,9 +1170,10 @@ function OwnerProfile({user,goMain,doLogout,goRest,flash,adminQ,setAdminQ,onCrea
                     <div>
                         <label style={{display:"block",fontSize:12,fontWeight:800,marginBottom:5}}>Nutrition PDF</label>
                         <div style={{border:"2px dashed #e4ddd0",borderRadius:16,padding:18,background:"#fcfbf8",display:"flex",alignItems:"center",gap:12,flexWrap:"wrap"}}>
-                            <button onClick={()=>flash("PDF upload → MongoDB GridFS")} style={{...pill,padding:"8px 14px",fontSize:11}}>📄 Upload PDF</button>
-                            <span style={{color:"#6d6a61",fontSize:10}}>No PDF selected</span>
+                            <FilePickerButton accept=".pdf" onPick={file=>uploadFor(file,"restaurant_nutrition_pdf",uploaded=>{setArUploads(prev=>({...prev,nutrition_pdf:uploaded}));setArPdfName(uploaded.fileName)})} style={{...pill,padding:"8px 14px",fontSize:11}}>📄 Upload PDF</FilePickerButton>
+                            <span style={{color:"#6d6a61",fontSize:10}}>{arPdfName||"No PDF selected"}</span>
                         </div>
+                        <AF label="Nutrition PDF file name" value={arPdfName} onChange={setArPdfName} ph="e.g. pacific-protein-nutrition.pdf"/>
                         <p style={{color:"#6d6a61",fontSize:10,margin:"4px 0 0"}}>Use the latest official nutrition sheet or menu PDF.</p>
                     </div>
                     <AF label="Menu URL" value={arMenuUrl} onChange={setArMenuUrl} ph="https://restaurant.ca/menu"/>
@@ -1164,16 +1181,18 @@ function OwnerProfile({user,goMain,doLogout,goRest,flash,adminQ,setAdminQ,onCrea
                         <div>
                             <label style={{display:"block",fontSize:12,fontWeight:800,marginBottom:5}}>Restaurant image</label>
                             <div style={{border:"2px dashed #e4ddd0",borderRadius:16,padding:16,background:"#fcfbf8",textAlign:"center"}}>
-                                <button onClick={()=>flash("Image upload → MongoDB GridFS")} style={{...pill,padding:"7px 12px",fontSize:10}}>📷 Upload image</button>
-                                <p style={{color:"#6d6a61",fontSize:9,margin:"4px 0 0"}}>No image selected</p>
+                                <FilePickerButton accept=".png,.jpg,.jpeg,.webp" onPick={file=>uploadFor(file,"restaurant_image",uploaded=>{setArUploads(prev=>({...prev,restaurant_image:uploaded}));setArImageName(uploaded.fileName)})} style={{...pill,padding:"7px 12px",fontSize:10}}>📷 Upload image</FilePickerButton>
+                                <p style={{color:"#6d6a61",fontSize:9,margin:"4px 0 0"}}>{arImageName||"No image selected"}</p>
                             </div>
+                            <AF label="Restaurant image file name" value={arImageName} onChange={setArImageName} ph="e.g. storefront.jpg"/>
                         </div>
                         <div>
                             <label style={{display:"block",fontSize:12,fontWeight:800,marginBottom:5}}>Optional menu CSV or sheet</label>
                             <div style={{border:"2px dashed #e4ddd0",borderRadius:16,padding:16,background:"#fcfbf8",textAlign:"center"}}>
-                                <button onClick={()=>flash("File upload → MongoDB")} style={{...pill,padding:"7px 12px",fontSize:10}}>📊 Upload file</button>
-                                <p style={{color:"#6d6a61",fontSize:9,margin:"4px 0 0"}}>No file selected</p>
+                                <FilePickerButton accept=".csv,.xlsx,.xls,.pdf,.txt" onPick={file=>uploadFor(file,"restaurant_menu_export",uploaded=>{setArUploads(prev=>({...prev,menu_export:uploaded}));setArMenuExportName(uploaded.fileName)})} style={{...pill,padding:"7px 12px",fontSize:10}}>📊 Upload file</FilePickerButton>
+                                <p style={{color:"#6d6a61",fontSize:9,margin:"4px 0 0"}}>{arMenuExportName||"No file selected"}</p>
                             </div>
+                            <AF label="CSV or sheet file name" value={arMenuExportName} onChange={setArMenuExportName} ph="e.g. menu-export.csv"/>
                         </div>
                     </div>
                 </div>
@@ -1183,7 +1202,7 @@ function OwnerProfile({user,goMain,doLogout,goRest,flash,adminQ,setAdminQ,onCrea
             <div style={{background:"rgba(255,255,255,0.94)",border:"1px solid #e4ddd0",borderRadius:22,padding:18,marginBottom:14}}>
                 <h3 style={{fontSize:14,fontWeight:800,margin:"0 0 4px"}}>Representative items</h3>
                 <p style={{color:"#6d6a61",fontSize:11,margin:"0 0 14px"}}>Two example items are enough to understand how your restaurant fits the app.</p>
-                {[["Item 1","Default pick",s1,setS1],["Item 2","Lighter option",s2,setS2]].map(([title,badge,s,setS],idx)=>
+                {[["Item 1","Default pick",s1,setS1,s1Image,setS1Image],["Item 2","Lighter option",s2,setS2,s2Image,setS2Image]].map(([title,badge,s,setS,imageUpload,setImageUpload],idx)=>
                     <div key={idx} style={{padding:14,borderRadius:16,background:"#f7f4ec",border:"1px solid #e9e3d6",marginBottom:idx===0?10:0}}>
                         <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:4}}><strong style={{fontSize:12}}>{title}</strong><span style={tag}>{badge}</span></div>
                         <p style={{color:"#6d6a61",fontSize:10,margin:"0 0 10px"}}>{idx===0?"Use a strong representative item that might appear as a top pick.":"A lighter or secondary item to show range."}</p>
@@ -1197,7 +1216,8 @@ function OwnerProfile({user,goMain,doLogout,goRest,flash,adminQ,setAdminQ,onCrea
                             <AF label="Sodium (mg)" value={s.sodium} onChange={us(setS,"sodium")} ph="890"/>
                         </div>
                         <div style={{marginTop:6}}>
-                            <button onClick={()=>flash("Image upload → GridFS")} style={{...pill,padding:"6px 10px",fontSize:10}}>📷 Upload item image</button>
+                            <FilePickerButton accept=".png,.jpg,.jpeg,.webp" onPick={file=>uploadFor(file,`sample_item_image_${idx+1}`,uploaded=>setImageUpload(uploaded))} style={{...pill,padding:"6px 10px",fontSize:10}}>📷 Upload item image</FilePickerButton>
+                            <span style={{color:"#6d6a61",fontSize:9,marginLeft:8}}>{imageUpload?.fileName||"No image selected"}</span>
                         </div>
                     </div>
                 )}
@@ -1316,13 +1336,14 @@ function OwnerProfile({user,goMain,doLogout,goRest,flash,adminQ,setAdminQ,onCrea
                         <input value={crItemName} onChange={e=>setCrItemName(e.target.value)} placeholder="e.g. Steak Frites" style={{...inp,padding:"10px 12px",fontSize:11}}/></div>}
                     <div><label style={{display:"block",fontSize:12,fontWeight:800,marginBottom:5}}>Details</label>
                         <textarea value={crDesc} onChange={e=>setCrDesc(e.target.value)} placeholder="Describe the change and why it's needed." style={{...inp,minHeight:60,resize:"vertical",fontSize:12,padding:"10px 12px"}}/></div>
+                    <AF label="Supporting file name" value={crPdfName} onChange={setCrPdfName} ph="e.g. subway-change-request.pdf"/>
                     <div style={{border:"2px dashed #e4ddd0",borderRadius:14,padding:14,background:"#fcfbf8",display:"flex",alignItems:"center",gap:10}}>
-                        <button onClick={()=>flash("PDF upload → MongoDB GridFS")} style={{...pill,padding:"7px 12px",fontSize:10}}>📄 Attach PDF</button>
-                        <span style={{color:"#6d6a61",fontSize:10}}>Required — all change requests must include a PDF.</span>
+                        <FilePickerButton accept=".pdf,.png,.jpg,.jpeg,.csv,.txt" onPick={file=>uploadFor(file,"change_request_supporting_file",uploaded=>{setCrSupportFile(uploaded);setCrPdfName(uploaded.fileName)})} style={{...pill,padding:"7px 12px",fontSize:10}}>📎 Attach file</FilePickerButton>
+                        <span style={{color:"#6d6a61",fontSize:10}}>{crPdfName||"Upload the file that supports this request."}</span>
                     </div>
                     <div style={{display:"flex",gap:6}}>
                         <button onClick={()=>setSub(null)} style={pill}>Cancel</button>
-                        <button onClick={()=>{if(!crDesc){flash("Add a description");return}onCreateChangeRequest?.({restaurantName:(user.rests||[])[0]?.name||"",type:crType,itemName:crItemName,note:crDesc});setCrDesc("");setCrItemName("");setSub(null);flash("Request submitted — admin will review.")}} style={{...pill,background:"#3a8f5c",color:"white",borderColor:"#3a8f5c"}}>Submit request</button>
+                        <button onClick={async()=>{if(!crDesc){flash("Add a description");return}if(!crSupportFile){flash("Upload a supporting file first.");return}const created=await onCreateChangeRequest?.({restaurantName:(user.rests||[])[0]?.name||"",type:crType,itemName:crItemName,note:crDesc,pdfFileName:crPdfName,uploadedFiles:{supporting_file:crSupportFile}});if(created===false)return;setCrDesc("");setCrItemName("");setCrPdfName("");setCrSupportFile(null);setSub(null);flash("Request submitted — admin will review.")}} style={{...pill,background:"#3a8f5c",color:"white",borderColor:"#3a8f5c"}}>Submit request</button>
                     </div>
                 </div>
             </div>}
@@ -1355,10 +1376,9 @@ function OwnerProfile({user,goMain,doLogout,goRest,flash,adminQ,setAdminQ,onCrea
 }
 
 // ── ADMIN VIEW ──
-function AdminView({user,goMain,doLogout,flash,adminQ,setAdminQ,onSendTask}){
+function AdminView({user,goMain,doLogout,flash,adminQ,onSendTask,onUpdateQueueStatus}){
     const[tab,setTab]=useState("requests");
     const queue=adminQ;
-    const setQueue=setAdminQ;
     // Send task form state
     const[showSendTask,setShowSendTask]=useState(false);
     const[stRest,setStRest]=useState("");const[stItem,setStItem]=useState("");const[stType,setStType]=useState("");const[stNote,setStNote]=useState("");
@@ -1366,13 +1386,15 @@ function AdminView({user,goMain,doLogout,flash,adminQ,setAdminQ,onSendTask}){
     const restTypes=["Request restaurant image","Request restaurant description","Request website source","Request nutritional PDF"];
     const itemTypes=["Request item image","Request nutritional PDF","Request item description"];
 
-    const updateStatus=(section,id,status)=>{
-        setQueue(p=>({...p,[section]:p[section].map(r=>r.id===id?{...r,status,reviewedAt:new Date().toISOString(),reviewedBy:user.id||user.userId}:r)}));
+    const updateStatus=async(section,id,status)=>{
+        const updated=await onUpdateQueueStatus?.(id,status);
+        if(updated===false)return;
         flash(status==="approved"?"Approved!":status==="denied"?"Denied.":"Updated.");
     };
-    const sendTask=()=>{
+    const sendTask=async()=>{
         if(!stRest||!stType){flash("Pick a restaurant and request type");return}
-        onSendTask?.({restaurantName:stRest,itemName:stItem,requestType:stType,note:stNote});
+        const created=await onSendTask?.({restaurantName:stRest,itemName:stItem,requestType:stType,note:stNote});
+        if(created===false){flash(`No owner account currently manages ${stRest}.`);return}
         flash(`Task sent to ${stRest} owner${stItem?` for ${stItem}`:""}: ${stType}`);
         setShowSendTask(false);setStRest("");setStItem("");setStType("");setStNote("");
     };
@@ -1432,9 +1454,9 @@ function AdminView({user,goMain,doLogout,flash,adminQ,setAdminQ,onSendTask}){
                             {/* Sources */}
                             <div style={{fontSize:10,fontWeight:800,textTransform:"uppercase",color:"#6d6a61",marginBottom:6}}>Official sources & images</div>
                             <div style={{display:"flex",gap:6,flexWrap:"wrap",marginBottom:14}}>
-                                <button onClick={()=>flash(`Opening PDF: ${r.pdf}`)} style={{...pill,padding:"8px 12px",fontSize:10}}>📄 Open nutrition PDF</button>
-                                {r.menuUrl&&<button onClick={()=>flash(`Opening: ${r.menuUrl}`)} style={{...pill,padding:"8px 12px",fontSize:10}}>🔗 Menu URL</button>}
-                                {r.hasImage&&<button onClick={()=>flash("Opening restaurant image")} style={{...pill,padding:"8px 12px",fontSize:10}}>📷 View image</button>}
+                                <button onClick={()=>openUrl(r.pdfUrl,flash,`${r.rest} doesn't have an uploaded nutrition PDF yet.`)} style={{...pill,padding:"8px 12px",fontSize:10}}>📄 Open nutrition PDF</button>
+                                {r.menuUrl&&<button onClick={()=>openUrl(r.menuUrl,flash,"That menu URL isn't available.")} style={{...pill,padding:"8px 12px",fontSize:10}}>🔗 Menu URL</button>}
+                                {r.hasImage&&<button onClick={()=>openUrl(r.imageUrl,flash,`${r.rest} doesn't have an uploaded restaurant image yet.`)} style={{...pill,padding:"8px 12px",fontSize:10}}>📷 View image</button>}
                             </div>
                             {/* Sample items */}
                             {r.samples&&r.samples.length>0&&<>
@@ -1498,7 +1520,7 @@ function AdminView({user,goMain,doLogout,flash,adminQ,setAdminQ,onSendTask}){
                     </div>
                     <p style={{fontSize:11,margin:"0 0 8px",lineHeight:1.4}}>{r.desc}</p>
                     <div style={{display:"flex",gap:6,marginBottom:r.status==="pending"?10:0}}>
-                        {r.pdf&&<button onClick={()=>flash(`Opening: ${r.pdf}`)} style={{...pill,padding:"7px 12px",fontSize:10}}>📄 Open PDF</button>}
+                        {r.pdf&&<button onClick={()=>openUrl(r.pdfUrl,flash,"That supporting file isn't available yet.")} style={{...pill,padding:"7px 12px",fontSize:10}}>📄 Open PDF</button>}
                     </div>
                     {r.status==="pending"&&<div style={{display:"flex",gap:6,paddingTop:10,borderTop:"1px solid #e9e3d6"}}>
                         <button onClick={()=>updateStatus("cr",r.id,"approved")} style={{...pill,padding:"9px 16px",fontSize:11,background:"#3a8f5c",color:"white",borderColor:"#3a8f5c"}}>Approve</button>

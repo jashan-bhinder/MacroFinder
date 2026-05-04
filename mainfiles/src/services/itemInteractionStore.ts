@@ -1,5 +1,5 @@
 import type { ReportedIssue } from "../types/models";
-import rawDemoRequests from "../../data/demo_requests.json";
+import rawRequests from "../../data/requests.json";
 import type { DbRequest, ReportedIssueRequestData } from "../types/models";
 import {
     extractItemNameFromKey,
@@ -66,7 +66,7 @@ function toReportedIssue(value: unknown): ReportedIssue | null {
     };
 }
 
-const defaultReportedIssues = (rawDemoRequests as DbRequest[])
+const defaultReportedIssues = (rawRequests as DbRequest[])
     .map((request) => toReportedIssue(request))
     .filter((issue): issue is ReportedIssue => issue !== null);
 
